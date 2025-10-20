@@ -1,0 +1,6 @@
+(illuminati:1.0) (cat:1.1) (chaos:1.2)
+(illuminati:1.0) (chaos:1.1) (cat:1.2)
+(cat:1.0) (illuminati:1.1) (chaos:1.2)
+(cat:1.0) (chaos:1.1) (illuminati:1.2)
+(chaos:1.0) (illuminati:1.1) (cat:1.2)
+(chaos:1.0) (cat:1.1) (illuminati:1.2)

@@ -1,0 +1,95 @@
+/* a naughty nurse */ nurse_uniform, lingerie, garter_belt, thighhighs, stethoscope_accessory
+/* a fairy */ tulle_dress, fairy_wings, flower_crown, iridescent_fabric, fairycore
+/* a pirate */ tricorn_hat, pirate_coat, sash, eye_patch, cutlass, knee_boots
+/* a vampire */ cape, tailcoat, high_collar, lace_cravat, victorian
+/* a zombie */ tattered_clothes, bloodstained_clothing, bandages, zombie_makeup, horror_costume
+/* a werewolf */ werewolf, ripped_shirt, ripped_jeans, wolf_mask, claws
+/* a ghost */ shroud, ethereal_veil, translucent_clothing, spectral_glow, haunted_lantern
+/* Frankenstein’s monster */ patched_suit, neck_bolts, stitches, heavy_boots, ragged_shirt
+/* a mad scientist */ lab_coat, goggles, rubber_gloves, vials, utility_belt
+/* a witch */ witch_hat, flowing_robe, grimoire, broomstick, pentagram_necklace
+/* a scarecrow */ straw_hat, burlap_shirt, patchwork_clothing, straw_stuffing, twine_belt
+/* a skeleton */ skeleton_bodysuit, skull_mask, glow_in_the_dark, bone_gloves, halloween_costume
+/* an alien */ bodysuit, biomechanical_armor, glowing_fabric, antenna_headband, holographic_mask, alien_tech
+/* a mummy */ mummy_wrappings, tattered_bandages, ancient_egyptian, nemes_headdress, ankh_necklace
+/* a pumpkin */ pumpkin_costume, jack_o_lantern_mask, stem_hat, leaf_collar, inflatable_costume
+/* a clown */ clown_costume, ruffled_collar, oversized_shoes, bowtie, face_paint
+/* a cowboy */ cowboy_hat, duster_coat, cowboy_boots, denim_jeans, bandana
+/* a gladiator */ breastplate, leather_skirt, helmet, bracers, gladius
+/* a robot */ robot_costume, metal_plating, exposed_circuitry, led_lights, hydraulic_pistons
+/* a devil */ horns, devil_tail, cape, pitchfork, leather_boots
+/* an angel */ flowing_gown, feathered_wings, halo, chiffon, sandals
+/* a superhero */ cape, spandex_bodysuit, eye_mask, utility_belt, knee_high_boots
+/* a cat */ faux_fur_costume, cat_ears, tail, paw_gloves, bell_collar
+/* a dog */ dog_costume, faux_fur, mascot_suit, paw_gloves, tail, dog_ears
+/* a grim reaper */ hooded_cloak, scythe, tattered_robe, skull_mask, gothic
+/* a doll */ lace_dress, puffy_sleeves, petticoat, satin_ribbon, mary_janes
+/* a fortune teller */ flowing_robe, headscarf, tarot_cards, crystal_ball, layered_jewelry
+/* Guy Fieri */ flame_shirt, spiky_bleached_hair, sunglasses, goatee, chain_necklace, denim_jeans
+/* a giant banana */ banana_costume, mascot_costume, foam_suit, full_body_suit, novelty_costume
+/* sexy Grimace */ mascot_headpiece, plush_bodysuit, overbust_corset, garter_belt, fishnet_tights
+/* a VHS copy of Titanic */ vhs_case_costume, titanic_cover_label, exposed_vhs_tape, cardboard_construction, retro_90s, water_damage_effect
+/* a haunted Roomba */ disc_shaped_skirt, robot_costume, metal_plating, led_lights, vacuum_hose, translucent_clothing
+/* the ghost of Internet Explorer */ translucent_clothing, holographic_fabric, glitch_effects, pixel_ui_overlay, hourglass_cursor, internet_explorer_logo
+/* a half-eaten Hot Pocket */ food_costume, hot_pocket_costume, bite_mark, oozing_cheese, crumbs_accessory
+/* a disgruntled IKEA employee */ polo_shirt, work_apron, name_tag, lanyard, retail_uniform, wrinkled_shirt
+/* Shrek’s divorce lawyer */ tweed_suit, waistcoat, necktie, moss_trim, leather_briefcase
+/* an off-brand Spider-Man with 3 arms */ spandex_bodysuit, spider_emblem, web_pattern, web_shooters, homemade_costume, third_arm_attachment
+/* the Kool-Aid Man’s therapist */ pitcher_mask, glass_body, tweed_blazer, glasses, clipboard
+/* a 2007 MySpace profile */ graphic_tee, skinny_jeans, studded_belt, chain_wallet, converse, emo
+/* a cursed Furby */ fur_suit, faux_fur, animatronic, glowing_eyes, stitched, cursed
+/* the entire Blue Man Group (alone) */ body_paint, bald_cap, turtleneck, dress_pants, theatrical_costume
+/* a Victorian child with consumption */ victorian_dress, bonnet, lace_collar, shawl, handkerchief, consumption
+/* an expired CVS receipt */ receipt_dress, thermal_paper, barcode_print, store_logo_print, paper_couture
+/* a plague doctor who vapes */ plague_doctor_mask, cloak, leather_gloves, vape_pen, steampunk, top_hat
+/* the ghost of Blockbuster */ polo_shirt, name_tag, lanyard, vhs_tape_accessory, retro_90s, translucent_clothing
+/* an AI chatbot having an existential crisis */ business_suit, glitch_pattern, exposed_circuitry, frayed_tie, cyberpunk_style
+/* a disgraced children’s TV mascot */ mascot_suit, oversized_head, tattered_costume, stained_fur, faded_logo
+/* a raccoon in people clothes */ hoodie, jeans, raccoon_tail, raccoon_mask, backpack, streetwear
+/* a possessed traffic cone */ traffic_cone_costume, reflective_stripes, possessed, glowing_eyes, eldritch_runes
+/* a mall Santa on his day off */ flannel_shirt, hoodie, jeans, sneakers, beanie
+/* a disgraced child magician */ tattered_tailcoat, oversized_clothes, scuffed_top_hat, magic_wand, patchwork_clothing
+/* a yoga instructor from the underworld */ yoga_pants, sports_bra, occult, rune_tattoos, skull_necklace, yoga_mat
+/* a scarecrow that works in HR */ blazer, straw_hat, straw_stuffing, name_tag, patchwork_clothing, business_casual
+/* a slightly damp knight */ plate_armor, chainmail, wet_metal, weathered_armor, longsword
+/* the ghost of a mall food court */ fast_food_uniform, paper_hat, stained_apron, translucent_clothing, glowing_fabric
+/* a cowboy from New Jersey */ cowboy_hat, track_jacket, gold_chain, jeans, urban_fashion
+/* a medieval jester with Wi-Fi */ jester_hat, motley_tunic, holographic_trim, antenna_headgear, wifi_symbol_accessory
+/* a failed TikTok influencer */ hoodie, branded_merch, leggings, platform_sneakers, selfie_stick, faux_diamond_earrings
+/* a Victorian librarian who knows too much */ waistcoat, long_skirt, lace_collar, spectacles, pocket_watch, arcane_accessory
+/* an overworked barista witch */ barista_apron, pointed_hat, wool_cardigan, coffee_mug_accessory, spellbook, name_tag
+/* a vampire with a sunburn */ vampire_cape, victorian_tailcoat, parasol, bandages, sunburn
+/* a ghost stuck in jury duty */ translucent_clothing, business_suit, tie, jury_summons, name_badge, ethereal_glow
+/* a superhero whose only power is parallel parking */ spandex_suit, cape, utility_belt, parking_meter, tire_tread_pattern, road_sign_accessory
+/* a fortune teller addicted to scratch-offs */ flowing_robes, turban, crystal_ball, scratch_off_tickets, bohemian
+/* a substitute teacher werewolf */ tweed_blazer, button_up_shirt, loose_necktie, torn_sleeves, fur_arms, glasses
+/* a tax auditor from hell */ suit, waistcoat, necktie, ledger, devil_horns, chains
+/* an alien tourist in a fanny pack */ alien, hawaiian_shirt, fanny_pack, cargo_shorts, socks_and_sandals, camera
+/* a knight in slightly rusty armor */ rusted_plate_armor, chainmail, great_helm, longsword, medieval
+/* a pumpkin spice warlock */ velvet_cloak, pointed_hat, pumpkin_motif, magic_staff, occult_runes, leather_boots
+/* a detective */ trench_coat, fedora, waistcoat, tie, magnifying_glass, noir
+/* a firefighter */ firefighter_uniform, firefighter_helmet, reflective_stripes, turnout_boots, fire_hose, breathing_mask
+/* a lifeguard */ lifeguard_uniform, rescue_tube, whistle, sunglasses, flip_flops
+/* a rock star */ leather_jacket, ripped_jeans, platform_boots, studded_belt, microphone
+/* a race car driver */ racing_suit, racing_helmet, sponsor_patches, racing_gloves, racing_boots
+/* a chef */ chef_hat, double_breasted_coat, waist_apron, checkered_pants, chef_knife
+/* a ballerina */ leotard, tutu, tulle, pointe_shoes, classical_ballet
+/* an astronaut */ spacesuit, space_helmet, oxygen_tank, mission_patch, space_boots
+/* a baseball player */ baseball_uniform, baseball_cap, baseball_glove, baseball_bat, baseball_cleats
+/* a hockey goalie */ goalie_mask, hockey_jersey, goalie_pads, blocker_glove, catcher_glove, hockey_stick
+/* a surgeon */ scrubs, surgical_gown, surgical_mask, surgical_cap, latex_gloves
+/* a pilot */ flight_jacket, pilot_uniform, aviator_sunglasses, headset, epaulettes
+/* a lawyer fresh out of law school */ tailored_suit, necktie, business_attire, leather_briefcase, oxford_shoes
+/* a cheerleader */ cheerleader_uniform, pleated_skirt, pom_poms, sneakers, knee_socks
+/* a construction worker */ hard_hat, high_visibility_vest, tool_belt, work_boots, cargo_pants
+/* a librarian */ cardigan, button_up_shirt, pencil_skirt, glasses, loafers, satchel
+/* a mail carrier */ postal_uniform, mailbag, postal_cap, name_badge, gloves
+/* a soldier */ military_uniform, tactical_vest, combat_boots, helmet, dog_tags
+/* a knight in shining armor */ full_plate_armor, greathelm, kite_shield, longsword, heraldic_surcoat
+/* a princess bride */ wedding_gown, tiara, veil, lace, corset
+/* a fisherman */ fishing_vest, waders, raincoat, fishing_hat, fishing_rod_accessory
+/* a lumberjack */ flannel_shirt, suspenders, jeans, work_boots, axe
+/* a pharaoh */ nemes_headdress, shendyt_kilt, broad_collar, ankh, crook_and_flail, ancient_egyptian
+/* a monk */ monk_habit, hooded_robe, rope_belt, sandals, prayer_beads
+/* a royal guard */ ceremonial_uniform, bearskin_helmet, epaulettes, sash, ceremonial_sword, medals
+egyptian_outfit, white_wrapped_clothing, gold_collar, striped_headband, arm_bracers, anklet, ankha

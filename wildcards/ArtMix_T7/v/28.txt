@@ -1,0 +1,6 @@
+(eldritch:1.0),(chaos:1.1),(symbol:1.2)
+(eldritch:1.0),(symbol:1.1),(chaos:1.2)
+(chaos:1.0),(eldritch:1.1),(symbol:1.2)
+(chaos:1.0),(symbol:1.1),(eldritch:1.2)
+(symbol:1.0),(eldritch:1.1),(chaos:1.2)
+(symbol:1.0),(chaos:1.1),(eldritch:1.2)

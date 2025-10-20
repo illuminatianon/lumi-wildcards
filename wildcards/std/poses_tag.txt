@@ -1,0 +1,122 @@
+/* hands on hips */ hands_on_hips, elbows_out, one_leg_bent, confident_pose
+/* sitting */ sitting, hands_on_lap, legs_together, neutral_expression
+/* standing against wall */ standing, leaning_against_wall, arms_crossed, head_tilt
+/* t-pose */ arms_outstretched, standing, neutral_expression
+/* a-pose */ a_pose, standing, arms_slightly_raised, neutral_expression
+/* contrapposto */ contrapposto, hip_tilt, torso_twist, head_tilt
+/* v_arms */ arms_raised, hands_up, triumphant_pose
+/* w_arms */ arms_raised, bent_arms, elbows_out, hands_on_head
+/* watson_cross */ arms_crossed, head_tilt, thoughtful_expression
+/* arms crossed */ arms_crossed, closed_posture, head_tilt, neutral_expression
+/* she highly disapproves */ arms_crossed, head_shake, furrowed_brow, narrowed_eyes
+/* she is angry */ clenched_fists, tense_posture, furrowed_brow, glaring_expression
+/* arms akimbo */ arms_akimbo, hands_on_hips, elbows_out, confident_pose
+/* kneeling like a fool */ kneeling, head_bowed, hands_clasped, embarrassed_expression
+/* planking */ planking, straight_back, forearms_on_ground, legs_extended
+/* tebowing */ kneeling, head_bowed, arm_on_knee, contemplative_expression
+/* back to viewer */ back_to_viewer, head_turned, neutral_pose
+/* lying in wait */ crouching, ready_to_pounce, tense_posture, alert_expression
+/* power squat */ squatting, wide_stance, arms_outstretched, confident_pose
+/* yoga pose gone wrong */ off_balance, arms_outstretched, twisted_torso, awkward_expression
+/* slouching like she gave up */ slouching, slumped_shoulders, head_drooped, defeated_expression
+/* default idle animation */ standing, shifting_weight, arms_at_sides, neutral_expression
+/* trying not to cry */ teary_eyes, hand_over_mouth, biting_lip, furrowed_brow
+/* standing like judgment */ standing, hands_on_hips, chin_up, stern_expression
+/* one foot on rubble */ one_foot_on_rubble, weight_shifted, hands_on_hips, head_tilt
+/* ugly crying */ sobbing, tears_streaming, hands_covering_face, distressed_expression
+/* jumping for joy */ jumping, arms_raised, legs_bent, joyful_expression
+/* v for victory */ v_sign, arm_raised, confident_pose
+/* victory pose */ arms_raised, fists_clenched, legs_apart, victorious_expression
+/* crawling toward the camera */ crawling, on_hands_and_knees, reaching_forward, direct_gaze
+/* bent over backwards */ backbend, arching_back, head_tilted_back
+/* stretching like a cat */ stretching, arching_back, arms_raised, relaxed_pose
+/* hand on cheek */ hand_on_cheek, head_tilt, thoughtful_expression
+/* sulking in a corner */ hunched_shoulders, arms_crossed, head_turned_away, sullen_expression
+/* hiding behind hands */ covering_face, hunched_shoulders, shy_expression
+/* leaning on a sword */ leaning_on_sword, hand_on_hilt, relaxed_pose
+/* arms wide like a messiah */ arms_outstretched, open_palms, head_raised, standing_tall
+/* sprawled on the floor */ sprawled, arms_splayed, legs_akimbo, slumped_posture
+/* on knees in despair */ kneeling, slumped_forward, hands_clasped, desperate_expression
+/* hunched over like golem */ hunched_over, arms_hanging, clawed_hands, stiff_posture
+/* posing like a statue */ standing, rigid_pose, arms_by_sides, expressionless_face
+/* floating in fetal position */ floating, fetal_position, hugging_knees, serene_expression
+/* back arched unnecessarily */ arching_back, leaning_back, chest_out, head_tilted_back
+/* hands clasped in prayer */ hands_clasped, praying, bowed_head, closed_eyes
+/* peace sign near eye */ peace_sign, hand_near_eye, head_tilt, playful_expression
+/* mid-dance spin */ spinning, arms_outstretched, head_tilt, leg_lifted
+/* head resting on knees */ sitting, resting_head_on_knees, knees_drawn_up, introspective_pose
+/* sitting on edge of void */ sitting, legs_dangling, leaning_forward, contemplative_expression
+/* arms out like wings */ arms_outstretched, shoulders_back, head_raised, balanced_stance
+/* half-collapsed from emotion */ slumped_forward, one_knee, hands_on_floor, tearful_expression
+/* tripping mid-stride */ tripping, mid_stride, arms_flailing, off_balance
+/* doing finger guns */ finger_guns, arms_extended, winking, confident_pose
+/* leaning in too close */ leaning_forward, head_tilt, intense_gaze
+/* striking a pose no one asked for */ striking_pose, hand_on_hip, head_tilt, confident_pose
+/* smug tilt with crossed legs */ crossed_legs, head_tilt, smug_expression
+/* leaning against nothing */ leaning_back, off_balance, arms_outstretched
+/* hands behind back like she knows */ hands_behind_back, smug_expression, head_tilt
+/* mid-fall */ falling, mid_air, flailing_arms, startled_expression
+/* caught mid-transformation */ twisting_body, reaching_out, partial_transformation, startled_expression
+/* invisible chair squat */ squatting, hips_back, arms_extended_forward
+/* head thrown back dramatically */ head_thrown_back, arching_back, arms_raised, open_mouth
+/* hugging self like no one else will */ hugging_self, hunched_shoulders, protective_pose, melancholic_expression
+/* gripping at the air like something just slipped away */ reaching_out, grasping_air, leaning_forward, desperate_expression
+/* standing ankle-deep in metaphorical water */ standing, ankles_submerged, relaxed_posture, reflective_expression
+/* reaching out to nobody in particular */ reaching_out, arms_outstretched, open_palms, longing_expression
+/* caught mid-revelation, regretting it instantly */ hand_over_mouth, wide_eyes, head_turned_away, regretful_expression
+/* dangling one shoe from toes, contemplating futility */ dangling_shoe, swinging_leg, sitting, pensive_expression
+/* whispering to a reflection that doesn’t answer */ whispering, mirror, melancholic_expression, introspective_pose
+/* balancing on tiptoe for no discernible reason */ balancing_on_tiptoes, arms_outstretched, focused_expression
+/* clutching chest like a cheap opera hero */ clutching_chest, arm_outstretched, head_tilt_back, dramatic_pose
+/* spinning out of control but gracefully */ spinning, arms_outstretched, off_balance, twisted_torso
+/* frozen halfway through a laugh that turned into a scream */ open_mouth, wide_eyes, hands_to_face, frozen_pose
+/* trying to catch confetti that isn’t there */ reaching_up, open_hands, upward_gaze, hopeful_expression
+/* pointing accusingly at fate */ pointing, arm_extended, leaning_forward, accusatory_expression
+/* collapsing against invisible pressure */ collapsing, bracing, arms_outstretched, strained_expression
+/* brushing dust off shoulders that keep returning */ brushing_off, shrugging, repetitive_motion, frustrated_expression
+/* leaning forward like words might physically emerge */ leaning_forward, hands_gesturing, mouth_open, focused_expression
+/* gripping weapon like a confession */ gripping_weapon, weapon_against_chest, bowed_head, solemn_expression
+/* standing victorious but clearly empty inside */ standing, arms_raised, chest_out, vacant_expression
+/* mid-turn, pretending the camera isn’t there */ turning, averted_gaze, indifferent_expression
+/* arching backward into melodrama */ arching_back, arms_outstretched, head_thrown_back, dramatic_expression
+/* about to touch something sacred or very stupid */ reaching_out, outstretched_hand, leaning_forward, hesitant_expression
+/* peering into pocket dimension of their own hand */ peering, hand_raised, head_tilt, curious_expression
+/* fingers tangled in hair like it’s an antenna */ fingers_in_hair, head_tilt, arms_raised, splayed_fingers
+/* reclining in defeat but making it fashion */ reclining, hand_on_forehead, crossed_legs, confident_pose
+/* gesturing at nothing as if making a point */ gesturing, arm_extended, open_palm, head_tilt
+/* mid-stride, haunted by realization */ mid_stride, hesitant_step, haunted_expression
+/* arms crossed to contain the void */ arms_crossed, tense_posture, protective_pose
+/* staring skyward like the sky owes them rent */ standing, looking_up, hands_on_hips, defiant_expression
+/* caught mid-exit, reconsidering existence */ mid_step, hand_on_door, looking_back, pensive_expression
+/* floating as if powered by bad decisions */ floating, off_balance, leaning_back, flailing_arms
+/* sprinting mid-frame, one foot blurred */ sprinting, midstride, leaning_forward, arms_pumping
+/* twisting to look back over shoulder */ torso_twist, looking_over_shoulder, head_turned
+/* leaping from ledge with coat trailing */ leaping_off_ledge, arms_back, trailing_cloth
+/* spinning hair whip like a shampoo ad gone wrong */ hair_whip, head_toss, off_balance, arms_outstretched
+/* crouched for launch, eyes locked ahead */ crouching, leaning_forward, tensed_posture, focused_gaze
+/* sliding sideways into frame */ sliding, leaning_forward, alert_expression
+/* ducking under invisible obstacle */ ducking, leaning_forward, arms_raised, cautious_expression
+/* reaching out as if to catch something flying by */ reaching_out, leaning_forward, open_palms, focused_expression
+/* mid-kick, balance slightly off */ mid_kick, off_balance, arms_outstretched
+/* tossing something over shoulder without looking */ tossing_over_shoulder, arm_raised, head_turned_away, nonchalant_expression
+/* landing from a jump, knees bent, impact dust */ landing, knees_bent, impact_dust
+/* diving forward with arms stretched */ diving_forward, arms_outstretched, legs_extended
+/* swinging a weapon or umbrella in wide arc */ swinging, wide_arc, arms_outstretched, holding_object
+/* vaulting over unseen barrier */ vaulting, midair, hands_planted, legs_tucked
+/* spinning on heel to face camera */ spinning, pivoting_on_heel, head_turned, direct_gaze
+/* recoiling from sudden light or impact */ recoiling, shielding_eyes, stepping_back, startled_expression
+/* stretching arms overhead mid-yawn */ stretching, arms_raised, yawning, open_mouth
+/* stumbling forward after tripping */ stumbling_forward, arms_outstretched, off_balance, surprised_expression
+/* dodging sideways from off-screen threat */ dodging, leaning_away, twisted_torso, alert_expression
+/* jumping back from explosion of emotion */ jumping_back, arms_raised, startled_expression
+/* half-turn pause, like caught in flash */ half_turned, looking_back, startled_expression
+/* bracing against wind that doesn’t exist */ leaning_forward, wide_stance, hands_clenched, hair_blown
+/* pulling someone close in sudden motion */ pulling_close, arms_wrapped, lunge_forward, surprised_expression
+/* breaking into a run from stillness */ starting_to_run, leaning_forward, arms_pumping, focused_expression
+/* reaching upward as if being lifted */ reaching_upward, arms_raised, being_lifted, arching_back
+/* twisting torso mid-dance */ twisting_torso, arms_outstretched, hip_sway, dynamic_pose
+/* tumbling backward with zero dignity */ tumbling_backward, flailing_arms, awkward_expression
+/* hand out, calling someone to follow */ arm_extended, beckoning, open_palms, inviting_pose
+/* catching balance on one foot */ standing_on_one_leg, arms_outstretched, tilted_torso, focused_expression
+/* mid-spin with fabric flaring */ spinning, arms_outstretched, fabric_flare, flowing_hair
+/* sliding to a stop on knees */ sliding, kneeling, hands_planted, leaning_back
