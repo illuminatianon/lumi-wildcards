@@ -62,7 +62,7 @@ class WildcardExtractor:
 
     def _load_system_prompt(self) -> str:
         """Load the system prompt from wildcard-extractor.md"""
-        prompt_file = self.script_dir / "wildcard-extractor.md"
+        prompt_file = self.script_dir.parent / "prompts" / "wildcard-extractor.md"
         
         if not prompt_file.exists():
             # Fallback to hardcoded prompt if file not found
@@ -511,7 +511,7 @@ def main():
     )
     parser.add_argument(
         "--wildcard-dir",
-        help="Base directory for wildcard files (default: ./wildcard)"
+        help="Base directory for wildcard files (default: ./wildcards)"
     )
     parser.add_argument(
         "--dry-run",
