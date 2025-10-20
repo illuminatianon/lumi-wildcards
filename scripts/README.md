@@ -20,12 +20,13 @@ python text_transformer.py input.txt output.txt --type <prompt_type> [options]
 
 ### Available Prompt Types
 
-The script automatically discovers all `.md` files in the `prompts/` directory. Each file becomes a prompt type using its filename (without extension).
+The script uses predefined prompt types with simple identifiers:
 
-Current available types:
-- `booru-costume-tag-generator`: Generate booru-style costume tags
-- `booru-pose-tag-generator`: Generate booru-style pose tags  
-- `simple-summarizer`: Create concise summaries of text
+- `costume-booru`: Generate booru-style costume tags
+- `pose-booru`: Generate booru-style pose tags
+- `pose-xl`: Generate SDXL-style pose descriptions
+
+Use `--help` to see all available types with descriptions.
 
 ### Output Formats
 
@@ -37,21 +38,47 @@ Current available types:
 
 ```bash
 # Generate booru costume tags
-python text_transformer.py descriptions.txt costume_tags.txt --type booru-costume-tag-generator
+python text_transformer.py descriptions.txt costume_tags.txt --type costume-booru
 
-# Summarize text with verbose reasoning
-python text_transformer.py articles.txt summaries.txt --type simple-summarizer --verbose
+# Generate pose tags with verbose reasoning
+python text_transformer.py poses.txt pose_tags.txt --type pose-booru --verbose
+
+# Generate SDXL pose descriptions with plain output format
+python text_transformer.py descriptions.txt poses.txt --type pose-xl --format plain
 
 # Dry run to see what would be processed
-python text_transformer.py input.txt output.txt --type simple-summarizer --dry-run
+python text_transformer.py input.txt output.txt --type costume-booru --dry-run
 ```
 
-## Creating Custom Prompts
+## Adding Custom Prompts
 
-1. Create a new `.md` file in the `prompts/` directory
-2. Write your system prompt instructions
-3. The filename (without `.md`) becomes the prompt type
-4. The script will automatically discover and make it available
+1. Create a new `.md` file in the `prompts/` directory with your system prompt
+2. Add an entry to the `get_prompt_config()` function in `text_transformer.py`:
+   ```python
+   "your-id": {
+       "file": "your-prompt-file.md",  # Single file
+       "description": "Brief description of what it does"
+   }
+   ```
+
+   Or for multiple prompt files that get combined:
+   ```python
+   "your-id": {
+       "file": ["base-prompt.md", "specific-prompt.md"],  # Multiple files
+       "description": "Brief description of what it does"
+   }
+   ```
+3. The new prompt type will be available with the simple identifier
+
+### Multiple Prompt Files
+
+The script supports combining multiple prompt files in a specified order. When using an array of files, they are loaded and combined with `---` separators between them. This is useful for:
+
+- Combining general guidelines with specific instructions
+- Reusing common prompt components across different types
+- Building complex prompts from modular pieces
+
+Example: `pose-xl` combines the general SDXL prompting guide with specific pose generation instructions.
 
 ### Prompt File Format
 
@@ -77,8 +104,8 @@ Specify how the output should be formatted.
 
 ## Migration from booru_tagger.py
 
-The old `booru_tagger.py` script has been renamed and generalized. For backward compatibility:
+The old `booru_tagger.py` script has been renamed and generalized with new simple identifiers:
 
-- Old `--type costume` → New `--type booru-costume-tag-generator`
-- Old `--type pose` → New `--type booru-pose-tag-generator`
-- Output format automatically detects booru-style formatting for booru-* prompt types
+- Old `--type costume` → New `--type costume-booru`
+- Old `--type pose` → New `--type pose-booru`
+- Output format automatically detects booru-style formatting for *-booru prompt types
