@@ -10,33 +10,82 @@ from pathlib import Path
 from tqdm import tqdm
 import json
 
-def discover_available_prompts():
-    """Discover all available prompt files in the prompts directory."""
+def get_prompt_config():
+    """Get predefined prompt types with simple identifiers and descriptions."""
+    return {
+        "costume-booru": {
+            "file": "booru-costume-tag-generator.md",
+            "description": "Generate booru-style costume tags"
+        },
+        "pose-booru": {
+            "file": "booru-pose-tag-generator.md",
+            "description": "Generate booru-style pose tags"
+        },
+        "pose-xl": {
+            "file": ["prompting-guide-sdxl.md", "sdxl-pose-generator.md"],
+            "description": "Generate SDXL-style pose descriptions"
+        }
+    }
+
+def get_available_prompts():
+    """Get available prompt types that actually exist on disk."""
+    config = get_prompt_config()
     prompts_dir = Path(__file__).parent.parent / "prompts"
-    if not prompts_dir.exists():
-        return {}
 
-    prompt_files = {}
-    for prompt_file in prompts_dir.glob("*.md"):
-        # Extract prompt type from filename (remove .md extension)
-        prompt_type = prompt_file.stem
-        prompt_files[prompt_type] = prompt_file.name
+    available = {}
+    for prompt_id, prompt_info in config.items():
+        files = prompt_info["file"]
 
-    return prompt_files
+        # Handle both single file and array of files
+        if isinstance(files, str):
+            files = [files]
+
+        # Check if all required files exist
+        all_exist = True
+        for file_name in files:
+            prompt_path = prompts_dir / file_name
+            if not prompt_path.exists():
+                all_exist = False
+                break
+
+        if all_exist:
+            available[prompt_id] = prompt_info
+
+    return available
 
 def load_system_prompt(prompt_type):
-    """Load the system prompt from the appropriate markdown file based on type."""
-    prompt_files = discover_available_prompts()
+    """Load the system prompt from the appropriate markdown file(s) based on type."""
+    available_prompts = get_available_prompts()
 
-    if prompt_type not in prompt_files:
-        available_types = list(prompt_files.keys())
+    if prompt_type not in available_prompts:
+        available_types = list(available_prompts.keys())
         print(f"Error: Unknown prompt type '{prompt_type}'. Available types: {available_types}", file=sys.stderr)
         sys.exit(1)
 
     try:
-        prompt_path = Path(__file__).parent.parent / "prompts" / prompt_files[prompt_type]
-        with open(prompt_path, 'r', encoding='utf-8') as f:
-            return f.read()
+        files = available_prompts[prompt_type]["file"]
+
+        # Handle both single file and array of files
+        if isinstance(files, str):
+            files = [files]
+
+        # Load and combine all prompt files in order
+        combined_prompt = ""
+        prompts_dir = Path(__file__).parent.parent / "prompts"
+
+        for i, file_name in enumerate(files):
+            prompt_path = prompts_dir / file_name
+            with open(prompt_path, 'r', encoding='utf-8') as f:
+                content = f.read().strip()
+
+                # Add separator between files (except for the first one)
+                if i > 0:
+                    combined_prompt += "\n\n---\n\n"
+
+                combined_prompt += content
+
+        return combined_prompt
+
     except Exception as e:
         print(f"Error loading system prompt for '{prompt_type}': {e}", file=sys.stderr)
         return f"Transform the following text according to the '{prompt_type}' style."
@@ -46,10 +95,11 @@ def transform_text(input_line, system_prompt, prompt_type, reasoning_effort="med
     # Initialize OpenAI client when needed
     client = OpenAI()
 
-    # Create the user message - for backward compatibility, keep some specific labels
+    # Create the user message - use specific labels for certain prompt types
     type_labels = {
-        "booru-costume-tag-generator": "Costume",
-        "booru-pose-tag-generator": "Pose/Action"
+        "costume-booru": "Costume",
+        "pose-booru": "Pose/Action",
+        "pose-xl": "Pose/Action"
     }
     label = type_labels.get(prompt_type, "Input")
     user_prompt = f"\n\n{label}: {input_line.strip()}\n\nOutput:"
@@ -79,7 +129,7 @@ def transform_text(input_line, system_prompt, prompt_type, reasoning_effort="med
         if output:
             output = output.strip()
             # Apply output formatting based on type or format specification
-            if output_format == "booru" or prompt_type.startswith("booru-"):
+            if output_format == "booru" or prompt_type.endswith("-booru"):
                 return f"({input_line.strip()}:0.5), {output}"
             else:
                 return output
@@ -90,18 +140,26 @@ def transform_text(input_line, system_prompt, prompt_type, reasoning_effort="med
         return input_line.strip()
 
 def main():
-    # Discover available prompt types
-    available_prompts = discover_available_prompts()
+    # Get available prompt types
+    available_prompts = get_available_prompts()
+
+    # Create help text with descriptions
+    type_descriptions = []
+    for prompt_id, prompt_info in available_prompts.items():
+        type_descriptions.append(f"  {prompt_id:<15} - {prompt_info['description']}")
+
+    help_text = "\n".join(type_descriptions) if type_descriptions else "  No prompt types available"
 
     parser = argparse.ArgumentParser(
         description="Transform lines of text according to LLM prompts",
         epilog=f"""
-Available prompt types: {', '.join(available_prompts.keys())}
+Available prompt types:
+{help_text}
 
 Examples:
-  python text_transformer.py input.txt output.txt --type booru-costume-tag-generator
-  python text_transformer.py poses.txt pose_tags.txt --type booru-pose-tag-generator --verbose
-  python text_transformer.py descriptions.txt transformed.txt --type custom-prompt --format plain
+  python text_transformer.py input.txt output.txt --type costume-booru
+  python text_transformer.py poses.txt pose_tags.txt --type pose-booru --verbose
+  python text_transformer.py descriptions.txt transformed.txt --type pose-xl --format plain
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -135,11 +193,17 @@ Examples:
         print(f"Error: Input file '{input_path}' not found", file=sys.stderr)
         sys.exit(1)
 
-    # Check if required system prompt file exists
-    prompt_path = Path(__file__).parent.parent / "prompts" / available_prompts[args.type]
-    if not prompt_path.exists():
-        print(f"Error: System prompt file '{prompt_path}' not found for type '{args.type}'", file=sys.stderr)
-        sys.exit(1)
+    # Check if required system prompt file(s) exist
+    files = available_prompts[args.type]["file"]
+    if isinstance(files, str):
+        files = [files]
+
+    prompts_dir = Path(__file__).parent.parent / "prompts"
+    for file_name in files:
+        prompt_path = prompts_dir / file_name
+        if not prompt_path.exists():
+            print(f"Error: System prompt file '{prompt_path}' not found for type '{args.type}'", file=sys.stderr)
+            sys.exit(1)
 
     # Load the system prompt based on type
     system_prompt = load_system_prompt(args.type)
@@ -154,15 +218,22 @@ Examples:
     # Determine output format
     output_format = args.format
     if output_format == "default":
-        output_format = "booru" if args.type.startswith("booru-") else "plain"
+        output_format = "booru" if args.type.endswith("-booru") else "plain"
 
     if args.dry_run:
         print(f"Dry run mode - would process {len(non_empty_lines)} lines:")
         print(f"Input file: {input_path}")
         print(f"Output file: {output_path}")
-        print(f"Prompt type: {args.type}")
+        print(f"Prompt type: {args.type} - {available_prompts[args.type]['description']}")
         print(f"Output format: {output_format}")
-        print(f"System prompt file: {available_prompts[args.type]}")
+
+        # Show prompt files (handle both single and multiple files)
+        files = available_prompts[args.type]["file"]
+        if isinstance(files, str):
+            print(f"System prompt file: {files}")
+        else:
+            print(f"System prompt files: {', '.join(files)}")
+
         print("\nSample inputs:")
         for i, line in enumerate(non_empty_lines[:3]):
             print(f"  {i+1}. {line}")
