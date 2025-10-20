@@ -1,0 +1,6 @@
+(eldritch:1.0),(sacred:1.1),(existential dread:1.2)
+(eldritch:1.0),(existential dread:1.1),(sacred:1.2)
+(sacred:1.0),(eldritch:1.1),(existential dread:1.2)
+(sacred:1.0),(existential dread:1.1),(eldritch:1.2)
+(existential dread:1.0),(eldritch:1.1),(sacred:1.2)
+(existential dread:1.0),(sacred:1.1),(eldritch:1.2)

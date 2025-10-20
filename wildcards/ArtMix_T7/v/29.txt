@@ -1,0 +1,6 @@
+(Klaus Schwab. Illuminati:1.0),(World Economic Forum:1.1),(Satanic:1.2)
+(Klaus Schwab. Illuminati:1.0),(Satanic:1.1),(World Economic Forum:1.2)
+(World Economic Forum:1.0),(Klaus Schwab. Illuminati:1.1),(Satanic:1.2)
+(World Economic Forum:1.0),(Satanic:1.1),(Klaus Schwab. Illuminati:1.2)
+(Satanic:1.0),(Klaus Schwab. Illuminati:1.1),(World Economic Forum:1.2)
+(Satanic:1.0),(World Economic Forum:1.1),(Klaus Schwab. Illuminati:1.2)

@@ -1,0 +1,12 @@
+business_suit, tie, briefcase, lanyard_id, loafers
+cheerleader_uniform, pleated_skirt, pom_poms, knee_socks, sneakers
+hard_hat, high_visibility_vest, tool_belt, work_boots, cargo_pants, safety_glasses
+cardigan, button_up_blouse, pencil_skirt, glasses, satchel_bag, loafers
+anthropomorphic, hoodie, jeans, sneakers, raccoon_tail, bandit_mask
+traffic_cone_costume, plastic_costume, reflective_stripes, possessed, glowing_eyes
+flannel_shirt, hoodie, jeans, sneakers, beanie
+tattered_tailcoat, ragged_cape, patched_knee_breeches, top_hat, magic_wand, stained_gloves
+polo_shirt, apron, name_tag, lanyard, flatpack_box
+mecha_armor, metal_plating, circuitry, glowing_lines, holographic_display, cyberpunk
+latex_corset, horns, tail, demon_wings, trident
+silk_gown, feathered_wings, halo_headpiece, sheer_sleeves, lace_trim

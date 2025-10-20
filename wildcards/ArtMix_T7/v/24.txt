@@ -1,0 +1,6 @@
+(psychic:1.0) (outer space:1.1) (eldritch:1.2)
+(psychic:1.0) (eldritch:1.1) (outer space:1.2)
+(outer space:1.0) (psychic:1.1) (eldritch:1.2)
+(outer space:1.0) (eldritch:1.1) (psychic:1.2)
+(eldritch:1.0) (psychic:1.1) (outer space:1.2)
+(eldritch:1.0) (outer space:1.1) (psychic:1.2)
