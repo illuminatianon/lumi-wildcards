@@ -1,0 +1,94 @@
+short_nurse_dress, white_nurse_cap, formfitting_cut, sheer_thighhighs, garter_belt, satin_trim, medical_cross_detail
+diaphanous_dress, petal_layered_skirt, leaf_embroidery, laced_bodice, flowing_sashes, delicate_wings
+frock_coat, billowy_shirt, sash_belt, high_boots, weathered_leather, tricorn_hat, nautical_pirate_style
+velvet_tailcoat, high_collar, flowing_cape, ruffled_shirt, lace_trim, ornate_filigree_medallion, victorian_gothic
+tattered_shirt, ripped_trousers, bloodstained_fabric, frayed_edges, patched_layers, moldy_stains
+torn_shirt, ragged_pants, torn_leather_coat, thick_matted_fur, fur_pelt_wrap, clawed_gloves
+tattered_shroud, diaphanous_layers, sheer_veil, flowing_sleeves, wispy_trailing_hem, spectral_translucency
+tattered_tailcoat, patchwork_suit, visible_stitchwork, metal_neck_bolts, oversized_silhouette, heavy_leather_boots, victorian_gothic
+stained_lab_coat, worn_waistcoat, rubber_gloves, brass_goggles, utility_belt_with_vials, patched_trousers
+flowing_robe, high-collared_cloak, velvet_fabric, tattered_hem, draped_layers, pointed_hat, occult_style
+tattered_coat, burlap_tunic, straw_filling, patchwork_clothing, stitched_face, wooden_frame, button_eyes
+tattered_robe, ossified_armor, frayed_linen_wrappings, leather_straps, rusted_chain_accessory, ceremonial_pendants
+biosynthetic_suit, organic_armor_plates, luminescent_filaments, asymmetrical_layers, exoskeletal_ribbing, ceremonial_neckpiece
+layered_bandage_wrappings, tattered_linen_strips, desiccated_skin_exposure, hieroglyphic_wrappings, antique_gold_amulet, dust_and_residue_overlay
+pumpkin_mask, ribbed_orange_rind, carved_face_opening, burlap_wrap, vine_tendril_crown, rustic_folk_style
+oversized_jumpsuit, ruffled_collar, polka_dot_pattern, exaggerated_silhouette, oversized_shoes, face_paint
+cowboy_hat, duster_coat, denim_jeans, leather_boots, leather_gunbelt, bandana, fringe_details
+segmented_cuirass, plumed_helmet, leather_tassets, bronze_greaves, bracers, gladius_and_round_shield, ancient_roman_style
+segmented_plating, articulated_joints, brushed_metal_finish, exposed_cabling, integrated_tool_modules, utilitarian_industrial_style
+tailcoat, high_collar, crimson_leather, pointed_shoulders, metallic_embroidery, horned_headpiece, spiked_tail_attachment
+flowing_robes, layered_sheer_fabric, feathered_wings, gold_filigree_trim, halo_headdress, celestial_embroidery
+formfitting_bodysuit, stylized_emblem, utility_belt, armored_panelling, flowing_cape, high_tech_material, face_mask
+mini_tailcoat, embroidered_vest, velvet_collar, brass_buckle_harness, silk_bow_tie, baroque_style
+tailored_dog_coat, knit_sweater, leather_collar, bandana_neckerchief, padded_harness, reflective_trim
+hooded_robe, tattered_hem, flowing_cowl, aged_wool_texture, skull_mask, scythe_accessory
+victorian_lace_dress, petticoat_layers, puffed_sleeves, satin_ribbons, button_closures, mary_jane_shoes
+flowing_robes, embroidered_velvet, layered_drapery, bell_sleeves, sash_with_tassels, crystal_pendant, occult_vestments
+short_sleeve_bowling_shirt, flame_pattern, graphic_tee_underlayer, faded_denim_jeans, aviator_sunglasses, silver_chain_accessory
+banana_suit, foam_padded_shell, peel_segment_seams, curved_silhouette, bright_yellow_fabric, hood_with_stem, stitched_ribbing
+formfitting_bodysuit, plush_velvet_texture, deep_purple_palette, sheer_panels, waist_cincher_corset, thigh_high_boots, boudoir_style
+edwardian_evening_gown, corseted_bodice, beaded_brocade, tailored_three-piece_suit, high_collared_shirt, long_wool_overcoat
+circular_chassis, tattered_shroud, rusted_metal, flickering_leds, cobweb_drapes, antique_filigree
+skeuomorphic_gui_robe, translucent_glass_panels, beveled_toolbar_collar, pixel_iconography, loading_spinner_motif, faded_gradient_blue, digital_artifacting
+toasted_pastry_coat, golden_brown_crust, bite_mark_detail, melting_cheese_interior, greasy_sheen, pocket_shape_silhouette
+blue_and_yellow_polo, logo_patch, name_badge, store_lanyard, khaki_chinos, utility_apron, non-slip_work_shoes
+tailored_tailcoat, formal_cravat, wool_fabric, leather_accents, tapered_breeches, barrister_wig, brass_button_detail
+full_body_suit, textured_spandex, three_arm_integration, asymmetrical_paneling, stylized_spider_emblem, webbing_linework, urban_vigilante_style
+tailored_lab_coat, translucent_red_panels, rounded_pitcher_silhouette, glossy_acrylic_trim, structured_clinic_vest, clinical_vintage_style, apothecary_glass_buttons
+band_t-shirt, skinny_jeans, zip_up_hoodie, studded_belt, converse_sneakers, mid_2000s_emo_style
+patchwork_plush, frayed_fur, stitched_mouth, mismatched_button_eyes, occult_runic_markings, exposed_rusted_clockwork, tattered_ribbon
+full_body_blue_paint, bald_cap, sleeveless_black_top, matte_black_trousers, form_fitting_silhouette, coordinated_performance_uniform
+high-necked_gown, pinafore, cotton_shawl, lace_collarette, long_sleeves, embroidered_handkerchief, victorian_style
+paper_layered_coat, crinkled_thermal_paper, faded_ink_print, torn_edge_hem, barcode_trim, price_tag_belt, adhesive_label_patches
+beaked_mask, oiled_leather_coat, wide_brim_hat, leather_gloves, handheld_vaporizer, utility_straps, anachronistic_tech
+retro_employee_vest, polyester_uniform_shirt, faded_logo_patch, vhs_tape_accessory, tattered_hems, translucent_layers, blue_yellow_trim
+panelled_bodysuit, matte_metallic_panels, asymmetrical_tech_coat, exposed_circuit_inlays, fiber_optic_trim, holo_neck_module
+mascot_suit, oversized_foam_head, worn_fur, faded_colors, patchwork_repairs, retro_kids_tv_style
+tweed_blazer, button_up_shirt, corduroy_pants, knit_scarf, satchel_bag, vintage_preppy_style
+cone_silhouette, scuffed_plastic, reflective_stripes, tattered_cloth_wrapping, glowing_runes, hanging_chains
+red_parka_faux_fur_trim, plaid_flannel_shirt, worn_denim_jeans, scuffed_brown_boots, faux_fur_santa_hat, casual_everyday_style
+oversized_robe, tattered_hems, faded_brocade, patched_sash, scuffed_top_hat, worn_wand_holster, mismatched_buttons
+form-fitting_leggings, cropped_wrap_top, draped_shawl, smoke-stained_fabric, asymmetrical_layers, obsidian_amulet, occult_athleisure
+patchwork_suit, tattered_blazer, straw_filled_shirt, crooked_tie, lanyard_id_badge, rustic_office_style
+tarnished_plate_armor, chainmail_hauberk, water_beaded_metal_sheen, waterlogged_leather_surcoat, faded_heraldry, riveted_gauntlets
+translucent_plastic_apron, faded_crew_shirt, fluorescent_trim, tattered_hems, vintage_logo_patches, laminated_name_tag
+cowboy_hat, western_shirt, denim_jeans, cowboy_boots, leather_gunbelt, patched_denim_accents, urban_western_style
+motley_tunic, fools_cap_with_bells, pointed_poulaines, patched_tights, wireless_antenna_headpiece, glowing_signal_embroidery, portable_router_satchel
+oversized_hoodie, cropped_logo_tee, distressed_highwaist_jeans, chunky_sneakers, cheap_costume_jewelry, neon_fanny_pack
+high_collar_blouse, tailored_waistcoat, bustled_skirt, brocade_fabric, cinched_waist, pince-nez_glasses, leather_bound_tome
+pocketed_canvas_apron, buttoned_oxford_shirt, wide-brim_witch_hat, draped_layers, worn_leather_satchel, hanging_potion_vials
+high_collar_coat, ruffled_lace_shirt, layered_cloak, velvet_texture, wide_brimmed_hat, gauze_wrappings
+translucent_blazer, faded_button_up_shirt, juror_badge_lanyard, torn_frayed_hem, spectral_veil_overlay, dusty_wristwatch
+mechanic_coveralls, reflective_stripes, reinforced_canvas, streamlined_silhouette, urban_utilitarian, tool_belt, parking_meter_emblem
+layered_robes, velvet_tunic, draped_scarves, beaded_headscarf, sequined_trim, scratchcard_stack, coin_pouch
+tweed_blazer, button_up_shirt, sweater_vest, torn_sleeves, shaggy_fur_overgrowth, ragged_trousers, round_spectacles
+burnt_pinstripe_suit, tailcoat_silhouette, charred_leather_trim, ember_embroidered_sigils, tattered_ledger, spiked_shoulder_accents
+patterned_hawaiian_shirt, cargo_shorts, luminescent_fanny_pack, iridescent_fabric, comfortable_sneakers, holo_map_device
+full_plate_armor, light_rust_patina, dented_surface, chainmail_underlay, visored_helmet, reinforced_pauldron
+hooded_cloak, layered_robe, pumpkin_motif_embroidery, woolen_fabric, velvet_trim, spice_sachet_pouches, carved_wood_staff
+trench_coat, fedora, tailored_three-piece_suit, leather_gloves, shoulder_holster, worn_leather_shoes, noir_style
+turnout_coat, bunker_pants, firefighter_helmet, reflective_striping, nomex_fabric, heavy_duty_boots, scba_tank
+lifeguard_uniform, red_one_piece_swimsuit, whistle_on_lanyard, rescue_tube, quick_dry_fabric, athletic_cut
+studded_leather_jacket, distressed_band_tshirt, skinny_ripped_jeans, studded_belt, platform_boots, glam_punk_rock_style
+one-piece_racing_suit, nomex_fabric, padded_panels, sponsor_patches, full-face_helmet, fireproof_gloves, reinforced_racing_boots
+double-breasted_jacket, chef_toque, waist_apron, checked_chef_pants, neckerchief, slip_resistant_clogs
+fitted_leotard, layered_tulle_tutu, satin_pointe_shoes, corseted_bodice, ankle_ribbons, classical_ballet
+pressurized_suit, hard_shell_helmet, life_support_backpack, articulated_joint_segments, insulated_multilayer_fabric, bulky_silhouette, utility_harness
+buttoned_jersey, fitted_baseball_pants, baseball_cap, leather_fielding_glove, baseball_cleats, performance_sports_fabric
+goalie_mask, chest_protector, leg_pads, blocker_glove, catcher_glove, reinforced_padding, team_jersey
+surgical_scrubs, surgical_gown, surgical_mask, scrub_cap, sterile_gloves, stethoscope
+flight_suit, leather_bomber_jacket, utility_harness, embroidered_rank_patches, aviator_goggles, flight_boots
+slim_tailored_blazer, tailored_trousers, white_button_up_shirt, simple_necktie, leather_briefcase, polished_oxford_shoes
+pleated_skirt, cropped_cheer_top, varsity_trim, knee_high_socks, athletic_sneakers, pom_poms, team_patch
+hard_hat, high_visibility_vest, reflective_stripes, utility_tool_belt, reinforced_work_pants, steel_toe_boots
+tweed_blazer, buttoned_cardigan, high_collar_blouse, knee_length_pencil_skirt, eyeglasses, leather_satchel, oxford_shoes
+postal_uniform_jacket, crossbody_canvas_mailbag, high_visibility_trim, utility_pockets, id_badge, durable_work_shoes
+combat_uniform, tactical_plate_vest, modular_gear_webbing, combat_boots, helmet_with_visor, ammo_pouches, military_style
+full_plate_armor, articulated_plates, chainmail_hauberk, mirror_polished_steel, visored_helmet, heraldic_tabard
+corseted_bridal_gown, full_ballgown_skirt, cathedral_train, lace_overlay, pearl_embroidery, jeweled_tiara
+oilskin_coat, chest_waders, rubber_boots, wool_fisherman_sweater, sou_wester_hat, fishing_net
+flannel_shirt, heavy_work_pants, rugged_leather_boots, suspenders, leather_work_gloves, felling_axe, rustic_outdoor_workwear
+nemes_headdress, pleated_shendyt, broad_collar_neckpiece, linen_fabric, gold_inlay, uraeus_cobra_forehead, ceremonial_scepter
+monastic_robe, draped_layers, worn_linen, waist_sash_belt, simple_sandals, prayer_beads, patched_fabric
+ceremonial_uniform, polished_plate_armor, tabard_with_heraldry, ornamental_pauldrons, gilded_trim, ceremonial_sash

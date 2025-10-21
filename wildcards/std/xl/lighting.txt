@@ -2,8 +2,8 @@ lit by a single spotlight
 bathed in cold moonlight
 illuminated by glowing runes
 washed in warm sunset tones
-backlit by blinding white light
-haloed in electric blue
+backlit by blinding __std/color__ light
+haloed in __std/color__
 surrounded by pulsing neon
 lit by distant explosions
 flickering candlelight dances across her face
@@ -18,11 +18,11 @@ dramatic high-contrast lighting
 sharp highlights on glossy surfaces
 backlit with intense orange glow
 silhouette against a bright circular light
-soft ambient glow with warm hues
+soft ambient __std/color__ glow with warm hues
 backlit with a gradient of colors
 warm ambient lighting from wall sconces
-soft glow illuminating figure
-soft ambient lighting with pumpkin glow
+soft __std/color__ glow illuminating figure
+soft ambient lighting with __std/color__ glow
 backlit with a glowing halo effect
 dramatic silhouette against bright background
 backlit with intense red glow
@@ -32,7 +32,7 @@ soft diffused lighting on floral patterns
 backlit with strong contrast
 glowing elements highlighting silhouette
 backlit silhouette with glowing accents
-soft blue ambient lighting
+soft __std/color__ ambient lighting
 soft diffuse lighting
 gentle backlighting with subtle glow
 soft, even lighting with subtle shadows
