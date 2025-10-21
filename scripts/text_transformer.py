@@ -24,6 +24,10 @@ def get_prompt_config():
         "pose-xl": {
             "file": ["prompting-guide-sdxl.md", "sdxl-pose-generator.md"],
             "description": "Generate SDXL-style pose descriptions"
+        },
+        "costume-xl": {
+            "file": ["prompting-guide-sdxl.md", "sdxl-costume-generator.md"],
+            "description": "Generate SDXL-style costume descriptors"
         }
     }
 
