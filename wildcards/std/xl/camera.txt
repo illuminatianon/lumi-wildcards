@@ -1,23 +1,45 @@
 low-angle shot
+low-angle camera view
+seen from below
+worm’s-eye angle
 high-angle shot
+bird’s-eye angle
+shot from above
 wide shot
+wide establishing shot
+expansive framing
 medium shot
+waist-up composition
+mid-range framing
 close-up
+tight close-up
+portrait framing
 extreme close-up
+macro detail shot
 over-the-shoulder view
-dutch angle
+OTS composition
 front view
+frontal camera shot
 rear view
+shot from behind
 profile view
+side profile shot
 top-down perspective
-worm’s-eye view
+aerial view
 isometric perspective
+3/4 perspective
 cinematic panoramic shot
+wide cinematic panorama
 handheld composition
+handheld camera style
 symmetrical centered framing
+balanced centered shot
 silhouette shot with backlighting
+backlit silhouette composition
 frontal shot with centered composition
 frontal view, centered composition
 silhouette against intricate backdrop
 centered frontal view
 frontal close-up shot
+neutral camera angle, eye-level shot
+(default shot)
