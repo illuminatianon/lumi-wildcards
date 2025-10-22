@@ -1,0 +1,149 @@
+color:
+  extended:
+    - __std/color/simple__
+    - __std/color/standard__
+  all:
+
+  simple:
+    - Black
+    - White
+    - Gray
+    - Red
+    - Blue
+    - Green
+    - Yellow
+    - Orange
+    - Brown
+    - Pink
+    - Purple
+    - Cyan
+    - Magenta
+    - Lime
+    - Gold
+    - Silver
+    - Tan
+    - Beige
+    - Maroon
+    - Navy
+    - Teal
+    - Olive
+
+  standard:
+    - Azure
+    - Amber
+    - Aqua
+    - Aquamarine
+    - Coral
+    - Crimson
+    - Indigo
+    - Ivory
+    - Lavender
+    - Lilac
+    - Mint
+    - Peach
+    - Plum
+    - Rose
+    - Salmon
+    - Scarlet
+    - Sky blue
+    - Turquoise
+    - Violet
+    - Chartreuse
+    - Chocolate
+    - Khaki
+    - Cream
+    - Copper
+    - Bronze
+    - Burgundy
+    - Emerald
+    - Sapphire
+    - Ruby
+    - Lemon
+    - Forest green
+    - Midnight blue
+    - Slate gray
+    - Sand
+    - Seashell
+    - Snow
+    - Wheat
+
+  exotic:
+    - Air Force blue
+    - Alizarin crimson
+    - Amaranth
+    - American rose
+    - Anti-flash white
+    - Antique fuchsia
+    - Arylide yellow
+    - Asparagus
+    - Atomic tangerine
+    - Auburn
+    - Byzantium
+    - Cambridge Blue
+    - Caput mortuum
+    - Caribbean green
+    - Celadon
+    - Cerulean
+    - Cinnabar
+    - Citrine
+    - Coquelicot
+    - Cosmic latte
+    - Dark byzantium
+    - Deep fuchsia
+    - Denim
+    - Dogwood rose
+    - Electric indigo
+    - Electric ultramarine
+    - Falu red
+    - Fandango
+    - Feldgrau
+    - Fulvous
+    - Gamboge
+    - Glaucous
+    - Harlequin
+    - Heliotrope
+    - International Klein Blue
+    - Jasper
+    - Lapis lazuli
+    - Malachite
+    - Mauvelous
+    - Mikado yellow
+    - Mountbatten pink
+    - Nadeshiko pink
+    - Naples yellow
+    - Onyx
+    - Outer Space
+    - Papaya whip
+    - Paris Green
+    - Payne grey
+    - Periwinkle
+    - Persian rose
+    - Phlox
+    - Psychedelic purple
+    - Puce
+    - Razzmatazz
+    - Rosewood
+    - Ruddy
+    - Russet
+    - Safety orange
+    - Sangria
+    - Sapphire
+    - Shamrock
+    - Sinopia
+    - Skobeloff
+    - Smalt
+    - Spiro Disco Ball
+    - Sunglow
+    - Tanager
+    - Tumbleweed
+    - Tyrian purple
+    - Ube
+    - Ultramarine
+    - Venetian red
+    - Verdigris
+    - Veronica
+    - Viridian
+    - Vivid tangerine
+    - Xanadu
+    - Yale Blue
+    - Zaffre
