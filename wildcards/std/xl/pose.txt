@@ -126,3 +126,84 @@ standing, wide_stance, arms_raised, leaning_forward, side_view, dynamic_action_p
 standing, arms_crossed, facing_viewer, head_raised, confident_pose
 seated_lotus, hands_together, eyes_closed, straight_back, relaxed_pose
 standing, facing_viewer, arms_at_sides, rigid_posture, alert_stance
+arm raised holding phone
+slightly tilted head
+standing with one hand adjusting glasses
+standing with hands by sides
+standing with a slight tilt
+one arm raised behind head
+confident stance
+kneeling with hands resting on thighs
+hands on hips, standing confidently
+standing with hand on hip
+standing with hands clasped
+frontal view with neutral expression
+sitting confidently with arms on armrests
+arms gracefully extended
+standing on one leg
+hands clasped gently
+arms raised behind head
+relaxed posture in water
+standing with arms extended
+dynamic mid-jump pose
+sitting cross-legged
+hands resting on lap
+reclining with eyes closed
+standing with relaxed posture
+arms gently at sides
+sitting confidently with legs crossed
+standing with a determined posture
+hand resting on head, confident stance
+sitting with one leg crossed over the other
+gazing forward with a contemplative expression
+seated with hands resting on skulls
+sitting with one hand on hip
+reclining pose with head turned
+figure looking over shoulder
+standing with hair flowing in the wind
+figure stands facing the horizon
+leaning forward on one arm
+gaze directed upward
+standing confidently with hand on dragon
+expression of determination
+standing with hands in pockets
+face turned slightly to the side
+faces turned slightly with intense gazes
+standing with a symmetrical posture
+standing with tentacles extended
+arms raised with an imposing stance
+standing with a commanding presence
+confident stance with hand on hip
+gazing directly with a slight tilt
+head slightly tilted forward
+back turned, pointing upwards
+hands on hips, confident stance
+standing confidently with hands on hips
+standing upright with a forward gaze
+standing __std/xl/adverb/mood__ with hands on chest
+standing __std/xl/adverb/mood__ with hand on hip
+standing __std/xl/adverb/mood__ with hands at sides
+figures crouched with pointed hats
+one hand on hip, standing __std/xl/adverb/mood__
+arms crossed, standing straight
+leaning against a wall
+hand resting on hip
+standing upright with neutral expression
+standing with arms at sides
+sitting with legs crossed
+holding a drink in one hand
+standing with wings spread
+arms slightly extended
+arms extended outward
+standing upright with wings spread
+arms raised, confident stance
+standing with arms slightly bent
+mid-air kick with cape flowing
+sitting with arms wrapped around knees
+wide-eyed expression of surprise
+standing still, gazing upward
+lying on back with legs crossed
+sitting with hand resting on face
+standing gracefully with an outstretched arm
+woman standing with eyes closed
+she stands gracefully with one leg raised

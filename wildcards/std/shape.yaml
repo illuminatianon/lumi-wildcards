@@ -1,0 +1,70 @@
+shape:
+  all:
+    - __std/shape/2d__
+    - __std/shape/3d__
+    - __std/shape/patterned__
+    - __std/shape/organic__
+    - __std/shape/architectural__
+  flat:
+    - __std/shape/2d__
+    - __std/shape/patterned__
+    - __std/shape/organic__
+  2d:
+    - circle
+    - square
+    - triangle
+    - rectangle
+    - hexagon
+    - octagon 
+    - pentagon
+    - oval
+    - ellipse
+    - diamond
+
+  3d:
+    - cube
+    - sphere
+    - pyramid
+    - cylinder
+    - cone
+    - prism
+    - torus
+    - icosahedron
+    - dodecahedron
+    - tetrahedron
+
+  patterned:
+    - spiral
+    - helix
+    - grid
+    - lattice
+    - ring
+    - arc
+    - loop
+    - knot
+    - mandala
+    - fractal
+
+  organic:
+    - crescent
+    - shard
+    - crystal
+    - waveform
+    - rune
+    - petal
+    - leaf
+    - stone
+    - shell
+    - branch
+
+  architectural:
+    - pillar
+    - column
+    - arch
+    - dome
+    - vault
+    - spire
+    - monolith
+    - slab
+    - disc
+    - plate

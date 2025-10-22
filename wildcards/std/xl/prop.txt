@@ -8,7 +8,7 @@ dagger
 book  
 magic book  
 open book  
-open book, glowing, radiating __std/color__ energy  
+open book, glowing, radiating __std/color/extended__ energy  
 crystal orb  
 glowing crystal  
 hourglass  
@@ -65,9 +65,9 @@ mask, cracked, faintly glowing
 letter  
 sealed envelope  
 map  
-dagger, dripping with __std/color__ light  
+dagger, dripping with __std/color/extended__ light  
 mirror shard  
-orb, hovering, pulsing with __std/color__ energy  
+orb, hovering, pulsing with __std/color/extended__ energy  
 lantern, trailing spectral smoke  
 candle, flame twisting unnaturally  
 scroll, unraveling midair  
