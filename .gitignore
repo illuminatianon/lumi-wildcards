@@ -4,4 +4,4 @@
 dist/*
 build/*
 .venv/*
-__pycache__/*
+**/__pycache__/*
