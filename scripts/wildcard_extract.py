@@ -60,6 +60,10 @@ class WildcardExtractor:
         for category, file_path in self.wildcard_mapping.items():
             print(f"  {category} -> {file_path}")
 
+    def get_available_categories(self) -> List[str]:
+        """Get list of available wildcard categories."""
+        return sorted(self.wildcard_mapping.keys())
+
     def _load_system_prompt(self) -> str:
         """Load the system prompt from wildcard-extractor.md"""
         prompt_file = self.script_dir.parent / "prompts" / "wildcard-extractor.md"
@@ -101,17 +105,18 @@ class WildcardExtractor:
         category_mappings = {
             # Core visual categories - these exist in std/xl/
             "camera": "std/xl/camera.txt",
-            "details": "std/xl/details.txt", 
+            "details": "std/xl/details.txt",
             "distance": "std/xl/distance.txt",
             "environment": "std/xl/environment.txt",
             "lighting": "std/xl/lighting.txt",
+            "location": "std/xl/location.txt",
             "motion": "std/xl/motion.txt",
             "pose": "std/xl/pose.txt",
             "style": "std/xl/style.txt",
-            
+
             # Outfit categories - map to existing std/outfit/ files
             "accessories": "std/outfit/accessories.txt",
-            "bunnygirl": "std/outfit/bunnygirl.txt", 
+            "bunnygirl": "std/outfit/bunnygirl.txt",
             "dress": "std/outfit/dress.txt",
             "skirt": "std/outfit/skirt.txt",
             "uniform": "std/outfit/uniform.txt",
@@ -160,6 +165,7 @@ Your goal is to identify visual elements (composition, lighting, rendering style
 | `distance` | Background or far-field elements. | "in the distance, ruins fade into fog", "beyond her, fragmented towers rise" |
 | `environment` | Immediate setting or atmosphere around the subject. | "suspended in an abstract void", "amid swirling smoke", "under fractured sky" |
 | `lighting` | Light source, color, and quality. | "rim-lit silhouette", "pale diffuse lighting", "harsh high-contrast illumination" |
+| `location` | Specific spatial positioning or placement of the subject. | "at the edge of a circular platform", "on a cracked marble bridge", "within a ring of luminous sigils" |
 | `motion` | Visible or implied movement (of subject or medium). | "lines tremble with nervous energy", "paint drips follow gravity", "colors bleed together" |
 | `pose` | Character posture, body language, or attitude. | "she floats weightlessly", "she leans forward", "arms spread wide" |
 | `style` | Rendering, medium, or overall aesthetic. | "watercolor wash", "abstract oil painting", "high-contrast monochrome ink style" |
@@ -271,47 +277,70 @@ Return a single JSON object where:
             print(f"Error processing image {image_path}: {e}")
             return {}
 
-    def append_to_wildcard_files(self, wildcards: Dict[str, List[str]], 
-                                dry_run: bool = False) -> None:
+    def append_to_wildcard_files(self, wildcards: Dict[str, List[str]],
+                                dry_run: bool = False,
+                                include_categories: Optional[List[str]] = None,
+                                exclude_categories: Optional[List[str]] = None) -> None:
         """
         Append extracted wildcards to their respective files.
-        
+
         Args:
             wildcards: Dictionary mapping category names to lists of wildcard entries
             dry_run: If True, only print what would be written without actually writing
+            include_categories: If provided, only write these categories to disk
+            exclude_categories: If provided, skip writing these categories to disk
         """
+        # Normalize include/exclude lists
+        if include_categories:
+            include_categories = [cat.strip().lower() for cat in include_categories]
+        if exclude_categories:
+            exclude_categories = [cat.strip().lower() for cat in exclude_categories]
+
         for category, entries in wildcards.items():
             if not entries:
                 continue
-            
+
             # Normalize category name (remove .txt extension if present)
             normalized_category = category.replace('.txt', '') if category.endswith('.txt') else category
-            
+
+            # Apply include/exclude filtering
+            normalized_lower = normalized_category.lower()
+
+            # Check exclude filter first
+            if exclude_categories and normalized_lower in exclude_categories:
+                print(f"Skipping category '{normalized_category}' (excluded)")
+                continue
+
+            # Check include filter
+            if include_categories and normalized_lower not in include_categories:
+                print(f"Skipping category '{normalized_category}' (not in include list)")
+                continue
+
             # Get the actual file path for this category
             if normalized_category not in self.wildcard_mapping:
                 print(f"Warning: Unknown category '{category}' (normalized: '{normalized_category}'), skipping")
                 continue
-                
+
             file_path = self.wildcard_mapping[normalized_category]
-            
+
             if dry_run:
                 print(f"\nWould append to {file_path}:")
                 for entry in entries:
                     print(f"  + {entry}")
                 continue
-            
+
             # Create directory if it doesn't exist
             file_path.parent.mkdir(parents=True, exist_ok=True)
-            
+
             # Read existing entries to avoid duplicates
             existing_entries = set()
             if file_path.exists():
                 with open(file_path, 'r', encoding='utf-8') as f:
                     existing_entries = {line.strip() for line in f if line.strip()}
-            
+
             # Filter out duplicates
             new_entries = [entry for entry in entries if entry not in existing_entries]
-            
+
             if new_entries:
                 with open(file_path, 'a', encoding='utf-8') as f:
                     for entry in new_entries:
@@ -320,50 +349,62 @@ Return a single JSON object where:
             else:
                 print(f"No new entries for {normalized_category} (all were duplicates)")
 
-    def process_image(self, image_path: str, dry_run: bool = False) -> Dict[str, List[str]]:
+    def process_image(self, image_path: str, dry_run: bool = False,
+                     include_categories: Optional[List[str]] = None,
+                     exclude_categories: Optional[List[str]] = None) -> Dict[str, List[str]]:
         """
         Process a single image and optionally append results to wildcard files.
-        
+
         Args:
             image_path: Path to the image file
             dry_run: If True, don't actually write to files
-            
+            include_categories: If provided, only write these categories to disk
+            exclude_categories: If provided, skip writing these categories to disk
+
         Returns:
             Dictionary of extracted wildcards
         """
         print(f"Processing: {os.path.basename(image_path)}")
-        
+
         wildcards = self.extract_wildcards(image_path)
-        
+
         if wildcards:
             print(f"Extracted {sum(len(entries) for entries in wildcards.values())} wildcard entries")
-            self.append_to_wildcard_files(wildcards, dry_run=dry_run)
+            self.append_to_wildcard_files(wildcards, dry_run=dry_run,
+                                        include_categories=include_categories,
+                                        exclude_categories=exclude_categories)
         else:
             print("No wildcards extracted")
-            
+
         return wildcards
 
-    def process_images(self, image_paths: List[str], dry_run: bool = False) -> Dict[str, Dict[str, List[str]]]:
+    def process_images(self, image_paths: List[str], dry_run: bool = False,
+                      include_categories: Optional[List[str]] = None,
+                      exclude_categories: Optional[List[str]] = None) -> Dict[str, Dict[str, List[str]]]:
         """
         Process multiple images with progress tracking.
-        
+
         Args:
             image_paths: List of paths to image files
             dry_run: If True, don't actually write to files
-            
+            include_categories: If provided, only write these categories to disk
+            exclude_categories: If provided, skip writing these categories to disk
+
         Returns:
             Dictionary mapping image paths to their extracted wildcards
         """
         results = {}
-        
+
         for image_path in tqdm(image_paths, desc="Processing images"):
             try:
-                wildcards = self.process_image(image_path, dry_run=dry_run)
+                wildcards = self.process_image(image_path, dry_run=dry_run,
+                                             include_categories=include_categories,
+                                             exclude_categories=exclude_categories)
                 results[image_path] = wildcards
             except Exception as e:
                 print(f"Error processing {image_path}: {e}")
                 results[image_path] = {}
-                
+
         return results
 
     @staticmethod
@@ -526,27 +567,76 @@ def main():
         "--summary-file",
         help="Save a complete summary report to this markdown file"
     )
-    
+    parser.add_argument(
+        "--exclude",
+        help="Comma-separated list of wildcard categories to exclude from writing to disk. "
+             "Available categories: camera, details, distance, environment, lighting, location, "
+             "motion, pose, style, accessories, bunnygirl, dress, skirt, uniform, misc"
+    )
+    parser.add_argument(
+        "--include",
+        help="Comma-separated list of wildcard categories to include (only these will be written to disk). "
+             "Available categories: camera, details, distance, environment, lighting, location, "
+             "motion, pose, style, accessories, bunnygirl, dress, skirt, uniform, misc"
+    )
+
     args = parser.parse_args()
-    
+
+    # Parse include/exclude categories
+    include_categories = None
+    exclude_categories = None
+
+    if args.include:
+        include_categories = [cat.strip() for cat in args.include.split(',') if cat.strip()]
+        print(f"Including only categories: {', '.join(include_categories)}")
+
+    if args.exclude:
+        exclude_categories = [cat.strip() for cat in args.exclude.split(',') if cat.strip()]
+        print(f"Excluding categories: {', '.join(exclude_categories)}")
+
+    # Validate that include and exclude are not both specified
+    if include_categories and exclude_categories:
+        print("Error: Cannot specify both --include and --exclude options")
+        sys.exit(1)
+
     try:
         extractor = WildcardExtractor(
             wildcard_base_dir=args.wildcard_dir,
             api_key=args.api_key
         )
-        
+
+        # Validate category names
+        available_categories = extractor.get_available_categories()
+        available_lower = [cat.lower() for cat in available_categories]
+
+        if include_categories:
+            invalid_cats = [cat for cat in include_categories if cat.lower() not in available_lower]
+            if invalid_cats:
+                print(f"Error: Invalid categories in --include: {', '.join(invalid_cats)}")
+                print(f"Available categories: {', '.join(available_categories)}")
+                sys.exit(1)
+
+        if exclude_categories:
+            invalid_cats = [cat for cat in exclude_categories if cat.lower() not in available_lower]
+            if invalid_cats:
+                print(f"Error: Invalid categories in --exclude: {', '.join(invalid_cats)}")
+                print(f"Available categories: {', '.join(available_categories)}")
+                sys.exit(1)
+
         # Discover all image files from paths (files and directories)
         print("Discovering image files...")
         valid_images = extractor.discover_image_files(args.paths)
-        
+
         if not valid_images:
             print("No valid image files found!")
             sys.exit(1)
-        
+
         print(f"Found {len(valid_images)} image files to process")
-        
+
         # Process images
-        results = extractor.process_images(valid_images, dry_run=args.dry_run)
+        results = extractor.process_images(valid_images, dry_run=args.dry_run,
+                                         include_categories=include_categories,
+                                         exclude_categories=exclude_categories)
         
         # Calculate summary statistics
         total_entries = sum(
