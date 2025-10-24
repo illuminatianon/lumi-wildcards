@@ -1,0 +1,161 @@
+environment:
+  all:
+    - __std/xl/environment/color_backdrops__
+    - __std/xl/environment/swirling_motion__
+    - __std/xl/environment/abstract_shapes__
+    - __std/xl/environment/void_haze_space__
+    - __std/xl/environment/interiors_architecture__
+    - __std/xl/environment/nature_landscapes__
+    - __std/xl/environment/props_motifs__
+
+  # -------------------------------
+  color_backdrops:
+    - "{against|set against|isolated on|solid} __std/xl/environment/color_finish__ __std/color/extended__ {background|backdrop}"
+    - stark __std/color/extended__ background
+    - against a plain __std/color/extended__ background
+
+  color_finish:
+    - plain
+    - bright
+    - vivid
+    - soft
+    - dark
+    - blurred
+    - vibrant
+    - ominous
+    - stark
+
+  # -------------------------------
+  swirling_motion:
+    - "{surrounded by|amid|within} __std/xl/environment/swirl_motion__, __std/xl/environment/swirl_material__ __std/xl/environment/swirl_pattern__"
+    - abstract void with __std/xl/environment/swirl_motion__ __std/xl/environment/swirl_pattern__
+
+  swirl_motion:
+    - swirling
+    - flowing
+    - drifting
+    - spiraling
+
+  swirl_material:
+    - ink
+    - shadows
+    - clouds
+    - cosmic dust
+    - floral
+    - mist
+
+  swirl_pattern:
+    - forms
+    - patterns
+    - tendrils
+    - lines
+    - shapes
+
+  # -------------------------------
+  abstract_shapes:
+    - "{against|surrounded by} abstract __std/xl/environment/shape_type__, __std/xl/environment/shape_form__"
+    - bold graphic background with abstract __std/xl/environment/shape_type__ shapes
+
+  shape_type:
+    - geometric
+    - organic
+    - mechanical
+    - graphic
+    - symbolic
+    - angular
+
+  shape_form:
+    - shapes
+    - patterns
+    - symbols
+    - geometry
+
+  # -------------------------------
+  void_haze_space:
+    - "{suspended|adrift|immersed|within|amidst} __std/xl/environment/space_variant__"
+    - beneath a fractured sky
+    - wrapped in golden dust
+    - bathed in violet fog
+
+  space_variant:
+    - an abstract void
+    - a dark void
+    - cosmic haze
+    - shadow and smoke
+    - vibrant haze
+    - fractured space
+
+  # -------------------------------
+  interiors_architecture:
+    - "{inside|within} a __std/xl/environment/structure_type__"
+    - against a __std/xl/environment/surface_type__
+    - set within a __std/xl/environment/architectural_scene__
+
+  structure_type:
+    - cavernous space
+    - gothic cathedral
+    - grand hall with arched ceilings
+    - laboratory
+    - narrow corridor
+    - boxing ring
+    - simple interior
+
+  surface_type:
+    - textured wall
+    - concrete wall
+    - wooden panel
+    - marble floor
+
+  architectural_scene:
+    - urban skyline
+    - monumental architecture
+    - ornate interior with sconces
+
+  # -------------------------------
+  nature_landscapes:
+    - amidst a __std/xl/environment/natural_scene__
+    - under a __std/xl/environment/sky_type__
+    - surrounded by __std/xl/environment/natural_elements__
+
+  natural_scene:
+    - forest river
+    - rocky landscape
+    - fantasy landscape
+    - seaside setting
+    - autumn lakeside
+    - pumpkin field
+    - barren field
+    - demonic landscape
+
+  sky_type:
+    - starry sky with drifting clouds
+    - vast luminous moon
+    - glowing yellow sky
+    - fiery sunset sky
+
+  natural_elements:
+    - dark twisting trees
+    - golden trees and reeds
+    - lush greenery
+    - cosmic dust and stars
+
+  # -------------------------------
+  props_motifs:
+    - surrounded by __std/xl/environment/object_motif__
+    - seated in a __std/xl/environment/furniture_motif__
+    - over a __std/xl/environment/surface_motif__
+
+  object_motif:
+    - dripping black ink
+    - glowing candles
+    - plush toys
+    - swirling eyes and screens
+    - abstract symbols and patterns
+
+  furniture_motif:
+    - plush chair
+    - dark throne
+
+  surface_motif:
+    - reflective liquid surface
+    - bed with scattered rose petals
