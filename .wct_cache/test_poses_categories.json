@@ -1,0 +1,57 @@
+{
+  "purpose": "human body poses and simple gesture fragments for character/composition prompts",
+  "categories": {
+    "standing": {
+      "desc": "upright stances and leaning variations",
+      "examples": [
+        "standing",
+        "standing against wall",
+        "contrapposto"
+      ]
+    },
+    "reference": {
+      "desc": "canonical/modeling reference poses used for rigging or neutral framing",
+      "examples": [
+        "t-pose",
+        "a-pose"
+      ]
+    },
+    "ground": {
+      "desc": "seated, kneeling or prone poses at ground level",
+      "examples": [
+        "sitting",
+        "kneeling",
+        "lying down"
+      ]
+    },
+    "gestures": {
+      "desc": "arm/hand gestures and small expressive actions",
+      "examples": [
+        "hands on hips",
+        "arms crossed",
+        "head in hands",
+        "pointing",
+        "waving"
+      ]
+    },
+    "dynamic": {
+      "desc": "energetic, action-oriented or power poses",
+      "examples": [
+        "power squat",
+        "victory pose",
+        "jumping for joy"
+      ]
+    },
+    "orientation": {
+      "desc": "viewer-facing or silhouette orientations",
+      "examples": [
+        "back to viewer"
+      ]
+    }
+  },
+  "notes": [
+    "t-pose and a-pose are technical/reference entries; contrapposto is stylistic but often used as a standing variant.",
+    "victory pose and jumping for joy overlap semantically (both express exuberance); consider merging or weighting to avoid redundancy.",
+    "file is concise and token-efficient for SDXL wildcard usage; categories balance static vs dynamic and gestures vs full-body poses."
+  ]
+}

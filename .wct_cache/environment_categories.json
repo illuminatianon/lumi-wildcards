@@ -1,0 +1,12 @@
+{
+  "purpose": "defines environmental backdrops and scene contexts for sdxl prompts, spanning minimal color fields, abstract patterns, cosmic voids, surreal realms, nature, and architectural interiors/exteriors",
+  "categories": {
+    "minimal_color_backdrops": "flat or gradient color fields and simple, low-detail backgrounds (often using __std/color/extended__ placeholders)",
+    "geometric_abstract": "abstract shapes, symbols, data streams, hexagons, and bold graphic/geometric pattern backdrops",
+    "organic_abstract": "swirling ink, tendrils, shadows, floral and cloud-like organic forms and textures",
+    "cosmic_void": "voids, haze, stars, moons, luminous orbs, and wide abstract cosmic spaces",
+    "surreal_otherworlds": "alien, demonic, fantasy, and surreal landscapes or structures beyond realistic settings",
+    "natural_landscapes": "forests, rivers, seaside, fields, sunsets, paths, and reflective water scenes",
+    "architecture_interiors": "urban skylines, cathedrals, halls, labs, rooms, walls, furniture, boxing rings, and cavernous spaces"
+  }
+}

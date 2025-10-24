@@ -1,6 +1,14 @@
 __std/outfit/bunnygirl__
+__std/outfit/bunnygirl__, __std/outfit/accessories__
 __std/outfit/dress__
+__std/outfit/dress__, __std/outfit/accessories__
 __std/outfit/skirt__
+__std/outfit/skirt__, __std/outfit/accessories__
 __std/outfit/uniform__
-__std/outfit/accessories__
+__std/outfit/uniform__, __std/outfit/accessories__
 __std/outfit/misc__
+__std/outfit/misc__, __std/outfit/accessories__
+
+
+
+

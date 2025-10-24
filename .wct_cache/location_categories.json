@@ -1,0 +1,11 @@
+{
+  "purpose": "evocative location fragments for scene placement and environmental context",
+  "categories": {
+    "ruins_wasteland": "decayed structures, ancient monuments, and post-apocalyptic desolation",
+    "tech_industrial": "derelict stations, reactors, catwalks, power lines, and heavy machinery",
+    "urban_noir": "rain-soaked alleys, rooftops, signage, transit ruins, and city fog",
+    "natural_serene": "hills, lakes, springs, foliage, terraces, and gentle auroras",
+    "cosmic_surreal": "moons, nebulae, starlight oceans, mirrored worlds, and time-bent horizons",
+    "occult_ritual": "altars, sigils, chanting halls, eclipses, candles, and sacred thresholds"
+  }
+}
