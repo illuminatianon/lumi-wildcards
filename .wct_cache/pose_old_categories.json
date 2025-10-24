@@ -1,0 +1,11 @@
+{
+  "purpose": "defines character poses and orientation cues for sdxl; includes neutral, seated/reclined, dynamic, aerial, gestural, and prop-interaction variants with wildcard placeholders",
+  "categories": {
+    "neutral": "basic standing or stationary poses with neutral facing and simple posture",
+    "seated_reclined": "seated, kneeling, cross-legged, lounging, throne, and lying/reclining poses",
+    "dynamic_action": "movement and action stances (running, jumping, combat, performing); includes group formations",
+    "aerial_floating": "floating, hovering, levitating, mid-air, and wings-spread poses",
+    "gestural_attitude": "expressive gestures and stance cues (hands on hips, arms crossed, head tilt, gaze direction, mood)",
+    "prop_interaction": "holding/using objects and templates (books, devices, drinks, __std/xl/prop__)"
+  }
+}

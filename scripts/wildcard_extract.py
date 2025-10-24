@@ -564,8 +564,9 @@ def main():
         help="OpenAI API key (defaults to OPENAI_API_KEY environment variable)"
     )
     parser.add_argument(
-        "--summary-file",
-        help="Save a complete summary report to this markdown file"
+        "--summary",
+        action="store_true",
+        help="Generate a complete summary report with an auto-generated timestamped filename"
     )
     parser.add_argument(
         "--exclude",
@@ -655,9 +656,12 @@ def main():
             print("(Dry run - no files were modified)")
         
         # Generate summary report if requested
-        if args.summary_file and results:
+        if args.summary and results:
             print(f"\nGenerating summary report...")
-            extractor.generate_summary_report(results, args.summary_file)
+            # Generate Windows-safe ISO timestamp filename
+            timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+            summary_filename = f"wildcard_extraction_summary_{timestamp}.md"
+            extractor.generate_summary_report(results, summary_filename)
         
     except KeyboardInterrupt:
         print("\nCancelled by user")

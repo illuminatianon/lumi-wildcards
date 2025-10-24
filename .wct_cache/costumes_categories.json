@@ -1,0 +1,11 @@
+{
+  "purpose": "halloween and costume archetypes for character prompts, mixing classic, professional, historical, pop\u2011culture, and absurdist concepts",
+  "categories": {
+    "monsters_supernatural": "classic halloween monsters and occult figures plus nonhuman creatures (vampires, witches, ghosts, mummies, angels/devils, fairies, aliens, robots, scarecrows, pumpkins)",
+    "professions": "jobs, sports, and service roles with recognizable uniforms (nurse, firefighter, astronaut, chef, athletes, surgeon, pilot, soldier, librarian, mail carrier)",
+    "historical_period": "period and medieval archetypes and royalty (pirates, cowboys, knights, gladiators, pharaohs, monks, royal guards, victorian figures, jesters)",
+    "pop_culture_parodies": "celebrity/franchise references and brand spoofs (guy fieri, grimace riffs, off\u2011brand spider\u2011man, shrek gags, blockbuster, myspace, titanic vhs, furby, kool\u2011aid man)",
+    "absurdist_personified": "surreal gags and anthropomorphic objects or twisted everyday scenarios (haunted roomba, traffic cone, cvs receipt, ai chatbot crisis, hr scarecrow, tax auditor from hell)",
+    "animals_anthro": "animal\u2011themed costumes and animals in human contexts (cat, dog, raccoon in people clothes)"
+  }
+}

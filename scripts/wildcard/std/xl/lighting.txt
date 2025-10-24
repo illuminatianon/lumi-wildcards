@@ -90,3 +90,11 @@ soft diffused light with long shadows
 soft, even lighting
 soft ambient lighting with purple hues
 glowing effects from UFOs
+backlit figure with bright halo
+soft diffused lighting from behind
+soft blue ambient light reflecting off icy surfaces
+soft diffuse lighting with a warm glow
+backlit figure with bright moonlight
+silhouette against a glowing red sky
+soft, diffused lighting highlighting the subject
+soft diffused daylight

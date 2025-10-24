@@ -1,0 +1,11 @@
+{
+  "purpose": "describes human body poses for sdxl prompts",
+  "categories": {
+    "neutral": "basic standing, sitting, kneeling, and reference stances for stable composition",
+    "gestures": "hand and arm signals or minor posture cues that modify expression",
+    "emotional": "dramatic, introspective, or mood-heavy poses conveying clear feelings",
+    "dynamic": "movement-rich action, dance, and athletic poses captured mid-motion",
+    "directional": "orientation to camera or scene; turns, leans, framing, and angle-driven poses",
+    "quirky": "humorous, meme-like, or surreal setups and exaggerated situational poses"
+  }
+}
