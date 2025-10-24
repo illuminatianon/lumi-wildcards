@@ -2,7 +2,11 @@ color:
   extended:
     - __std/color/simple__
     - __std/color/standard__
+  
   all:
+    - __std/color/simple__
+    - __std/color/standard__
+    - __std/color/exotic__
 
   simple:
     - Black

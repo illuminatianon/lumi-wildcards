@@ -16,15 +16,9 @@ A well-structured SDXL prompt often follows this hierarchy:
 
 [quality modifiers], [medium/style], [subject/pose], [environment], [lighting], [details], [composition notes]
 
-makefile
-Copy code
-
 **Examples:**
 masterpiece, best quality, sketchy ink linework, 1girl with bunny ears, leaning against a pillar,
 suspended in a void, rim-lit monochrome scene, abstract geometry in background
-
-markdown
-Copy code
 
 ---
 
@@ -55,8 +49,6 @@ Therefore:
 She floats weightlessly, beneath fractured light.
 The art style is abstract oil painting with expressive brushwork.
 
-markdown
-Copy code
 This separation improves adherence to style cues.
 
 ---
@@ -75,8 +67,6 @@ It lowers the probability of associated visual tokens but doesn’t delete them.
 **Example:**
 negative prompt: smooth shading, glossy skin, clean digital painting, 3d render
 
-yaml
-Copy code
 This helps preserve sketch or painterly aesthetics.
 
 ---
@@ -89,8 +79,6 @@ Using short, punctuated clauses can balance competing concepts.
 **Example:**
 1girl with bunny ears, standing in ruins. Watercolor wash, rough brush strokes. Rim lighting and muted palette.
 
-yaml
-Copy code
 Each sentence acts as a semantic layer, making the model blend more predictably.
 
 ---
@@ -119,9 +107,6 @@ If one concept overwhelms others (e.g., background geometry kills stylistic cont
 
 Using wildcards or templated text lets you control complexity by substituting categories such as:
 {style}, {pose}, {environment}, {lighting}, {details}
-
-yaml
-Copy code
 
 Each section expands to a self-contained description.  
 This modularity keeps prompts under token limits and enables systematic variation.

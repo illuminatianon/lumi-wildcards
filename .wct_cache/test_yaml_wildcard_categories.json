@@ -1,0 +1,8 @@
+{
+  "purpose": "defines basic human body poses for sdxl testing; mainly standing, sitting, and dynamic actions, with some aggregate links to external pose/gesture/emotion sets",
+  "categories": {
+    "standing": "upright stances and posture variants",
+    "sitting": "seated poses on floor or furniture",
+    "dynamic": "movement and action poses such as jumping, running, and dancing"
+  }
+}

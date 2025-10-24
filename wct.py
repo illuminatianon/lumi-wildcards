@@ -106,7 +106,33 @@ class WildcardTool:
         except Exception as e:
             print(f"Error calling LLM: {e}", file=sys.stderr)
             sys.exit(1)
-    
+
+    def filter_real_categories(self, categories: Dict[str, Any]) -> Dict[str, Any]:
+        """Filter out synthetic categories that contain only references like __std/xl/path/category__"""
+        if not isinstance(categories, dict):
+            return categories
+
+        filtered = {}
+        for key, value in categories.items():
+            if key in ['purpose', 'raw_response']:
+                # Keep metadata fields
+                filtered[key] = value
+            elif isinstance(value, list):
+                # Check if this is a real category (contains actual entries, not just references)
+                real_entries = []
+                for entry in value:
+                    if isinstance(entry, str) and not (entry.startswith('__') and entry.endswith('__')):
+                        real_entries.append(entry)
+
+                # Only include categories that have real entries
+                if real_entries:
+                    filtered[key] = real_entries
+            else:
+                # Keep non-list values (like descriptions)
+                filtered[key] = value
+
+        return filtered
+
     def categorize(self, input_file: Path, force_refresh: bool = False) -> Dict[str, Any]:
         """Categorize the wildcard file and cache results."""
         # Check cache first unless force refresh
@@ -164,6 +190,9 @@ class WildcardTool:
         # Get categories if not provided
         if categories is None:
             categories = self.categorize(input_file)
+
+        # Filter out synthetic categories for analysis
+        categories = self.filter_real_categories(categories)
         
         # Combine intro and analyze prompts
         sdxl_prompt = self.load_prompt("sdxl")
@@ -193,7 +222,10 @@ Wildcard file content:
         # Get categories and analysis if not provided
         if categories is None:
             categories = self.categorize(input_file)
-        
+
+        # Filter out synthetic categories for cleanup
+        categories = self.filter_real_categories(categories)
+
         if analysis is None:
             analysis = self.analyze(input_file, "long", categories)
         

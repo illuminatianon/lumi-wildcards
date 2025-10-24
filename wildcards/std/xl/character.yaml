@@ -1,0 +1,67 @@
+character:
+  all:
+    - 20::__std/xl/character/pose__, __std/xl/character/arms__, __std/xl/character/head__, __std/xl/character/affect__,
+    - __std/xl/character/custom__
+  custom:
+    - jumping, arms raised, legs raised, __std/xl/character/head__,__std/xl/character/affect__,
+  pose:
+    - standing upright, balanced weight
+    - standing contrapposto, hips tilted
+    - sitting cross-legged on ground
+    - sitting sideways on step, knees together
+    - kneeling on both knees, upright posture
+    - kneeling, one knee forward, torso turned
+    - lying prone, face down
+    - lying supine, arms at sides
+    - floating in midair, neutral posture
+    - curled fetal float, compact pose
+    - walking forward, one foot raised
+    - lunging with weight on front leg
+    - casting spell, facing viewer
+
+  arms:
+    - arms at sides
+    - one arm raised
+    - both arms raised
+    - arms crossed over chest
+    - hands on hips
+    - one hand resting on chin
+    - reaching outward
+    - folded behind back
+    - hands clasped in front
+    - one hand extended downward
+    - arms spread wide
+    - pointing at something
+    - holding __std/xl/prop__
+    - tugging at ear
+    - gesturing with hands
+    - gesturing with one hand
+    - holding hands clasped
+
+  head:
+    - looking down
+    - looking up
+    - looking left
+    - looking right
+    - facing viewer
+    - turned three-quarters
+    - profile view
+    - head tilted slightly downward
+    - head tilted back
+    - eyes closed
+    - gaze over shoulder
+    - head slightly tilted forward
+    - head tilted to {left|right} side
+
+  affect:
+    - confident
+    - serene
+    - focused
+    - relaxed
+    - alert
+    - weary
+    - playful
+    - defiant
+    - contemplative
+    - sorrowful
+    - __std/xl/adverb/mood__
