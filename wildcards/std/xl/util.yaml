@@ -1,1 +1,33 @@
 util:
+
+  # General descriptive qualities that could be useful across many contexts
+  intensity:
+    - soft
+    - medium
+    - strong
+    - bold
+    - subtle
+    - intense
+    - dramatic
+    - gentle
+
+  quality_descriptors:
+    - rough
+    - smooth
+    - textured
+    - clean
+    - detailed
+    - minimalist
+    - intricate
+    - simple
+
+  mood_atmosphere:
+    - ethereal
+    - moody
+    - vivid
+    - dreamlike
+    - realistic
+    - surreal
+    - mysterious
+    - serene
+    - dramatic
