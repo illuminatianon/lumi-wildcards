@@ -1,9 +1,9 @@
 location:
 
-  # Primary composition category - combines different location types and elements
-  # Balanced distribution ensures equal weighting across all categories and patterns
+  # Primary composition category - focuses on base physical locations
+  # Clean separation: location provides the 'where', environment provides the 'how it feels'
   all:
-    # Single category selections (8 entries - one per main category + neutral)
+    # Single category selections - pure locations without atmospheric modifiers
     - "__std/xl/location/ancient__"
     - "__std/xl/location/industrial__"
     - "__std/xl/location/natural__"
@@ -13,7 +13,7 @@ location:
     - "__std/xl/location/urban__"
     - "__std/xl/location/neutral__"
 
-    # Template-based modular combinations (7 entries - equal representation)
+    # Template-based modular combinations - clean location composition
     - "__std/xl/location/template_locations__"
     - "__std/xl/location/template_locations__"
     - "__std/xl/location/template_locations__"
@@ -22,24 +22,7 @@ location:
     - "__std/xl/location/template_locations__"
     - "__std/xl/location/template_locations__"
 
-    # Enhanced atmospheric combinations (7 entries - one per category)
-    - "__std/xl/location/ancient__ with __std/xl/util/mood_atmosphere__ atmosphere"
-    - "__std/xl/location/industrial__ featuring __std/xl/location/atmospheric_elements__"
-    - "__std/xl/location/natural__ bathed in __std/xl/location/lighting_effects__"
-    - "__std/xl/location/cosmic__ amid __std/xl/location/atmospheric_elements__"
-    - "__std/xl/location/post_apocalyptic__ under __std/xl/location/weather_elements__"
-    - "__std/xl/location/ritual__ illuminated by __std/xl/location/lighting_effects__"
-    - "__std/xl/location/urban__ under __std/xl/location/weather_elements__"
-
-  # Neutral fallback for malformed chains
-  neutral:
-    - an undefined place
-    - a liminal space
-    - an empty void
-    - a neutral zone
-    - a blank canvas
-
-    # Clean positional combinations (7 entries - no grammar stacking)
+    # Positional combinations - location with spatial positioning
     - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/ancient__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/industrial__"
@@ -48,7 +31,7 @@ location:
     - "__std/xl/location/position_prefixes__ __std/xl/location/post_apocalyptic__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/ritual__"
 
-    # Cross-category blends (7 entries - unique combinations)
+    # Cross-category blends - pure location mixing without atmosphere
     - "__std/xl/location/natural__ merging with __std/xl/location/cosmic__"
     - "__std/xl/location/ancient__ overtaken by __std/xl/location/post_apocalyptic__"
     - "__std/xl/location/industrial__ transformed into __std/xl/location/ritual__"
@@ -56,15 +39,16 @@ location:
     - "__std/xl/location/ritual__ hidden within __std/xl/location/natural__"
     - "__std/xl/location/post_apocalyptic__ reclaimed by __std/xl/location/natural__"
     - "__std/xl/location/cosmic__ manifesting in __std/xl/location/urban__"
+    - "__std/xl/location/interiors__"
+    - "__std/xl/location/nature_locations__"
 
-    # Simple two-element compositions (7 entries - clean grammar)
-    - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__ with __std/xl/location/atmospheric_elements__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/ancient__ featuring __std/xl/util/mood_atmosphere__ atmosphere"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/industrial__ with __std/xl/location/lighting_effects__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/natural__ under __std/xl/location/weather_elements__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/cosmic__ amid __std/xl/location/atmospheric_elements__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/post_apocalyptic__ under __std/xl/location/weather_elements__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/ritual__ illuminated by __std/xl/location/lighting_effects__"
+  # Neutral fallback for malformed chains
+  neutral:
+    - an undefined place
+    - a liminal space
+    - an empty void
+    - a neutral zone
+    - a blank canvas
 
   # Ancient and mystical locations - noun phrases only
   ancient:
@@ -202,8 +186,8 @@ location:
     - "__std/xl/location/position_prefixes__ a __std/xl/util/condition_descriptors__ __std/xl/location/base_structures__"
     - "__std/xl/location/position_prefixes__ the __std/xl/location/base_structures__ of __std/xl/util/material_qualities__"
     - "__std/xl/location/position_prefixes__ a __std/xl/util/scale_descriptors__ __std/xl/location/base_structures__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__ with __std/xl/location/atmospheric_elements__"
-    - "__std/xl/location/position_prefixes__ __std/xl/location/atmospheric_elements__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/materials__ __std/xl/location/base_structures__"
 
   # Base structural elements without descriptors
   base_structures:
@@ -264,6 +248,60 @@ location:
     - puddle
     - clock tower
 
+  # Interior and architectural locations - moved from environment.yaml
+  interiors:
+    - "{inside|within} a __std/xl/location/structure_type__"
+    - against a __std/xl/location/surface_type__
+    - set within a __std/xl/location/architectural_scene__
+
+  structure_type:
+    - cavernous space
+    - gothic cathedral
+    - grand hall with arched ceilings
+    - laboratory
+    - narrow corridor
+    - boxing ring
+    - simple interior
+
+  surface_type:
+    - textured wall
+    - concrete wall
+    - wooden panel
+    - marble floor
+
+  architectural_scene:
+    - urban skyline
+    - monumental architecture
+    - ornate interior with sconces
+
+  # Natural landscape locations - moved from environment.yaml
+  nature_locations:
+    - amidst a __std/xl/location/natural_scene__
+    - under a __std/xl/location/sky_type__
+    - surrounded by __std/xl/location/natural_elements__
+
+  natural_scene:
+    - forest river
+    - rocky landscape
+    - fantasy landscape
+    - seaside setting
+    - autumn lakeside
+    - pumpkin field
+    - barren field
+    - demonic landscape
+
+  sky_type:
+    - starry sky with drifting clouds
+    - vast luminous moon
+    - glowing yellow sky
+    - fiery sunset sky
+
+  natural_elements:
+    - dark twisting trees
+    - golden trees and reeds
+    - lush greenery
+    - cosmic dust and stars
+
   # Material types for combination
   materials:
     - stone
@@ -277,42 +315,4 @@ location:
     - iron
     - steel
 
-  # Atmospheric and environmental elements
-  atmospheric_elements:
-    - luminous sigils
-    - fractured mirrors
-    - drifting shards of shattered time
-    - flickering neon conduits
-    - humming reactors
-    - tangled power lines and smoke
-    - drifting petals and warm wind
-    - constellations that move like clockwork
-    - candles that never burn out
-    - trash fires and neon ghosts
 
-
-  # Lighting effects - clean descriptive phrases
-  lighting_effects:
-    - molten glass light
-    - soft aurora glow
-    - twin sun illumination
-    - seven eclipsed moons
-    - flickering streetlamp light
-    - broken billboard glow
-    - molten spark rain
-    - red moon reflection
-    - starlight shimmer
-    - neon radiance
-
-  # Weather elements - pure nouns for connector phrases
-  weather_elements:
-    - warm rain
-    - city fog
-    - static haze
-    - cold mist
-    - swirling snow
-    - desert wind
-    - ocean spray
-    - mountain air
-    - storm clouds
-    - gentle breeze

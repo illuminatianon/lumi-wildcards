@@ -1,12 +1,147 @@
 environment:
+  # Primary category - atmospheric modifiers that enhance base locations
+  # Environment provides the 'how it feels' to complement location's 'where'
   all:
+    - __std/xl/environment/atmospheric_effects__
+    - __std/xl/environment/lighting_conditions__
+    - __std/xl/environment/weather_elements__
+    - __std/xl/environment/atmospheric_details__
+    - __std/xl/environment/surreal_atmosphere__
+    - __std/xl/environment/apocalyptic_atmosphere__
+    - __std/xl/environment/mystical_atmosphere__
     - __std/xl/environment/color_backdrops__
     - __std/xl/environment/swirling_motion__
     - __std/xl/environment/abstract_shapes__
     - __std/xl/environment/void_haze_space__
-    - __std/xl/environment/interiors_architecture__
-    - __std/xl/environment/nature_landscapes__
-    - __std/xl/environment/props_motifs__
+
+  # Atmospheric effects - moved from location.yaml
+  atmospheric_effects:
+    - luminous sigils
+    - fractured mirrors
+    - drifting shards of shattered time
+    - flickering neon conduits
+    - humming reactors
+    - tangled power lines and smoke
+    - drifting petals and warm wind
+    - constellations that move like clockwork
+    - candles that never burn out
+    - trash fires and neon ghosts
+
+  # Lighting conditions - moved from location.yaml
+  lighting_conditions:
+    - molten glass light
+    - soft aurora glow
+    - twin sun illumination
+    - seven eclipsed moons
+    - flickering streetlamp light
+    - broken billboard glow
+    - molten spark rain
+    - red moon reflection
+    - starlight shimmer
+    - neon radiance
+
+  # Weather elements - moved from location.yaml
+  weather_elements:
+    - warm rain
+    - city fog
+    - static haze
+    - cold mist
+    - swirling snow
+    - desert wind
+    - ocean spray
+    - mountain air
+    - storm clouds
+    - gentle breeze
+
+  # Additional atmospheric elements - moved from details.yaml
+  atmospheric_details:
+    - dark fluid-like shapes spreading on the floor
+    - "floating __std/color/extended__ orbs with __std/color/extended__ halos"
+    - swirling tendrils at feet
+    - meteors streak across the sky
+    - stars dot the night sky
+
+  # Surreal atmospheric scenes - moved from distance.yaml
+  surreal_atmosphere:
+    - colossal statues crumble into stardust
+    - a shattered moon hangs low and bleeding
+    - fractured mirrors reflect impossible skies
+    - drifting spires twist into fractal shapes
+    - rivers of glass shimmer in silence
+    - "a titan's silhouette dissolves into static"
+    - time itself folds into silver ribbons
+    - oceans of ash pulse with dim light
+    - echoes of lost worlds shimmer and fade
+    - phantom cities flicker and vanish
+    - stars unravel like threads of smoke
+    - shadows crawl across molten ground
+    - spectral figures drift in looping patterns
+    - luminous symbols burn and reform
+    - reflected constellations ripple across black glass
+    - colors collapse into pure sound
+    - a frozen sea reflects the glow of dying stars
+    - a storm of feathers drifts across the void
+    - the sky fractures into shifting panels of memory
+    - glass mountains hum with invisible resonance
+    - inverted oceans ripple with slow thunder
+    - ancient machinery stirs with hollow rhythm
+    - serpentine rivers gleam with liquid light
+    - floating gardens collapse into mist
+    - crystalline beasts wander in silence
+    - a giant eye opens within a nebula
+    - luminous vines crawl over forgotten monuments
+    - molten lakes cast long shadows on metallic plains
+    - spectral banners ripple where armies once stood
+    - the sun divides into mirrored twins
+    - enormous gears turn within fractured space
+    - an aurora bleeds into the ocean
+    - cities of light spiral endlessly through twilight
+
+  # Post-apocalyptic atmosphere - moved from distance.yaml
+  apocalyptic_atmosphere:
+    - a village sinks halfway into the marsh
+    - telephone poles lean through rolling fog
+    - rusted train cars rest on broken tracks
+    - fields of wheat sway under stormlight
+    - cracked asphalt fades into tall grass
+    - "collapsed bridges trace the river's path"
+    - windmills turn lazily among empty hills
+    - storm clouds gather, heavy and unhurried
+    - puddles reflect the orange glow of lamps
+    - a radio tower blinks through the rain
+    - rooftops poke from shallow water
+    - dust drifts around abandoned machinery
+    - headlights move like ghosts along a ruined road
+    - barbed wire fences cut through the mist
+    - a canyon breathes with slow curling fog
+    - the ruins of a factory crumble into moss
+    - chimneys exhale faint columns of smoke
+    - wind carries fragments of torn banners
+    - gravel crunches as the light begins to fade
+    - the old highway disappears into a forest of silence
+
+  # Mystical atmosphere - moved from distance.yaml
+  mystical_atmosphere:
+    - "will-o'-wisps drift above the moor"
+    - a stone circle glows faintly beneath the mist
+    - a river winds past cottages long abandoned
+    - antlered shapes move between the trees
+    - smoke rises from a hearth that should be cold
+    - straw effigies sway from crooked poles
+    - a thatched chapel leans toward the forest edge
+    - blackbirds scatter as if warned by unseen hands
+    - the earth hums with a low, steady rhythm
+    - lanterns swing on the path to nowhere
+    - pale figures gather where the reeds grow thick
+    - bells chime though no one pulls the rope
+    - a harvest pyre burns without consuming
+    - the woods whisper her name in broken cadence
+    - an ancient well breathes a sigh of damp air
+    - a herd of deer stands perfectly still
+    - candles flicker inside hollowed gourds
+    - a crimson dawn creeps across moss-covered stones
+    - dry leaves crackle like distant laughter
+    - a path of lanterns fades one by one into dark
 
   # -------------------------------
   color_backdrops:
@@ -85,77 +220,4 @@ environment:
     - vibrant haze
     - fractured space
 
-  # -------------------------------
-  interiors_architecture:
-    - "{inside|within} a __std/xl/environment/structure_type__"
-    - against a __std/xl/environment/surface_type__
-    - set within a __std/xl/environment/architectural_scene__
 
-  structure_type:
-    - cavernous space
-    - gothic cathedral
-    - grand hall with arched ceilings
-    - laboratory
-    - narrow corridor
-    - boxing ring
-    - simple interior
-
-  surface_type:
-    - textured wall
-    - concrete wall
-    - wooden panel
-    - marble floor
-
-  architectural_scene:
-    - urban skyline
-    - monumental architecture
-    - ornate interior with sconces
-
-  # -------------------------------
-  nature_landscapes:
-    - amidst a __std/xl/environment/natural_scene__
-    - under a __std/xl/environment/sky_type__
-    - surrounded by __std/xl/environment/natural_elements__
-
-  natural_scene:
-    - forest river
-    - rocky landscape
-    - fantasy landscape
-    - seaside setting
-    - autumn lakeside
-    - pumpkin field
-    - barren field
-    - demonic landscape
-
-  sky_type:
-    - starry sky with drifting clouds
-    - vast luminous moon
-    - glowing yellow sky
-    - fiery sunset sky
-
-  natural_elements:
-    - dark twisting trees
-    - golden trees and reeds
-    - lush greenery
-    - cosmic dust and stars
-
-  # -------------------------------
-  props_motifs:
-    - surrounded by __std/xl/environment/object_motif__
-    - seated in a __std/xl/environment/furniture_motif__
-    - over a __std/xl/environment/surface_motif__
-
-  object_motif:
-    - dripping black ink
-    - glowing candles
-    - plush toys
-    - swirling eyes and screens
-    - abstract symbols and patterns
-
-  furniture_motif:
-    - plush chair
-    - dark throne
-
-  surface_motif:
-    - reflective liquid surface
-    - bed with scattered rose petals
