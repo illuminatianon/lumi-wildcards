@@ -1,91 +1,129 @@
 lighting:
-
-  # Primary category - comprehensive lighting combinations
+  # Primary category - compositional lighting combinations
+  # Focuses on natural descriptive terms rather than technical camera terminology
   all:
-    - "__std/xl/lighting/direction__ with __std/xl/lighting/quality__"
-    - "__std/xl/lighting/quality__ __std/xl/lighting/direction__"
-    - "__std/xl/lighting/source__ creating __std/xl/lighting/effect__"
-    - "__std/xl/lighting/effect__ from __std/xl/lighting/source__"
-    - "__std/xl/lighting/contrast__ lighting with __std/xl/lighting/quality__"
-    - "__std/xl/lighting/atmospheric__, __std/xl/lighting/direction__"
-    - "__std/xl/lighting/quality__ lighting from __std/xl/lighting/source__"
-    - "__std/xl/lighting/direction__ by __std/xl/lighting/source__"
-    - "__std/xl/lighting/colored__ with __std/xl/lighting/effect__"
-    - "__std/xl/lighting/atmospheric__"
-    - "__std/xl/lighting/quality__ __std/xl/lighting/effect__"
+    - "__std/xl/lighting/quality__ __std/xl/lighting/placement__"
+    - "__std/xl/lighting/source__ with __std/xl/lighting/mood__"
+    - "__std/xl/lighting/mood__ __std/xl/lighting/placement__"
+    - "__std/xl/lighting/conditions__ with __std/xl/lighting/quality__"
+    - "__std/xl/lighting/atmospheric__ __std/xl/lighting/placement__"
+    - "__std/xl/lighting/source__ creating __std/xl/lighting/effects__"
+    - "__std/xl/lighting/luminous__ with __std/xl/lighting/mood__"
+    - "__std/xl/lighting/colored__ __std/xl/lighting/placement__"
+    - "__std/xl/lighting/dramatic__ with __std/xl/lighting/quality__"
+    - "__std/xl/lighting/subtle__ __std/xl/lighting/placement__"
     - "__std/xl/lighting/conditions__"
-    - "__std/xl/lighting/luminous__"
+    - "__std/xl/lighting/atmospheric__"
 
-  # Light direction and positioning
-  direction:
-    - backlit
-    - frontlit
-    - side lit
-    - overhead lighting
-    - dramatic backlighting
-    - gentle backlighting
-    - subtle backlighting
+  # Light placement and positioning - avoids problematic "backlit" terminology
+  placement:
+    - illuminated from above
+    - lit from the side
+    - front-facing illumination
+    - overhead illumination
+    - side lighting
     - dramatic side lighting
     - soft frontal lighting
-    - strong backlight
+    - gentle overhead lighting
+    - warm side lighting
+    - diffused from above
+    - angled lighting
+    - directional lighting
 
-  # Light quality and characteristics
+  # Dramatic lighting scenarios - includes silhouette possibilities
+  dramatic:
+    - dramatic chiaroscuro
+    - high contrast lighting
+    - stark lighting contrast
+    - bold shadow play
+    - silhouetted against bright light
+    - rim lighting effect
+    - dramatic shadow casting
+    - intense light and shadow
+    - theatrical lighting
+    - moody contrast lighting
+
+  # Light quality and characteristics - reduced repetition
   quality:
-    - soft diffuse
-    - dramatic high-contrast
+    - soft diffused
     - gentle ambient
-    - ethereal diffuse
-    - warm diffused
-    - cool diffuse
-    - even diffuse
-    - soft ambient
-    - sharp directional
-    - flat even
+    - ethereal
+    - warm and diffused
+    - cool and crisp
+    - even illumination
+    - sharp and directional
+    - smooth and even
 
-  # Light sources
+  # Subtle lighting effects
+  subtle:
+    - gentle glow
+    - soft illumination
+    - delicate lighting
+    - understated brightness
+    - muted luminosity
+    - quiet radiance
+    - tender light
+    - peaceful illumination
+    - calm lighting
+    - serene glow
+
+  # Lighting mood and atmosphere
+  mood:
+    - mysterious shadows
+    - warm and inviting
+    - cold and stark
+    - romantic ambiance
+    - ominous darkness
+    - cheerful brightness
+    - melancholic dimness
+    - energetic vibrancy
+    - peaceful serenity
+    - dramatic intensity
+
+  # Light sources - diversified to reduce bias
   source:
-    - single spotlight
-    - cold moonlight
+    - focused spotlight
+    - moonlight
     - glowing runes
-    - warm sunset
-    - "__std/color/extended__ light"
-    - pulsing neon
-    - distant explosions
-    - flickering candlelight
-    - studio lighting
-    - wall sconces
+    - sunset glow
+    - "__std/color/simple__ light"
+    - candlelight
     - natural sunlight
-    - fluorescent lighting
-    - radiant sun
-    - setting sun
-    - starlit illumination
-    - candles
-    - internal lights
+    - starlight
+    - firelight
+    - lantern glow
+    - crystal illumination
+    - magical radiance
+    - dawn light
+    - twilight glow
+    - ember light
+    - aurora light
+    - reflected light
+    - filtered sunlight
 
-  # Lighting effects and atmosphere
-  effect:
-    - dramatic chiaroscuro contrast
-    - sharp highlights on surfaces
+  # Lighting effects - renamed to avoid overuse
+  effects:
     - glowing halo effect
-    - silhouette against bright background
-    - stark black and white contrast
-    - high contrast with bright edges
-    - multicolored gradient glow
-    - dramatic shadows
-    - minimal shading
-    - halo effect
-    - gentle shadow contrast
+    - gentle shadow play
     - subtle highlights
-    - stark highlights
     - soft gradients
-    - deep shadows
+    - rim lighting
+    - edge lighting
+    - gradient illumination
+    - shadow definition
+    - highlight accents
+    - luminous outlines
+    - radiant edges
+    - soft shadow transitions
+    - delicate light patterns
+    - warm light spill
+    - cool light wash
 
-  # Atmospheric and special lighting
+  # Atmospheric and special lighting - diversified
   atmospheric:
-    - "haloed in __std/color/extended__ light"
-    - surrounded by pulsing neon
+    - "haloed in __std/color/simple__ light"
     - flickering candlelight dances across the scene
-    - streaks of light cut through the fog
+    - streaks of light cut through the mist
     - a faint bioluminescent glow surrounds the subject
     - light seeps from cracks in the ground
     - shadows stretch unnaturally long
@@ -93,16 +131,11 @@ lighting:
     - moonlit glow with soft shadows
     - glow emanating from below
     - glowing effects from mysterious sources
-
-  # Contrast styles
-  contrast:
-    - dramatic high-contrast
-    - subtle chiaroscuro
-    - stark monochrome
-    - high-contrast
-    - soft contrast
-    - sharp contrast
-    - gentle contrast
+    - ethereal light filtering through
+    - warm light pooling around
+    - cool light washing over
+    - gentle illumination from within
+    - radiant energy surrounding
 
   # Global lighting conditions - moved from environment.yaml
   conditions:
@@ -125,16 +158,18 @@ lighting:
     - a gilded eye motif glows faintly
     - stars reflected in eyes
 
-  # Color-specific lighting
+  # Color-specific lighting - removed problematic "backlighting" terms
   colored:
-    - "soft __std/color/extended__ glow"
-    - "warm __std/color/extended__ lighting"
-    - "intense __std/color/extended__ backlighting"
-    - "dramatic __std/color/extended__ backlighting"
-    - "ambient __std/color/extended__ illumination"
-    - "vibrant __std/color/extended__ light"
-    - red ambient glow
-    - dramatic purple backlighting
-    - soft pink glow
-    - neon pink highlights
+    - "soft __std/color/simple__ glow"
+    - "warm __std/color/simple__ lighting"
+    - "intense __std/color/simple__ illumination"
+    - "dramatic __std/color/simple__ lighting"
+    - "ambient __std/color/simple__ illumination"
+    - "vibrant __std/color/simple__ light"
+    - __std/color/simple__ ambient glow
+    - dramatic __std/color/simple__ lighting
+    - soft __std/color/simple__ glow
+    - neon __std/color/simple__ highlights
     - warm golden illumination
+    - "cool __std/color/simple__ radiance"
+    - "gentle __std/color/simple__ wash"

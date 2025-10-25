@@ -12,6 +12,10 @@ environment:
     - __std/xl/environment/swirling_motion__
     - __std/xl/environment/abstract_shapes__
     - __std/xl/environment/void_haze_space__
+    - __std/xl/environment/lighting_atmosphere__
+    - __std/xl/environment/seasonal_atmosphere__
+    - __std/xl/environment/temporal_atmosphere__
+    - __std/xl/environment/emotional_atmosphere__
 
   # Atmospheric effects - moved from location.yaml
   atmospheric_effects:
@@ -22,9 +26,24 @@ environment:
     - humming reactors
     - tangled power lines and smoke
     - drifting petals and warm wind
-    - constellations that move like clockwork
+    - constellations that change their shape
     - candles that never burn out
     - trash fires and neon ghosts
+    - floating embers dance in the air
+    - prismatic light refracts through crystal formations
+    - ethereal wisps spiral upward
+    - golden dust motes catch the light
+    - shimmering heat waves distort the horizon
+    - phosphorescent trails mark invisible paths
+    - aurora-like ribbons weave through the scene
+    - sparkling dewdrops cling to surfaces
+    - iridescent bubbles drift lazily
+    - glowing spores drift from unseen sources
+    - crystalline chimes ring with phantom melodies
+    - luminescent fog pools in low places
+    - spectral flames flicker without fuel
+    - holographic projections flicker and fade
+    - magnetic fields bend light into impossible curves
 
   # Weather elements - moved from location.yaml
   weather_elements:
@@ -38,14 +57,54 @@ environment:
     - mountain air
     - storm clouds
     - gentle breeze
+    - morning dew glistening
+    - afternoon thunderstorm brewing
+    - evening mist rolling in
+    - midnight frost forming
+    - dawn light breaking through clouds
+    - twilight shadows lengthening
+    - autumn leaves swirling
+    - spring rain pattering softly
+    - summer heat shimmering
+    - winter wind howling
+    - coastal fog drifting inland
+    - mountain snow falling gently
+    - prairie wind rustling grass
+    - forest humidity hanging heavy
+    - desert heat radiating upward
+    - arctic air cutting sharp
+    - tropical breeze carrying salt
+    - highland mist clinging to peaks
+    - valley fog settling low
+    - plateau wind whistling through stones
 
   # Additional atmospheric elements - moved from details.yaml
   atmospheric_details:
     - dark fluid-like shapes spreading on the floor
-    - "floating __std/color/extended__ orbs with __std/color/extended__ halos"
+    - "floating __std/color/simple__ orbs with __std/color/simple__ halos"
     - swirling tendrils at feet
     - meteors streak across the sky
     - stars dot the night sky
+    - crystalline formations jut from the ground
+    - bioluminescent patches glow softly
+    - geometric light patterns project onto surfaces
+    - particle streams flow in impossible directions
+    - energy fields crackle with visible electricity
+    - temporal distortions bend space around objects
+    - gravity wells create floating debris fields
+    - quantum fluctuations manifest as color shifts
+    - dimensional rifts reveal glimpses of other worlds
+    - plasma arcs dance between metallic structures
+    - magnetic anomalies suspend metallic objects
+    - sonic waves become visible as rippling air
+    - thermal vents release columns of heated air
+    - pressure differentials create swirling vortexes
+    - electromagnetic pulses illuminate the darkness
+    - radioactive decay creates eerie green glows
+    - photonic cascades shower down like rain
+    - gravitational lensing warps distant images
+    - dark matter streams flow like invisible rivers
+    - cosmic radiation paints aurora-like displays
 
   # Surreal atmospheric scenes - moved from distance.yaml
   surreal_atmosphere:
@@ -131,9 +190,9 @@ environment:
 
   # -------------------------------
   color_backdrops:
-    - "{against|set against|isolated on|solid} __std/xl/environment/color_finish__ __std/color/extended__ {background|backdrop}"
-    - stark __std/color/extended__ background
-    - against a plain __std/color/extended__ background
+    - "{against|set against|isolated on|solid} __std/xl/environment/color_finish__ __std/color/simple__ {background|backdrop}"
+    - stark __std/color/simple__ background
+    - against a plain __std/color/simple__ background
 
   color_finish:
     - plain
@@ -145,6 +204,22 @@ environment:
     - vibrant
     - ominous
     - stark
+    - muted
+    - saturated
+    - pastel
+    - neon
+    - metallic
+    - matte
+    - glossy
+    - translucent
+    - iridescent
+    - gradient
+    - textured
+    - weathered
+    - polished
+    - frosted
+    - luminous
+    - shadowed
 
   # -------------------------------
   swirling_motion:
@@ -156,6 +231,17 @@ environment:
     - flowing
     - drifting
     - spiraling
+    - cascading
+    - undulating
+    - rippling
+    - pulsing
+    - rotating
+    - oscillating
+    - weaving
+    - dancing
+    - streaming
+    - billowing
+    - churning
 
   swirl_material:
     - ink
@@ -164,6 +250,25 @@ environment:
     - cosmic dust
     - floral
     - mist
+    - smoke
+    - steam
+    - sand
+    - snow
+    - ash
+    - sparks
+    - petals
+    - leaves
+    - fabric
+    - water
+    - oil
+    - mercury
+    - plasma
+    - energy
+    - light
+    - darkness
+    - crystal
+    - metal
+    - glass
 
   swirl_pattern:
     - forms
@@ -171,6 +276,21 @@ environment:
     - tendrils
     - lines
     - shapes
+    - spirals
+    - vortexes
+    - helixes
+    - ribbons
+    - streams
+    - waves
+    - currents
+    - eddies
+    - whirlpools
+    - cyclones
+    - tornadoes
+    - maelstroms
+    - cascades
+    - waterfalls
+    - fountains
 
   # -------------------------------
   abstract_shapes:
@@ -184,12 +304,42 @@ environment:
     - graphic
     - symbolic
     - angular
+    - curved
+    - crystalline
+    - fractal
+    - flowing
+    - jagged
+    - smooth
+    - textured
+    - layered
+    - interlocking
+    - floating
+    - suspended
+    - overlapping
+    - intersecting
+    - radiating
 
   shape_form:
     - shapes
     - patterns
     - symbols
     - geometry
+    - structures
+    - formations
+    - configurations
+    - arrangements
+    - compositions
+    - assemblies
+    - constructions
+    - frameworks
+    - lattices
+    - networks
+    - matrices
+    - grids
+    - clusters
+    - arrays
+    - sequences
+    - progressions
 
   # -------------------------------
   void_haze_space:
@@ -205,5 +355,117 @@ environment:
     - shadow and smoke
     - vibrant haze
     - fractured space
+    - luminous mist
+    - ethereal fog
+    - prismatic atmosphere
+    - dimensional flux
+    - temporal distortion
+    - quantum foam
+    - stellar nebula
+    - galactic dust
+    - interstellar medium
+    - plasma field
+    - energy matrix
+    - photonic sea
+    - gravitational well
+    - magnetic storm
+    - solar wind
+    - cosmic radiation
+    - dark matter cloud
+    - antimatter stream
+    - hyperspace tunnel
+
+  # -------------------------------
+  # Lighting environments
+  lighting_atmosphere:
+    - bathed in golden hour light
+    - illuminated by moonbeams
+    - lit by flickering candlelight
+    - glowing with inner radiance
+    - shadowed by storm clouds
+    - highlighted by neon signs
+    - backlit by setting sun
+    - spotlit by stage lights
+    - diffused through morning mist
+    - reflected off water surface
+    - filtered through stained glass
+    - enhanced by firelight
+    - softened by fabric draping
+    - intensified by laser beams
+    - warmed by hearth glow
+    - cooled by blue moonlight
+    - energized by lightning flashes
+    - mystified by aurora displays
+    - dramatized by chiaroscuro
+    - romanticized by sunset hues
+
+  # Seasonal environments
+  seasonal_atmosphere:
+    - spring blossoms drift on warm breeze
+    - summer heat shimmers off pavement
+    - autumn leaves crunch underfoot
+    - winter frost coats every surface
+    - cherry blossoms fall like snow
+    - harvest moon rises orange and full
+    - first snow blankets the landscape
+    - spring rain awakens sleeping earth
+    - summer storms build on horizon
+    - autumn mist clings to valleys
+    - winter wind howls through bare trees
+    - spring flowers push through soil
+    - summer sun beats down mercilessly
+    - autumn colors paint the hillsides
+    - winter silence muffles all sound
+    - spring streams babble with snowmelt
+    - summer nights pulse with crickets
+    - autumn geese honk overhead
+    - winter stars shine crystal clear
+    - spring air carries promise of renewal
+
+  # Temporal environments
+  temporal_atmosphere:
+    - time moves like thick honey
+    - moments stretch into eternity
+    - past and future collide
+    - memories bleed into reality
+    - echoes of ancient voices
+    - shadows of things yet to come
+    - temporal loops repeat endlessly
+    - chronological fragments scatter
+    - time flows backward slowly
+    - parallel timelines converge
+    - causality bends and warps
+    - temporal storms rage overhead
+    - clock faces melt like wax
+    - calendar pages flutter away
+    - hourglass sand flows upward
+    - pendulums swing out of rhythm
+    - sundials cast impossible shadows
+    - digital clocks display gibberish
+    - time zones blur together
+    - temporal anchors drift loose
+
+  # Emotional environments
+  emotional_atmosphere:
+    - melancholy hangs in the air
+    - joy radiates from every surface
+    - tension crackles like electricity
+    - serenity flows like gentle water
+    - anxiety buzzes like static
+    - wonder sparkles in the atmosphere
+    - nostalgia tints everything sepia
+    - hope glows with soft light
+    - fear lurks in every shadow
+    - love warms the very air
+    - anger burns red and fierce
+    - sadness pools in quiet corners
+    - excitement vibrates through space
+    - peace settles like morning dew
+    - confusion swirls in dizzy patterns
+    - determination hardens the edges
+    - curiosity brightens the colors
+    - contentment softens all textures
+    - longing stretches toward horizon
+    - fulfillment completes the circle
 
 
