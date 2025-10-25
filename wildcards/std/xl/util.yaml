@@ -31,3 +31,74 @@ util:
     - mysterious
     - serene
     - dramatic
+
+  # Spatial positioning terms useful across contexts
+  positioning:
+    - centered
+    - balanced
+    - symmetrical
+    - frontal
+    - side
+    - rear
+    - overhead
+    - elevated
+    - low
+    - wide
+    - tight
+    - expansive
+
+  # General perspective terms
+  perspective_type:
+    - dramatic
+    - neutral
+    - dynamic
+    - static
+    - cinematic
+    - documentary
+    - artistic
+
+  # Location-specific descriptors for cross-context reuse
+  condition_descriptors:
+    - cracked
+    - shattered
+    - broken
+    - fallen
+    - forgotten
+    - abandoned
+    - rusted
+    - flooded
+    - dead
+    - derelict
+    - half-buried
+    - wind-torn
+    - rain-soaked
+    - crumbling
+    - shuttered
+
+  # Material descriptors
+  material_qualities:
+    - marble
+    - glass
+    - crystal
+    - molten
+    - blackened
+    - luminous
+    - flickering
+    - humming
+    - whispering
+    - glowing
+    - drifting
+    - spiraling
+
+  # Scale descriptors
+  scale_descriptors:
+    - colossal
+    - titanic
+    - endless
+    - bottomless
+    - silent
+    - frozen
+    - sleeping
+    - dying
+    - mirrored
+    - slow-turning

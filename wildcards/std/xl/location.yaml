@@ -1,0 +1,318 @@
+location:
+
+  # Primary composition category - combines different location types and elements
+  # Balanced distribution ensures equal weighting across all categories and patterns
+  all:
+    # Single category selections (8 entries - one per main category + neutral)
+    - "__std/xl/location/ancient__"
+    - "__std/xl/location/industrial__"
+    - "__std/xl/location/natural__"
+    - "__std/xl/location/cosmic__"
+    - "__std/xl/location/post_apocalyptic__"
+    - "__std/xl/location/ritual__"
+    - "__std/xl/location/urban__"
+    - "__std/xl/location/neutral__"
+
+    # Template-based modular combinations (7 entries - equal representation)
+    - "__std/xl/location/template_locations__"
+    - "__std/xl/location/template_locations__"
+    - "__std/xl/location/template_locations__"
+    - "__std/xl/location/template_locations__"
+    - "__std/xl/location/template_locations__"
+    - "__std/xl/location/template_locations__"
+    - "__std/xl/location/template_locations__"
+
+    # Enhanced atmospheric combinations (7 entries - one per category)
+    - "__std/xl/location/ancient__ with __std/xl/util/mood_atmosphere__ atmosphere"
+    - "__std/xl/location/industrial__ featuring __std/xl/location/atmospheric_elements__"
+    - "__std/xl/location/natural__ bathed in __std/xl/location/lighting_effects__"
+    - "__std/xl/location/cosmic__ amid __std/xl/location/atmospheric_elements__"
+    - "__std/xl/location/post_apocalyptic__ under __std/xl/location/weather_elements__"
+    - "__std/xl/location/ritual__ illuminated by __std/xl/location/lighting_effects__"
+    - "__std/xl/location/urban__ under __std/xl/location/weather_elements__"
+
+  # Neutral fallback for malformed chains
+  neutral:
+    - an undefined place
+    - a liminal space
+    - an empty void
+    - a neutral zone
+    - a blank canvas
+
+    # Clean positional combinations (7 entries - no grammar stacking)
+    - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/ancient__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/industrial__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/natural__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/cosmic__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/post_apocalyptic__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/ritual__"
+
+    # Cross-category blends (7 entries - unique combinations)
+    - "__std/xl/location/natural__ merging with __std/xl/location/cosmic__"
+    - "__std/xl/location/ancient__ overtaken by __std/xl/location/post_apocalyptic__"
+    - "__std/xl/location/industrial__ transformed into __std/xl/location/ritual__"
+    - "__std/xl/location/urban__ touched by __std/xl/location/cosmic__"
+    - "__std/xl/location/ritual__ hidden within __std/xl/location/natural__"
+    - "__std/xl/location/post_apocalyptic__ reclaimed by __std/xl/location/natural__"
+    - "__std/xl/location/cosmic__ manifesting in __std/xl/location/urban__"
+
+    # Simple two-element compositions (7 entries - clean grammar)
+    - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__ with __std/xl/location/atmospheric_elements__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/ancient__ featuring __std/xl/util/mood_atmosphere__ atmosphere"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/industrial__ with __std/xl/location/lighting_effects__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/natural__ under __std/xl/location/weather_elements__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/cosmic__ amid __std/xl/location/atmospheric_elements__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/post_apocalyptic__ under __std/xl/location/weather_elements__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/ritual__ illuminated by __std/xl/location/lighting_effects__"
+
+  # Ancient and mystical locations - noun phrases only
+  ancient:
+    - a circular platform
+    - a cracked marble bridge
+    - a shattered altar
+    - a ring of luminous sigils
+    - a broken gate
+    - a spiral staircase of glass
+    - the ruins of a fallen statue
+    - a colossal obelisk
+    - the heart of a dead forest
+    - the arches of a forgotten aqueduct
+    - the husk of a fallen tower
+    - pillars of living crystal
+    - a labyrinth of black thorns
+    - the roots of a titanic tree
+    - the gates of an ancient citadel
+    - a cavern lit by molten glass
+    - the courtyard of a sleeping giant
+
+  # Industrial and sci-fi environments - noun phrases only
+  industrial:
+    - the flickering neon conduits
+    - the corridor of a derelict station
+    - the hull of a drifting freighter
+    - a chamber of humming reactors
+    - a rusted catwalk
+    - the shell of an abandoned factory
+    - the roof of a flooded high-rise
+    - the core of a failing AI nexus
+    - a rain of molten sparks
+    - the deck of an abandoned vessel
+
+  # Natural and pastoral settings - noun phrases only
+  natural:
+    - the crest of a sunlit hill
+    - the mouth of a crystal spring
+    - the canopy of golden leaves
+    - a river carved through marble cliffs
+    - a meadow of whispering reeds
+    - the steps of a vine-covered terrace
+    - a tranquil lake
+    - a sky painted in soft auroras
+    - a waterfall lit by twin suns
+
+  # Cosmic and ethereal locations - noun phrases only
+  cosmic:
+    - an ocean of starlight
+    - the bridge between two moons
+    - a chamber made of memory
+    - the constellations that move like clockwork
+    - the orbit of a dying star
+    - the horizon of a mirrored world
+    - the eye of a slow-turning nebula
+    - the folds of a sleeping universe
+    - a path woven from lunar dust
+    - the gate of endless dawn
+    - a sea of pale clouds
+    - a glowing abyss
+
+  # Post-apocalyptic and desolate environments - noun phrases only
+  post_apocalyptic:
+    - the hollow of a sunken highway
+    - the bones of a forgotten city
+    - the border of a scorched plain
+    - the shell of a half-buried temple
+    - the skeleton of a fallen airship
+    - the cracked surface of a desolate moon
+    - a field of glass and ash
+    - the walls painted with fading warnings
+    - the mouth of a wind-torn bunker
+    - the remains of a shattered world
+
+  # Ritual and ceremonial spaces - noun phrases only
+  ritual:
+    - the center of a spiraling sigil
+    - a dais of blackened stone
+    - a hall of chanting statues
+    - the light of seven eclipsed moons
+    - the altar of a forgotten name
+    - the candles that never burn out
+    - a mirror that breathes
+    - the circle where stars converge
+    - a shrine of whispering masks
+    - an archway of molten gold
+
+  # Urban and noir environments - noun phrases only
+  urban:
+    - a flickering streetlamp in the rain
+    - the alley behind a forgotten diner
+    - the rooftop of a crumbling tenement
+    - the sign of a dead motel
+    - the corner where sirens never fade
+    - the window of a shuttered bar
+    - the smoke of a midnight train yard
+    - the bridge dripping with city fog
+    - the rusted door of a pawn shop
+    - the glow of a broken billboard
+    - the rain-soaked mouth of an underpass
+    - the end of a street no one remembers
+    - the hum of old power lines
+    - the glass facade of an empty office tower
+    - the steps of a subway long out of service
+    - the fence of a condemned factory
+    - the reflection of an oil-slick puddle
+    - the base of a clock tower that never strikes
+    - the heartbeat of a sleepless city
+
+  # Positional prefixes - handle all grammar and prepositions
+  position_prefixes:
+    - at the edge of
+    - on the threshold of
+    - atop
+    - amid
+    - on the lip of
+    - beneath
+    - at the base of
+    - within the heart of
+    - on the rim of
+    - in the shadow of
+    - at the foot of
+    - under the arches of
+    - beside
+    - floating above
+    - between
+    - among
+    - before
+    - inside
+    - suspended over
+    - in the courtyard of
+
+  # Template-based location generators - simple and clean
+  template_locations:
+    - "__std/xl/location/position_prefixes__ a __std/xl/util/condition_descriptors__ __std/xl/location/base_structures__"
+    - "__std/xl/location/position_prefixes__ the __std/xl/location/base_structures__ of __std/xl/util/material_qualities__"
+    - "__std/xl/location/position_prefixes__ a __std/xl/util/scale_descriptors__ __std/xl/location/base_structures__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__ with __std/xl/location/atmospheric_elements__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/atmospheric_elements__"
+
+  # Base structural elements without descriptors
+  base_structures:
+    - platform
+    - bridge
+    - altar
+    - gate
+    - staircase
+    - statue
+    - pit
+    - obelisk
+    - forest
+    - crater
+    - colossus
+    - aqueduct
+    - tower
+    - vessel
+    - pillars
+    - labyrinth
+    - tree
+    - citadel
+    - cavern
+    - chamber
+    - catwalk
+    - factory
+    - high-rise
+    - nexus
+    - hill
+    - spring
+    - lake
+    - terrace
+    - highway
+    - city
+    - plain
+    - temple
+    - airship
+    - moon
+    - field
+    - bunker
+    - world
+    - sigil
+    - dais
+    - hall
+    - shrine
+    - archway
+    - streetlamp
+    - diner
+    - tenement
+    - motel
+    - bar
+    - train yard
+    - pawn shop
+    - billboard
+    - underpass
+    - street
+    - office tower
+    - subway
+    - puddle
+    - clock tower
+
+  # Material types for combination
+  materials:
+    - stone
+    - metal
+    - wood
+    - crystal
+    - glass
+    - marble
+    - gold
+    - silver
+    - iron
+    - steel
+
+  # Atmospheric and environmental elements
+  atmospheric_elements:
+    - luminous sigils
+    - fractured mirrors
+    - drifting shards of shattered time
+    - flickering neon conduits
+    - humming reactors
+    - tangled power lines and smoke
+    - drifting petals and warm wind
+    - constellations that move like clockwork
+    - candles that never burn out
+    - trash fires and neon ghosts
+
+
+  # Lighting effects - clean descriptive phrases
+  lighting_effects:
+    - molten glass light
+    - soft aurora glow
+    - twin sun illumination
+    - seven eclipsed moons
+    - flickering streetlamp light
+    - broken billboard glow
+    - molten spark rain
+    - red moon reflection
+    - starlight shimmer
+    - neon radiance
+
+  # Weather elements - pure nouns for connector phrases
+  weather_elements:
+    - warm rain
+    - city fog
+    - static haze
+    - cold mist
+    - swirling snow
+    - desert wind
+    - ocean spray
+    - mountain air
+    - storm clouds
+    - gentle breeze
