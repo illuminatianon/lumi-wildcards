@@ -14,7 +14,7 @@ camera:
   # Camera angles - vertical positioning
   angle:
     - "__std/xl/camera/camera_angle_type__ shot"
-    - "__std/xl/camera/camera_angle_type__ camera view"
+    - "__std/xl/camera/camera_angle_type__ viewpoint"
     - "__std/xl/camera/camera_angle_type__ perspective"
     - "seen from __std/xl/camera/angle_direction__"
     - "__std/xl/camera/angle_intensity__ __std/xl/camera/camera_angle_type__ perspective"
@@ -31,7 +31,7 @@ camera:
   # Camera orientation/viewpoint
   orientation:
     - "__std/xl/camera/viewpoint__ view"
-    - "__std/xl/camera/viewpoint__ camera shot"
+    - "__std/xl/camera/viewpoint__ angle"
     - "__std/xl/camera/viewpoint__ view with __std/xl/camera/composition_style__ composition"
     - "__std/xl/camera/composition_style__ __std/xl/camera/viewpoint__ view"
     - "__std/xl/camera/viewpoint__ __std/xl/camera/shot_distance__ shot"
@@ -53,7 +53,7 @@ camera:
   # Camera styles and techniques
   style:
     - "__std/xl/camera/camera_technique__ composition"
-    - "__std/xl/camera/camera_technique__ camera style"
+    - "__std/xl/camera/camera_technique__ framing"
     - "__std/xl/camera/shot_style__ __std/xl/camera/shot_distance__ shot"
     - "__std/xl/camera/movement_quality__ __std/xl/camera/camera_angle_type__ shot"
     - "__std/xl/camera/angle_intensity__ __std/xl/camera/angle_direction__ perspective"
