@@ -7,17 +7,17 @@ details:
     - "__std/xl/details/eyes__ and __std/xl/details/geometric__"
     - "__std/xl/details/natural__ surrounded by __std/xl/details/creatures__"
     - "__std/xl/details/paint_effects__ with __std/xl/details/creatures__"
-    - "__std/xl/details/symbols__ and __std/xl/details/lighting__"
+    - "__std/xl/details/symbols__ and __std/xl/details/object_lighting__"
     - "__std/xl/details/mechanical__ with __std/xl/details/natural__"
     - "__std/xl/details/geometric__ patterns with __std/xl/details/eyes__"
     - "__std/xl/details/creatures__ emerging from __std/xl/details/paint_effects__"
-    - "__std/xl/details/lighting__ illuminating __std/xl/details/symbols__"
+    - "__std/xl/details/object_lighting__ illuminating __std/xl/details/symbols__"
     - "__std/xl/details/accessories__ adorned with __std/xl/details/mystical__"
     - "__std/xl/details/paint_effects__ creating __std/xl/details/geometric__"
     - "__std/xl/details/eyes__ watching through __std/xl/details/symbols__"
     - "__std/xl/details/mechanical__ fused with __std/xl/details/creatures__"
     - "__std/xl/details/natural__ intertwined with __std/xl/details/symbols__"
-    - "__std/xl/details/mystical__ energy radiating from __std/xl/details/lighting__"
+    - "__std/xl/details/mystical__ energy radiating from __std/xl/details/object_lighting__"
     - "__std/xl/details/props__ with __std/xl/details/accessories__"
 
   # Mystical and supernatural elements
@@ -135,21 +135,16 @@ details:
     - butterfly hair ornament
     - golden leaf hair accessory
 
-  # Lighting and luminous effects
-  lighting:
+  # Object-specific lighting and luminous effects
+  object_lighting:
     - glowing heart-shaped object
     - "__std/shape/all__ head with glowing eyes"
-    - a gilded eye motif glows faintly
-    - fractured halos orbit her head
-    - a thin beam of light pierces her chest like truth itself
-    - light threads connect her to unseen constellations
     - tentacles with glowing tips
     - "giant eye with glowing __std/color/extended__ iris"
     - "glowing __std/color/extended__ eye"
     - skeletal creature with glowing eyes
     - jagged teeth and glowing eyes
     - small UFOs with glowing lights hover around
-    - stars reflected in eyes
     - two carved pumpkins with glowing faces
     - "__std/color/extended__ glowing eyes stand out"
     - "__std/color/extended__ eyes glowing intensely"

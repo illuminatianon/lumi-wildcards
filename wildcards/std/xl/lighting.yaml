@@ -13,6 +13,8 @@ lighting:
     - "__std/xl/lighting/colored__ with __std/xl/lighting/effect__"
     - "__std/xl/lighting/atmospheric__"
     - "__std/xl/lighting/quality__ __std/xl/lighting/effect__"
+    - "__std/xl/lighting/conditions__"
+    - "__std/xl/lighting/luminous__"
 
   # Light direction and positioning
   direction:
@@ -101,6 +103,27 @@ lighting:
     - soft contrast
     - sharp contrast
     - gentle contrast
+
+  # Global lighting conditions - moved from environment.yaml
+  conditions:
+    - molten glass light
+    - soft aurora glow
+    - twin sun illumination
+    - seven eclipsed moons
+    - flickering streetlamp light
+    - broken billboard glow
+    - molten spark rain
+    - red moon reflection
+    - starlight shimmer
+    - neon radiance
+
+  # Global luminous effects - moved from details.yaml
+  luminous:
+    - a thin beam of light pierces her chest like truth itself
+    - light threads connect her to unseen constellations
+    - fractured halos orbit her head
+    - a gilded eye motif glows faintly
+    - stars reflected in eyes
 
   # Color-specific lighting
   colored:

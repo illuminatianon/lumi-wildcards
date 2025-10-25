@@ -3,7 +3,6 @@ environment:
   # Environment provides the 'how it feels' to complement location's 'where'
   all:
     - __std/xl/environment/atmospheric_effects__
-    - __std/xl/environment/lighting_conditions__
     - __std/xl/environment/weather_elements__
     - __std/xl/environment/atmospheric_details__
     - __std/xl/environment/surreal_atmosphere__
@@ -26,19 +25,6 @@ environment:
     - constellations that move like clockwork
     - candles that never burn out
     - trash fires and neon ghosts
-
-  # Lighting conditions - moved from location.yaml
-  lighting_conditions:
-    - molten glass light
-    - soft aurora glow
-    - twin sun illumination
-    - seven eclipsed moons
-    - flickering streetlamp light
-    - broken billboard glow
-    - molten spark rain
-    - red moon reflection
-    - starlight shimmer
-    - neon radiance
 
   # Weather elements - moved from location.yaml
   weather_elements:
