@@ -37,11 +37,11 @@ details:
   eyes:
     - floating eyes with lashes dripping color
     - "floating eyes with concentric __std/shape/2d__"
-    - "large singular eye with __std/color/extended__ pupil"
-    - "__std/color/extended__ eye patterns in background"
+    - "large singular eye with __std/color/simple__ pupil"
+    - "__std/color/simple__ eye patterns in background"
     - large red eye motif above figure
     - large face with three eyes in background
-    - "__std/color/extended__ eye motif in background"
+    - "__std/color/simple__ eye motif in background"
     - large eye motif above
     - large eyes on TV screens watching
     - large stylized eye motif in background
@@ -71,21 +71,21 @@ details:
   # Paint effects and artistic elements
   paint_effects:
     - ink drips from the top of the frame
-    - "splashes of __std/color/extended__ ink"
+    - "splashes of __std/color/simple__ ink"
     - dripping black and red paint
-    - "dripping __std/color/extended__ and __std/color/extended__ paint"
-    - "__std/color/extended__ paint splatters"
-    - "__std/color/extended__ paint splatters across faces"
+    - "dripping __std/color/simple__ and __std/color/simple__ paint"
+    - "__std/color/simple__ paint splatters"
+    - "__std/color/simple__ paint splatters across faces"
     - dripping paint effect on canvas
     - dripping paint effect at the top
-    - "dripping __std/color/extended__ forms"
+    - "dripping __std/color/simple__ forms"
     - abstract ink patterns
 
   # Accessories and jewelry
   accessories:
     - heart-shaped pendant
     - intricate lace choker with gemstone
-    - "glasses with thin __std/color/extended__ frames"
+    - "glasses with thin __std/color/simple__ frames"
     - intricate ring on finger
     - crown adorned with spikes
     - crown adorned with intricate jewels
@@ -140,14 +140,14 @@ details:
     - glowing heart-shaped object
     - "__std/shape/all__ head with glowing eyes"
     - tentacles with glowing tips
-    - "giant eye with glowing __std/color/extended__ iris"
-    - "glowing __std/color/extended__ eye"
+    - "giant eye with glowing __std/color/simple__ iris"
+    - "glowing __std/color/simple__ eye"
     - skeletal creature with glowing eyes
     - jagged teeth and glowing eyes
     - small UFOs with glowing lights hover around
     - two carved pumpkins with glowing faces
-    - "__std/color/extended__ glowing eyes stand out"
-    - "__std/color/extended__ eyes glowing intensely"
+    - "__std/color/simple__ glowing eyes stand out"
+    - "__std/color/simple__ eyes glowing intensely"
     - red eyes glowing in shadow
 
   # Symbols and religious motifs
@@ -166,12 +166,38 @@ details:
     - golden halo with geometric patterns
     - geometric halo with star motif behind
     - "geometric halo with __std/shape/all__ motif behind"
+    - pentagram etched in stone beneath
+    - ankh pendant catches the light
+    - yin-yang symbol glowing softly
+    - infinity symbol traced in the air
+    - spiral runes carved into surfaces
+    - Celtic knots woven into fabric
+    - mandala patterns radiating outward
+    - zodiac symbols scattered around
+    - alchemical symbols on parchment
+    - Norse runes glowing faintly
+    - Sanskrit characters floating nearby
+    - hieroglyphs covering the walls
+    - tribal markings on skin
+    - compass rose embedded in floor
+    - ouroboros encircling the scene
+    - tree of life branching overhead
+    - lotus symbol blooming in background
+    - phoenix rising from ashes motif
+    - dragon symbol coiled around pillar
+    - wolf pack silhouettes in distance
 
   # Props and motifs - moved from environment.yaml
   props:
     - surrounded by __std/xl/details/object_motif__
     - seated in a __std/xl/details/furniture_motif__
     - over a __std/xl/details/surface_motif__
+    - holding a __std/xl/details/handheld_props__
+    - wearing __std/xl/details/wearable_props__
+    - standing beside __std/xl/details/large_props__
+    - leaning against __std/xl/details/structural_props__
+    - emerging from __std/xl/details/environmental_props__
+    - interacting with __std/xl/details/interactive_props__
 
   object_motif:
     - dripping black ink
@@ -179,11 +205,216 @@ details:
     - plush toys
     - swirling eyes and screens
     - abstract symbols and patterns
+    - floating crystal orbs
+    - vintage pocket watches
+    - ornate picture frames
+    - scattered playing cards
+    - antique brass instruments
+    - weathered leather books
+    - delicate glass bottles
+    - intricate music boxes
+    - tarnished silver mirrors
+    - ceramic tea sets
+    - wooden chess pieces
+    - silk scarves flowing
+    - pearl necklaces draped
+    - feathered quill pens
+    - brass telescopes
+    - porcelain dolls watching
+    - copper wind chimes
+    - velvet cushions arranged
+    - golden hourglasses
+    - crystal wine glasses
+    - ornate jewelry boxes
+    - vintage cameras
+    - decorative lanterns
+    - embroidered tapestries
+    - carved wooden masks
 
   furniture_motif:
     - plush chair
     - dark throne
+    - ornate wooden bench
+    - velvet chaise lounge
+    - antique rocking chair
+    - marble pedestal
+    - wrought iron stool
+    - leather armchair
+    - bamboo meditation seat
+    - stone garden bench
+    - vintage barber chair
+    - gothic cathedral pew
+    - silk-cushioned divan
+    - carved ivory chair
+    - rustic log seat
+    - crystal throne
+    - floating ethereal seat
+    - moss-covered boulder
+    - gilded opera chair
+    - weathered park bench
 
   surface_motif:
     - reflective liquid surface
     - bed with scattered rose petals
+    - polished marble floor
+    - weathered wooden deck
+    - soft grass meadow
+    - rippling water surface
+    - cracked concrete ground
+    - smooth river stones
+    - fallen autumn leaves
+    - pristine white sand
+    - mossy forest floor
+    - ornate Persian rug
+    - checkered tile pattern
+    - rough cobblestone path
+    - velvet fabric draping
+    - mirror-like ice sheet
+    - textured bark surface
+    - smooth glass platform
+    - cushioned cloud surface
+    - crystalline formation
+    - woven bamboo mat
+    - carved stone altar
+    - silk sheet arrangement
+    - copper plate surface
+    - aged leather surface
+
+  # Handheld props and objects
+  handheld_props:
+    - ornate staff with crystal top
+    - vintage leather journal
+    - delicate glass orb
+    - antique brass compass
+    - silk fan with painted designs
+    - carved wooden flute
+    - silver chalice gleaming
+    - weathered map scroll
+    - glowing lantern
+    - ornate hand mirror
+    - feathered quill pen
+    - crystal pendant on chain
+    - brass pocket watch
+    - ivory chess piece
+    - ceramic tea cup
+    - leather-bound book
+    - golden key ring
+    - silk handkerchief
+    - copper telescope
+    - pearl-handled dagger
+
+  # Wearable props and accessories
+  wearable_props:
+    - flowing silk cape
+    - ornate golden crown
+    - delicate lace gloves
+    - jeweled tiara sparkling
+    - leather boots with buckles
+    - silk scarf draped elegantly
+    - pearl necklace cascading
+    - velvet cloak with hood
+    - silver bracelet gleaming
+    - embroidered sash
+    - feathered hat tilted
+    - crystal earrings catching light
+    - leather belt with ornate buckle
+    - silk stockings with patterns
+    - golden armband
+    - lace choker with pendant
+    - fur-trimmed coat
+    - beaded headband
+    - copper ring set
+    - embroidered vest
+
+  # Large props and furniture
+  large_props:
+    - towering marble statue
+    - ornate grandfather clock
+    - massive stone pillar
+    - elegant harp standing
+    - antique wooden chest
+    - crystal chandelier hanging
+    - carved stone fountain
+    - vintage piano gleaming
+    - ornate wooden wardrobe
+    - marble pedestal with vase
+    - wrought iron gate
+    - stone garden bench
+    - copper weather vane
+    - wooden ship wheel
+    - crystal display case
+    - bronze sculpture
+    - ceramic garden urn
+    - wooden rocking horse
+    - ornate floor lamp
+    - vintage gramophone
+
+  # Structural props and architecture
+  structural_props:
+    - weathered stone column
+    - ornate wooden doorframe
+    - wrought iron balcony railing
+    - carved marble archway
+    - vintage brick wall
+    - elegant spiral staircase
+    - ornate window frame
+    - stone garden wall
+    - wooden fence post
+    - copper rain gutter
+    - carved stone gargoyle
+    - iron lamp post
+    - wooden bridge railing
+    - stone fireplace mantel
+    - ornate ceiling beam
+    - brick chimney stack
+    - wooden pergola frame
+    - stone garden gate
+    - iron fence section
+    - carved wooden banister
+
+  # Environmental props and natural elements
+  environmental_props:
+    - misty fog bank
+    - cascading waterfall
+    - field of wildflowers
+    - ancient oak tree
+    - rocky cliff face
+    - gentle stream flowing
+    - patch of morning dew
+    - cluster of mushrooms
+    - bed of fallen leaves
+    - grove of bamboo
+    - field of tall grass
+    - pool of still water
+    - patch of moss
+    - cluster of ferns
+    - bed of river stones
+    - grove of pine trees
+    - field of lavender
+    - patch of snow
+    - cluster of crystals
+    - bed of sand dunes
+
+  # Interactive props and mechanisms
+  interactive_props:
+    - spinning prayer wheel
+    - flowing water fountain
+    - swinging pendulum clock
+    - rotating music box
+    - flickering candle flame
+    - rippling pond surface
+    - swaying wind chimes
+    - turning weathervane
+    - flowing silk banner
+    - bubbling cauldron
+    - spinning pottery wheel
+    - flowing hourglass sand
+    - swaying rope swing
+    - turning mill wheel
+    - flowing ribbon streams
+    - spinning compass needle
+    - flickering fireplace
+    - swaying tree branches
+    - flowing curtain fabric
+    - bubbling spring water
+

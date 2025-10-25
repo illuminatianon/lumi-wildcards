@@ -1,0 +1,9 @@
+lumi:
+  all:
+    - "__std/lumi/illuminati__"
+    - "__std/lumi/illuminati__", (eldritch:1.1)
+  illuminati:
+    - (illuminati:1.1), (eye:1.1)
+    - (eye:1.1), (illuminati:1.1)
+    - (iluminati:1.1)
+    - (eye:1.1)
