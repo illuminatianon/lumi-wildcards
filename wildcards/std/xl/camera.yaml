@@ -1,0 +1,160 @@
+# BACKUP: Original file backed up as camera.yaml.backup
+# Refactored to extract inline choice fragments and fix structural issues
+camera:
+  all:
+    - "__std/xl/camera/angle__, __std/xl/camera/distance__, __std/xl/camera/orientation__"
+    - "__std/xl/camera/distance__ with __std/xl/camera/composition__ and __std/xl/camera/style__"
+    - "__std/xl/camera/style__ __std/xl/camera/angle__ featuring __std/xl/camera/orientation__"
+    - "__std/xl/camera/orientation__ in __std/xl/camera/distance__ with __std/xl/camera/composition__"
+    - "__std/xl/camera/angle__ __std/xl/camera/distance__, __std/xl/camera/style__"
+    - "__std/xl/camera/composition__ __std/xl/camera/orientation__ using __std/xl/camera/style__"
+    - "__std/xl/camera/distance__ __std/xl/camera/angle__ with __std/xl/camera/composition__"
+    - "__std/xl/camera/style__, __std/xl/camera/orientation__, __std/xl/camera/distance__"
+
+  # Camera angles - vertical positioning
+  angle:
+    - "__std/xl/camera/camera_angle_type__ shot"
+    - "__std/xl/camera/camera_angle_type__ camera view"
+    - "__std/xl/camera/camera_angle_type__ perspective"
+    - "seen from __std/xl/camera/angle_direction__"
+    - "__std/xl/camera/angle_intensity__ __std/xl/camera/camera_angle_type__ perspective"
+
+  # Camera distance/framing
+  distance:
+    - "__std/xl/camera/shot_distance__ shot"
+    - "__std/xl/camera/shot_distance__ __std/xl/camera/shot_style__ shot"
+    - "__std/xl/camera/framing_quality__ framing"
+    - "__std/xl/camera/shot_distance__ shot with __std/xl/camera/framing_quality__ view"
+    - "__std/xl/camera/shot_style__ __std/xl/camera/shot_distance__ shot"
+    - "__std/xl/camera/shot_distance__ __std/xl/camera/viewpoint__ shot"
+
+  # Camera orientation/viewpoint
+  orientation:
+    - "__std/xl/camera/viewpoint__ view"
+    - "__std/xl/camera/viewpoint__ camera shot"
+    - "__std/xl/camera/viewpoint__ view with __std/xl/camera/composition_style__ composition"
+    - "__std/xl/camera/composition_style__ __std/xl/camera/viewpoint__ view"
+    - "__std/xl/camera/viewpoint__ __std/xl/camera/shot_distance__ shot"
+    - "shot from __std/xl/camera/viewpoint_direction__"
+    - "__std/xl/camera/camera_angle_type__ shot from __std/xl/camera/viewpoint_direction__"
+    - "__std/xl/camera/special_perspective__ perspective"
+
+  # Composition styles
+  composition:
+    - "__std/xl/camera/composition_style__ __std/xl/camera/composition_style__ framing"
+    - "__std/xl/camera/composition_style__ __std/xl/camera/shot_distance__ shot"
+    - "__std/xl/camera/viewpoint__ shot with __std/xl/camera/composition_style__ composition"
+    - "__std/xl/camera/composition_style__ framing"
+    - "__std/xl/camera/composition_style__ __std/xl/camera/shot_distance__ shot"
+    - "__std/xl/camera/composition_style__ __std/xl/camera/orientation_type__ composition"
+    - "__std/xl/camera/special_composition__ composition"
+    - "__std/xl/camera/shot_distance__ shot with __std/xl/camera/emphasis_type__ emphasis"
+
+  # Camera styles and techniques
+  style:
+    - "__std/xl/camera/camera_technique__ composition"
+    - "__std/xl/camera/camera_technique__ camera style"
+    - "__std/xl/camera/shot_style__ __std/xl/camera/shot_distance__ shot"
+    - "__std/xl/camera/movement_quality__ __std/xl/camera/camera_angle_type__ shot"
+    - "__std/xl/camera/angle_intensity__ __std/xl/camera/angle_direction__ perspective"
+    - "__std/xl/camera/viewpoint__ view with __std/xl/camera/angle_intensity__ emphasis"
+
+  # Extracted reusable components for potential cross-referencing
+  camera_angle_type:
+    - low-angle
+    - high-angle
+    - eye-level
+    - worm's-eye
+    - bird's-eye
+    - top-down
+    - aerial
+    - overhead
+    - dramatic upward
+
+  shot_distance:
+    - wide
+    - medium
+    - close-up
+    - extreme close-up
+    - full-body
+    - establishing
+    - macro
+
+  viewpoint:
+    - frontal
+    - rear
+    - profile
+    - three-quarter
+    - over-the-shoulder
+    - isometric
+
+  composition_style:
+    - symmetrical
+    - centered
+    - balanced
+    - side-by-side
+    - backlit
+    - dramatic
+
+  # Additional extracted components
+  angle_direction:
+    - below
+    - above
+    - eye-level
+
+  angle_intensity:
+    - dramatic
+    - subtle
+    - neutral
+
+  shot_style:
+    - establishing
+    - cinematic
+    - panoramic
+    - portrait
+    - detail
+
+  framing_quality:
+    - expansive
+    - tight
+    - waist-up
+    - mid-range
+    - macro
+
+  viewpoint_direction:
+    - behind
+    - the side
+    - above
+    - below
+
+  special_perspective:
+    - isometric
+    - 3/4
+    - over-the-shoulder
+    - OTS
+    - selfie
+
+  orientation_type:
+    - vertical
+    - horizontal
+
+  special_composition:
+    - side-by-side
+    - backlit
+
+  emphasis_type:
+    - foreground
+    - background
+    - subject
+
+  camera_technique:
+    - handheld
+    - static
+    - tracking
+    - dolly
+
+  movement_quality:
+    - dynamic
+    - smooth
+    - jerky
+    - fluid

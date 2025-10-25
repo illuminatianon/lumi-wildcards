@@ -1,82 +1,200 @@
 pose:
+  # Compositional templates with varied linguistic rhythms
   all:
-    - __std/xl/pose/standing__
-    - __std/xl/pose/sitting__
-    - __std/xl/pose/kneeling__
-    - __std/xl/pose/lying__
-    - __std/xl/pose/floating__
-    - __std/xl/pose/dynamic__
-    - __std/xl/pose/head__
+    - 10::__std/xl/pose/base_position__ with __std/xl/pose/arm_placement__, __std/xl/pose/head_orientation__
+    - 10::__std/xl/util/intensity__ __std/xl/pose/base_position__, __std/xl/pose/body_language__
+    - 10::__std/xl/pose/base_position__, __std/xl/pose/arm_placement__, __std/xl/pose/expression_mood__
+    - 10::__std/xl/pose/dynamic_action__ with __std/xl/pose/body_language__ and __std/xl/pose/head_orientation__
+    - 10::__std/xl/util/positioning__ __std/xl/pose/base_position__, __std/xl/pose/arm_placement__
+    - 10::__std/xl/pose/base_position__ featuring __std/xl/pose/expression_mood__ and __std/xl/pose/body_language__
+    - 10::__std/xl/pose/unstable_poses__ while __std/xl/pose/arm_placement__, __std/xl/pose/expression_mood__
+    - 10::__std/xl/pose/dynamic_action__, __std/xl/pose/head_orientation__, __std/xl/util/intensity__ energy
+    - 10::__std/xl/pose/expression_mood__ with __std/xl/pose/unstable_poses__ and __std/xl/pose/arm_placement__
+    - 10::__std/xl/pose/body_language__, __std/xl/pose/head_orientation__ from __std/xl/util/perspective_type__ angle
+    - "__std/xl/pose/standing_detailed__"
+    - "__std/xl/pose/sitting_detailed__"
+    - "__std/xl/pose/floating_detailed__"
 
-  standing:
-    - standing confidently, one hand on hip
-    - standing with relaxed posture, arms at sides
-    - standing, arms crossed, head raised, confident_pose
-    - standing, wide_stance, arms_raised, side_view, dynamic_posture
-    - standing, scanning_horizon, hands_on_hips, alert_pose
+  # Core body positions with spatial context
+  base_position:
+    - standing
+    - sitting
+    - kneeling
+    - lying
+    - reclining
+    - floating
+    - levitating
+    - crouching
+    - leaning
+    - balancing
+    - perched
+    - suspended
+    - sprawled
+    - hunched
+    - arched
+
+  # Arm and hand positioning with asymmetry and tension
+  arm_placement:
+    - arms at sides
+    - arms crossed
+    - one hand on hip
+    - hands on hips
+    - arms raised
+    - one arm raised
+    - arms extended
+    - hands clasped
+    - hands on knees
+    - hands on thighs
+    - arms reaching out
+    - one arm trailing behind
+    - arms spread
+    - hand on chin
+    - hand resting on face
+    - hands in prayer
+    - arms on armrests
+    - one arm reaching forward
+    - arms pulled back
+    - hands behind back
+    - reaching downward
+    - hand gripping object
+    - arms wrapped around torso
+    - one arm shielding face
+    - hands pressed against surface
+    - arms twisted asymmetrically
+    - one arm dangling loosely
+    - hands clenched into fists
+    - arms bent at sharp angles
+    - one hand covering mouth
+    - arms stretched overhead
+
+  # Head and gaze direction with cinematic angles
+  head_orientation:
+    - head tilted downward
+    - head tilted upward
+    - head tilted to side
+    - looking over shoulder
+    - facing viewer
+    - gaze directed upward
+    - looking down
+    - eyes closed
+    - chin raised
+    - head slightly forward
+    - looking upward from below
+    - glancing sideways
+    - turned away from viewer
+    - profile view
+    - three-quarter angle
+    - rear view
+    - from above perspective
+    - diagonal head turn
+    - head thrown back
+    - chin tucked down
+    - looking through lowered lashes
+    - head cocked to one side
+
+  # Body language separated into tone and geometry
+  body_language:
+    - "{confident|relaxed|alert|graceful|tense|defiant|playful|focused|melancholic} posture"
+    - "{wide|narrow|uneven|staggered} stance"
+    - "{upright|slouched|leaning|twisted|arched|hunched} posture"
+    - "{stable|dynamic|fluid|rigid|loose|coiled} positioning"
+    - "{forward|backward|sideways|diagonal} lean"
+    - "{symmetrical|asymmetrical|off-balance|precarious} positioning"
+    - "{grounded|elevated|suspended|tilted} orientation"
+
+  # Expression and mood with emotional contrast
+  expression_mood:
+    - calm expression
+    - confident demeanor
+    - serene expression
+    - thoughtful expression
+    - neutral expression
+    - subtle smile
+    - alert expression
+    - "{gentle|intense|dramatic} expression"
+    - playful grin
+    - defiant expression
+    - focused intensity
+    - melancholic gaze
+    - mischievous smirk
+    - fierce determination
+    - vulnerable expression
+    - wild-eyed intensity
+    - brooding countenance
+    - ecstatic joy
+    - steely resolve
+    - haunted look
+
+  # Dynamic actions with kinetic energy and motion blur
+  dynamic_action:
+    - running forward
+    - jumping
+    - walking
+    - casting spell
+    - combat stance
+    - performing
+    - twisting mid-turn
+    - dodging backward
+    - reaching sideways
+    - mid-air kick
+    - scanning horizon
+    - spinning mid-air
+    - pivoting sharply
+    - charging forward
+    - lunging aggressively
+    - descending rapidly
+    - propelled upward
+    - recoiling from impact
+    - springing into action
+    - whirling around
+    - diving downward
+    - vaulting over obstacle
+    - sliding sideways
+    - tumbling through space
+    - bursting into motion
+
+  # Unstable and precarious positioning
+  unstable_poses:
+    - standing on one leg
+    - balancing on uneven surface
+    - kneeling on incline
+    - floating sideways
+    - teetering on edge
+    - suspended at angle
+    - perched precariously
+    - tilted off-axis
+    - hanging by fingertips
+    - balanced on narrow beam
+    - leaning against invisible support
+    - defying gravity
+
+  # Specific standing variations
+  standing_detailed:
+    - standing confidently with one hand on hip
+    - standing with relaxed posture and arms at sides
+    - standing with arms crossed and head raised
+    - standing with wide stance and arms raised
     - standing gracefully with an outstretched arm
-    - standing, feet_apart, hand_near_hip, turned_three_quarters
-    - standing, facing_viewer, one_arm_raised, slight_forward_lean
-    - standing, leaning_forward, looking_down, hand_on_chin
+    - standing with feet apart and hand near hip
     - standing upright with wings spread
+    - standing while leaning forward and looking down
 
-  sitting:
+  # Specific sitting variations
+  sitting_detailed:
     - sitting upright with calm expression
     - sitting cross-legged with hands on knees
     - sitting confidently with arms on armrests
-    - sitting, leaning_forward, hands_gripping, looking_ahead
-    - sitting, slouched_posture, leaning_back, crossed_legs
     - sitting languidly on a throne
     - sitting with one leg crossed over the other
-    - seated with hands resting on skulls
-    - sitting, facing_viewer, slightly_tilted, motionless, stable_pose
     - sitting with hand resting on face
+    - sitting while leaning forward with hands gripping
+    - sitting with slouched posture and crossed legs
 
-  kneeling:
-    - kneeling with hands resting on thighs
-    - kneeling, head_bowed, slumped_shoulders, hands_clasped
-    - kneeling, one_knee_raised, resting_hand_on_thigh
-    - kneeling, twisting_torso, looking_over_shoulder
-    - kneeling, reaching_forward, bracing_on_surface
-    - kneeling, hands_in_prayer, eyes_closed, centered_pose
-
-  lying:
-    - lying on back with legs crossed
-    - reclining pose with one arm supporting
-    - lying on side, head propped on hand
-    - reclined confidently, gaze toward viewer
-    - laid back with legs bent, relaxed expression
-    - sprawled, one arm extended outward, loose composition
-
-  floating:
-    - she floats weightlessly
-    - floating, graceful_posture, arms_extended, tilted_head
-    - floating, gliding_forward, arms_reaching_out
-    - levitating, lotus_pose, hands_in_prayer, eyes_closed
-    - floating upside_down, hair drifting upward
-    - suspended between debris, limbs loosely spread
-    - levitating near ground, toes grazing surface
-
-  dynamic:
-    - running_forward, forward_lean, one_arm_forward
-    - jumping, arms_raised, one_leg_raised, energetic_posture
-    - casting_spell, one_arm_raised, facing_viewer
-    - combat_stance, one_leg_forward, ready_to_strike
-    - performing_pose, one_arm_raised, holding_device
-    - walking, forward_stride, one_arm_extended
-    - mid-air kick with cape flowing
-    - twisting mid-turn, one arm trailing behind
-    - dodging backward, arms_spread, dynamic_pose
-    - reaching sideways, braced stance, alert expression
-
-  head:
-    - head tilted slightly downward
-    - slightly tilted head with neutral expression
-    - gaze directed upward
-    - head slightly tilted forward
-    - looking over shoulder, subtle smile
-    - eyes closed, serene expression
-    - chin raised, confident posture
-    - face turned slightly to the side
-    - looking down, thoughtful expression
-    - direct frontal gaze
+  # Specific floating/aerial poses
+  floating_detailed:
+    - floating weightlessly with graceful posture
+    - floating with arms extended and tilted head
+    - levitating in lotus pose with hands in prayer
+    - floating upside down with hair drifting upward
+    - suspended between debris with limbs loosely spread
+    - levitating near ground with toes grazing surface

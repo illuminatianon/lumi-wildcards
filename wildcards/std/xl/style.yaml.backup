@@ -1,0 +1,67 @@
+style:
+  all:
+    - __std/xl/style/anime__
+    - __std/xl/style/graphic__
+    - __std/xl/style/monochrome__
+    - __std/xl/style/paint__
+    - __std/xl/style/digital__
+    - __std/xl/style/surreal__
+    - __std/xl/style/fantasy__
+    - __std/xl/style/photography__
+    - __std/xl/style/regional__
+
+  anime:
+    - "anime {illustration|character design|digital art|cel-shaded} style"
+    - "bold anime style with {thick|strong|clean} outlines"
+    - "{vibrant|dark|monochrome|soft} anime style"
+    - "anime-style {illustration|character portrait}"
+    - "monochrome manga style with {ink|screentone|minimal shading}"
+
+  graphic:
+    - "{comic|graphic novel|inked illustration} style with {bold|medium|thin} outlines"
+    - "{bold|clean|minimalist} line art with flat colors"
+    - "{vintage|modern|digital} comic book style"
+    - "{high-contrast|flat|posterized} graphic illustration"
+    - "ink outlines with {flat|limited} palette"
+
+  monochrome:
+    - "high-contrast monochrome {ink|drawing|silhouette} style"
+    - "monochrome with __std/color/simple__ accents"
+    - "minimalist high-contrast {silhouette|illustration}"
+    - "{black and white|ink wash|charcoal|graphite} rendering"
+    - "monochrome sketch with {soft|rough|detailed} shading"
+
+  paint:
+    - "{oil|gouache|watercolor|acrylic|pastel} painting style"
+    - "{impressionist|expressionist|realist} oil painting"
+    - "mixed-media {ink and watercolor|sketchbook|poster-like} composition"
+    - "painterly composition with {visible brushwork|impasto texture|soft blending}"
+    - "traditional {watercolor wash|oil on canvas|gouache matte finish}"
+
+  digital:
+    - "{digital painting|digital illustration|speedpainting} with {soft|rough|cinematic} lighting"
+    - "smooth {digital|soft-focus} rendering"
+    - "{vivid|muted|dreamlike} color palette"
+    - "illustrative digital painting with {textured|rough|painterly} brushwork"
+    - "stylized {cel-shaded|soft shaded|cinematic} digital render"
+
+  surreal:
+    - "{surreal|abstract|expressionist} digital painting"
+    - "surreal {portrait|landscape|scene} with {organic|distorted|biomechanical} forms"
+    - "abstract expressionist with {bold color|chaotic brushwork}"
+    - "intricate {biomechanical|organic|cosmic} line art"
+    - "surreal monochrome sketch style"
+
+  fantasy:
+    - "{dark|high|cosmic} fantasy {illustration|digital painting}"
+    - "stylized dark fantasy aesthetic"
+    - "surreal fantasy composition with {ethereal|moody|vivid} atmosphere"
+
+  photography:
+    - "{realistic|dreamlike|surreal} photography style"
+    - "{film grain|analog|moody studio|long exposure|macro|street candid} photo aesthetic"
+
+  regional:
+    - "traditional {Japanese|Chinese|Indian} illustration style"
+    - "{classic|retro|hand-drawn} animation look"
+    - "flat color with {ornate|patterned|decorative} elements"

@@ -1,0 +1,134 @@
+distance:
+  all:
+    - "__std/xl/distance/position__, __std/xl/distance/surreal__"
+    - "__std/xl/distance/position__, __std/xl/distance/apocalyptic__"
+    - "__std/xl/distance/position__, __std/xl/distance/rural__"
+    - "__std/xl/distance/position__, __std/xl/distance/mystical__"
+    - "__std/xl/distance/surreal__ __std/xl/distance/position__"
+    - "__std/xl/distance/apocalyptic__ __std/xl/distance/position__"
+    - "__std/xl/distance/rural__ __std/xl/distance/position__"
+    - "__std/xl/distance/mystical__ __std/xl/distance/position__"
+
+  # Spatial positioning descriptors
+  position:
+    - in the distance
+    - far away
+    - beneath her
+    - beyond the haze
+    - high above
+    - on the horizon
+    - through the mist
+    - behind her
+    - far below
+    - around her
+    - ahead
+    - between the clouds
+    - beyond reach
+    - across the void
+    - just over the ridge
+    - past the ruins
+    - from afar
+    - through the veil
+    - underfoot
+    - beyond the horizon
+    - at the edge of sight
+    - across the valley
+    - in the far distance
+    - beyond the ridge
+    - past the mountains
+    - above
+    - beyond the fields
+    - at the horizon
+    - through the trees
+    - across the plain
+    - through the fog
+    - beyond her
+
+  # Surreal/fantastical scenes
+  surreal:
+    - colossal statues crumble into stardust
+    - a shattered moon hangs low and bleeding
+    - a spiral city glows with dying embers
+    - fractured mirrors reflect impossible skies
+    - drifting spires twist into fractal shapes
+    - rivers of glass shimmer in silence
+    - "a titan's silhouette dissolves into static"
+    - time itself folds into silver ribbons
+    - oceans of ash pulse with dim light
+    - echoes of lost worlds shimmer and fade
+    - bridges of bone stretch toward a hollow sun
+    - phantom cities flicker and vanish
+    - stars unravel like threads of smoke
+    - distant monoliths hum with forgotten energy
+    - shadows crawl across molten ground
+    - spectral figures drift in looping patterns
+    - the remnants of civilizations orbit endlessly
+    - luminous symbols burn and reform
+    - reflected constellations ripple across black glass
+    - colors collapse into pure sound
+    - a frozen sea reflects the glow of dying stars
+    - cathedral-sized roots coil around broken towers
+    - a clockwork city ticks beneath layers of dust
+    - a storm of feathers drifts across the void
+    - the sky fractures into shifting panels of memory
+    - an endless bridge winds through skeletal forests
+    - glass mountains hum with invisible resonance
+    - inverted oceans ripple with slow thunder
+    - ancient machinery stirs with hollow rhythm
+    - serpentine rivers gleam with liquid light
+    - floating gardens collapse into mist
+    - crystalline beasts wander in silence
+    - a giant eye opens within a nebula
+    - luminous vines crawl over forgotten monuments
+    - molten lakes cast long shadows on metallic plains
+    - spectral banners ripple where armies once stood
+    - the sun divides into mirrored twins
+    - enormous gears turn within fractured space
+    - an aurora bleeds into the ocean
+    - cities of light spiral endlessly through twilight
+
+  # Post-apocalyptic/abandoned scenes
+  apocalyptic:
+    - a village sinks halfway into the marsh
+    - telephone poles lean through rolling fog
+    - rusted train cars rest on broken tracks
+    - fields of wheat sway under stormlight
+    - cracked asphalt fades into tall grass
+    - "collapsed bridges trace the river's path"
+    - windmills turn lazily among empty hills
+    - storm clouds gather, heavy and unhurried
+    - puddles reflect the orange glow of lamps
+    - a radio tower blinks through the rain
+    - rooftops poke from shallow water
+    - dust drifts around abandoned machinery
+    - headlights move like ghosts along a ruined road
+    - barbed wire fences cut through the mist
+    - a canyon breathes with slow curling fog
+    - the ruins of a factory crumble into moss
+    - chimneys exhale faint columns of smoke
+    - wind carries fragments of torn banners
+    - gravel crunches as the light begins to fade
+    - the old highway disappears into a forest of silence
+
+  # Rural/mystical scenes
+  mystical:
+    - "will-o'-wisps drift above the moor"
+    - a stone circle glows faintly beneath the mist
+    - a river winds past cottages long abandoned
+    - antlered shapes move between the trees
+    - smoke rises from a hearth that should be cold
+    - straw effigies sway from crooked poles
+    - a thatched chapel leans toward the forest edge
+    - blackbirds scatter as if warned by unseen hands
+    - the earth hums with a low, steady rhythm
+    - lanterns swing on the path to nowhere
+    - pale figures gather where the reeds grow thick
+    - bells chime though no one pulls the rope
+    - a harvest pyre burns without consuming
+    - the woods whisper her name in broken cadence
+    - an ancient well breathes a sigh of damp air
+    - a herd of deer stands perfectly still
+    - candles flicker inside hollowed gourds
+    - a crimson dawn creeps across moss-covered stones
+    - dry leaves crackle like distant laughter
+    - a path of lanterns fades one by one into dark

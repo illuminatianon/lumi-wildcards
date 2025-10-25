@@ -1,0 +1,117 @@
+lighting:
+
+  # Primary category - comprehensive lighting combinations
+  all:
+    - "__std/xl/lighting/direction__ with __std/xl/lighting/quality__"
+    - "__std/xl/lighting/quality__ __std/xl/lighting/direction__"
+    - "__std/xl/lighting/source__ creating __std/xl/lighting/effect__"
+    - "__std/xl/lighting/effect__ from __std/xl/lighting/source__"
+    - "__std/xl/lighting/contrast__ lighting with __std/xl/lighting/quality__"
+    - "__std/xl/lighting/atmospheric__, __std/xl/lighting/direction__"
+    - "__std/xl/lighting/quality__ lighting from __std/xl/lighting/source__"
+    - "__std/xl/lighting/direction__ by __std/xl/lighting/source__"
+    - "__std/xl/lighting/colored__ with __std/xl/lighting/effect__"
+    - "__std/xl/lighting/atmospheric__"
+    - "__std/xl/lighting/quality__ __std/xl/lighting/effect__"
+
+  # Light direction and positioning
+  direction:
+    - backlit
+    - frontlit
+    - side lit
+    - overhead lighting
+    - dramatic backlighting
+    - gentle backlighting
+    - subtle backlighting
+    - dramatic side lighting
+    - soft frontal lighting
+    - strong backlight
+
+  # Light quality and characteristics
+  quality:
+    - soft diffuse
+    - dramatic high-contrast
+    - gentle ambient
+    - ethereal diffuse
+    - warm diffused
+    - cool diffuse
+    - even diffuse
+    - soft ambient
+    - sharp directional
+    - flat even
+
+  # Light sources
+  source:
+    - single spotlight
+    - cold moonlight
+    - glowing runes
+    - warm sunset
+    - "__std/color/extended__ light"
+    - pulsing neon
+    - distant explosions
+    - flickering candlelight
+    - studio lighting
+    - wall sconces
+    - natural sunlight
+    - fluorescent lighting
+    - radiant sun
+    - setting sun
+    - starlit illumination
+    - candles
+    - internal lights
+
+  # Lighting effects and atmosphere
+  effect:
+    - dramatic chiaroscuro contrast
+    - sharp highlights on surfaces
+    - glowing halo effect
+    - silhouette against bright background
+    - stark black and white contrast
+    - high contrast with bright edges
+    - multicolored gradient glow
+    - dramatic shadows
+    - minimal shading
+    - halo effect
+    - gentle shadow contrast
+    - subtle highlights
+    - stark highlights
+    - soft gradients
+    - deep shadows
+
+  # Atmospheric and special lighting
+  atmospheric:
+    - "haloed in __std/color/extended__ light"
+    - surrounded by pulsing neon
+    - flickering candlelight dances across the scene
+    - streaks of light cut through the fog
+    - a faint bioluminescent glow surrounds the subject
+    - light seeps from cracks in the ground
+    - shadows stretch unnaturally long
+    - dappled sunlight through trees
+    - moonlit glow with soft shadows
+    - glow emanating from below
+    - glowing effects from mysterious sources
+
+  # Contrast styles
+  contrast:
+    - dramatic high-contrast
+    - subtle chiaroscuro
+    - stark monochrome
+    - high-contrast
+    - soft contrast
+    - sharp contrast
+    - gentle contrast
+
+  # Color-specific lighting
+  colored:
+    - "soft __std/color/extended__ glow"
+    - "warm __std/color/extended__ lighting"
+    - "intense __std/color/extended__ backlighting"
+    - "dramatic __std/color/extended__ backlighting"
+    - "ambient __std/color/extended__ illumination"
+    - "vibrant __std/color/extended__ light"
+    - red ambient glow
+    - dramatic purple backlighting
+    - soft pink glow
+    - neon pink highlights
+    - warm golden illumination

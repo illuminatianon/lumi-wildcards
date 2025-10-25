@@ -1,0 +1,178 @@
+details:
+
+  # Primary category - combines multiple detail types for rich compositions
+  all:
+    - "__std/xl/details/mystical__ with __std/xl/details/accessories__"
+    - "__std/xl/details/eyes__ and __std/xl/details/geometric__"
+    - "__std/xl/details/natural__ surrounded by __std/xl/details/atmospheric__"
+    - "__std/xl/details/paint_effects__ with __std/xl/details/creatures__"
+    - "__std/xl/details/symbols__ and __std/xl/details/lighting__"
+    - "__std/xl/details/mechanical__ with __std/xl/details/natural__"
+    - "__std/xl/details/atmospheric__ featuring __std/xl/details/mystical__"
+    - "__std/xl/details/geometric__ patterns with __std/xl/details/eyes__"
+    - "__std/xl/details/creatures__ emerging from __std/xl/details/atmospheric__"
+    - "__std/xl/details/lighting__ illuminating __std/xl/details/symbols__"
+    - "__std/xl/details/accessories__ adorned with __std/xl/details/mystical__"
+    - "__std/xl/details/paint_effects__ creating __std/xl/details/geometric__"
+    - "__std/xl/details/eyes__ watching through __std/xl/details/atmospheric__"
+    - "__std/xl/details/mechanical__ fused with __std/xl/details/creatures__"
+    - "__std/xl/details/natural__ intertwined with __std/xl/details/symbols__"
+    - "__std/xl/details/mystical__ energy radiating from __std/xl/details/lighting__"
+
+  # Mystical and supernatural elements
+  mystical:
+    - her reflection appears in the air beside her
+    - her shadow moves independently
+    - cracks in space reveal shifting eyes
+    - the air ripples with hidden watchers
+    - shards of glass hover, each showing a different face
+    - a single tear turns into mercury before falling
+    - geometric patterns pulse beneath her feet
+    - central eye-like structure with radiating lines
+    - ethereal figures dance nearby
+    - small creatures with speech bubbles
+
+  # Eye motifs and patterns
+  eyes:
+    - floating eyes with lashes dripping color
+    - "floating eyes with concentric __std/shape/2d__"
+    - "large singular eye with __std/color/extended__ pupil"
+    - "__std/color/extended__ eye patterns in background"
+    - large red eye motif above figure
+    - large face with three eyes in background
+    - "__std/color/extended__ eye motif in background"
+    - large eye motif above
+    - large eyes on TV screens watching
+    - large stylized eye motif in background
+    - large eye on the ground
+    - large central eye motif
+    - dripping liquid from an eye
+
+  # Geometric patterns and shapes
+  geometric:
+    - geometric patterns pulse beneath her feet
+    - "branches twist around __std/shape/flat__ patterns"
+    - ornate designs within the halo
+    - "__std/shape/flat__ symbols and __std/shape/flat__ motifs in background"
+    - "geometric halo with __std/shape/all__ motif behind"
+    - geometric halo with star motif behind
+    - golden halo with geometric patterns
+    - cross and geometric symbols on chest
+    - geometric patterns on outfit
+    - floating geometric particles
+    - geometric patterns and symbols
+    - geometric patterns on clothing
+    - geometric shapes and patterns surround
+    - radiant circular pattern on the ground
+    - orbital shapes with star-like highlights
+    - fractured lines radiating from eye
+
+  # Paint effects and artistic elements
+  paint_effects:
+    - ink drips from the top of the frame
+    - "splashes of __std/color/extended__ ink"
+    - dripping black and red paint
+    - "dripping __std/color/extended__ and __std/color/extended__ paint"
+    - "__std/color/extended__ paint splatters"
+    - "__std/color/extended__ paint splatters across faces"
+    - dripping paint effect on canvas
+    - dripping paint effect at the top
+    - "dripping __std/color/extended__ forms"
+    - abstract ink patterns
+
+  # Accessories and jewelry
+  accessories:
+    - heart-shaped pendant
+    - intricate lace choker with gemstone
+    - "glasses with thin __std/color/extended__ frames"
+    - intricate ring on finger
+    - crown adorned with spikes
+    - crown adorned with intricate jewels
+    - cat ears headband
+    - intricate lace boots
+    - chain necklace glints softly
+    - floating winged boots
+    - pendulum-like objects in hands
+
+  # Creatures and organic forms
+  creatures:
+    - metal feathers drift through the air
+    - a transparent serpent coils lazily nearby
+    - silhouetted cat figures surround her
+    - tentacles with glowing tips
+    - tentacles wrap around skulls
+    - spiked tentacles emerge from the ground
+    - tentacles wrap around the figure
+    - skeletal creature with glowing eyes
+    - serpentine creature with sharp teeth
+    - tentacles with segmented patterns
+    - tentacle-like appendages extend outward
+    - intricate creature design with textured skin
+    - tentacles spiraling around the head
+    - bird perched on dock post
+    - butterflies flutter around
+    - small creatures with speech bubbles
+
+  # Atmospheric and environmental elements
+  atmospheric:
+    - dark fluid-like shapes spreading on the floor
+    - "floating __std/color/extended__ orbs with __std/color/extended__ halos"
+    - swirling tendrils at feet
+    - meteors streak across the sky
+    - stars dot the night sky
+
+  # Mechanical and technological elements
+  mechanical:
+    - organic mechanical arm with intricate textures
+    - sharp metallic elements on outfit
+    - intricate mechanical carvings
+    - intricate mechanical creature design
+    - mechanical elements integrated into design
+
+  # Natural and organic textures
+  natural:
+    - intricate floral textures
+    - branches encircle the figure
+    - dragon wings extend majestically
+    - leaves falling gently
+    - leaves scattered on water surface
+    - floating feathers around
+    - butterfly hair ornament
+    - golden leaf hair accessory
+
+  # Lighting and luminous effects
+  lighting:
+    - glowing heart-shaped object
+    - "__std/shape/all__ head with glowing eyes"
+    - a gilded eye motif glows faintly
+    - fractured halos orbit her head
+    - a thin beam of light pierces her chest like truth itself
+    - light threads connect her to unseen constellations
+    - tentacles with glowing tips
+    - "giant eye with glowing __std/color/extended__ iris"
+    - "glowing __std/color/extended__ eye"
+    - skeletal creature with glowing eyes
+    - jagged teeth and glowing eyes
+    - small UFOs with glowing lights hover around
+    - stars reflected in eyes
+    - two carved pumpkins with glowing faces
+    - "__std/color/extended__ glowing eyes stand out"
+    - "__std/color/extended__ eyes glowing intensely"
+    - red eyes glowing in shadow
+
+  # Symbols and religious motifs
+  symbols:
+    - crosses embedded in the ground
+    - tiny symbols shimmer across her skin
+    - a faint sigil burns on her palm
+    - fragments of ancient text float around her
+    - occult symbols on clothing
+    - cross motifs integrated into design
+    - halo-like symbol above head
+    - cross and geometric symbols on chest
+    - ancient murals adorn the walls
+    - "__std/shape/flat__ symbols and __std/shape/flat__ motifs in background"
+    - ornate designs within the halo
+    - golden halo with geometric patterns
+    - geometric halo with star motif behind
+    - "geometric halo with __std/shape/all__ motif behind"
