@@ -1,67 +1,131 @@
 character:
+  # Compositional character poses with varied linguistic patterns
   all:
-    - 20::__std/xl/character/pose__, __std/xl/character/arms__, __std/xl/character/head__, __std/xl/character/affect__,
-    - __std/xl/character/custom__
-  custom:
-    - jumping, arms raised, legs raised, __std/xl/character/head__,__std/xl/character/affect__,
-  pose:
-    - standing upright, balanced weight
-    - standing contrapposto, hips tilted
-    - sitting cross-legged on ground
-    - sitting sideways on step, knees together
-    - kneeling on both knees, upright posture
-    - kneeling, one knee forward, torso turned
-    - lying prone, face down
-    - lying supine, arms at sides
-    - floating in midair, neutral posture
-    - curled fetal float, compact pose
-    - walking forward, one foot raised
-    - lunging with weight on front leg
-    - casting spell, facing viewer
+    - "__std/xl/character/body_position__ with __std/xl/character/arm_gesture__, __std/xl/character/head_direction__"
+    - "__std/xl/character/body_position__, __std/xl/character/arm_gesture__, __std/xl/character/expression__"
+    - "__std/xl/character/dynamic_pose__ while __std/xl/character/arm_gesture__, __std/xl/character/head_direction__"
+    - "__std/xl/character/body_position__ featuring __std/xl/character/expression__ and __std/xl/character/body_language__"
+    - "__std/xl/character/dynamic_pose__ with __std/xl/character/body_language__, __std/xl/character/head_direction__"
+    - "__std/xl/character/body_position__, __std/xl/character/arm_gesture__, __std/xl/character/expression__"
+    - "__std/xl/character/complete_poses__"
+  # Core body positions and stances
+  body_position:
+    - standing upright
+    - standing casually
+    - standing with weight shifted
+    - sitting cross-legged
+    - sitting on edge
+    - sitting upright
+    - kneeling on both knees
+    - kneeling on one knee
+    - lying on side
+    - lying face down
+    - lying on back
+    - reclining
+    - crouching
+    - floating
+    - levitating
+    - balancing
+    - leaning against surface
+    - perched
 
-  arms:
+  # Dynamic actions and movement
+  dynamic_pose:
+    - walking forward
+    - running
+    - jumping
+    - lunging
+    - casting spell
+    - dancing
+    - spinning
+    - reaching
+    - climbing
+    - falling
+    - flying
+    - diving
+    - twisting
+    - turning
+    - stretching
+    - bending
+    - pivoting
+
+  # Arm and hand gestures
+  arm_gesture:
     - arms at sides
     - one arm raised
     - both arms raised
-    - arms crossed over chest
+    - arms crossed
     - hands on hips
-    - one hand resting on chin
-    - reaching outward
-    - folded behind back
-    - hands clasped in front
-    - one hand extended downward
+    - one hand on hip
+    - hands clasped
     - arms spread wide
-    - pointing at something
-    - holding __std/xl/prop__
-    - tugging at ear
-    - gesturing with hands
-    - gesturing with one hand
-    - holding hands clasped
+    - reaching outward
+    - pointing
+    - gesturing
+    - hands behind back
+    - arms folded
+    - hand on chin
+    - hands on knees
+    - arms extended
+    - holding object
+    - hands pressed together
 
-  head:
+  # Head direction and gaze
+  head_direction:
+    - looking straight ahead
     - looking down
     - looking up
-    - looking left
-    - looking right
-    - facing viewer
-    - turned three-quarters
-    - profile view
-    - head tilted slightly downward
-    - head tilted back
+    - looking to the side
+    - looking over shoulder
     - eyes closed
-    - gaze over shoulder
-    - head slightly tilted forward
-    - head tilted to {left|right} side
+    - head tilted
+    - chin raised
+    - chin lowered
+    - profile view
+    - three-quarter view
+    - facing away
+    - glancing sideways
 
-  affect:
-    - confident
-    - serene
-    - focused
-    - relaxed
-    - alert
-    - weary
-    - playful
-    - defiant
-    - contemplative
-    - sorrowful
-    - __std/xl/adverb/mood__
+  # Facial expressions and mood
+  expression:
+    - calm expression
+    - confident demeanor
+    - serene look
+    - focused intensity
+    - relaxed manner
+    - alert gaze
+    - playful smile
+    - defiant stare
+    - contemplative expression
+    - gentle smile
+    - determined look
+    - mysterious expression
+    - thoughtful gaze
+    - fierce expression
+    - peaceful countenance
+
+  # Body language and posture quality
+  body_language:
+    - "{confident|relaxed|tense|graceful|rigid|fluid} posture"
+    - "{upright|slouched|leaning|twisted|arched} stance"
+    - "{stable|dynamic|precarious|balanced} positioning"
+    - "{formal|casual|dramatic|natural} bearing"
+    - "{alert|weary|energetic|languid} demeanor"
+
+  # Complete pre-composed poses for variety
+  complete_poses:
+    - standing confidently with arms crossed and head held high
+    - sitting gracefully with hands folded and serene expression
+    - kneeling in prayer position with eyes closed
+    - floating peacefully with arms spread and calm expression
+    - walking forward with determined stride and focused gaze
+    - dancing with flowing movements and joyful expression
+    - casting spell with dramatic gestures and intense concentration
+    - reclining casually with one arm behind head
+    - jumping with arms raised in celebration
+    - standing in profile with hand on chin, deep in thought
+    - sitting cross-legged in meditation pose
+    - reaching upward with hopeful expression
+    - standing defiantly with hands on hips
+    - lying peacefully with hands clasped over chest
+    - balancing gracefully on one foot with arms extended

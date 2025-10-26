@@ -1,0 +1,16 @@
+omni:
+  v1: 
+    - | 
+      masterpiece,best quality,
+      __std/xl/lumi/all__,
+      __std/xl/style/all__,
+      __std/xl/camera/all__,
+      1girl with {cat|bunny} ears, curvy, {flat|small|medium|large|very large} breasts, bored face, black_sclera,
+      __std/xl/character/all__, 
+      wearing __std/xl/outfit/all__
+      __std/xl/location/all__,
+      __std/xl/environment/all__, 
+      __std/xl/distance/all__,
+      __std/xl/lighting/all__, 
+      __std/xl/details/all__
+
