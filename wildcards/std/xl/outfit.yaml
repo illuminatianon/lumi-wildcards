@@ -1,381 +1,292 @@
 outfit:
 
-  # Primary category - combines outfit types with accessories for complete looks
-  # Based on the original outfits.txt composition patterns
+  # Primary category - compositional outfit system
+  # Combines garment types, styles, and accessories for complete looks
   all:
-    - __std/xl/outfit/bunnygirl__
-    - "__std/xl/outfit/bunnygirl__, __std/xl/outfit/accessories__"
-    - __std/xl/outfit/dress__
-    - "__std/xl/outfit/dress__, __std/xl/outfit/accessories__"
-    - __std/xl/outfit/skirt__
-    - "__std/xl/outfit/skirt__, __std/xl/outfit/accessories__"
-    - __std/xl/outfit/uniform__
-    - "__std/xl/outfit/uniform__, __std/xl/outfit/accessories__"
-    - __std/xl/outfit/misc__
-    - "__std/xl/outfit/misc__, __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/garment_type__ with __std/xl/outfit/style_modifier__"
+    - "__std/xl/outfit/garment_type__ in __std/xl/outfit/material_finish__"
+    - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__"
+    - "__std/xl/outfit/garment_type__, __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/garment_type__ with __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__ and __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/garment_type__ featuring __std/xl/outfit/decorative_elements__"
+    - "__std/xl/outfit/garment_type__ with __std/xl/outfit/decorative_elements__ and __std/xl/outfit/accessories__"
 
-  # Bunny-themed outfits - converted from bunnygirl.txt
-  bunnygirl:
-    - stylized bunny outfit with asymmetrical design
-    - bunny-inspired bodysuit with flowing ribbons
-    - futuristic bunny uniform with metallic accents
-    - minimalist bunny outfit with sheer fabric layers
-    - gothic bunny corset and lace gloves
-    - bunny costume integrated into casual streetwear
-    - ceremonial bunny outfit of silk and embroidery
-    - soft pastel bunny outfit with loose skirt
-    - deconstructed bunny ensemble, abstract design
-    - sporty bunny uniform with visor and sneakers
-    - sleek black bunny suit with long ears
-    - bunny ears silhouette
-    - cat-themed costume with ears and tails
-    - bunny-themed outfit with bowtie
-    - bunny ears headband
-    - classic bunny outfit with ears and gloves
-    - classic bunny outfit with bow tie
-    - bunny ears headband with sleek bodysuit
-    - bunny-eared character in a sleek outfit
-    - cat-eared headband with dark outfit
-    - dark bunny-themed outfit with glossy accents
-    - bunny ears with fluffy accents
-    - formal bunny-themed outfit
-    - black bunny-themed outfit with ears
-    - bunny-inspired suit with ears
-    - latex bunny-inspired outfit
-    - sleek black bunny outfit with shiny finish
-    - bunny-inspired bodysuit with straps
-    - bunny ears with a sleek design
-    - stylized bunny-themed outfit
-    - bunny-inspired bikini with ears
-    - bunny ears and tail with leather jacket
-    - wolf ears and tail hybrid elements
-    - dark-themed bunny outfit with cross motifs
-    - bunny-inspired outfit with ears
-    - bunny-inspired bodysuit with large ears
+  # Core garment types - base clothing items
+  garment_type:
+    - dress
+    - gown
+    - skirt and top
+    - bodysuit
+    - corset
+    - blouse
+    - jacket
+    - coat
+    - robe
+    - uniform
+    - suit
+    - jumpsuit
+    - overalls
+    - tunic
+    - vest
+    - cardigan
+    - sweater
+    - hoodie
+    - poncho
+    - cloak
+    - cape
+    - bikini
+    - lingerie
+    - shorts and top
+    - pants and top
+    - leggings and top
+    - kimono
+    - sarong
+    - wrap dress
+    - shift dress
 
-  # Dress outfits - converted from dress.txt
-  dress:
-    - flowing chiffon dress with layered hem
-    - tight satin cocktail dress with subtle shimmer
-    - minimalist slip dress with delicate straps
-    - long gothic gown with lace and corset bodice
-    - modern asymmetrical dress with geometric cut
-    - vintage 1950s dress with wide skirt
-    - sheer layered dress that catches the light
-    - hand-painted dress with abstract patterns
-    - black lace dress
-    - dark lace-trimmed dress
-    - simple dark dress with high collar
-    - dark dress with high collar
-    - gothic-inspired dress
-    - utility jacket with rolled sleeves
-    - oversized hoodie layered under a worn coat
-    - faded cargo pants and scuffed boots
-    - rain poncho made from repurposed tarp
-    - mechanic's overalls tied at the waist
-    - knit turtleneck with patched elbows
-    - hooded parka lined with synthetic fur
-    - light tactical outfit with weathered straps
-    - denim vest over flannel shirt
-    - well-worn leather jacket with broken zipper
-    - field outfit of canvas and reinforced stitching
-    - aviator jacket and thermal undershirt
-    - street-casual layers, unevenly buttoned
-    - heavy work clothes dusted with grime
-    - lightweight traveler's gear for long roads
-    - rolled-up sleeves and taped fingers
-    - simple tunic under a threadbare cloak
-    - patched jeans tucked into worn sneakers
-    - loose fisherman's outfit with faded colors
-    - makeshift armor of scavenged plates
-    - fractured-glass bodysuit that catches light
-    - translucent robes threaded with circuitry
-    - gossamer layers suspended by invisible strings
-    - woven metallic fabric that shifts like oil
-    - dreamlike garment shaped from drifting mist
-    - half-ethereal outfit fading at the edges
-    - corseted silhouette formed from smoke and ribbons
-    - robes of liquid mercury texture
-    - ceremonial attire glowing with faint runes
-    - shattered-mirror outfit reflecting fragments of self
-    - paper-thin fabric covered in faint constellations
-    - folded origami-style garment of translucent panels
-    - flowing vestments with gravity-defying folds
-    - outfit made of crystalline strands
-    - runic bodysuit carved into luminous skin
-    - stitched shadows forming loose drapery
-    - fractal-patterned cloak bending light subtly
-    - fluid garment that reshapes as it moves
-    - robe woven from faintly humming threads
-    - biotech outfit grown from living fibers
-    - summer dress with light floral print
-    - sleeveless cotton dress tied at the waist
-    - simple black dress with narrow straps
-    - button-front shirt dress with rolled sleeves
-    - denim dress with frayed hemline
-    - long-sleeve turtleneck dress and belt
-    - knit dress with ribbed texture
-    - checkered dress layered over white blouse
-    - wrap dress with flowing fabric
-    - strapless evening dress with satin sheen
-    - collared midi dress and subtle pleats
-    - linen sundress with loose fit
-    - form-fitting dress with open back
-    - casual dress with layered underskirt
-    - off-shoulder dress and ribbon tie
-    - long wool dress under a light coat
-    - short chiffon dress caught by the wind
-    - vintage-style dress with puffed sleeves
-    - two-tone dress with contrast trim
-    - tailored dress with hidden buttons
-    - dress with structured asymmetrical panels
-    - sheer overlay dress with bold pattern
-    - leather dress with cutout sections
-    - iridescent dress shifting in color
-    - strapless mini dress with metallic finish
-    - high-collar dress with embroidered edges
-    - corset-style dress layered over mesh
-    - satin gown with plunging neckline
-    - dress with wide belt and layered skirt
-    - lace dress with semi-transparent sleeves
-    - dress of velvet and silver trim
-    - open-shoulder gown with trailing ribbons
-    - slit dress with geometric cutouts
-    - backless dress draped with thin chains
-    - high-neck dress with subtle armor motifs
-    - dress combining silk and synthetic fabric
-    - ribbon-tied dress with contrasting textures
-    - minimalist dress with smooth sculpted form
-    - dress woven from faintly glowing threads
-    - fragmented glass dress reflecting light shards
-    - gown made of drifting petals and ash
-    - dress dissolving into watercolor streaks
-    - shimmering translucent dress of shifting hues
-    - ceremonial dress woven with runic patterns
-    - liquid-metal gown rippling with movement
-    - hollow dress outlined by glowing seams
-    - dress formed from folded paper shapes
-    - ethereal gown of mist and starlight
-    - dress stitched from fragments of old letters
-    - weightless dress that floats around the wearer
-    - fading silk gown unraveling into light
-    - dress of overlapping geometric planes
-    - bioluminescent gown pulsing softly
-    - dress resembling cracked porcelain
-    - stitched shadow dress with faint smoke trails
-    - dress reflecting constellations across its folds
-    - fractured crystal gown hovering in air
-    - black cut-out dress with intricate pattern
-    - elegant black gown with off-shoulder design
-    - dark gothic dress with lace trim
-    - strapless form-fitting dress
-    - form-fitting gothic dress with lace details
-    - structured, layered dress with intricate patterns
-    - regal gown with flowing cape
-    - strapless dress with gold trim
-    - black lace lingerie with a flowing skirt
-    - formal black dress with white collar
-    - elegant kimono with floral patterns
+  # Style modifiers - aesthetic and design approaches
+  style_modifier:
+    - gothic
+    - vintage
+    - futuristic
+    - minimalist
+    - ornate
+    - casual
+    - formal
+    - ceremonial
+    - military-inspired
+    - streetwear
+    - bohemian
+    - punk
+    - elegant
+    - rustic
+    - ethereal
+    - dramatic
+    - romantic
+    - edgy
+    - classic
+    - modern
+    - avant-garde
+    - deconstructed
+    - layered
+    - flowing
+    - fitted
+    - oversized
+    - tailored
+    - asymmetrical
+    - structured
+    - loose-fitting
 
-  # Skirt-based outfits - converted from skirt.txt
-  skirt:
-    - pleated skirt with matching blouse
-    - short layered skirt and cropped jacket
-    - pencil skirt and sheer top ensemble
-    - flared skirt with oversized belt
-    - frayed denim skirt with torn tights
-    - translucent skirt over bodysuit
-    - patterned skirt with asymmetrical hem
-    - high-waisted midi skirt with tucked blouse
-    - buttoned corduroy skirt and knit sweater
-    - leather skirt paired with loose turtleneck
-    - denim wrap skirt and cropped hoodie
-    - plaid skirt with layered underskirt
-    - cotton maxi skirt and tied-up shirt
-    - tiered ruffle skirt with lace trim
-    - pencil skirt with slit and tailored jacket
-    - long wool skirt and belted coat
-    - light chiffon skirt caught in the breeze
-    - simple linen skirt with frayed hem
-    - wrap skirt with floral embroidery
-    - cargo-style skirt with side pockets
-    - pleated mini skirt with contrast lining
-    - denim pencil skirt and rolled-up sleeves
-    - A-line skirt with stitched panels
-    - floral sundress-style skirt and cardigan
-    - skirt of sheer fabric over fitted shorts
-    - knit skirt with uneven hemline
-    - two-tone skirt with stitched accents
-    - skirt of shifting translucent layers
-    - tattered silk skirt trailing sparks of light
-    - asymmetrical skirt woven from metallic fibers
-    - skirt made of paper fragments fluttering apart
-    - glowing fabric skirt that drifts like smoke
-    - shard-patterned skirt with crystalline texture
-    - holographic skirt that refracts color softly
-    - skirt of fine chains and glinting metal threads
-    - feathered skirt shedding iridescent dust
-    - stitched-ribbon skirt forming flowing patterns
-    - skirt shaped from liquid glass ripples
-    - layered skirt that dissolves into mist
-    - origami-fold skirt with impossible geometry
-    - skirt woven from floating geometric shapes
-    - luminescent pleated skirt responding to motion
-    - fabric skirt interlaced with soft circuitry
-    - weightless skirt hovering slightly off the body
-    - skirt of translucent panels rotating subtly
-    - fractured lace skirt glimmering with symbols
-    - skirt formed from tangled starlight threads
+  # Material finishes - fabric types and textures
+  material_finish:
+    - silk
+    - satin
+    - chiffon
+    - lace
+    - velvet
+    - leather
+    - denim
+    - cotton
+    - linen
+    - wool
+    - cashmere
+    - mesh
+    - sheer fabric
+    - metallic fabric
+    - iridescent material
+    - translucent material
+    - matte finish
+    - glossy finish
+    - textured fabric
+    - smooth fabric
+    - ribbed material
+    - pleated fabric
+    - embroidered fabric
+    - printed fabric
+    - solid color
+    - patterned material
+    - distressed fabric
+    - weathered material
+    - pristine fabric
+    - flowing material
 
-  # Uniform outfits - converted from uniform.txt
-  uniform:
-    - stylized minor league baseball uniform
-    - reimagined military dress uniform with surreal insignia
-    - ceremonial academy uniform with ornate trim
-    - flight attendant uniform from a forgotten airline
-    - futuristic security uniform with glowing seams
-    - scout-style uniform with shorts and patches
-    - lab uniform spattered with colorful paint
-    - formal business suit with fitted blazer
-    - white lab coat over a blue dress
-    - military-inspired uniform with insignia
-    - formal suit with tie
-    - formal suit with white trim
-    - superhero costume with logo
+  # Decorative elements - embellishments and details
+  decorative_elements:
+    - lace trim
+    - embroidered details
+    - geometric patterns
+    - floral motifs
+    - abstract designs
+    - metallic accents
+    - sequin details
+    - beaded embellishments
+    - fringe trim
+    - ribbon details
+    - bow accents
+    - button details
+    - zipper accents
+    - buckle details
+    - chain elements
+    - stud details
+    - cutout sections
+    - layered panels
+    - asymmetrical cuts
+    - pleated sections
+    - gathered fabric
+    - draped elements
+    - flowing ribbons
+    - trailing elements
+    - structured panels
+    - contrast trim
+    - piping details
+    - ruffle accents
+    - tiered layers
+    - overlapping sections
 
-  # Miscellaneous outfits - converted from misc.txt
-  misc:
-    - ragged traveler's ensemble
-    - patched cloak and layered tunics
-    - ceremonial robes of unknown origin
-    - streetwear mashup of denim and mesh
-    - loose desert garb wrapped against the wind
-    - sleeveless jacket with asymmetrical seams
-    - tight corset over a torn blouse
-    - hooded poncho made of stitched fabrics
-    - battle-worn outfit with torn armor plates
-    - flowing coat with luminous lining
-    - drifter's outfit pieced from scavenged tech
-    - simple linen shift, frayed at the edges
-    - patched jumpsuit stained with oil and dust
-    - ritual garment painted in fading sigils
-    - layered outfit mixing silk and leather scraps
-    - explorer's attire with reinforced belts and straps
-    - oversized sweater and mismatched pants
-    - dancer's costume of fluttering fabric
-    - runic shroud that trails smoke
-    - patched trenchcoat over minimal clothing
-    - casual tank top and shorts
-    - sleeveless tank top
-    - tight shorts
-    - futuristic form-fitting bodysuit
-    - corset with red lacing
-    - black and red color scheme
-    - angelic attire with feather details
-    - black form-fitting outfit with white collar
-    - form-fitting bodysuit with dark accents
-    - form-fitting bodysuit with organic patterns
-    - corset with gold clasps
-    - garter belt with stockings
-    - minimalist black bikini outfit
-    - black leather harness outfit
-    - dark form-fitting outfit with red accents
-    - draped in sheer fabric
-    - futuristic armored bodysuit with organic motifs
-    - biomechanical armor with organic textures
-    - form-fitting dark outfit
-    - form-fitting bodysuit with intricate designs
-    - lace-trimmed black outfit
-    - form-fitting bodysuit with high collar
-    - blue bikini
-    - minimalist two-piece outfit
-    - black leather corset and shorts
-    - fishnet stockings
-    - wearing a fur-lined parka
-    - oversized cloak with fur collar
-    - black corset with glowing patterns
-    - lace stockings with intricate designs
-    - intricate lace romper with floral accents
-    - wearing a form-fitting bodysuit and cape
-
-  # Accessories - converted from accessories.txt
+  # Accessories - modular add-ons for complete looks
   accessories:
-    - fingerless gloves and a small choker
-    - a thin ribbon tied around her neck
-    - a wide belt cinching the outfit at the waist
-    - lace-trimmed gloves and matching stockings
-    - simple jewelry with geometric shapes
-    - a metallic bracelet catching the light
-    - a transparent visor reflecting soft color
-    - delicate chain earrings swaying slightly
-    - a long flowing scarf moving in the wind
-    - a short cropped jacket over the outfit
-    - fishnet stockings under the skirt
-    - a pair of thigh-high boots with folded tops
-    - a ribbon headband matching the outfit color
-    - an ornate brooch fastened at the collar
-    - a simple pendant glowing faintly
-    - detached sleeves with subtle trim
-    - carrying a small satchel or belt pouch
-    - knee-high socks and platform shoes
-    - a mechanical armband covered in markings
-    - a faintly glowing earpiece tucked behind one ear
-    - choker with a triangular pendant
-    - bowtie and cuffs
+    - __std/xl/outfit/jewelry__
+    - __std/xl/outfit/headwear__
+    - __std/xl/outfit/eyewear__
+    - __std/xl/outfit/neckwear__
+    - __std/xl/outfit/handwear__
+    - __std/xl/outfit/legwear__
+    - __std/xl/outfit/footwear__
+    - __std/xl/outfit/belts_bags__
+
+  # Jewelry and ornamental accessories
+  jewelry:
+    - delicate chain earrings
+    - ornate brooch
+    - simple pendant necklace
+    - metallic bracelet
+    - intricate ring set
+    - golden arm bands
+    - decorative necklace
+    - cross pendant necklace
+    - intricate pendant necklace
+    - emerald earring
+    - glowing earrings and bracelet
+    - mechanical armband
+    - faintly glowing earpiece
+
+  # Headwear and head accessories
+  headwear:
+    - ribbon headband
     - cat ears headband
     - hood with cat ears
-    - collar with eye motif
-    - frilled collar
-    - wearing glasses
-    - holding a smartphone
-    - armband on left arm
-    - utility belt with holster
-    - wearing red-framed glasses
-    - fishnet stockings
-    - wearing a choker with metal details
-    - wearing a lace choker
-    - wearing a headband with spikes
-    - wearing an emerald earring
-    - wearing a choker with a pendant
-    - headband with flowing ribbons
-    - wearing a choker with intricate design
-    - lace gloves and stockings
-    - wearing glasses and a ring
-    - black bodysuit with zipper detail
-    - wearing glasses and choker
-    - ring on finger
-    - wearing glasses and fingerless gloves
-    - chain belt with metallic accents
-    - gloved hand with claw-like fingers
-    - golden arm bands
     - ornate crown
-    - decorative necklace
-    - wearing glasses with a mechanical design
-    - wearing red glasses
-    - wearing fingerless gloves and choker
-    - ornate choker with emblem
-    - intricate pendant necklace
-    - wearing a leather jacket
-    - holding a long staff
-    - cross pendant necklace
-    - high-heeled boots
-    - "large pendant with __std/color/extended__ gem"
-    - wearing a choker with cross pendant
-    - wearing sunglasses
-    - cat ears headband
-    - wearing a long coat with intricate designs
-    - wearing a hood with cat ears
-    - lace choker and gloves
-    - wearing a pointed hat with a star emblem
-    - wearing a harness top
-    - cat ears and tail
-    - wearing a choker with a central emblem
-    - necklace with a pendant
+    - pointed hat with star emblem
+    - headband with spikes
+    - headband with flowing ribbons
+    - antenna headband
     - goggles resting on head
-    - choker with emblem
-    - wearing round sunglasses
-    - spiked choker and belt
-    - "wearing a __std/color/extended__ cape and antenna headband"
-    - wearing glowing earrings and bracelet
-    - wearing oversized glasses
+    - hair accessories
+
+  # Eyewear
+  eyewear:
+    - glasses
+    - red-framed glasses
+    - glasses with mechanical design
+    - red glasses
+    - sunglasses
+    - round sunglasses
+    - oversized glasses
+    - transparent visor
+
+  # Neckwear
+  neckwear:
+    - choker with triangular pendant
+    - lace choker
+    - choker with metal details
+    - choker with pendant
+    - choker with intricate design
+    - ornate choker with emblem
+    - choker with cross pendant
+    - choker with central emblem
+    - spiked choker
+    - frilled collar
+    - collar with eye motif
+    - bowtie
+    - flowing scarf
+
+  # Handwear
+  handwear:
+    - fingerless gloves
+    - lace-trimmed gloves
+    - lace gloves
+    - detached sleeves
+    - gloved hand with claw-like fingers
+    - fingerless gloves and choker combination
+
+  # Legwear
+  legwear:
+    - fishnet stockings
+    - lace stockings
+    - knee-high socks
+    - thigh-high stockings
+    - matching stockings
+
+  # Footwear
+  footwear:
+    - thigh-high boots with folded tops
+    - platform shoes
+    - high-heeled boots
+    - knee-high boots
+
+  # Belts and bags
+  belts_bags:
+    - wide belt
+    - utility belt with holster
+    - chain belt with metallic accents
+    - spiked belt
+    - small satchel
+    - belt pouch
+
+  # Outfit themes - thematic categories for specific contexts
+  theme:
+    - casual everyday
+    - formal evening
+    - business professional
+    - gothic alternative
+    - vintage retro
+    - futuristic sci-fi
+    - bohemian artistic
+    - punk rebellious
+    - romantic feminine
+    - military tactical
+    - ceremonial ritual
+    - athletic sporty
+    - academic scholarly
+    - mystical ethereal
+    - industrial utilitarian
+    - royal regal
+    - tribal primitive
+    - cyberpunk tech
+    - steampunk mechanical
+    - fantasy magical
+
+  # Special elements - unique features and costume elements
+  special_elements:
+    - animal ears
+    - animal tail
+    - wings
+    - cape
+    - hood
+    - mask
+    - armor plating
+    - technological implants
+    - glowing elements
+    - transparent sections
+    - cutout details
+    - layered components
+    - flowing elements
+    - structured framework
+    - modular attachments
+    - decorative chains
+    - ribbon accents
+    - feather details
+    - fur trim
+    - metallic hardware
 
