@@ -1,0 +1,221 @@
+cat:
+
+  # Primary compositional category - combines breed, coloration, and pose
+  all:
+    - "__std/xl/cat/breed__ cat with __std/xl/cat/coat_pattern__, __std/xl/cat/pose__"
+    - "__std/xl/cat/coat_color__ __std/xl/cat/breed__ cat, __std/xl/cat/pose__"
+    - "__std/xl/cat/breed__ cat featuring __std/xl/cat/coat_pattern__ and __std/xl/cat/body_language__"
+    - "__std/xl/cat/coat_color__ cat with __std/xl/cat/coat_texture__, __std/xl/cat/pose__"
+    - "__std/xl/cat/breed__ cat in __std/xl/cat/dynamic_pose__, __std/xl/cat/expression__"
+    - "__std/xl/cat/coat_pattern__ __std/xl/cat/breed__ cat, __std/xl/cat/pose__ with __std/xl/cat/expression__"
+    - "__std/xl/cat/breed__ cat with __std/xl/cat/eye_color__ eyes, __std/xl/cat/pose__"
+    - "__std/xl/cat/breed_type__ cat with __std/xl/cat/coat_color__ fur, __std/xl/cat/pose__"
+    - "__std/xl/cat/coat_color__ __std/xl/cat/breed_type__ cat, __std/xl/cat/dynamic_pose__"
+    - "__std/xl/cat/complete_descriptions__"
+
+  # Cat breeds - SDXL-compatible breeds that are well understood
+  breed:
+    - Persian
+    - Siamese
+    - Bengal
+    - Ragdoll
+    - Sphynx
+    - Abyssinian
+    - Manx
+    - Bombay
+    - Burmese
+    - tabby
+    - calico
+    - tortoiseshell
+
+  # Descriptive breed-like terms that work better in SDXL
+  breed_type:
+    - longhair
+    - shorthair
+    - fluffy
+    - sleek
+    - stocky
+    - slender
+    - large
+    - small
+    - domestic
+    - feral
+
+  # Coat colors - base color descriptions
+  coat_color:
+    - black
+    - white
+    - gray
+    - orange
+    - cream
+    - brown
+    - silver
+    - blue
+    - red
+    - chocolate
+    - lilac
+    - cinnamon
+    - fawn
+    - seal point
+    - blue point
+    - flame point
+    - tortoiseshell
+    - calico
+    - dilute calico
+    - smoke
+    - shaded silver
+    - chinchilla
+    - golden
+    - cameo
+
+  # Coat patterns - markings and pattern types
+  coat_pattern:
+    - solid coloring
+    - tabby stripes
+    - classic tabby markings
+    - mackerel tabby stripes
+    - spotted tabby pattern
+    - ticked tabby coat
+    - tortoiseshell patches
+    - calico patches
+    - bicolor markings
+    - tuxedo pattern
+    - van pattern
+    - colorpoint markings
+    - lynx point pattern
+    - mitted markings
+    - harlequin pattern
+    - smoke pattern
+    - shaded pattern
+    - chinchilla pattern
+    - silver tabby markings
+    - brown tabby stripes
+    - red tabby pattern
+    - cream tabby markings
+    - dilute tortoiseshell
+    - patched tabby
+    - white spotting
+
+  # Coat texture and length
+  coat_texture:
+    - short smooth fur
+    - long flowing fur
+    - medium-length coat
+    - dense double coat
+    - silky fur
+    - plush coat
+    - curly fur
+    - wispy fur
+    - thick winter coat
+    - fine soft fur
+    - coarse outer coat
+    - fluffy undercoat
+    - sleek coat
+    - woolly texture
+    - rex-type curls
+
+  # Eye colors
+  eye_color:
+    - green
+    - blue
+    - yellow
+    - amber
+    - copper
+    - gold
+    - hazel
+    - odd-colored
+    - aqua
+    - emerald
+    - sapphire
+    - orange
+
+  # Basic cat poses and positions
+  pose:
+    - sitting upright
+    - lying down
+    - crouching low
+    - standing alert
+    - stretching
+    - curled up sleeping
+    - perched on surface
+    - walking forward
+    - prowling
+    - lounging
+    - resting on side
+    - sitting with tail wrapped
+    - lying on back
+    - crouched in hunting position
+    - standing on hind legs
+    - climbing
+    - jumping
+    - pouncing
+    - stalking
+    - grooming
+
+  # Dynamic poses and actions
+  dynamic_pose:
+    - leaping through air
+    - pouncing on prey
+    - climbing up tree
+    - stalking through grass
+    - running at full speed
+    - jumping down from height
+    - stretching after nap
+    - arching back defensively
+    - rolling on ground
+    - batting at object
+    - hunting in crouch
+    - springing into action
+    - balancing on narrow surface
+    - chasing something
+    - playing with toy
+    - investigating scent
+    - marking territory
+    - sharpening claws
+
+  # Body language and demeanor
+  body_language:
+    - alert and attentive
+    - relaxed and content
+    - playful and energetic
+    - cautious and wary
+    - confident and bold
+    - sleepy and drowsy
+    - curious and inquisitive
+    - defensive and tense
+    - affectionate and friendly
+    - independent and aloof
+    - hunting and focused
+    - lazy and comfortable
+
+  # Facial expressions and mood
+  expression:
+    - calm and serene
+    - alert and watchful
+    - sleepy and drowsy
+    - playful and mischievous
+    - content and purring
+    - curious and interested
+    - wary and cautious
+    - confident and regal
+    - affectionate and loving
+    - focused and intense
+    - relaxed and peaceful
+    - proud and dignified
+
+  # Complete pre-composed cat descriptions - using SDXL-compatible breeds
+  complete_descriptions:
+    - elegant Persian cat with long white fur, sitting regally with blue eyes
+    - playful orange tabby kitten pouncing with bright green eyes
+    - sleek black Bombay cat lounging gracefully with golden eyes
+    - graceful Siamese cat with seal point coloring, walking with tail high
+    - muscular Bengal cat with spotted pattern, crouched in hunting position
+    - gentle Ragdoll cat with blue eyes and colorpoint markings, lying peacefully
+    - affectionate calico cat with patches of orange and black, stretching contentedly
+    - athletic Abyssinian cat with ticked tabby coat, leaping gracefully
+    - exotic Sphynx cat with wrinkled skin, sitting with alert expression
+    - sleek black cat with short fur, prowling with focused expression
+    - fluffy longhair cat with white silky fur, grooming peacefully
+    - stocky shorthair cat with blue-gray coat, sitting with dignified posture
+    - slender domestic cat with tortoiseshell markings, stretching in sunlight
+    - large tabby cat with green eyes, lying contentedly on soft surface
