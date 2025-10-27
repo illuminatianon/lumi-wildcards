@@ -2,23 +2,24 @@ details:
 
   # Primary category - combines multiple detail types for rich compositions
   # Focus on tangible details, props, and specific elements that add richness
+  # Reduced eye/glowing repetition, moved literal light emission to lighting
   all:
     - "__std/xl/details/mystical__ with __std/xl/details/accessories__"
-    - "__std/xl/details/eyes__ and __std/xl/details/geometric__"
+    - "__std/xl/details/symbols__ and __std/xl/details/geometric__"
     - "__std/xl/details/natural__ surrounded by __std/xl/details/creatures__"
     - "__std/xl/details/paint_effects__ with __std/xl/details/creatures__"
-    - "__std/xl/details/symbols__ and __std/xl/details/object_lighting__"
     - "__std/xl/details/mechanical__ with __std/xl/details/natural__"
-    - "__std/xl/details/geometric__ patterns with __std/xl/details/eyes__"
+    - "__std/xl/details/geometric__ patterns with __std/xl/details/symbols__"
     - "__std/xl/details/creatures__ emerging from __std/xl/details/paint_effects__"
-    - "__std/xl/details/object_lighting__ illuminating __std/xl/details/symbols__"
     - "__std/xl/details/accessories__ adorned with __std/xl/details/mystical__"
     - "__std/xl/details/paint_effects__ creating __std/xl/details/geometric__"
-    - "__std/xl/details/eyes__ watching through __std/xl/details/symbols__"
     - "__std/xl/details/mechanical__ fused with __std/xl/details/creatures__"
     - "__std/xl/details/natural__ intertwined with __std/xl/details/symbols__"
-    - "__std/xl/details/mystical__ energy radiating from __std/xl/details/object_lighting__"
     - "__std/xl/details/props__ with __std/xl/details/accessories__"
+    - "__std/xl/details/symbols__ integrated with __std/xl/details/natural__"
+    - "__std/xl/details/geometric__ combined with __std/xl/details/mechanical__"
+    - "__std/xl/details/accessories__ enhanced by __std/xl/details/paint_effects__"
+    - "__std/xl/details/creatures__ interacting with __std/xl/details/props__"
 
   # Mystical and supernatural elements
   mystical:
@@ -33,21 +34,21 @@ details:
     - ethereal figures dance nearby
     - small creatures with speech bubbles
 
-  # Eye motifs and patterns
+  # Eye motifs and patterns - reduced repetition, focus on symbolic forms
   eyes:
-    - floating eyes with lashes dripping color
-    - "floating eyes with concentric __std/shape/2d__"
-    - "large singular eye with __std/color/simple__ pupil"
-    - "__std/color/simple__ eye patterns in background"
-    - large red eye motif above figure
-    - large face with three eyes in background
-    - "__std/color/simple__ eye motif in background"
-    - large eye motif above
-    - large eyes on TV screens watching
-    - large stylized eye motif in background
-    - large eye on the ground
-    - large central eye motif
-    - dripping liquid from an eye
+    - watchful gaze motifs with lashes dripping color
+    - "observing symbols with concentric __std/shape/2d__"
+    - "large singular iris with __std/color/simple__ pupil"
+    - "__std/color/simple__ vision patterns in background"
+    - red iris motif above figure
+    - face with three watching orbs in background
+    - "__std/color/simple__ sight motif in background"
+    - stylized vision symbol in background
+    - screens displaying watching imagery
+    - central observation motif
+    - dripping liquid from a watching symbol
+    - all-seeing patterns scattered around
+    - iris designs embedded in surfaces
 
   # Geometric patterns and shapes
   geometric:
@@ -135,20 +136,20 @@ details:
     - butterfly hair ornament
     - golden leaf hair accessory
 
-  # Object-specific lighting and luminous effects
+  # Object-specific lighting and luminous effects - reduced glowing repetition
   object_lighting:
-    - glowing heart-shaped object
-    - "__std/shape/all__ head with glowing eyes"
-    - tentacles with glowing tips
-    - "giant eye with glowing __std/color/simple__ iris"
-    - "glowing __std/color/simple__ eye"
-    - skeletal creature with glowing eyes
-    - jagged teeth and glowing eyes
-    - small UFOs with glowing lights hover around
-    - two carved pumpkins with glowing faces
-    - "__std/color/simple__ glowing eyes stand out"
-    - "__std/color/simple__ eyes glowing intensely"
-    - red eyes glowing in shadow
+    - heart-shaped object with inner light
+    - "__std/shape/all__ head with luminous eyes"
+    - tentacles with bright tips
+    - "giant eye with radiant __std/color/simple__ iris"
+    - skeletal creature with bright eyes
+    - jagged teeth and piercing eyes
+    - small UFOs with pulsing lights hover around
+    - two carved pumpkins with illuminated faces
+    - "__std/color/simple__ eyes with inner fire"
+    - red eyes burning in shadow
+    - crystalline formations with internal light
+    - metallic surfaces reflecting ambient light
 
   # Symbols and religious motifs
   symbols:
