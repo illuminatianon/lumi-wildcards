@@ -13,4 +13,15 @@ omni:
       __std/xl/distance/all__,
       __std/xl/lighting/all__, 
       __std/xl/details/all__
-
+  cat:
+    - | 
+      masterpiece,best quality,
+      __std/xl/lumi/all__,
+      __std/xl/style/all__,
+      __std/xl/camera/all__,
+      __std/xl/cat/all__,
+      __std/xl/location/all__,
+      __std/xl/environment/all__, 
+      __std/xl/distance/all__,
+      __std/xl/lighting/all__, 
+      __std/xl/details/all__ 
