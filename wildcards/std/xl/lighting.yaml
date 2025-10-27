@@ -150,13 +150,20 @@ lighting:
     - starlight shimmer
     - neon radiance
 
-  # Global luminous effects - moved from details.yaml
+  # Global luminous effects - moved from details.yaml, expanded with glowing elements
   luminous:
     - a thin beam of light pierces her chest like truth itself
     - light threads connect her to unseen constellations
     - fractured halos orbit her head
     - a gilded eye motif glows faintly
     - stars reflected in eyes
+    - glowing heart-shaped object radiates warmth
+    - glowing __std/color/simple__ eye watches from above
+    - glowing eyes stand out in darkness
+    - eyes glowing intensely with inner fire
+    - glowing tips on organic appendages
+    - glowing faces carved in stone
+    - glowing lights hover mysteriously around
 
   # Color-specific lighting - removed problematic "backlighting" terms
   colored:

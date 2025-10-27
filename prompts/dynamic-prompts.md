@@ -191,3 +191,9 @@ When used as part of a composited system prompt, this wildcard system provides:
 - **Infinite variety** through modular combinations
 - **Professional quality** through curated component libraries
 - **Maintainable structure** for easy updates and extensions
+
+### Errata
+
+Use ```python scripts/wc_test __some/wildcard/file__``` to test your wildcards single wildcard files. It will generate 100 iterations and print to stdout.
+
+Use ```python scripts/prompt_stress_test.py -n 100 --blacklist with and the from illuminati eldritch``` to test wildcards holistically. It will generate 100 iterations based on my current master prompt and print a frequency analysis. Use --help to figure out cli params if necessary

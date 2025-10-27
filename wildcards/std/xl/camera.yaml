@@ -87,6 +87,12 @@ camera:
     - three-quarter
     - over-the-shoulder
     - isometric
+    - direct
+    - straight-on
+    - centered
+    - standard
+    - conventional
+    - neutral
 
   composition_style:
     - symmetrical
@@ -95,6 +101,15 @@ camera:
     - side-by-side
     - backlit
     - dramatic
+    - plain
+    - simple
+    - straightforward
+    - neutral
+    - standard
+    - conventional
+    - basic
+    - minimal
+    - clean
 
   # Additional extracted components
   angle_direction:
@@ -106,6 +121,15 @@ camera:
     - dramatic
     - subtle
     - neutral
+    - gentle
+    - mild
+    - understated
+    - moderate
+    - calm
+    - relaxed
+    - peaceful
+    - quiet
+    - soft
 
   shot_style:
     - establishing
@@ -141,6 +165,16 @@ camera:
   special_composition:
     - side-by-side
     - backlit
+    - plain front view
+    - centered shot
+    - static composition
+    - direct view
+    - straightforward framing
+    - simple positioning
+    - standard arrangement
+    - conventional setup
+    - basic layout
+    - neutral positioning
 
   emphasis_type:
     - foreground

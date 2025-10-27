@@ -1,6 +1,7 @@
 environment:
   # Primary category - atmospheric modifiers that enhance base locations
   # Environment provides the 'how it feels' to complement location's 'where'
+  # Expanded with concrete spatial elements to increase token coverage
   all:
     - __std/xl/environment/atmospheric_effects__
     - __std/xl/environment/weather_elements__
@@ -16,6 +17,11 @@ environment:
     - __std/xl/environment/seasonal_atmosphere__
     - __std/xl/environment/temporal_atmosphere__
     - __std/xl/environment/emotional_atmosphere__
+    - __std/xl/environment/concrete_spaces__
+    - __std/xl/environment/architectural_elements__
+    - __std/xl/environment/natural_formations__
+    - __std/xl/environment/urban_textures__
+    - __std/xl/environment/material_surfaces__
 
   # Atmospheric effects - moved from location.yaml
   atmospheric_effects:
@@ -467,5 +473,120 @@ environment:
     - contentment softens all textures
     - longing stretches toward horizon
     - fulfillment completes the circle
+
+  # Concrete spatial elements - added to increase environmental grounding
+  concrete_spaces:
+    - within a forest clearing
+    - inside a stone corridor
+    - beneath a rusted bridge
+    - beside a dusty pathway
+    - through a marble hallway
+    - across a wooden platform
+    - around a brick courtyard
+    - near a metal staircase
+    - over a concrete surface
+    - under a glass canopy
+    - between tall pillars
+    - among scattered rocks
+    - within crumbling walls
+    - beside flowing water
+    - through dense foliage
+    - across open fields
+    - around ancient ruins
+    - near weathered stones
+    - over mossy ground
+    - under twisted branches
+
+  # Architectural elements for spatial grounding
+  architectural_elements:
+    - stone archways frame the scene
+    - wooden beams stretch overhead
+    - brick walls show age and wear
+    - metal railings catch the light
+    - glass panels reflect surroundings
+    - concrete steps lead upward
+    - marble columns stand sentinel
+    - iron gates guard entrances
+    - copper pipes snake along walls
+    - ceramic tiles create patterns
+    - granite surfaces gleam smoothly
+    - limestone blocks form foundations
+    - steel girders support structures
+    - bronze fixtures add elegance
+    - aluminum panels shine brightly
+    - slate floors provide stability
+    - sandstone carvings tell stories
+    - plaster walls show texture
+    - timber frames create warmth
+    - crystal formations add sparkle
+
+  # Natural formations for environmental depth
+  natural_formations:
+    - rocky outcroppings jut upward
+    - sandy dunes shift constantly
+    - muddy banks slope downward
+    - grassy meadows stretch wide
+    - thorny bushes create barriers
+    - leafy canopies filter light
+    - mossy boulders dot landscape
+    - icy patches glisten coldly
+    - dusty trails wind through
+    - misty valleys hide secrets
+    - craggy cliffs rise steeply
+    - smooth pebbles line shores
+    - jagged rocks pierce skyline
+    - soft earth yields underfoot
+    - hard clay resists pressure
+    - loose gravel crunches loudly
+    - dense undergrowth blocks paths
+    - open clearings invite rest
+    - steep slopes challenge climbers
+    - gentle hills roll endlessly
+
+  # Urban textures and materials
+  urban_textures:
+    - weathered concrete shows age
+    - polished metal reflects light
+    - rough asphalt absorbs heat
+    - smooth glass creates barriers
+    - textured brick adds character
+    - painted surfaces show wear
+    - rusted iron tells stories
+    - clean steel gleams brightly
+    - cracked pavement reveals time
+    - pristine marble speaks luxury
+    - worn wood shows history
+    - fresh paint covers flaws
+    - tarnished brass adds patina
+    - gleaming chrome reflects all
+    - matte surfaces absorb light
+    - glossy finishes catch eyes
+    - corrugated metal creates patterns
+    - smooth plastic feels artificial
+    - rough stone provides grip
+    - slick surfaces challenge footing
+
+  # Material surfaces for tactile grounding
+  material_surfaces:
+    - velvet fabric drapes softly
+    - leather surfaces show character
+    - silk materials catch light
+    - cotton textures feel natural
+    - wool fibers provide warmth
+    - linen weaves create patterns
+    - canvas materials stretch taut
+    - rubber surfaces grip firmly
+    - plastic materials shine bright
+    - ceramic surfaces feel smooth
+    - porcelain finishes gleam white
+    - clay textures show handwork
+    - glass surfaces reflect clearly
+    - crystal formations sparkle
+    - metal alloys show strength
+    - wooden grains tell stories
+    - stone textures feel ancient
+    - paper surfaces hold memories
+    - cardboard materials stack high
+    - foam padding provides comfort
 
 
