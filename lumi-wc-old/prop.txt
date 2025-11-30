@@ -1,0 +1,79 @@
+microphone  
+ornate cross  
+royal scepter  
+magic wand  
+sword  
+katana  
+dagger  
+book  
+magic book  
+open book  
+open book, glowing, radiating __std/color/extended__ energy  
+crystal orb  
+glowing crystal  
+hourglass  
+lantern  
+candle  
+lit candle  
+scroll  
+ancient scroll  
+feather quill  
+ink bottle  
+mask  
+ornate mask  
+mirror  
+hand mirror  
+broken mirror  
+crown  
+jeweled crown  
+halo  
+violin  
+electric guitar  
+hand fan  
+folding fan  
+parasol  
+umbrella  
+key  
+ornate key  
+hourglass, sand suspended mid-fall  
+ring  
+signet ring  
+amulet  
+pendant  
+locket  
+rose  
+wilted rose  
+bouquet  
+chain  
+broken chain  
+apple  
+golden apple  
+chalice  
+goblet  
+wine glass  
+teacup  
+teapot  
+compass  
+pocket watch  
+camera  
+film camera  
+skull  
+crystal skull  
+glove  
+lace glove  
+mask, cracked, faintly glowing  
+letter  
+sealed envelope  
+map  
+dagger, dripping with __std/color/extended__ light  
+mirror shard  
+orb, hovering, pulsing with __std/color/extended__ energy  
+lantern, trailing spectral smoke  
+candle, flame twisting unnaturally  
+scroll, unraveling midair  
+book, bound in strange material  
+wand, wrapped in vines  
+scepter, crowned with crystal  
+violin, strings humming faintly  
+halo, flickering like static  
+ring, engraved with shifting symbols  

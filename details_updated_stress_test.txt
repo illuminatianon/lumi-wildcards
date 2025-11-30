@@ -1,0 +1,81 @@
+
+=== ANALYSIS RESULTS (1000 generations) ===
+Total unique words: 631
+Total word instances: 8833
+Blacklisted words: and, the, with
+
+=== top 30 words overall ===
+patterns              225 ( 22.5%)
+from                  181 ( 18.1%)
+geometric             155 ( 15.5%)
+around                150 ( 15.0%)
+elements              134 ( 13.4%)
+emerging              126 ( 12.6%)
+symbols               112 ( 11.2%)
+paint                 109 ( 10.9%)
+surfaces              108 ( 10.8%)
+floating              106 ( 10.6%)
+dripping               98 (  9.8%)
+her                    90 (  9.0%)
+forms                  84 (  8.4%)
+adorned                71 (  7.1%)
+integrated             67 (  6.7%)
+tentacles              65 (  6.5%)
+ink                    64 (  6.4%)
+ring                   61 (  6.1%)
+surrounded             59 (  5.9%)
+formations             59 (  5.9%)
+interacting            57 (  5.7%)
+air                    57 (  5.7%)
+across                 51 (  5.1%)
+like                   50 (  5.0%)
+flowing                49 (  4.9%)
+creature               49 (  4.9%)
+glowing                48 (  4.8%)
+details                47 (  4.7%)
+through                46 (  4.6%)
+mechanical             45 (  4.5%)
+
+=== per-source summary ===
+
+[std/xl/details/all] - 8833 total words, top 15:
+  patterns              225 ( 22.5%)
+  from                  181 ( 18.1%)
+  geometric             155 ( 15.5%)
+  around                150 ( 15.0%)
+  elements              134 ( 13.4%)
+  emerging              126 ( 12.6%)
+  symbols               112 ( 11.2%)
+  paint                 109 ( 10.9%)
+  surfaces              108 ( 10.8%)
+  floating              106 ( 10.6%)
+  dripping               98 (  9.8%)
+  her                    90 (  9.0%)
+  forms                  84 (  8.4%)
+  adorned                71 (  7.1%)
+  integrated             67 (  6.7%)
+
+=== potential issues ===
+Words appearing in >85% of generations (may indicate over-weighting):
+
+Words appearing in <2% of generations (may indicate under-weighting):
+  silk                   19 (  1.9%)
+  chest                  19 (  1.9%)
+  jewels                 19 (  1.9%)
+  thorny                 19 (  1.9%)
+  brambles               19 (  1.9%)
+  moss                   19 (  1.9%)
+  metal                  19 (  1.9%)
+  clothing               19 (  1.9%)
+  circle                 18 (  1.8%)
+  splashes               18 (  1.8%)
+  earrings               18 (  1.8%)
+  catching               18 (  1.8%)
+  down                   18 (  1.8%)
+  glass                  18 (  1.8%)
+  thin                   18 (  1.8%)
+  reflection             18 (  1.8%)
+  appears                18 (  1.8%)
+  growing                18 (  1.8%)
+  metallic               18 (  1.8%)
+  vine                   18 (  1.8%)

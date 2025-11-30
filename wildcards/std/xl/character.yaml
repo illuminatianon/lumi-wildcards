@@ -8,6 +8,7 @@ character:
     - "__std/xl/character/dynamic_pose__ with __std/xl/character/body_language__, __std/xl/character/head_direction__"
     - "__std/xl/character/body_position__, __std/xl/character/arm_gesture__, __std/xl/character/expression__"
     - "__std/xl/character/complete_poses__"
+      
   # Core body positions and stances
   body_position:
     - standing upright

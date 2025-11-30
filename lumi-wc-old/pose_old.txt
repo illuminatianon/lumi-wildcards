@@ -1,0 +1,209 @@
+she stands
+she kneels
+she leans on one knee
+she floats weightlessly
+she sits with hands clasped
+she reaches out
+she turns away
+she hovers midair
+hand on hip, leaning slightly
+standing with arms at sides
+sitting upright with a calm expression
+holding a __std/xl/prop__ __std/xl/adverb/mood__
+sitting cross-legged with hands on knees
+reclined confidently in a chair
+sitting languidly on a throne,
+sitting __std/xl/adverb/mood__ on a throne
+legs crossed with relaxed posture
+reclining pose with one arm supporting
+laid back with legs bent
+figure seated with a relaxed posture
+head tilted slightly downward
+standing with arms relaxed at sides
+standing confidently, arms slightly out
+silhouetted figures in formation
+slightly tilted head with neutral expression
+sitting with hands on the floor, looking forward
+standing with hands clasped
+facing forward with neutral expression
+figure seated with hands resting on knees
+standing with arms slightly spread
+standing with one hand raised
+standing with arms akimbo
+arms crossed confidently
+direct frontal gaze
+standing, one_leg_bent, hand_on_hip, leaning_forward, looking_at_viewer, tilted_head
+floating, graceful_posture, arms_extended, slight_forward_lean, tilted_head
+standing, one_leg_raised, hand_on_hip, facing_viewer, confident_pose
+standing, facing_viewer, reaching_forward, open_mouth, poised_posture
+shuffling, arms_outstretched, hunched_posture, dragging_feet, facing_viewer
+crouching, facing_viewer, leaning_forward, one_arm_raised, open_mouth
+floating, drifting, arms_extended, facing_viewer, slow_motion
+shambling_walk, arms_outstretched, facing_viewer, stiff_posture, forward_lean
+standing, leaning_forward, arms_raised, holding_object, open_mouth
+standing, casting_spell, one_arm_raised, facing_viewer, dynamic_action_pose
+standing, arms_outstretched, facing_viewer, head_tilted, rigid_posture
+standing, facing_viewer, arms_outstretched, tilted_head, slight_forward_lean
+standing, facing_viewer, arms_extended, head_tilted, balanced_stance
+standing, arms_outstretched, facing_viewer, shuffling, leaning_forward
+sitting, facing_viewer, slightly_tilted, motionless, stable_pose
+standing, facing_viewer, arms_outstretched, exaggerated_pose, dynamic_posture
+standing, feet_apart, hand_near_hip, turned_three_quarters, confident_pose
+combat_stance, one_leg_forward, arms_raised, facing_viewer, ready_to_strike
+standing, facing_viewer, arms_at_sides, rigid_posture, slight_head_tilt
+standing, facing_viewer, one_arm_raised, slight_forward_lean, confident_pose
+floating, wings_spread, arms_extended, facing_viewer, graceful_posture
+standing, feet_apart, hands_on_hips, facing_viewer, confident_pose
+sitting, tail_curled, looking_at_viewer, front_paws_together, relaxed_pose
+standing, facing_viewer, tail_wagging, mouth_open, alert_posture
+standing, facing_viewer, slight_forward_lean, one_arm_extended, tense_posture
+standing, facing_viewer, arms_at_sides, stiff_pose, head_tilted
+sitting, leaning_forward, hands_hovering, looking_down, concentrated_pose
+standing, facing_viewer, thumbs_up, leaning_forward, energetic_posture
+standing, slightly_tilted, curved_shape, facing_viewer, stable_pose
+standing, facing_viewer, one_hip_popped, hand_on_hip, leg_crossed
+lying_flat, slight_tilt, angled_toward_viewer, resting_on_surface, static_pose
+moving_erratically, spinning, tilted_orientation, hovering, drifting_sideways
+floating, facing_viewer, arms_reaching_forward, head_tilted, subtle_drifting
+partially_eaten, bite_taken, filling_exposed, crumbs_scattered, steam_rising
+standing, arms_crossed, hand_on_hip, rolling_eyes, subtle_forward_lean
+standing, pointing_gesture, holding_document, facing_viewer, confident_pose
+crouching, three_armed, one_arm_extended, third_arm_reaching, dynamic_action_pose
+sitting, facing_patient, subtle_forward_lean, one_hand_gesture, open_posture
+leaning_forward, head_tilt, one_hand_in_hair, facing_viewer, angled_shoulders
+standing, facing_viewer, tilted_head, arms_reaching_forward, slightly_leaning_forward
+standing, three_people, facing_viewer, arms_raised, synchronized_pose
+lying_down, hand_on_chest, head_tilted, open_mouth, weak_posture
+lying_flat, curled_corner, crumpled, torn_edge, faded_print
+standing, hand_near_mouth, holding_object, __std/xl/prop__, exhaling_smoke, relaxed_pose
+floating, gliding_forward, arms_reaching_out, facing_viewer, slight_forward_lean
+sitting, hunched_forward, hands_on_head, looking_down, tense_posture
+standing, slouched_posture, hands_clasped, looking_down, slight_forward_lean
+standing, one_hand_on_hip, facing_viewer, relaxed_pose, slight_head_tilt
+levitating, tilted_forward, rotating, facing_viewer, unsteady_pose
+sitting, slouched_posture, leaning_back, crossed_legs, facing_viewer
+kneeling, head_bowed, slumped_shoulders, hands_clasped, turned_away
+levitating, lotus_pose, hands_in_prayer, eyes_closed, facing_viewer
+standing, facing_viewer, hand_extended, holding_object, __std/xl/prop__, open_posture
+standing, facing_viewer, arms_at_sides, subtle_forward_lean, dripping_water
+floating, arms_reaching_out, facing_viewer, tilted_head, slow_motion
+standing, facing_viewer, hand_on_hip, slight_forward_lean, confident_posture
+performing_pose, one_arm_raised, holding_device, facing_viewer, energetic_posture
+standing, facing_viewer, slumped_shoulders, one_hand_on_head, off_balance
+standing, one_hand_to_chin, tilted_head, facing_viewer, confident_pose
+standing, leaning_forward, holding_object, __std/xl/prop__,wiping_forehead, slumped_posture
+standing, shielding_face, arm_across_torso, turned_away, squinting_eyes
+sitting, hands_folded, facing_forward, slumped_posture, still_pose
+seated, facing_side, leaning_forward, hands_extended_forward, concentrated_pose
+sitting, looking_down, holding_object, __std/xl/prop__,scratching_hand, subtle_forward_lean
+standing, facing_viewer, one_arm_raised, leaning_forward, focused_stance
+standing, facing_viewer, leaning_forward, pointing_finger, focused_stance
+standing, looking_around, pointing_forward, relaxed_pose, subtle_forward_lean
+standing, facing_viewer, arms_at_sides, grounded_stance, subtle_forward_lean
+standing, facing_viewer, casting_spell, one_hand_raised, holding_object, __std/xl/prop__,subtle_forward_lean
+standing, leaning_forward, looking_down, hand_on_chin, one_hand_on_hip
+running_forward, forward_lean, one_arm_forward, facing_away, dynamic_action_pose
+standing, scanning_horizon, hands_on_hips, alert_pose, forward_lean
+singing_pose, one_arm_raised, leaning_forward, wide_stance, energetic_posture
+sitting, leaning_forward, hands_gripping, looking_ahead, concentrated_pose
+standing, looking_down, stirring, slight_forward_lean, focused_pose
+en_pointe, arabesque, arms_rounded_overhead, turned_slightly, graceful_posture
+floating, drifting, arms_outstretched, legs_bent, facing_viewer
+batting_stance, knees_bent, hands_gripping_bat, looking_toward_pitcher, weight_shifted_back
+crouching, arms_outstretched, legs_wide, forward_lean, facing_viewer
+standing, leaning_forward, looking_down, hands_forward, concentrated_pose
+sitting, hands_on_controls, looking_forward, slight_forward_lean, focused_pose
+standing, facing_viewer, hands_clasped, upright_posture, slight_forward_lean
+jumping, arms_raised, one_leg_raised, facing_viewer, energetic_posture
+standing, leaning_forward, holding_object, __std/xl/prop__,looking_down, steady_stance
+standing, reaching_for_book, looking_up, slight_forward_lean, focused_pose
+walking, forward_stride, one_arm_extended, leaning_forward, facing_viewer
+standing_at_attention, saluting, facing_forward, feet_planted, alert_posture
+standing, broad_stance, facing_viewer, poised_for_combat, slight_forward_lean
+standing, facing_viewer, hands_clasped, graceful_posture, slight_head_tilt
+standing, casting, leaning_forward, looking_down, balanced_stance
+standing, wide_stance, arms_raised, leaning_forward, side_view, dynamic_action_pose
+standing, arms_crossed, facing_viewer, head_raised, confident_pose
+seated_lotus, hands_together, eyes_closed, straight_back, relaxed_pose
+standing, facing_viewer, arms_at_sides, rigid_posture, alert_stance
+arm raised holding phone
+slightly tilted head
+standing with one hand adjusting glasses
+standing with hands by sides
+standing with a slight tilt
+one arm raised behind head
+confident stance
+kneeling with hands resting on thighs
+hands on hips, standing confidently
+standing with hand on hip
+standing with hands clasped
+frontal view with neutral expression
+sitting confidently with arms on armrests
+arms gracefully extended
+standing on one leg
+hands clasped gently
+arms raised behind head
+relaxed posture in water
+standing with arms extended
+dynamic mid-jump pose
+sitting cross-legged
+hands resting on lap
+reclining with eyes closed
+standing with relaxed posture
+arms gently at sides
+sitting confidently with legs crossed
+standing with a determined posture
+hand resting on head, confident stance
+sitting with one leg crossed over the other
+gazing forward with a contemplative expression
+seated with hands resting on skulls
+sitting with one hand on hip
+reclining pose with head turned
+figure looking over shoulder
+standing with hair flowing in the wind
+figure stands facing the horizon
+leaning forward on one arm
+gaze directed upward
+standing confidently with hand on dragon
+expression of determination
+standing with hands in pockets
+face turned slightly to the side
+faces turned slightly with intense gazes
+standing with a symmetrical posture
+standing with tentacles extended
+arms raised with an imposing stance
+standing with a commanding presence
+confident stance with hand on hip
+gazing directly with a slight tilt
+head slightly tilted forward
+back turned, pointing upwards
+hands on hips, confident stance
+standing confidently with hands on hips
+standing upright with a forward gaze
+standing __std/xl/adverb/mood__ with hands on chest
+standing __std/xl/adverb/mood__ with hand on hip
+standing __std/xl/adverb/mood__ with hands at sides
+figures crouched with pointed hats
+one hand on hip, standing __std/xl/adverb/mood__
+arms crossed, standing straight
+leaning against a wall
+hand resting on hip
+standing upright with neutral expression
+standing with arms at sides
+sitting with legs crossed
+holding a drink in one hand
+standing with wings spread
+arms slightly extended
+arms extended outward
+standing upright with wings spread
+arms raised, confident stance
+standing with arms slightly bent
+mid-air kick with cape flowing
+sitting with arms wrapped around knees
+wide-eyed expression of surprise
+standing still, gazing upward
+lying on back with legs crossed
+sitting with hand resting on face
+standing gracefully with an outstretched arm
+woman standing with eyes closed
+she stands gracefully with one leg raised

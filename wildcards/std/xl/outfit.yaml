@@ -11,6 +11,25 @@ outfit:
     - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__ and __std/xl/outfit/accessories__"
     - "__std/xl/outfit/garment_type__ featuring __std/xl/outfit/decorative_elements__"
     - "__std/xl/outfit/garment_type__ with __std/xl/outfit/decorative_elements__ and __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__ in __std/xl/outfit/material_finish__"
+    - "__std/xl/outfit/garment_type__ made from __std/xl/outfit/material_finish__ with __std/xl/outfit/decorative_elements__"
+    - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__ featuring __std/xl/outfit/decorative_elements__"
+    - "__std/xl/outfit/garment_type__ in __std/xl/outfit/material_finish__, __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/garment_type__ adorned with __std/xl/outfit/decorative_elements__"
+    - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__ made from __std/xl/outfit/material_finish__"
+    - "__std/xl/outfit/layering__ with __std/xl/outfit/garment_type__"
+    - "__std/xl/outfit/garment_type__ with __std/xl/outfit/fit_style__ fit"
+    - "__std/xl/outfit/color_scheme__ __std/xl/outfit/garment_type__ with __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/garment_type__ in __std/xl/outfit/color_scheme__ with __std/xl/outfit/pattern_type__"
+    - "__std/xl/outfit/layering__ featuring __std/xl/outfit/style_modifier__ elements"
+    - "__std/xl/outfit/garment_type__ with __std/xl/outfit/closure_details__ and __std/xl/outfit/accessories__"
+    - "__std/xl/outfit/seasonal__ __std/xl/outfit/garment_type__ in __std/xl/outfit/material_finish__"
+    - "__std/xl/outfit/garment_type__ with __std/xl/outfit/neckline__ and __std/xl/outfit/sleeve_style__"
+    - "__std/xl/outfit/style_modifier__ __std/xl/outfit/garment_type__ featuring __std/xl/outfit/silhouette__"
+    - "__std/xl/outfit/occasion__ __std/xl/outfit/garment_type__ with __std/xl/outfit/cultural_influence__ styling"
+    - "__std/xl/outfit/formality__ __std/xl/outfit/garment_type__ featuring __std/xl/outfit/construction_details__"
+    - "__std/xl/outfit/age_appropriate__ __std/xl/outfit/garment_type__ with __std/xl/outfit/styling_approach__"
+    - "__std/xl/outfit/body_inclusive__ __std/xl/outfit/garment_type__ with __std/xl/outfit/styling_details__"
 
   # Core garment types - base clothing items
   garment_type:
@@ -44,6 +63,256 @@ outfit:
     - sarong
     - wrap dress
     - shift dress
+    - blazer
+    - trench coat
+    - pea coat
+    - bomber jacket
+    - denim jacket
+    - leather jacket
+    - windbreaker
+    - parka
+    - peacoat
+    - evening gown
+    - cocktail dress
+    - maxi dress
+    - midi dress
+    - mini dress
+    - A-line dress
+    - sheath dress
+    - fit-and-flare dress
+    - slip dress
+    - sundress
+    - shirt dress
+    - sweater dress
+    - tank dress
+    - halter dress
+    - off-shoulder dress
+    - strapless dress
+    - long-sleeve dress
+    - three-quarter sleeve dress
+    - sleeveless dress
+
+  # Layering components - for complex outfit compositions
+  layering:
+    - layered with __std/xl/outfit/garment_type__
+    - worn over __std/xl/outfit/garment_type__
+    - paired with __std/xl/outfit/garment_type__
+    - combined with __std/xl/outfit/garment_type__
+    - styled with __std/xl/outfit/garment_type__ underneath
+    - complemented by __std/xl/outfit/garment_type__
+    - accessorized with __std/xl/outfit/garment_type__
+    - enhanced by __std/xl/outfit/garment_type__
+    - coordinated with __std/xl/outfit/garment_type__
+    - matched with __std/xl/outfit/garment_type__
+
+  # Fit and silhouette styles
+  fit_style:
+    - slim
+    - relaxed
+    - oversized
+    - fitted
+    - loose
+    - tailored
+    - cropped
+    - elongated
+    - boxy
+    - flowy
+    - structured
+    - unstructured
+    - form-fitting
+    - baggy
+    - snug
+    - comfortable
+    - athletic
+    - stretchy
+    - rigid
+    - flexible
+
+  # Silhouette descriptions
+  silhouette:
+    - A-line silhouette
+    - hourglass silhouette
+    - straight silhouette
+    - empire waist silhouette
+    - drop waist silhouette
+    - fit-and-flare silhouette
+    - sheath silhouette
+    - column silhouette
+    - trapeze silhouette
+    - peplum silhouette
+    - mermaid silhouette
+    - ball gown silhouette
+    - princess silhouette
+    - shift silhouette
+    - wrap silhouette
+    - asymmetrical silhouette
+    - geometric silhouette
+    - flowing silhouette
+    - structured silhouette
+    - draped silhouette
+
+  # Color schemes and palettes
+  color_scheme:
+    - monochromatic
+    - neutral-toned
+    - earth-toned
+    - jewel-toned
+    - pastel
+    - vibrant
+    - muted
+    - bold
+    - subtle
+    - contrasting
+    - complementary
+    - analogous
+    - triadic
+    - warm-toned
+    - cool-toned
+    - black and white
+    - metallic
+    - neon
+    - gradient
+    - ombre
+
+  # Pattern types and designs
+  pattern_type:
+    - solid color
+    - striped pattern
+    - polka dot pattern
+    - floral print
+    - geometric pattern
+    - abstract design
+    - animal print
+    - paisley pattern
+    - plaid pattern
+    - checkered pattern
+    - houndstooth pattern
+    - chevron pattern
+    - damask pattern
+    - toile pattern
+    - tribal pattern
+    - botanical print
+    - vintage print
+    - art deco pattern
+    - minimalist pattern
+    - maximalist pattern
+    - ombre effect
+    - tie-dye pattern
+    - marble pattern
+    - watercolor effect
+    - digital print
+    - hand-painted design
+    - embossed pattern
+    - textured surface
+    - metallic accents
+    - holographic effect
+
+  # Neckline styles
+  neckline:
+    - crew neck
+    - V-neck
+    - scoop neck
+    - boat neck
+    - off-shoulder
+    - one-shoulder
+    - halter neck
+    - strapless
+    - sweetheart neckline
+    - square neckline
+    - high neck
+    - mock neck
+    - turtleneck
+    - cowl neck
+    - keyhole neckline
+    - deep V-neck
+    - plunging neckline
+    - asymmetrical neckline
+    - wrap neckline
+    - Peter Pan collar
+    - mandarin collar
+    - shawl collar
+    - notched collar
+    - peaked collar
+    - stand-up collar
+
+  # Sleeve styles and lengths
+  sleeve_style:
+    - sleeveless
+    - cap sleeves
+    - short sleeves
+    - three-quarter sleeves
+    - long sleeves
+    - bell sleeves
+    - bishop sleeves
+    - puff sleeves
+    - balloon sleeves
+    - flutter sleeves
+    - kimono sleeves
+    - dolman sleeves
+    - raglan sleeves
+    - set-in sleeves
+    - cold shoulder sleeves
+    - off-shoulder sleeves
+    - one-shoulder sleeves
+    - asymmetrical sleeves
+    - detached sleeves
+    - layered sleeves
+    - ruffled sleeves
+    - pleated sleeves
+    - gathered sleeves
+    - fitted sleeves
+    - loose sleeves
+
+  # Closure and fastening details
+  closure_details:
+    - button-front closure
+    - zipper closure
+    - wrap-style closure
+    - tie closure
+    - lace-up closure
+    - hook-and-eye closure
+    - snap closure
+    - magnetic closure
+    - buckle closure
+    - drawstring closure
+    - elastic closure
+    - Velcro closure
+    - toggle closure
+    - clasp closure
+    - pin closure
+    - brooch closure
+    - ribbon ties
+    - belt closure
+    - sash closure
+    - corset lacing
+    - side zipper
+    - back zipper
+    - front zipper
+    - invisible zipper
+    - exposed zipper
+
+  # Seasonal and weather-appropriate elements
+  seasonal:
+    - spring-appropriate
+    - summer-ready
+    - autumn-inspired
+    - winter-suitable
+    - transitional
+    - weather-resistant
+    - breathable
+    - insulating
+    - lightweight
+    - heavy-duty
+    - moisture-wicking
+    - quick-dry
+    - thermal
+    - windproof
+    - waterproof
+    - UV-protective
+    - all-season
+    - climate-adaptive
+    - temperature-regulating
+    - versatile
 
   # Style modifiers - aesthetic and design approaches
   style_modifier:
@@ -77,6 +346,26 @@ outfit:
     - asymmetrical
     - structured
     - loose-fitting
+    - retro
+    - contemporary
+    - timeless
+    - trendy
+    - sophisticated
+    - playful
+    - professional
+    - artistic
+    - industrial
+    - organic
+    - architectural
+    - sculptural
+    - feminine
+    - masculine
+    - androgynous
+    - glamorous
+    - understated
+    - bold
+    - subtle
+    - eclectic
 
   # Material finishes - fabric types and textures
   material_finish:
@@ -110,6 +399,132 @@ outfit:
     - weathered material
     - pristine fabric
     - flowing material
+    - organza
+    - tulle
+    - taffeta
+    - brocade
+    - jacquard
+    - tweed
+    - corduroy
+    - flannel
+    - jersey
+    - crepe
+    - georgette
+    - voile
+    - muslin
+    - canvas
+    - burlap
+    - felt
+    - fleece
+    - mohair
+    - alpaca
+    - bamboo fiber
+    - hemp
+    - modal
+    - rayon
+    - polyester
+    - nylon
+    - spandex
+    - lycra
+    - elastane
+    - microfiber
+    - faux leather
+    - patent leather
+    - suede
+    - nubuck
+    - snakeskin
+    - crocodile leather
+    - exotic leather
+    - vegan leather
+    - recycled material
+    - sustainable fabric
+    - organic cotton
+    - eco-friendly material
+    - performance fabric
+    - technical fabric
+    - smart fabric
+    - memory fabric
+    - stretch fabric
+    - non-stretch fabric
+    - wrinkle-resistant fabric
+    - stain-resistant fabric
+    - antimicrobial fabric
+    - UV-resistant fabric
+    - flame-retardant fabric
+    - water-repellent fabric
+    - breathable fabric
+    - moisture-wicking fabric
+    - insulating fabric
+    - cooling fabric
+    - compression fabric
+    - supportive fabric
+
+  # Construction techniques and structural details
+  construction_details:
+    - hand-stitched seams
+    - machine-sewn construction
+    - French seams
+    - flat-fell seams
+    - serged edges
+    - bound seams
+    - princess seams
+    - dart construction
+    - pleat construction
+    - gather construction
+    - smocking details
+    - shirring technique
+    - ruching details
+    - tucking details
+    - pin-tucking
+    - box pleats
+    - knife pleats
+    - accordion pleats
+    - inverted pleats
+    - kick pleats
+    - godets
+    - gussets
+    - reinforced stress points
+    - topstitching
+    - edge-stitching
+    - blind hemming
+    - rolled hemming
+    - faced edges
+    - bias binding
+    - piped edges
+
+  # Styling and finishing details
+  styling_details:
+    - contrast stitching
+    - decorative topstitching
+    - exposed seams
+    - raw edges
+    - finished edges
+    - hemmed edges
+    - fringed edges
+    - scalloped edges
+    - pinked edges
+    - bound edges
+    - lettuce edges
+    - rolled edges
+    - faced neckline
+    - bias-cut construction
+    - on-grain construction
+    - cross-grain construction
+    - color-blocked sections
+    - paneled construction
+    - inset panels
+    - overlay panels
+    - underlay panels
+    - contrast panels
+    - mesh inserts
+    - sheer inserts
+    - cutout inserts
+    - lace inserts
+    - embroidered inserts
+    - appliqué details
+    - patchwork construction
+    - quilted sections
+    - padded sections
 
   # Decorative elements - embellishments and details
   decorative_elements:
@@ -143,6 +558,52 @@ outfit:
     - ruffle accents
     - tiered layers
     - overlapping sections
+    - crystal embellishments
+    - pearl details
+    - rhinestone accents
+    - metallic threading
+    - gold leaf details
+    - silver accents
+    - copper elements
+    - bronze finishing
+    - holographic details
+    - reflective elements
+    - glow-in-the-dark accents
+    - color-changing elements
+    - textured appliqués
+    - raised embroidery
+    - dimensional details
+    - layered embellishments
+    - cascading elements
+    - graduated details
+    - ombré embellishments
+    - gradient accents
+    - fade effects
+    - shadow work
+    - cutwork embroidery
+    - drawn thread work
+    - pulled thread work
+    - fagoting details
+    - hemstitching
+    - decorative darning
+    - visible mending
+    - artistic repairs
+    - intentional distressing
+    - strategic fading
+    - selective bleaching
+    - tie-dye effects
+    - batik patterns
+    - resist-dye techniques
+    - block printing
+    - screen printing
+    - digital printing
+    - heat transfer details
+    - vinyl applications
+    - fabric paint details
+    - marker effects
+    - spray paint accents
+    - stenciled designs
+    - hand-painted elements
 
   # Accessories - modular add-ons for complete looks
   accessories:
@@ -170,6 +631,86 @@ outfit:
     - glowing earrings and bracelet
     - mechanical armband
     - faintly glowing earpiece
+    - pearl earrings
+    - diamond studs
+    - hoop earrings
+    - chandelier earrings
+    - statement necklace
+    - layered necklaces
+    - charm bracelet
+    - tennis bracelet
+    - cuff bracelet
+    - ankle bracelet
+    - toe ring
+    - cocktail ring
+    - signet ring
+    - wedding band
+    - engagement ring
+    - body chain
+    - nose ring
+    - lip ring
+    - eyebrow piercing
+    - ear cuff
+    - hair jewelry
+    - brooch pin
+    - lapel pin
+    - vintage locket
+    - modern pendant
+    - geometric earrings
+    - organic-shaped jewelry
+    - minimalist rings
+    - maximalist necklace
+    - stackable rings
+    - midi rings
+    - knuckle rings
+    - thumb rings
+    - pinky rings
+    - statement rings
+    - delicate chains
+    - chunky chains
+    - rope chains
+    - snake chains
+    - box chains
+    - figaro chains
+    - curb chains
+    - wheat chains
+    - herringbone chains
+    - byzantine chains
+    - cable chains
+    - link chains
+    - beaded chains
+    - pearl strands
+    - crystal necklaces
+    - gemstone jewelry
+    - birthstone pieces
+    - zodiac jewelry
+    - symbolic pendants
+    - religious jewelry
+    - spiritual symbols
+    - cultural motifs
+    - tribal jewelry
+    - ethnic accessories
+    - handcrafted pieces
+    - artisan jewelry
+    - designer pieces
+    - luxury accessories
+    - costume jewelry
+    - fashion jewelry
+    - fine jewelry
+    - precious metals
+    - semi-precious stones
+    - synthetic gems
+    - glass beads
+    - ceramic pieces
+    - wooden jewelry
+    - leather accessories
+    - fabric jewelry
+    - recycled materials
+    - upcycled pieces
+    - sustainable jewelry
+    - eco-friendly accessories
+    - fair-trade pieces
+    - ethically sourced gems
 
   # Headwear and head accessories
   headwear:
@@ -183,6 +724,24 @@ outfit:
     - antenna headband
     - goggles resting on head
     - hair accessories
+    - wide-brimmed hat
+    - beret
+    - baseball cap
+    - beanie
+    - fedora
+    - sun hat
+    - bucket hat
+    - newsboy cap
+    - bandana
+    - hair bow
+    - tiara
+    - circlet
+    - flower crown
+    - headscarf
+    - turban
+    - fascinator
+    - hair clips
+    - barrettes
 
   # Eyewear
   eyewear:
@@ -194,6 +753,21 @@ outfit:
     - round sunglasses
     - oversized glasses
     - transparent visor
+    - cat-eye glasses
+    - wire-rim glasses
+    - horn-rimmed glasses
+    - tinted glasses
+    - aviator sunglasses
+    - wraparound sunglasses
+    - vintage spectacles
+    - futuristic visor
+    - smart glasses
+    - protective goggles
+    - reading glasses
+    - designer frames
+    - mirrored sunglasses
+    - gradient lens sunglasses
+    - polarized sunglasses
 
   # Neckwear
   neckwear:
@@ -210,6 +784,25 @@ outfit:
     - collar with eye motif
     - bowtie
     - flowing scarf
+    - silk scarf
+    - patterned scarf
+    - infinity scarf
+    - neck tie
+    - ascot
+    - bandana
+    - neck wrap
+    - fur stole
+    - feather boa
+    - pearl necklace
+    - chain necklace
+    - beaded necklace
+    - leather collar
+    - velvet choker
+    - ribbon choker
+    - metal collar
+    - decorative collar
+    - high collar
+    - turtleneck collar
 
   # Handwear
   handwear:
@@ -219,6 +812,22 @@ outfit:
     - detached sleeves
     - gloved hand with claw-like fingers
     - fingerless gloves and choker combination
+    - leather gloves
+    - silk gloves
+    - opera gloves
+    - driving gloves
+    - mesh gloves
+    - metallic gloves
+    - textured gloves
+    - elbow-length gloves
+    - wrist cuffs
+    - arm warmers
+    - bracers
+    - gauntlets
+    - mittens
+    - half-finger gloves
+    - compression gloves
+    - decorative hand wraps
 
   # Legwear
   legwear:
@@ -227,6 +836,25 @@ outfit:
     - knee-high socks
     - thigh-high stockings
     - matching stockings
+    - sheer stockings
+    - opaque tights
+    - patterned stockings
+    - striped socks
+    - over-the-knee socks
+    - ankle socks
+    - crew socks
+    - compression stockings
+    - mesh stockings
+    - ribbed tights
+    - textured stockings
+    - gradient stockings
+    - metallic stockings
+    - colored tights
+    - printed leggings
+    - athletic leggings
+    - leather leggings
+    - lace-up stockings
+    - garter stockings
 
   # Footwear
   footwear:
@@ -234,6 +862,30 @@ outfit:
     - platform shoes
     - high-heeled boots
     - knee-high boots
+    - ankle boots
+    - combat boots
+    - riding boots
+    - stiletto heels
+    - wedge shoes
+    - ballet flats
+    - oxford shoes
+    - loafers
+    - sneakers
+    - sandals
+    - strappy heels
+    - mary jane shoes
+    - pumps
+    - moccasins
+    - clogs
+    - espadrilles
+    - thigh-high boots
+    - over-the-knee boots
+    - lace-up boots
+    - buckled boots
+    - pointed-toe shoes
+    - round-toe shoes
+    - open-toe shoes
+    - closed-toe shoes
 
   # Belts and bags
   belts_bags:
@@ -243,6 +895,132 @@ outfit:
     - spiked belt
     - small satchel
     - belt pouch
+    - leather belt
+    - studded belt
+    - corset belt
+    - obi belt
+    - rope belt
+    - fabric belt
+    - metallic belt
+    - braided belt
+    - buckled belt
+    - wrap belt
+    - shoulder bag
+    - crossbody bag
+    - clutch purse
+    - messenger bag
+    - backpack
+    - tote bag
+    - evening bag
+    - hip pouch
+    - waist pack
+    - coin purse
+    - drawstring bag
+
+  # Occasion and context categories
+  occasion:
+    - everyday casual
+    - work appropriate
+    - business meeting
+    - formal dinner
+    - cocktail party
+    - wedding guest
+    - date night
+    - weekend brunch
+    - vacation travel
+    - beach outing
+    - city exploration
+    - outdoor adventure
+    - cultural event
+    - art gallery opening
+    - theater performance
+    - concert attendance
+    - festival participation
+    - holiday celebration
+    - seasonal gathering
+    - family reunion
+    - graduation ceremony
+    - job interview
+    - networking event
+    - charity gala
+    - awards ceremony
+    - red carpet event
+    - photo shoot
+    - fashion show
+    - runway presentation
+    - editorial styling
+
+  # Formality levels
+  formality:
+    - ultra-casual
+    - relaxed casual
+    - smart casual
+    - business casual
+    - semi-formal
+    - cocktail attire
+    - formal evening
+    - black-tie optional
+    - black-tie required
+    - white-tie formal
+    - ceremonial dress
+    - state occasion
+    - diplomatic formal
+    - royal court attire
+    - gala presentation
+    - award ceremony formal
+    - red carpet ready
+    - haute couture level
+    - custom tailored
+    - bespoke creation
+
+  # Cultural and regional influences
+  cultural_influence:
+    - Western contemporary
+    - Eastern traditional
+    - Mediterranean inspired
+    - Scandinavian minimalist
+    - French chic
+    - Italian elegance
+    - British classic
+    - American casual
+    - Japanese aesthetic
+    - Korean fashion
+    - Indian traditional
+    - Middle Eastern inspired
+    - African heritage
+    - Latin American vibrant
+    - Caribbean colorful
+    - Australian relaxed
+    - Canadian practical
+    - Russian dramatic
+    - German structured
+    - Swiss precision
+    - Dutch innovative
+    - Belgian refined
+    - Spanish passionate
+    - Portuguese coastal
+    - Greek classical
+    - Turkish ornate
+    - Persian luxurious
+    - Chinese traditional
+    - Thai elegant
+    - Vietnamese delicate
+    - Indonesian rich
+    - Filipino festive
+    - Mexican vibrant
+    - Brazilian bold
+    - Argentinian sophisticated
+    - Chilean modern
+    - Peruvian textured
+    - Colombian colorful
+    - Venezuelan glamorous
+    - Moroccan exotic
+    - Egyptian regal
+    - South African bold
+    - Kenyan vibrant
+    - Ethiopian traditional
+    - Nigerian rich
+    - Ghanaian colorful
 
   # Outfit themes - thematic categories for specific contexts
   theme:
@@ -266,6 +1044,101 @@ outfit:
     - cyberpunk tech
     - steampunk mechanical
     - fantasy magical
+    - art deco glamour
+    - mid-century modern
+    - space age futuristic
+    - post-apocalyptic
+    - dystopian chic
+    - utopian elegance
+    - neo-classical
+    - baroque opulence
+    - rococo delicate
+    - renaissance inspired
+    - medieval fantasy
+    - ancient civilization
+    - tribal warrior
+    - nomadic wanderer
+    - urban explorer
+    - digital native
+    - analog vintage
+    - handcrafted artisan
+    - mass-produced modern
+    - sustainable conscious
+    - eco-friendly natural
+
+  # Age and lifestyle appropriateness
+  age_appropriate:
+    - youthful and trendy
+    - mature and sophisticated
+    - timeless and ageless
+    - age-defying style
+    - generationally neutral
+    - teen-friendly
+    - young adult focused
+    - professional appropriate
+    - retirement ready
+    - multi-generational appeal
+    - classic for all ages
+    - contemporary for youth
+    - refined for maturity
+    - playful yet appropriate
+    - serious yet stylish
+    - conservative yet fashionable
+    - progressive yet tasteful
+    - traditional yet modern
+    - innovative yet respectful
+    - bold yet appropriate
+
+  # Body-conscious and inclusive styling
+  body_inclusive:
+    - universally flattering
+    - size-inclusive design
+    - body-positive styling
+    - adaptive fashion
+    - accessible design
+    - comfort-focused
+    - mobility-friendly
+    - confidence-boosting
+    - figure-enhancing
+    - proportion-balancing
+    - silhouette-optimizing
+    - comfort-prioritizing
+    - movement-accommodating
+    - posture-supporting
+    - ergonomically designed
+    - therapeutically beneficial
+    - medically appropriate
+    - functionally stylish
+    - practically beautiful
+    - inclusively fashionable
+
+  # Styling approaches and philosophies
+  styling_approach:
+    - minimalist curation
+    - maximalist expression
+    - eclectic mixing
+    - monochromatic coordination
+    - color-blocking technique
+    - pattern-mixing mastery
+    - texture-layering artistry
+    - proportion-playing creativity
+    - silhouette-contrasting boldness
+    - vintage-modern fusion
+    - high-low mixing
+    - casual-formal blending
+    - structured-flowing balance
+    - masculine-feminine harmony
+    - traditional-contemporary merge
+    - classic-trendy combination
+    - subtle-statement juxtaposition
+    - simple-complex interplay
+    - refined-edgy contrast
+    - polished-undone aesthetic
+    - planned-effortless styling
+    - coordinated-mismatched charm
+    - intentional-accidental beauty
+    - curated-spontaneous appeal
+    - professional-personal expression
 
   # Special elements - unique features and costume elements
   special_elements:
@@ -289,4 +1162,66 @@ outfit:
     - feather details
     - fur trim
     - metallic hardware
+    - LED lighting
+    - fiber optic details
+    - holographic elements
+    - color-changing materials
+    - temperature-responsive fabrics
+    - motion-activated features
+    - sound-responsive elements
+    - interactive components
+    - smart fabric integration
+    - wearable technology
+    - augmented reality features
+    - virtual reality compatibility
+    - biometric monitoring
+    - health-tracking integration
+    - environmental adaptation
+    - climate-responsive materials
+    - pollution-filtering elements
+    - UV-protective features
+    - antimicrobial properties
+    - self-cleaning capabilities
+    - stain-resistant treatments
+    - wrinkle-free technology
+    - shape-memory materials
+    - compression technology
+    - therapeutic properties
+    - aromatherapy integration
+    - mood-enhancing features
+    - confidence-boosting elements
+    - empowerment-focused design
+    - self-expression facilitation
+    - identity-affirming features
+    - cultural-celebration elements
+    - heritage-honoring details
+    - tradition-respecting design
+    - innovation-embracing features
+    - future-forward elements
+    - sustainability-focused materials
+    - eco-conscious construction
+    - ethical-production methods
+    - fair-trade components
+    - locally-sourced materials
+    - artisan-crafted details
+    - handmade elements
+    - machine-precision features
+    - hybrid-construction techniques
+    - multi-functional design
+    - convertible elements
+    - reversible features
+    - modular components
+    - customizable details
+    - personalizable elements
+    - user-adaptable features
+    - context-responsive design
+    - occasion-appropriate flexibility
+    - weather-adaptive functionality
+    - activity-specific optimization
+    - performance-enhancing features
+    - comfort-maximizing design
+    - style-prioritizing elements
+    - function-focused features
+    - form-following-function design
+    - beauty-meets-utility approach
 

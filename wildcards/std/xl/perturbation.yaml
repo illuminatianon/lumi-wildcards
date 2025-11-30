@@ -1,0 +1,80 @@
+perturbation:
+  all:
+    - __std/xl/perturbation/illogic__, __std/xl/perturbation/sanity_negation__, __std/xl/perturbation/geometry_abdication__, __std/xl/perturbation/coherence_sabotage__, __std/xl/perturbation/aesthetic_corruption__
+  
+  all_o:
+    - __std/xl/perturbation/illogic__
+    - __std/xl/perturbation/sanity_negation__
+    - __std/xl/perturbation/geometry_abdication__
+    - __std/xl/perturbation/coherence_sabotage__
+    - __std/xl/perturbation/aesthetic_corruption__
+
+  illogic:
+    - surreal
+    - illogical
+    - dream-logic
+    - anti-geometry
+    - symbolic-displacement
+    - ritual-nonsequitur
+    - paradoxical-structure
+    - metaphysical-distortion
+    - impossible-anatomy
+    - escherian-continuity
+    - incoherent-spatiality
+    - semiotic-overload
+    - eldritch-symmetry
+    - irrational-proportion
+    - archetypal-intrusion
+    - ontological-slippage
+    - fractal-misbehavior
+    - liminal-deformation
+    - numinous-ambiguity
+    - recursion-without-end
+
+  sanity_negation:
+    - anti-realism
+    - non-photographic-thoughtform
+    - broken-physical-laws
+    - discarded-causality
+    - undefined-perspective
+    - abstracted-identity
+    - spectral-logic
+    - nonsense-prior
+    - impossible-material
+    - nonhuman-aesthetic-intent
+
+  geometry_abdication:
+    - non-euclidean-contours
+    - collapsed-depth
+    - pseudo-symmetry
+    - geometry-failure
+    - warped-axis
+    - recursive-plane-folds
+    - unstable-topology
+    - dimension-bleedthrough
+    - impossible-arcs
+    - spatial-delirium
+
+  coherence_sabotage:
+    - conflicting-symbol-systems
+    - narrative-disjunction
+    - visual-paradoxes
+    - semantic-misfire
+    - hallucinatory-alignment
+    - ambiguous-boundaries
+    - conceptual-rupture
+    - motif-overload
+    - broken-continuity
+    - archetype-swarm
+
+  aesthetic_corruption:
+    - inkblot-chaos
+    - psychic-red-accents
+    - ritual-markmaking
+    - corrupted-idol-forms
+    - sigil-forward-composition
+    - uncanny-hyperfocus
+    - void-adjacent-highlights
+    - anomalous-texture-logic
+    - reliclike-ornamentation
+    - stained-dream-surface

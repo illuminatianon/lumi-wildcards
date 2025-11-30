@@ -20,6 +20,15 @@ details:
     - "__std/xl/details/geometric__ combined with __std/xl/details/mechanical__"
     - "__std/xl/details/accessories__ enhanced by __std/xl/details/paint_effects__"
     - "__std/xl/details/creatures__ interacting with __std/xl/details/props__"
+    # Additional patterns to boost diversity and under-represented terms
+    - "__std/xl/details/ethereal__ elements with __std/xl/details/accessories__"
+    - "__std/xl/details/skeletal__ forms emerging from __std/xl/details/mystical__"
+    - "__std/xl/details/reflective__ surfaces with __std/xl/details/geometric__"
+    - "__std/xl/details/particles__ floating around __std/xl/details/natural__"
+    - "__std/xl/details/carved__ details on __std/xl/details/props__"
+    - "__std/xl/details/ancient__ symbols with __std/xl/details/mechanical__"
+    - "__std/xl/details/crystalline__ formations and __std/xl/details/creatures__"
+    - "__std/xl/details/flowing__ elements with __std/xl/details/paint_effects__"
 
   # Mystical and supernatural elements
   mystical:
@@ -85,16 +94,19 @@ details:
   # Accessories and jewelry
   accessories:
     - heart-shaped pendant
-    - intricate lace choker with gemstone
+    - elaborate lace choker with gemstone
     - "glasses with thin __std/color/simple__ frames"
-    - intricate ring on finger
+    - ornate ring on finger
     - crown adorned with spikes
-    - crown adorned with intricate jewels
+    - crown adorned with detailed jewels
     - cat ears headband
-    - intricate lace boots
+    - delicate lace boots
     - chain necklace glints softly
     - floating winged boots
     - pendulum-like objects in hands
+    - filigree earrings catching light
+    - beaded bracelet wrapping wrist
+    - cameo brooch pinned elegantly
 
   # Creatures and organic forms
   creatures:
@@ -109,25 +121,41 @@ details:
     - serpentine creature with sharp teeth
     - tentacles with segmented patterns
     - tentacle-like appendages extend outward
-    - intricate creature design with textured skin
+    - elaborate creature design with textured skin
     - tentacles spiraling around the head
     - bird perched on dock post
     - butterflies flutter around
     - small creatures with speech bubbles
+    - scaled dragon coiled around pillar
+    - winged sprites dancing in air
+    - amphibian forms emerging from water
+    - insectoid limbs reaching outward
+    - arachnid silhouettes in shadows
+    - feline eyes watching from darkness
+    - avian talons gripping surfaces
+    - reptilian skin patterns visible
 
 
 
   # Mechanical and technological elements
   mechanical:
-    - organic mechanical arm with intricate textures
+    - organic mechanical arm with complex textures
     - sharp metallic elements on outfit
-    - intricate mechanical carvings
-    - intricate mechanical creature design
+    - elaborate mechanical carvings
+    - detailed mechanical creature design
     - mechanical elements integrated into design
+    - clockwork gears visible beneath skin
+    - hydraulic pistons extending outward
+    - copper tubing weaving through structure
+    - brass fittings gleaming softly
+    - steam vents releasing vapor
+    - articulated joints moving smoothly
+    - precision-crafted components
+    - industrial rivets securing panels
 
   # Natural and organic textures
   natural:
-    - intricate floral textures
+    - elaborate floral textures
     - branches encircle the figure
     - dragon wings extend majestically
     - leaves falling gently
@@ -135,6 +163,14 @@ details:
     - floating feathers around
     - butterfly hair ornament
     - golden leaf hair accessory
+    - vine patterns climbing surfaces
+    - bark textures covering skin
+    - moss growing on stone
+    - lichen spreading across surfaces
+    - root systems emerging from ground
+    - flower petals drifting down
+    - seed pods opening slowly
+    - thorny brambles weaving through
 
   # Object-specific lighting and luminous effects - reduced glowing repetition
   object_lighting:
@@ -213,7 +249,7 @@ details:
     - antique brass instruments
     - weathered leather books
     - delicate glass bottles
-    - intricate music boxes
+    - elaborate music boxes
     - tarnished silver mirrors
     - ceramic tea sets
     - wooden chess pieces
@@ -231,6 +267,11 @@ details:
     - decorative lanterns
     - embroidered tapestries
     - carved wooden masks
+    - mechanical clockwork devices
+    - iridescent soap bubbles
+    - prismatic light catchers
+    - miniature snow globes
+    - kaleidoscope fragments
 
   furniture_motif:
     - plush chair
@@ -418,4 +459,108 @@ details:
     - swaying tree branches
     - flowing curtain fabric
     - bubbling spring water
+
+  # Ethereal and ghostly elements - boosting under-represented terms
+  ethereal:
+    - ethereal figures dance nearby
+    - ghostly apparitions drift through
+    - translucent forms shimmer
+    - spectral wisps curl around
+    - phantom silhouettes appear
+    - luminous spirits hover
+    - otherworldly beings manifest
+    - celestial entities float
+    - astral projections emerge
+    - divine presences linger
+
+  # Skeletal and bone motifs - boosting under-represented terms
+  skeletal:
+    - skeletal creature with glowing eyes
+    - bone fragments scattered around
+    - skull motifs embedded in surfaces
+    - ribcage patterns in shadows
+    - vertebrae designs spiraling
+    - femur shapes integrated into architecture
+    - cranium silhouettes in background
+    - ossified structures emerging
+    - calcified formations growing
+    - fossilized remains visible
+
+  # Reflective and mirror effects - boosting under-represented terms
+  reflective:
+    - her reflection appears in the air beside her
+    - mirror fragments floating nearby
+    - reflective liquid surfaces
+    - chrome elements catching light
+    - polished metal surfaces gleaming
+    - glass shards showing different faces
+    - crystalline reflections multiplying
+    - water reflections distorting
+    - metallic surfaces mirroring
+    - prismatic reflections scattering
+
+  # Particle and dust effects - boosting under-represented terms
+  particles:
+    - floating geometric particles
+    - dust motes dancing in light
+    - sparkles drifting through air
+    - glowing particles swirling
+    - crystalline dust settling
+    - luminous specks floating
+    - magical particles spiraling
+    - stardust cascading down
+    - ember particles rising
+    - pollen particles suspended
+
+  # Carved and sculpted details - boosting under-represented terms
+  carved:
+    - carved stone gargoyle
+    - carved wooden banister
+    - carved marble archway
+    - carved ivory chair
+    - carved wooden masks
+    - sculpted relief patterns
+    - chiseled stone details
+    - etched metal surfaces
+    - engraved wooden panels
+    - molded clay ornaments
+
+  # Ancient and historical elements - boosting under-represented terms
+  ancient:
+    - ancient oak tree
+    - ancient murals adorn the walls
+    - weathered stone surfaces
+    - time-worn inscriptions
+    - aged parchment fragments
+    - crumbling stone reliefs
+    - moss-covered ruins
+    - eroded statuary
+    - patinated bronze elements
+    - oxidized copper details
+
+  # Crystalline and mineral formations - boosting under-represented terms
+  crystalline:
+    - crystalline formations with internal light
+    - cluster of crystals
+    - crystal wine glasses
+    - crystal throne
+    - crystal chandelier hanging
+    - crystal display case
+    - floating crystal orbs
+    - quartz formations jutting
+    - amethyst clusters growing
+    - diamond patterns refracting
+
+  # Flowing and dynamic elements - boosting under-represented terms
+  flowing:
+    - flowing water fountain
+    - flowing silk banner
+    - flowing hourglass sand
+    - flowing ribbon streams
+    - flowing curtain fabric
+    - silk scarves flowing
+    - cascading waterfall
+    - gentle stream flowing
+    - liquid mercury flowing
+    - molten metal flowing
 
