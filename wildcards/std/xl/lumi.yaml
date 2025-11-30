@@ -6,6 +6,16 @@ lumi:
   illuminati:
     - (illuminati:1.1), (eye:1.1)
     - (eye:1.1), (illuminati:1.1)
-    - (iluminati:1.1)
+    - (illuminati:1.1)
     - (eye:1.1)
 
+  nano: |
+    __std/xl/style/all__,
+    girl with bunny ears,
+    __std/xl/character/all__, wearing __std/xl/outfit/all__,
+    __std/xl/camera/all__,
+    __std/xl/location/all__,
+    __std/xl/environment/all__,
+    __std/xl/distance/all__,
+    __std/xl/lighting/all__,
+    __std/xl/details/all__

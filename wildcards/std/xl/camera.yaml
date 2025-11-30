@@ -64,7 +64,7 @@ camera:
     - low-angle
     - high-angle
     - eye-level
-    - worm's-eye
+    - viewed from below
     - bird's-eye
     - top-down
     - aerial
@@ -132,18 +132,18 @@ camera:
     - soft
 
   shot_style:
-    - establishing
     - cinematic
     - panoramic
     - portrait
     - detail
+    - artistic
 
   framing_quality:
     - expansive
     - tight
-    - waist-up
-    - mid-range
-    - macro
+    - focused
+    - precise
+    - detailed
 
   viewpoint_direction:
     - behind
@@ -192,3 +192,55 @@ camera:
     - smooth
     - jerky
     - fluid
+
+  character_sheet:
+    all:
+      - __std/xl/camera/character_sheet/sheet__, __std/xl/camera/character_sheet/angle__, __std/xl/camera/character_sheet/composition__, __std/xl/camera/character_sheet/reinforcement__
+    sheet:
+      - character reference sheet  
+      - character design sheet  
+      - character turnaround sheet  
+      - character model sheet  
+      - character turnaround reference  
+      - character lineup sheet  
+      - character ref sheet  
+      - reference sheet of character  
+      - character design reference  
+      - model turnaround reference  
+      - full character reference layout  
+      - character view sheet
+    angle:
+      - multiple angles  
+      - multi-angle views  
+      - front, side, and back views  
+      - front and rear views  
+      - front, profile, and back shots  
+      - orthographic front and back views  
+      - front view and back view  
+      - turnaround views  
+      - rotation reference  
+      - 3-view character sheet  
+      - 360-degree turnaround
+    composition:
+      - multi-panel layout
+      - side-by-side reference layout
+      - split view presentation
+      - consistent camera framing
+      - uniform lighting setup
+      - same pose different angles
+      - reference layout with consistent proportions
+      - character shown in multiple frames
+      - detailed reference views
+      - comprehensive character layout
+    reinforcement:
+      - design clarity  
+      - consistent proportions  
+      - identical pose across views  
+      - neutral lighting  
+      - neutral background  
+      - plain white backdrop  
+      - character rotation reference  
+      - modeling reference sheet  
+      - posed consistently  
+      - character design breakdown
+    

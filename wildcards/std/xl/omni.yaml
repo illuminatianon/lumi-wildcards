@@ -1,27 +1,522 @@
 omni:
-  v1: 
-    - | 
+  nogirl: |
+    __std/xl/style/all__,
+    art by __std/artists__,
+    __std/xl/camera/all__,
+    __std/xl/distance/all__,
+    __std/xl/location/all__,
+    __std/xl/environment/all__,
+    __std/xl/lighting/all__,
+    __std/xl/perturbation/all__
+  poo: curvy, {flat|small|medium|large|very large} breasts
+  zit:
+    - |
       masterpiece,best quality,
       __std/xl/lumi/all__,
       __std/xl/style/all__,
       __std/xl/camera/all__,
-      1girl with {cat|bunny} ears, curvy, {flat|small|medium|large|very large} breasts, bored face, black_sclera,
-      __std/xl/character/all__, 
+      1girl,
+      __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__,
+      __std/xl/character/all__,
       wearing __std/xl/outfit/all__
       __std/xl/location/all__,
-      __std/xl/environment/all__, 
+      __std/xl/environment/all__,
       __std/xl/distance/all__,
-      __std/xl/lighting/all__, 
+      __std/xl/lighting/all__,
+      __std/xl/details/all__
+  v1:
+    - |
+      masterpiece,best quality,
+      __std/xl/lumi/all__,
+      __std/xl/style/all__,
+      __std/xl/camera/all__,
+      1girl with {cat|bunny} ears, curvy, {flat|small|medium|large|very large} breasts,
+      __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__,,
+      __std/xl/character/all__,
+      wearing __std/xl/outfit/all__
+      __std/xl/location/all__,
+      __std/xl/environment/all__,
+      __std/xl/distance/all__,
+      __std/xl/lighting/all__,
       __std/xl/details/all__
   cat:
-    - | 
+    - |
       masterpiece,best quality,
       __std/xl/lumi/all__,
       __std/xl/style/all__,
       __std/xl/camera/all__,
       __std/xl/cat/all__,
       __std/xl/location/all__,
-      __std/xl/environment/all__, 
+      __std/xl/environment/all__,
       __std/xl/distance/all__,
-      __std/xl/lighting/all__, 
-      __std/xl/details/all__ 
+      __std/xl/lighting/all__,
+      __std/xl/details/all__
+  mygirls:
+    - __std/xl/omni/rusalka/v1__
+    - __std/xl/omni/underweargirl/std__
+    - __std/xl/omni/jessi/study__
+    - __std/xl/omni/vamp/study__
+    - __std/xl/omni/minicloak/std__
+    - __std/xl/omni/maiden/s1__
+    - __std/xl/omni/white_rabbit/std__
+    - __std/xl/omni/girlstudy/free__
+    - __std/xl/omni/v1__
+    - __std/xl/omni/bunny_big_boob__
+    - __std/xl/omni/priestess/study__
+  girlstudy:
+    base: |
+      1girl with {cat|bunny} ears, curvy, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__,
+      __std/xl/character/all__,
+      wearing __std/xl/outfit/all__
+    zit: |
+      1girl with {cat|bunny} ears, curvy, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__,
+      __std/xl/character/all__,
+      wearing __std/xl/outfit/all__
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/girlstudy/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/girlstudy/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/girlstudy/base__}"
+
+  bunny_big_boob:
+    base: |
+      1girl with bunny ears, curvy, {medium|large|very large} breasts, bored face, black_sclera,
+      __std/xl/character/all__,
+      wearing __std/xl/outfit/all__,
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/bunny_big_boob/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/bunny_big_boob/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/bunny_big_boob/base__}"
+
+  white_rabbit:
+    base: |
+      anime-style female character wearing a white bunny-themed bodysuit, pink hair, pink eyes,
+      hooded outfit with tall pink-lined bunny ears, gold trim seams, and pink frilled shoulder cape,
+      tight white bodysuit with elegant gold paneling, fitted silhouette, white fluffy bunny tail,
+      white high heels with gold accents,
+    plump_base: |
+      1girl, wearing a white bunny-themed bodysuit, pink hair, pink eyes,
+      __std/xl/underweargirl/b__,
+      hooded outfit with tall pink-lined bunny ears, gold trim seams, and pink frilled shoulder cape,
+      tight white bodysuit with elegant gold paneling, fitted silhouette, white fluffy bunny tail,
+      white high heels with gold accents,
+    base_v1:
+      - |
+        masterpiece, best quality,
+        full body character turnaround, concept sheet,
+
+        anime-style female character wearing a white bunny-themed bodysuit, pink hair, pink eyes,
+        hooded outfit with tall pink-lined bunny ears, gold trim seams, and pink frilled shoulder cape,
+        tight white bodysuit with elegant gold paneling, fitted silhouette, white fluffy bunny tail,
+        white high heels with gold accents,
+
+        front, side, and back views, clean character reference layout, white background,
+        soft studio lighting, neutral expression, detailed fabric shading, subtle rim light
+    base_v0:
+      - |
+        masterpiece, best quality,
+        full body character turnaround, concept sheet,
+
+        anime-style female character wearing a white bunny-themed bodysuit,
+        hooded outfit with tall pink-lined bunny ears, gold trim seams, and pink frilled shoulder cape,
+        tight white bodysuit with elegant gold paneling, fitted silhouette, white fluffy bunny tail,
+        white high heels with gold accents,
+
+        front, side, and back views, clean character reference layout, white background,
+        soft studio lighting, neutral expression, detailed fabric shading, subtle rim light
+    s1:
+      - |
+        masterpiece, best quality,
+        __std/xl/style/all__
+
+        anime-style female character wearing a white bunny-themed bodysuit,
+        hooded outfit with tall pink-lined bunny ears, gold trim seams, and pink frilled shoulder cape,
+        tight white bodysuit with elegant gold paneling, fitted silhouette, white fluffy bunny tail,
+        white high heels with gold accents,
+
+        __std/xl/character/all__
+        __std/xl/lighting/all__
+        __std/xl/environment/all__
+        __std/xl/distance/all__
+        __std/xl/details/all__
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/white_rabbit/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/white_rabbit/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/white_rabbit/base__}"
+  maiden:
+    base:
+      - |
+        masterpiece, best quality,
+        1girl with black hair and cat ears, long straight black hair, calm expression, red eyes, medium breasts,
+        __std/xl/character/all__,
+        wearing a long flowing white nightgown with short puff sleeves and empire waist tie,
+        gown with soft folds and trailing hem, low back cut, simple elegant silhouette,
+
+        neutral background, plain backdrop, simple studio lighting,
+    sheet:
+      - |
+        masterpiece, best quality,
+        __std/xl/camera/all__,
+        1girl with black hair and cat ears, long straight black hair, calm expression, red eyes, medium breasts,
+        __std/xl/character/all__,
+
+        wearing a long flowing white nightgown with short puff sleeves and empire waist tie,
+        gown with soft folds and trailing hem, low back cut, simple elegant silhouette,
+
+        neutral background, plain backdrop, simple studio lighting, full body pose study,
+    s1:
+      - |
+        masterpiece, best quality,
+        __std/xl/style/all__
+
+        1girl with black hair and cat ears, long straight black hair, calm expression, red eyes, medium breasts,
+        wearing a long flowing white nightgown with short puff sleeves and empire waist tie,
+        gown with soft folds and trailing hem, low back cut, simple elegant silhouette,
+
+        __std/xl/character/all__
+        __std/xl/lighting/all__
+        __std/xl/environment/all__
+        __std/xl/distance/all__
+        __std/xl/details/all__
+  templates:
+    1girl:
+      - |
+        1girl with ${type:{cat|bunny}} ears, curvy, {flat|small|medium|large|very large} breasts, bored face, black_sclera,
+    charsheet:
+      - |
+        masterpiece, best quality,
+        __std/xl/camera/character_sheet/all__,
+
+        ...
+
+        __std/xl/character/all__,
+        neutral background, plain backdrop, simple studio lighting, full body pose study
+    freepose:
+      - |
+        masterpiece, best quality,
+        __std/xl/camera/all__,
+
+        ...
+
+        __std/xl/character/all__,
+        neutral background, plain backdrop, simple studio lighting, full body pose study
+    std:
+      - |
+        masterpiece, best quality,
+        __std/xl/style/all__
+
+        ...
+
+        __std/xl/character/all__
+        __std/xl/lighting/all__
+        __std/xl/environment/all__
+        __std/xl/distance/all__
+        __std/xl/details/all__
+    body:
+      std: |
+        1girl with {cat|bunny} ears, {flat|small|medium|large|very large} breasts, bored face, black_sclera,
+
+      curvy: |
+        large breasts, curvy body, slight pudge
+  karen:
+    base:
+      - sleek modern outfit, form-fitting light blue dress with thin straps and pencil skirt cut, black belt with gold buckle at the waist, black high heels, short blonde hair styled neatly, bunny ears headband, confident elegant style, __std/xl/omni/karen/b__,
+      - contemporary fashion, pastel blue bodycon dress with narrow shoulder straps and fitted waist, glossy black belt, matching black heels, blonde straight bob haircut, black and pink bunny ears accessory, refined yet playful aesthetic, __std/xl/omni/karen/b__,
+      - stylish attire, sky-blue sleeveless dress with plunging neckline and slim tailored silhouette, wide black belt, black pumps, straight blonde hair, tall black bunny ears, balanced mix of chic and whimsical, __std/xl/omni/karen/b__,
+      - elegant modern wear, tight light blue cocktail dress with thin straps and cinched waist, black belt accent, classic black heels, shoulder-length blonde hair, black bunny ears headband, sophisticated yet quirky tone, __std/xl/omni/karen/b__,
+      - fashionable look, soft blue fitted dress with subtle sheen and mid-calf length, black belt detail, black shoes, blonde bob hairstyle, tall bunny ears accessory, poised confident presence, __std/xl/omni/karen/b__,
+    b: |
+      large breasts, curvy body, slight pudge
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/karen/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/karen/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/karen/base__}"
+  rusalka:
+    base: |
+      rusalka, pale ethereal figure wearing a long loose dress of thin silken fabric with frayed edges, off-shoulder design, desaturated green-white tones, long straight pale mint hair, bare feet, __std/xl/omni/rusalka/b__,
+    base_v3:
+      - rusalka, pale ethereal figure wearing a long loose dress of thin silken fabric with frayed edges, off-shoulder design, desaturated green-white tones, long straight pale mint hair, bare feet, __std/xl/omni/rusalka/b__,
+      - rusalka, ghostly slavic maiden in a faintly translucent ankle-length gown with worn hem, cold desaturated fabric tone, long flowing pale green hair, simple and somber silhouette, __std/xl/omni/rusalka/b__,
+      - rusalka, spectral woman dressed in a soft draping gown of light misty green-white cloth, slightly tattered hem and open shoulders, hair long and washed-out green, barefoot, __std/xl/omni/rusalka/b__,
+      - rusalka, quiet pale maiden wearing a weathered soft-fabric gown with uneven edge, loose fit and subtle gathered waist, straight faded green hair, bare feet, __std/xl/omni/rusalka/b__,
+      - rusalka, sorrowful slavic spirit in a flowing off-shoulder robe of pale seafoam hue, long faintly green hair, frayed lower edge, barefoot simplicity, __std/xl/omni/rusalka/b__,
+    base_v2:
+      - rusalka, pale green-haired woman with long wet hair, wearing a simple handwoven gown of thin linen, fabric softened and clinging slightly from dampness, faintly frayed hem, quiet melancholic presence, __std/xl/omni/rusalka/b__,
+      - rusalka, slender pale woman with light green damp hair, clad in a loose undyed flax gown, sleeves hanging low, faint irregular stitching visible, edges softened by water, serene distant expression, __std/xl/omni/rusalka/b__,
+      - rusalka, pale ethereal woman, long hair tinted green-blue, thin woven dress of faded natural fiber, loosely gathered waist, uneven trailing hem, bare feet, calm sorrowful grace, __std/xl/omni/rusalka/b__,
+      - rusalka, delicate figure with pale damp skin and long flowing pale-green hair, wearing a water-worn homespun garment, translucent and soft from soaking, sleeves and skirt moving gently, __std/xl/omni/rusalka/b__,
+      - rusalka, ghostly beautiful woman with luminous pale-green hair, loose woven gown once white now faintly blue from river stain, fabric thin and timeworn, understated elegance, __std/xl/omni/rusalka/b__,
+
+    base_v1:
+      - rusalka, pale green-haired woman with damp flowing hair over shoulders, translucent gown of mist-colored silk, gentle distant gaze, bare feet, quiet tragic allure, __std/xl/omni/rusalka/b__,
+      - rusalka, elegant slavic figure with long light-green wet hair, soft layered dress clinging slightly to body, faint sheen like moonlight on water, calm expression, __std/xl/omni/rusalka/b__,
+      - rusalka, ethereal pale-skinned woman, long silvery-green hair loosely draped forward, delicate chiffon gown with drifting folds, restrained sorrow, __std/xl/omni/rusalka/b__,
+      - rusalka, graceful feminine form with cool-toned skin and flowing pale-green damp hair, thin gauze garment trailing in faint motion, wistful eyes, __std/xl/omni/rusalka/b__,
+      - rusalka, soft-featured woman with long wet hair in muted sea-green hue, translucent layered gown hugging form lightly, serene melancholy presence, __std/xl/omni/rusalka/b__,
+      - ethereal slavic water spirit, translucent blue-green gown with layered fabric, long damp hair adorned with lilies and reeds, bare feet, serene expression, __std/xl/omni/rusalka/b__,
+      - spectral drowned-maiden aesthetic, sheer pale gown with frayed hem, water-worn elegance, loose long hair with subtle floral strands, calm melancholy, __std/xl/omni/rusalka/b__,
+      - mythic slavic maiden, flowing gauze gown in soft aqua tones, natural unbound hair slightly tangled, understated spectral grace, __std/xl/omni/rusalka/b__,
+      - ancient river spirit, delicate iridescent garment of fine translucent fabric, relaxed posture, bare feet, faint aura of mist, __std/xl/omni/rusalka/b__,
+      - rusalka, slavic folklore figure, gauzy layered dress with uneven trailing edges, long wet hair threaded with small flowers, quiet melancholy beauty, __std/xl/omni/rusalka/b__,
+    base_v0:
+      - ethereal slavic outfit, semi-transparent blue-green gown with flowing layered fabric, long damp hair adorned with lilies and reeds, bare feet, __std/xl/omni/rusalka/b__,
+      - ghostly aquatic attire, tattered sheer dress with pale tones and ribbon-like drapery, long unbound hair, water-worn elegance, __std/xl/omni/rusalka/b__,
+      - delicate drowned-maiden fashion, translucent layered gown with frayed edges, loose hair with subtle floral strands, understated spectral grace, __std/xl/omni/rusalka/b__,
+      - mythic slavic dress, soft trailing garment of pale silk and gauze, long hair flowing naturally, quiet melancholy refinement, __std/xl/omni/rusalka/b__,
+      - spectral water-nymph outfit, faintly iridescent dress of fine fabric, relaxed natural hair, graceful subdued silhouette, __std/xl/omni/rusalka/b__,
+      - rusalka, slavic-inspired attire, flowing translucent gown in soft green-blue hues with layered torn edges, long damp hair threaded with small flowers, bare feet, __std/xl/omni/rusalka/b__,
+      - rusalka, traditional river-maiden clothing, gauzy pale dress with uneven trailing hem, subtle ribbons at the waist, loose straight hair, faint floral adornment, __std/xl/omni/rusalka/b__,
+      - rusalka, ethereal folk outfit, light chiffon gown with frayed layered skirt and soft fabric folds, long unbound hair, delicate jewelry of shells and petals, __std/xl/omni/rusalka/b__,
+      - rusalka, ancient slavic gown, sheer flowing fabric in muted aqua tones, simple cord belt at the waist, long natural hair slightly tangled, __std/xl/omni/rusalka/b__,
+      - rusalka, spectral maiden attire, draped pale fabric with uneven hem and soft texture, long hair with hints of green tint, minimal ornamentation, __std/xl/omni/rusalka/b__,
+    environment:
+      - misted peat bog at dusk, waterlogged ground carpeted with moss and reeds, thin fog drifting low, sparse birch trees emerging through haze
+      - flooded fen clearing, shallow black water reflecting dull grey sky, clusters of cattails and half-sunken logs, chill still air
+      - ancient slavic bog, light rain falling through mist, uneven marsh terrain with patches of standing water, moonlight faint through clouds
+      - twilight marsh shrouded in fog, scattered lilies and reeds over dark reflective water, deep quiet atmosphere
+      - overgrown fen hollow, moss-coated stones and gnarled roots half-submerged, pale mist winding through vegetation
+      - shallow bog pool with opaque dark water, faint silt motion near her feet, moss mats drifting on the surface
+      - peat-water hollow with mirrorlike stillness, her form half-reflected, faint ripples spreading outward
+      - flooded meadow at twilight, water tinted brown-green, broken reeds and driftwood scattered around
+      - slow-moving fen channel, dark surface broken by air bubbles and patches of algae, soft haze in background
+      - small stagnant pool beneath birch trees, dim light filtering through fog, faint concentric ripples near her stance
+    distance:
+      - midrange framing, mist softening depth and edges
+      - close framing with diffuse fog and obscured horizon
+      - atmospheric perspective through layered haze
+      - soft diffused depth cues, background dissolving into mist
+      - ground-level perspective with shallow depth of field and blurred backdrop
+      - half-body framing, water surface intersecting lower frame, reflection faint but visible
+      - close-to-ground angle emphasizing waterline and submerged fabric
+      - medium distance through low mist, focus on legs and fabric distortion below surface
+      - over-the-water perspective, surface reflections blurring outlines
+      - slight upward framing from water level, soft lens haze and moisture glare
+    details:
+      - droplets of moisture on skin and hair catching faint light
+      - fine mist halo along outline of figure
+      - subtle ripples in dark water near her feet
+      - faint distorted reflection in the bog surface
+      - strands of reeds and petals tangled in her gown hem
+      - lower body partially submerged, legs visible through shallow dark water
+      - waterline cutting across knees, slight distortion and refraction below surface
+      - faint ripples overlapping her legs, surface tension blending fabric and reflection
+      - submerged fabric drifting in water, hem moving slightly with current
+      - silt and ripples clouding lower reflection, water opaque near ankles
+      - diffused moonlight filtering through fog, cool pale reflections on the water
+      - overcast sky muted by mist, low contrast soft illumination
+      - faint luminescent glow from fog, silhouettes softened by haze
+      - pale dawn light reflecting off water, subtle highlights along fabric folds
+      - dim ambient light from clouded moon, faint shimmer across ripples
+
+    b: |
+      large breasts, curvy body, slight pudge
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/rusalka/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/rusalka/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/rusalka/base__}"
+    v1: |
+      masterpiece, best quality,
+      __std/xl/style/all__
+
+      __std/xl/omni/rusalka/base__
+
+      __std/xl/character/all__
+      __std/xl/lighting/all__
+      __std/xl/omni/rusalka/environment__
+      __std/xl/omni/rusalka/distance__
+      __std/xl/omni/rusalka/details__
+  debogrrl:
+    bases:
+      - gothic lolita outfit, off-shoulder black ruffled dress with layered tattered hem, corset waist with ribbon accents, lace choker with gemstone pendant, dark lace wristbands, short wavy black hair with purple tips, pale skin tone, bare feet, soft anime rendering, muted palette, elegant gothic aesthetic
+      - gothic lolita dress, black off-shoulder ruffled gown with layered torn hem, corset waist and lace trim, black ribbon choker with gem pendant, lace wristbands, short wavy hair with purple gradient tips, pale complexion, bare feet, elegant gothic aesthetic
+      - dark victorian lolita fashion, frilled black asymmetrical dress with tattered layers and ribbon belts, ornate lace choker, gemstone jewelry, purple-highlighted black hair, delicate features, soft anime lighting, somber palette
+      - gothic fashion, off-shoulder black dress with puffed sleeves and layered high-low skirt, corset lacing, choker with jewel accent, black lace accessories, tousled short black hair fading to violet, muted colors, melancholic mood
+      - dark romantic outfit, ragged hem gothic gown with lace and ribbon details, gemstone pendant, sheer layered fabric, shoulder-baring design, black and violet hair, pale tone, barefoot, stylized illustration aesthetic
+      - gothic-inspired attire, intricate off-shoulder ruffled dress, uneven hemline, ribbon corset accents, lace choker and bracelets, black hair tinted with purple ends, fair skin, minimalist gothic elegance, subdued tones
+      - tattered gothic outfit, black off-shoulder dress with frayed layered skirt, strappy corset waist, lace choker with dark gem, bare feet, short wavy black hair with purple ends, distressed yet elegant aesthetic
+      - dark gothic attire, asymmetrical shredded black dress with crossed straps and loose ribbons, fitted bodice, torn hem, black lace accessories, violet-tinted short hair, somber palette
+      - gothic witch-inspired clothing, ripped layered dress with strappy waist detail, off-shoulder neckline, choker and wrist lace, black and purple hair, bare feet, rough-hewn elegance
+      - frayed black dress, uneven layered skirt and strap-wrapped waist, gothic off-shoulder design, gemstone choker, disheveled dark hair with violet hue, eerie minimalist tone
+      - distressed gothic fashion, black strappy torn dress with layered ragged hem, lace jewelry, purple-highlighted black hair, pale skin, barefoot, moody aesthetic
+      - tattered gothic fashion, asymmetrical off-shoulder black dress with frayed layered skirt and crossed strap waist, sheer fabric over torn edges, lace choker with dark gemstone, delicate wrist lace, short wavy black hair fading to violet, pale skin, barefoot, soft shadowed tones, painterly anime rendering
+      - distressed gothic outfit, shredded black off-shoulder gown with strap-wrapped waist and uneven hem, loose fabric panels and hanging ribbons, ornate lace jewelry, purple-tinted black hair, faintly glowing eyes, muted palette, subtle rim lighting, concept art aesthetic
+      - dark ethereal attire, black strappy dress with ragged skirt and layered translucent folds, corset lacing, gemstone choker, bare shoulders, short tousled hair black fading to amethyst, soft lighting, eerie refined aesthetic
+      - gothic witch style, asymmetrical torn black dress with strap corsetry and tattered hemline, sheer overlayer and frilled neckline, lace and gemstone accessories, wavy black-violet hair, pale complexion, bare feet, dim moody studio lighting
+      - decayed gothic elegance, off-shoulder black gown with frayed multilayered skirt, ribbon straps wrapping the waist, choker with dark jewel, lace wristbands, unkempt black hair with violet undertone, barefoot, soft backlight, melancholy palette
+      - post-romantic gothic design, black distressed dress with asymmetric torn skirt, cinched waist with straps, lace trim and gemstone choker, short layered black-violet hair, pale skin tone, bare feet, minimal backdrop, soft painterly style
+      - modern gothic witch aesthetic, black tattered dress with high-low hem and strap details, corset bodice, sheer lace, gemstone accents, dark wavy hair fading to purple, delicate jewelry, barefoot, low contrast lighting, subtle vignette
+      - tattered gothic outfit, asymmetrical off-shoulder black dress with frayed layered skirt and crossed strap waist, lace choker with dark gemstone, wrist lace, short wavy black hair fading to violet, pale skin, bare feet
+      - distressed gothic attire, shredded black off-shoulder dress with strap-wrapped waist and uneven hem, hanging ribbons and torn fabric layers, lace jewelry, purple-tinted black hair, bare feet
+      - dark gothic fashion, black strappy torn dress with layered ragged hem and corset waist, lace choker, short tousled black hair with violet tips, pale complexion, barefoot
+      - gothic witch style, torn black off-shoulder dress with strap corset and uneven skirt, lace trim, gemstone pendant, wavy black-violet hair, pale tone, bare feet
+      - decayed gothic elegance, black distressed dress with asymmetrical frayed skirt, ribbon straps around waist, lace accessories, black hair with violet hue, pale skin, barefoot
+
+    base: |
+      gothic lolita outfit, off-shoulder black ruffled dress with layered tattered hem, corset waist with ribbon accents, lace choker with gemstone pendant, dark lace wristbands, short wavy black hair with purple tips, pale skin tone, bare feet, soft anime rendering, muted palette, elegant gothic aesthetic
+
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/debogrrl/bases__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/debogrrl/bases__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/debogrrl/bases__}"
+  priestess:
+    base:
+      - |
+        female character with black hair and cat ears, calm expression, long straight hair,
+        wearing a long flowing red dress with wide sleeves, belted at the waist with a black sash and silver ring buckle,
+        deep v-neckline, loose draping fabric, soft folds pooling at her feet,
+        decorated with a black motif of forest silhouettes along the hem and sleeves,
+        gold emblem printed on the back,
+    base_2:
+      - |
+        female character with black hair and cat ears, calm expression, long straight hair,
+        wearing a long flowing red dress with wide sleeves, belted at the waist with a black sash and silver ring buckle,
+        deep v-neckline, loose draping fabric, soft folds pooling at her feet,
+        dress features black gradient trim shaped like forest silhouettes near the hem and sleeves,
+        gold emblem printed on the back,
+    base_1:
+      - |
+        female character with black hair and cat ears, calm expression, long straight hair,
+        wearing a flowing red and black kimono-style cloak, deep v-neck and wide sleeves,
+        cloak decorated with black forest silhouette trim near the hem and gold emblem on the back,
+        tied at the waist with a black sash and silver ring buckle,
+        soft fabric folds, rich crimson and black color contrast,
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/priestess/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/priestess/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/priestess/base__}"
+  vamp:
+    base:
+      - |
+        1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera with lavender irises, sultry red lipstick, {blank expression, bored|slight smirk|crooked grin|apathetic gaze|faint sneer}, fangs, confident,
+        wearing a fitted noir trench coat with red satin lining, crisp white button-up shirt visible beneath open collar, subtle metallic details, understated but sensual appearance, cigarette in hand,
+    base_4:
+      - |
+        1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, blank expression, bored, faintly pronounced fangs visible, sharp confident demeanor,
+        wearing a fitted noir trench coat with red satin lining, crisp white button-up shirt visible beneath open collar, subtle metallic details, understated but sensual appearance, cigarette in hand,
+
+    base_3:
+      - |
+        1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor,
+        wearing a fitted noir trench coat with red satin lining, crisp white button-up shirt visible beneath open collar, subtle metallic details, understated but sensual appearance, holding a cigarette near her face between two fingers, thin wisp of smoke rising, cinematic intensity in her gaze,
+    base_2:
+      - |
+        1girl with long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,
+        wearing a fitted noir trench coat with red satin lining, beneath it a crisp white button-up shirt with open collar and slightly loosened top buttons, slim black trousers, leather gloves, subtle metallic details, understated but sensual silhouette,
+        holding a cigarette loosely between two fingers, thin wisp of smoke near her hand, expression steady and composed,
+    base_1:
+      - |
+        1girl with long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,
+        wearing a fitted noir trench coat with red satin lining, beneath it a crisp white button-up shirt with open collar and slightly loosened top buttons, slim black trousers, leather gloves, subtle metallic accents, understated but sensual silhouette,
+        holding a lit cigarette between her fingers, faint trail of smoke curling upward, tone of dangerous elegance and quiet hunger,
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/vamp/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/vamp/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/vamp/base__}"
+
+  minicloak:
+    base:
+      - |
+        1girl with cat ears, straight black hair with bangs, calm expression, wearing a short pleated black skirt, thigh-high black boots, teal crop top with fishnet undershirt and matching fishnet bodysuit covering her legs, small occult emblem on chest, black cape with white fur collar
+
+    base_0:
+      - |
+        1girl with cat ears, straight black hair with bangs, neutral expression, wearing a short pleated black skirt, thigh-high black boots, teal crop top with fishnet undershirt, with __std/xl/omni/minicloak/substyles/all__,
+        black cape with white fur collar,
+
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/minicloak/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/minicloak/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/minicloak/base__}"
+
+    substyles:
+      grounded:
+        - small geometric emblem on chest
+        - minimal black insignia printed on her top
+        - tiny horizontal stripe emblem across chest
+        - simple sigil design on the upper shirt
+        - thin symbol mark at the center of her shirt
+
+      stylized:
+        - cat-shaped emblem on her shirt
+        - crescent logo printed on chest
+        - stylized monogram emblem
+        - abstract rune symbol on top
+        - minimalist badge motif at neckline
+  eye2eye:
+    base:
+      - |
+        catgirl: tall, relaxed but guarded posture, arms crossed loosely, tail curling like a question mark, black cat ears with faint metallic shimmer, eyes that reflect tiny stars, expression sharp yet tired, long asymmetrical black coat with silver embroidery resembling mountain ridgelines, sturdy combat boots, watching carefully
+
+        mousegirl: smaller frame, oversized hoodie with frayed cuffs, patched skirt, soft white fur on ears and tail, faint blush, round brown eyes, gentle smile, small satchel with snacks, shy and open demeanor, thin hairless tail ending in a small pointed tip like a real mouse, distinct from a cat’s tail, stands facing the catgirl, weight slightly forward as if about to speak or reach out
+    orig:
+      - |
+        masterpiece, best quality, illustration, bittersweet magical realism, two girls standing back to back, subtle tension between them, soft cinematic lighting
+
+        catgirl: tall, aloof posture, arms crossed, tail curling like a question mark, black cat ears with a faint midnight shimmer, eyes reflecting tiny stars even in daylight, expression sharp but weary, long asymmetrical black coat with silver embroidery resembling mountain ridgelines, sturdy combat boots, quiet confidence, cool tones, moonlit accent highlights
+
+        mousegirl: smaller frame, oversized hoodie with frayed sleeves, short skirt patched in places, soft white fur on ears and tail, shy expression, constant blush, brown eyes full of warmth, little satchel filled with snacks, gentle demeanor, warm golden tones, light filtering like morning through fog
+
+        back-to-back composition, heads slightly tilted as if about to turn toward each other but never do, shadows stretching in opposite directions, gentle breeze through coats and tails, emotional distance yet silent understanding, surreal atmosphere, faint traces of an old forgotten war, pastel haze horizon, ethereal lighting, dreamy painterly detail, soft focus depth of field, expressive storytelling, studio ghibli-inspired tone, anime cinematic frame
+
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/eye2eye/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/eye2eye/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/eye2eye/base__}"
+  jessi:
+    base:
+      - 1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,
+      - 1girl with long wavy red hair, bunny ear headband that matches glove color, large breasts, glamorous and confident expression, half-lidded eyes, curvy silhouette, seductive elegance, wearing a shimmering red evening gown with a thigh slit, long purple gloves that coordinate with her accessories, and red heels,
+
+    base_v0:
+      - |
+        1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,1girl with long wavy red hair, bunny ear headband, large breasts, glamorous and confident expression, half-lidded eyes, curvy silhouette, seductive elegance,
+        __std/xl/character/all__,
+        wearing a shimmering red evening gown with a thigh slit, long purple gloves, and red heels,
+
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/jessi/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/jessi/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/jessi/base__}"
+
+  underweargirl:
+    base: |
+      anime-style girl with short blonde hair and soft bangs, golden eyes, body shaped by __std/xl/omni/underweargirl/b__. She wears a dark hoodie with long bunny ears and a small chest symbol, the front lifting just enough to show a bit of midriff. Simple dark bottoms and a small white tail detail add a playful note, paired with light ankle socks. Her figure has a natural softness, casual confidence, and slight lived-in looseness in her clothes, like a real person instead of a display model.
+    base_v3: |
+      anime-style girl, blonde short hair with bangs, golden eyes, __std/xl/omni/underweargirl/b__, wearing a short black hoodie with long bunny ears attached to the hood, small white bunny logo on chest, hoodie exposes her midriff, black bikini bottoms with white fluffy bunny tail attached to back, black ankle socks, detailed fabric folds, high-quality character design, balanced anatomy
+    base_v2: |
+      anime-style girl, blonde short hair with bangs, golden eyes, __std/xl/omni/underweargirl/b__, wearing a short black hoodie with long bunny ears attached to the hood, small white bunny logo on chest, hoodie exposes her midriff, black bikini bottoms, black ankle socks, white fluffy bunny tail attached to the top of her hoodie, detailed fabric folds, high-quality character design, balanced anatomy
+    base_v1: |
+      anime-style girl, blonde short hair with bangs, golden eyes, __std/xl/omni/underweargirl/b__, wearing a short black hoodie with long bunny ears attached to the hood, small white bunny logo on chest, hoodie exposes her midriff, black bikini bottoms, black ankle socks, smooth shading, clean lineart, detailed fabric folds, high-quality character design, balanced anatomy
+    base_v0: |
+      anime-style girl, standing pose, neutral expression, blonde short hair with bangs, golden eyes, __std/xl/omni/underweargirl/b__, wearing a black hoodie with long bunny ears attached to the hood, small white bunny logo on chest, black bikini bottoms, black ankle socks, soft lighting, clean white background, full-body character illustration, smooth shading, detailed fabric folds, high-quality lineart, balanced proportions, subtle highlights on skin
+
+    b: |
+      large breasts, curvy body, slight pudge
+
+    sheet:
+      - "%{__std/xl/omni/templates/charsheet__$$__std/xl/omni/underweargirl/base__}"
+    study:
+      - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/underweargirl/base__}"
+    std:
+      - "%{__std/xl/omni/templates/std__$$__std/xl/omni/underweargirl/base__}"

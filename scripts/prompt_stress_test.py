@@ -8,8 +8,14 @@ from dynamicprompts.wildcards.wildcard_manager import WildcardManager
 
 def main():
     parser = argparse.ArgumentParser(description='Analyze wildcard prompt generation frequencies')
+    parser.add_argument('prompt', nargs='?',
+                       default='__std/xl/outfit/all__',
+                       help='Prompt template to analyze (default: __std/xl/outfit/all__)')
     parser.add_argument('-n', '--num-gens', type=int, default=100,
                        help='Number of generations to run (default: 100)')
+    parser.add_argument('-w', '--wildcards-root', type=str,
+                       default='wildcards',
+                       help='Path to wildcards directory (default: wildcards)')
     parser.add_argument('-o', '--output', type=str,
                        help='Output file to save results (optional)')
     parser.add_argument('--debug', action='store_true',
@@ -19,27 +25,49 @@ def main():
                        help='Words to ignore in analysis (default: with and the)')
     parser.add_argument('--no-blacklist', action='store_true',
                        help='Disable word blacklist entirely')
+    parser.add_argument('--min-word-length', type=int, default=3,
+                       help='Minimum word length to include in analysis (default: 3)')
+    parser.add_argument('--top-words', type=int, default=50,
+                       help='Number of top words to show in overall analysis (default: 50)')
+    parser.add_argument('--top-per-source', type=int, default=15,
+                       help='Number of top words to show per source (default: 15)')
+    parser.add_argument('--over-weight-threshold', type=float, default=0.8,
+                       help='Threshold for identifying over-weighted words (default: 0.8 = 80%%)')
+    parser.add_argument('--under-weight-threshold', type=float, default=0.05,
+                       help='Threshold for identifying under-weighted words (default: 0.05 = 5%%)')
+    parser.add_argument('--rare-words-limit', type=int, default=20,
+                       help='Maximum number of rare words to show (default: 20)')
     args = parser.parse_args()
 
     # --- config
-    WILDCARD_ROOT = Path("d:/dev/ai/lumi-wildcards/wildcards")
-    PROMPT_TEMPLATE = """
-__std/xl/style/all__,
-__std/xl/camera/all__,
-__std/xl/character/all__,
-__std/xl/outfit/all__,
-__std/xl/location/all__,
-__std/xl/environment/all__,
-__std/xl/distance/all__,
-__std/xl/lighting/all__,
-__std/xl/details/all__"""
+    WILDCARD_ROOT = Path(args.wildcards_root)
+    PROMPT_TEMPLATE = args.prompt.strip()
     NGENS = args.num_gens
+
+    # Validate arguments
+    if not WILDCARD_ROOT.exists():
+        print(f"Error: Wildcards directory '{WILDCARD_ROOT}' does not exist.")
+        sys.exit(1)
+
+    if args.over_weight_threshold <= 0 or args.over_weight_threshold > 1:
+        print("Error: over-weight-threshold must be between 0 and 1.")
+        sys.exit(1)
+
+    if args.under_weight_threshold <= 0 or args.under_weight_threshold > 1:
+        print("Error: under-weight-threshold must be between 0 and 1.")
+        sys.exit(1)
 
     # Set up blacklist
     if args.no_blacklist:
         blacklist = set()
     else:
         blacklist = set(word.lower() for word in args.blacklist)
+
+    print(f"Analyzing prompt template: {PROMPT_TEMPLATE}")
+    print(f"Using wildcards from: {WILDCARD_ROOT}")
+    print(f"Generating {NGENS} samples...")
+    if args.debug:
+        print("Debug mode enabled - will show first 5 generated prompts\n")
 
     # --- setup
     wm = WildcardManager(WILDCARD_ROOT)
@@ -91,7 +119,7 @@ __std/xl/details/all__"""
 
                 # Count words
                 for w in words:
-                    if len(w) > 2 and w not in blacklist:  # Skip very short words and blacklisted words
+                    if len(w) >= args.min_word_length and w not in blacklist:  # Skip short words and blacklisted words
                         word_counts[w] += 1
                         source_counts[source][w] += 1
 
@@ -105,39 +133,43 @@ __std/xl/details/all__"""
     else:
         output_lines.append("No words blacklisted")
 
-    output_lines.append("\n=== top 50 words overall ===")
-    for word, count in word_counts.most_common(50):
+    output_lines.append(f"\n=== top {args.top_words} words overall ===")
+    for word, count in word_counts.most_common(args.top_words):
         percentage = (count / NGENS) * 100
         output_lines.append(f"{word:20s} {count:4d} ({percentage:5.1f}%)")
 
     output_lines.append("\n=== per-source summary ===")
     for src, counter in source_counts.items():
         total_words = sum(counter.values())
-        output_lines.append(f"\n[{src}] - {total_words} total words, top 15:")
-        for w, c in counter.most_common(15):
+        output_lines.append(f"\n[{src}] - {total_words} total words, top {args.top_per_source}:")
+        for w, c in counter.most_common(args.top_per_source):
             percentage = (c / NGENS) * 100
             output_lines.append(f"  {w:20s} {c:4d} ({percentage:5.1f}%)")
 
     # --- identify potential issues
     output_lines.append("\n=== potential issues ===")
-    output_lines.append("Words appearing in >80% of generations (may indicate over-weighting):")
+    over_threshold_pct = args.over_weight_threshold * 100
+    output_lines.append(f"Words appearing in >{over_threshold_pct:.0f}% of generations (may indicate over-weighting):")
     for word, count in word_counts.most_common():
-        if count > NGENS * 0.8:
+        if count > NGENS * args.over_weight_threshold:
             percentage = (count / NGENS) * 100
             output_lines.append(f"  {word:20s} {count:4d} ({percentage:5.1f}%)")
         else:
             break
 
-    output_lines.append("\nWords appearing in <5% of generations (may indicate under-weighting):")
-    rare_words = [(w, c) for w, c in word_counts.items() if c < NGENS * 0.05 and c > 1]
+    under_threshold_pct = args.under_weight_threshold * 100
+    output_lines.append(f"\nWords appearing in <{under_threshold_pct:.0f}% of generations (may indicate under-weighting):")
+    rare_words = [(w, c) for w, c in word_counts.items() if c < NGENS * args.under_weight_threshold and c > 1]
     rare_words.sort(key=lambda x: x[1], reverse=True)
-    for word, count in rare_words[:20]:  # Show top 20 rare words
+    for word, count in rare_words[:args.rare_words_limit]:
         percentage = (count / NGENS) * 100
         output_lines.append(f"  {word:20s} {count:4d} ({percentage:5.1f}%)")
 
     # Output results
     result_text = '\n'.join(output_lines)
     print(result_text)
+
+    print("\nAnalysis complete")
 
     # Save to file if requested
     if args.output:

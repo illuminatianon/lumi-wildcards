@@ -3,6 +3,8 @@
 **/node_modules/*
 dist/*
 build/*
-.venv/*
+.venv/**
+.venvwsl/**
+.venv-old/**
 **/__pycache__/*
 repomix-output.xml

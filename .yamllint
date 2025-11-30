@@ -1,0 +1,29 @@
+# yamllint configuration for wildcard files
+# Disables rules that aren't relevant for Dynamic Prompts wildcards
+
+extends: default
+
+rules:
+  # Don't require document start marker (---)
+  document-start: disable
+  
+  # Don't require document end marker (...)
+  document-end: disable
+  
+  # Don't enforce line length limits for wildcard entries
+  line-length: disable
+    
+  # Allow trailing spaces (sometimes useful in wildcards)
+  trailing-spaces: disable
+  
+  # Don't enforce empty lines at end of file
+  new-line-at-end-of-file: disable
+  
+  # Allow multiple blank lines for visual separation
+  empty-lines: disable
+  
+  # Allow multiple spaces for alignment in lists
+  indentation:
+    spaces: 2
+    indent-sequences: true
+    check-multi-line-strings: false

@@ -66,6 +66,54 @@ style:
     - "{classic|retro|hand-drawn} animation look"
     - "flat color with {ornate|patterned|decorative} elements"
 
+  figurine:
+    all:
+      - __std/xl/style/figurine/type__, __std/xl/style/figurine/material__, __std/xl/style/figurine/presentation__,__std/xl/style/figurine/lighting__,  __std/xl/style/figurine/scale__,
+    material:
+      - pvc_figure
+      - resin_figure
+      - plastic_model
+      - painted_resin
+      - hand_painted
+      - detailed_sculpt
+      - glossy_surface
+      - matte_finish
+
+    type:
+      - anime_figure
+      - scale_figure
+      - collectible_figure
+      - character_figure
+      - garage_kit
+      - anime_statue
+      - exhibition_figure
+      - display_model
+
+    scale:
+      - 1/6_scale
+      - 1/7_scale
+      - 1/8_scale
+      - small_scale
+      - large_scale
+
+    lighting:
+      - studio_lighting
+      - softbox_lighting
+      - rim_lighting
+      - showcase_lighting
+      - exhibition_lighting
+      - cinematic_lighting
+
+    presentation:
+      - photo_of_figurine
+      - toy_photography
+      - figurine_photography
+      - shallow_depth_of_field
+      - focus_stack
+      - display_stand
+      - showcase_base
+      - collectible_display
+
   # Extracted reusable components
   linework:
     - thick
