@@ -78,3 +78,13 @@ perturbation:
     - anomalous-texture-logic
     - reliclike-ornamentation
     - stained-dream-surface
+
+  modes:
+#    - "[mode:none]"
+    - "[mode:logical|use clear syntax, stable imagery, linear flow]"
+    - "[mode:chaos|use fragmented metaphor, unstable syntax, recursive phrasing; preserve all visual nouns]"
+    - "[mode:dreamlogic|use soft contradictions, blurred causality, synesthetic metaphors]"
+    - "[mode:fractured|use broken clauses, disjoint sequencing, staccato imagery]"
+    - "[mode:nonlinear|reorder descriptive flow, treat time metaphorically]"
+    - "[mode:oracle|use prophetic cadence, ritualistic tone, symbolic emphasis]"
+    - "[mode:eccentric|use playful oddity, unexpected analogies, whimsical tone]"

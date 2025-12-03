@@ -22,6 +22,15 @@ environment:
     - __std/xl/environment/natural_formations__
     - __std/xl/environment/urban_textures__
     - __std/xl/environment/material_surfaces__
+    # Additional patterns to boost diversity and under-represented terms
+    - __std/xl/environment/wind_effects__ with __std/xl/environment/material_surfaces__
+    - __std/xl/environment/dust_particles__ floating through __std/xl/environment/architectural_elements__
+    - __std/xl/environment/mist_fog__ surrounding __std/xl/environment/natural_formations__
+    - __std/xl/environment/temporal_distortions__ affecting __std/xl/environment/concrete_spaces__
+    - __std/xl/environment/column_structures__ within __std/xl/environment/atmospheric_effects__
+    - __std/xl/environment/material_textures__ enhanced by __std/xl/environment/lighting_atmosphere__
+    - __std/xl/environment/geometric_patterns__ combined with __std/xl/environment/weather_elements__
+    - __std/xl/environment/surface_details__ illuminated by __std/xl/environment/seasonal_atmosphere__
 
   # Atmospheric effects - moved from location.yaml
   atmospheric_effects:
@@ -230,7 +239,9 @@ environment:
   # -------------------------------
   swirling_motion:
     - "{surrounded by|amid|within} __std/xl/environment/swirl_motion__, __std/xl/environment/swirl_material__ __std/xl/environment/swirl_pattern__"
-    - abstract void with __std/xl/environment/swirl_motion__ __std/xl/environment/swirl_pattern__
+    - ethereal void with __std/xl/environment/swirl_motion__ __std/xl/environment/swirl_pattern__
+    - "{surrounded by|amid|within} dynamic __std/xl/environment/swirl_motion__, __std/xl/environment/swirl_material__ __std/xl/environment/swirl_pattern__"
+    - flowing space with __std/xl/environment/swirl_motion__ __std/xl/environment/swirl_pattern__
 
   swirl_motion:
     - swirling
@@ -300,8 +311,11 @@ environment:
 
   # -------------------------------
   abstract_shapes:
-    - "{against|surrounded by} abstract __std/xl/environment/shape_type__, __std/xl/environment/shape_form__"
-    - bold graphic background with abstract __std/xl/environment/shape_type__ shapes
+    - "{against|surrounded by} stylized __std/xl/environment/shape_type__, __std/xl/environment/shape_form__"
+    - bold graphic background with geometric __std/xl/environment/shape_type__ shapes
+    - "{against|surrounded by} minimalist __std/xl/environment/shape_type__, __std/xl/environment/shape_form__"
+    - dynamic visual backdrop with flowing __std/xl/environment/shape_type__ elements
+    - "{against|surrounded by} conceptual __std/xl/environment/shape_type__, __std/xl/environment/shape_form__"
 
   shape_type:
     - geometric
@@ -355,12 +369,16 @@ environment:
     - bathed in violet fog
 
   space_variant:
-    - an abstract void
+    - a surreal void
     - a dark void
     - cosmic haze
     - shadow and smoke
     - vibrant haze
     - fractured space
+    - an ethereal void
+    - a luminous void
+    - dimensional space
+    - infinite expanse
     - luminous mist
     - ethereal fog
     - prismatic atmosphere
@@ -588,5 +606,149 @@ environment:
     - paper surfaces hold memories
     - cardboard materials stack high
     - foam padding provides comfort
+
+  # Wind effects and air movement - boosting under-represented terms
+  wind_effects:
+    - desert wind carries sand
+    - mountain air flows crisp
+    - ocean breeze brings salt
+    - forest wind rustles leaves
+    - prairie wind bends grass
+    - arctic wind cuts sharp
+    - tropical wind brings warmth
+    - highland wind whistles through
+    - valley wind settles low
+    - coastal wind shifts direction
+    - canyon wind echoes loudly
+    - plateau wind sweeps across
+    - tundra wind howls endlessly
+    - meadow wind dances gently
+    - cliff wind gusts suddenly
+
+  # Dust and particle effects - boosting under-represented terms
+  dust_particles:
+    - golden dust motes dance
+    - silver particles swirl
+    - cosmic dust drifts slowly
+    - sand particles catch light
+    - pollen particles float
+    - ash particles settle
+    - glitter particles sparkle
+    - snow particles fall gently
+    - ember particles rise
+    - spore particles drift
+    - crystal particles shimmer
+    - metal particles gleam
+    - glass particles refract
+    - stone particles crumble
+    - fabric particles flutter
+
+  # Mist and fog variations - boosting under-represented terms
+  mist_fog:
+    - morning mist rises
+    - evening fog rolls in
+    - valley mist clings low
+    - mountain fog drifts
+    - coastal mist drifts inland
+    - forest mist hangs heavy
+    - river mist follows water
+    - meadow mist sparkles
+    - canyon mist pools deep
+    - highland mist swirls
+    - arctic mist freezes
+    - tropical mist steams
+    - desert mist shimmers
+    - urban fog obscures
+    - mystical mist glows
+
+  # Temporal distortions - boosting under-represented terms
+  temporal_distortions:
+    - time ripples outward
+    - temporal waves distort
+    - chronological fragments scatter
+    - time streams converge
+    - temporal echoes repeat
+    - time loops spiral
+    - temporal rifts open
+    - time currents flow
+    - temporal storms rage
+    - time vortexes swirl
+    - temporal anchors drift
+    - time zones blur
+    - temporal flux shifts
+    - time barriers dissolve
+    - temporal shadows linger
+
+  # Column and pillar structures - boosting under-represented terms
+  column_structures:
+    - marble columns stand tall
+    - stone pillars support
+    - wooden posts frame
+    - metal columns gleam
+    - crystal pillars refract
+    - concrete columns anchor
+    - granite pillars endure
+    - bronze columns oxidize
+    - limestone columns weather
+    - sandstone pillars erode
+    - basalt columns rise
+    - quartz pillars sparkle
+    - obsidian columns reflect
+    - coral pillars grow
+    - ice columns freeze
+
+  # Material textures - boosting under-represented terms
+  material_textures:
+    - rough concrete shows age
+    - smooth marble gleams
+    - textured brick adds character
+    - polished metal reflects
+    - weathered wood tells stories
+    - pristine glass reveals all
+    - tarnished brass shows patina
+    - rusted iron speaks time
+    - worn leather shows use
+    - fresh paint covers flaws
+    - cracked stone reveals stress
+    - smooth plastic feels artificial
+    - rough sandpaper grips
+    - soft velvet caresses
+    - hard steel resists
+
+  # Geometric patterns - boosting under-represented terms
+  geometric_patterns:
+    - hexagonal patterns tessellate
+    - triangular forms intersect
+    - circular patterns radiate
+    - square grids organize
+    - diamond shapes alternate
+    - spiral patterns flow
+    - zigzag lines energize
+    - wave patterns undulate
+    - star patterns radiate
+    - cross patterns intersect
+    - oval patterns stretch
+    - rectangular frames contain
+    - pentagonal forms cluster
+    - octagonal patterns repeat
+    - fractal patterns recurse
+
+  # Surface details - boosting under-represented terms
+  surface_details:
+    - scratched surfaces show wear
+    - polished surfaces reflect
+    - textured surfaces grip
+    - smooth surfaces slide
+    - rough surfaces catch
+    - glossy surfaces shine
+    - matte surfaces absorb
+    - pitted surfaces hold
+    - grooved surfaces channel
+    - ridged surfaces direct
+    - bumpy surfaces vibrate
+    - flat surfaces extend
+    - curved surfaces flow
+    - angular surfaces cut
+    - organic surfaces undulate
 
 
