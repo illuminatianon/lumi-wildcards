@@ -7,7 +7,7 @@ omni:
     __std/xl/location/all__,
     __std/xl/environment/all__,
     __std/xl/lighting/all__,
-    __std/xl/perturbation/all__
+    #__std/xl/perturbation/all__
   poo: curvy, {flat|small|medium|large|very large} breasts
   zit:
     - |
@@ -483,10 +483,10 @@ omni:
       - "%{__std/xl/omni/templates/std__$$__std/xl/omni/eye2eye/base__}"
   jessi:
     base:
-      - 1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,
-      - 1girl with long wavy red hair, bunny ear headband that matches glove color, large breasts, glamorous and confident expression, half-lidded eyes, curvy silhouette, seductive elegance, wearing a shimmering red evening gown with a thigh slit, long purple gloves that coordinate with her accessories, and red heels,
+      - 1girl with long wavy red hair, bunny ear headband that matches glove color, large breasts, glamorous and confident expression, half-lidded pale blue eyes, curvy silhouette, seductive elegance, wearing a shimmering red evening gown with a thigh slit, long purple gloves that coordinate with her accessories, and red heels,
 
     base_v0:
+      - 1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,
       - |
         1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, faintly pointed teeth visible in a wicked sneer (expression fixed), sharp confident demeanor, slender build,1girl with long wavy red hair, bunny ear headband, large breasts, glamorous and confident expression, half-lidded eyes, curvy silhouette, seductive elegance,
         __std/xl/character/all__,
@@ -520,3 +520,87 @@ omni:
       - "%{__std/xl/omni/templates/freepose__$$__std/xl/omni/underweargirl/base__}"
     std:
       - "%{__std/xl/omni/templates/std__$$__std/xl/omni/underweargirl/base__}"
+
+  archangel:
+    base: |
+      towering masculine-silhouette archangel in ornate silver celestial armor, non-visored open helm containing a concentrated blue inner glow, humanoid outline but clearly nonhuman, intricate plate segments with crystalline blue channels, full-body divine warrior, imposing feathered wings __std/xl/omni/archangel/wings__, flowing armored tabard, heavy gauntlets and greaves, overwhelming radiant presence
+      __std/xl/omni/archangel/pose__,
+    base_v4:
+      - towering masculine-silhouette archangel in ornate silver celestial armor, non-visored open helm containing a concentrated blue inner glow, humanoid outline but clearly nonhuman, intricate plate segments with crystalline blue channels, full-body divine warrior, imposing feathered wings, __std/xl/omni/archangel/pose__, __std/xl/omni/archangel/wings__, flowing armored tabard, heavy gauntlets and greaves, overwhelming radiant presence
+    base_v3:
+      - towering masculine-silhouette archangel in ornate silver celestial armor, non-visored open helm containing a concentrated blue inner glow, humanoid outline but clearly nonhuman, intricate plate segments with crystalline blue channels, full-body divine warrior, imposing feathered wings, __std/xl/character/all__, __std/xl/omni/archangel/wings__, flowing armored tabard, heavy gauntlets and greaves, overwhelming radiant presence
+    base_v2:
+      - formless-faced archangel in ornate silver celestial armor, glowing blue energy where a human face would be, non-visored open helm framing an abstract luminous “face,” humanoid only in silhouette, intricate plate segments with crystalline blue channels, full-body divine warrior, imposing feathered wings, __std/xl/character/all__, __std/xl/omni/archangel/wings__, flowing armored tabard, heavy gauntlets and greaves, otherworldly radiance, presence that is humanoid but clearly not human
+
+    base_v1:
+      - luminous armored archangel, full-body divine warrior in ornate silver plate armor with crystalline blue energy lines, helmeted with a glowing visor, imposing feathered wings, __std/xl/character/all__, __std/xl/omni/archangel/wings__, intricate chestplate with celestial motifs, heavy gauntlets and greaves, flowing armored tabard, serene but intimidating presence, powerful stance, immaculate white feathers, otherworldly radiance
+
+    wings:
+      - open and outstretched
+      - partially spread, poised for ascent
+      - dramatically flared, commanding presence
+      - relaxed and folded behind the back
+      - sweeping arc, mid-motion
+      - forward-angled, protective posture
+
+    tabard:
+      - rigid layered tabard with no motion implied
+      - heavy draped tabard hanging straight downward
+      - segmented armored tabard with weighted hem
+      - long ceremonial tabard falling in clean vertical lines
+      - short split tabard resting still against the armor
+      - paneled celestial tabard with structured, unmoving folds
+
+    radiance:
+      - steady internal glow with no flicker
+      - low, uniform aura surrounding the body
+      - faint halo outlining the silhouette
+      - contained blue energy pulsing gently within armor channels
+      - soft outward shine emphasizing the nonhuman presence
+      - restrained luminous charge centered in the helm
+
+    pose:
+      - standing firm with both feet planted, authoritative stance
+      - squared posture, arms at sides, sentinel-like stillness
+      - stepping forward with deliberate, grounded movement
+      - hovering just above the ground, body aligned and unwavering
+      - arms slightly extended in a commanding gesture
+      - one hand raised in solemn judgment, the other resting at the side
+      - descending posture, upright and imposing
+      - towering stance with implied downward regard
+
+    charsheet:
+      - |
+        masterpiece, best quality,
+        __std/xl/camera/character_sheet/all__,
+
+        ...
+
+        neutral background, plain backdrop, simple studio lighting, full body pose study
+    freepose:
+      - |
+        masterpiece, best quality,
+        __std/xl/camera/all__,
+
+        ...
+
+        neutral background, plain backdrop, simple studio lighting, full body pose study
+    tstd:
+      - |
+        masterpiece, best quality,
+        #__std/xl/style/all__
+        realistic photography, 85mm lens, shallow depth of field,
+
+        ...
+
+        __std/xl/lighting/all__
+        __std/xl/environment/all__
+        __std/xl/distance/all__
+        __std/xl/details/all__
+
+    sheet:
+      - "%{__std/xl/omni/archangel/charsheet__$$__std/xl/omni/archangel/base__}"
+    study:
+      - "%{__std/xl/omni/archangel/freepose__$$__std/xl/omni/archangel/base__}"
+    std:
+      - "%{__std/xl/omni/archangel/tstd__$$__std/xl/omni/archangel/base__}"
