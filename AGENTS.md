@@ -27,14 +27,16 @@ lumi-wildcards/
 
 ### Environment Setup
 
-**When using WSL (Windows Subsystem for Linux):**
-Before running any Python scripts, activate the WSL virtual environment:
-```bash
-source .venvwsl/bin/activate
-```
+**Prerequisites:**
+- [uv](https://docs.astral.sh/uv/) - Fast Python package installer and resolver
+- The scripts use `uv run` with inline dependencies, eliminating the need for virtual environment management
 
-**When using native Windows:**
-Use the appropriate Windows virtual environment activation method for your setup.
+**Installation:**
+```bash
+# Install uv (if not already installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# or on Windows: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
 ### Core Testing Scripts
 
@@ -43,9 +45,7 @@ Use the appropriate Windows virtual environment activation method for your setup
 
 **Usage:**
 ```bash
-# WSL
-source .venvwsl/bin/activate
-python scripts/wc_test.py "__std/xl/outfit/all__" --count 100
+uv run scripts/wc_test.py "__std/xl/outfit/all__" --count 100
 ```
 
 **Key Features:**
@@ -59,17 +59,16 @@ python scripts/wc_test.py "__std/xl/outfit/all__" --count 100
 
 **Usage:**
 ```bash
-# WSL - Basic analysis
-source .venvwsl/bin/activate
-python scripts/prompt_stress_test.py "__std/xl/outfit/all__" -n 1000
+# Basic analysis
+uv run scripts/prompt_stress_test.py "__std/xl/outfit/all__" -n 1000
 
-# WSL - Advanced analysis with custom parameters
-source .venvwsl/bin/activate
-python scripts/prompt_stress_test.py "__std/xl/character/all__" \
+# Advanced analysis with custom parameters
+uv run scripts/prompt_stress_test.py "__std/xl/character/all__" \
   --num-gens 500 \
   --top-words 25 \
   --over-weight-threshold 0.9 \
   --under-weight-threshold 0.02 \
+  --exclude "the with and from" \
   --output analysis_report.txt
 ```
 
@@ -88,18 +87,18 @@ python scripts/prompt_stress_test.py "__std/xl/character/all__" \
 - `--top-words`: Number of top words to show (default: 50)
 - `--over-weight-threshold`: Threshold for over-weighted detection (default: 0.8)
 - `--under-weight-threshold`: Threshold for under-weighted detection (default: 0.05)
-- `--blacklist`: Words to ignore in analysis (default: with, and, the)
+- `--exclude`: Words to ignore in analysis (replaces deprecated --blacklist)
+- `--blacklist`: (DEPRECATED) Words to ignore in analysis (default: with, and, the)
 
 #### 3. `scripts/lint-wildcards.py` - YAML Validation Tool
 **Purpose:** Validate YAML syntax and formatting in wildcard files
 
 **Usage:**
 ```bash
-# WSL
-source .venvwsl/bin/activate
-python scripts/lint-wildcards.py
+# Direct execution
+uv run scripts/lint-wildcards.py
 
-# or via npm (works in both WSL and Windows)
+# or via npm
 npm run lint-wildcards
 ```
 
@@ -133,24 +132,22 @@ __std/xl/filename/category__  # Specific category
 
 ### 1. Understanding Existing Wildcards
 ```bash
-# WSL - Examine wildcard structure
-source .venvwsl/bin/activate
-python scripts/wc_test.py "__std/xl/outfit/all__" --count 20
+# Examine wildcard structure
+uv run scripts/wc_test.py "__std/xl/outfit/all__" --count 20
 
-# WSL - Analyze statistical distribution
-source .venvwsl/bin/activate
-python scripts/prompt_stress_test.py "__std/xl/outfit/all__" --debug
+# Analyze statistical distribution
+uv run scripts/prompt_stress_test.py "__std/xl/outfit/all__" --debug
 ```
 
 ### 2. Creating New Wildcards
 1. Follow YAML structure requirements from [dynamic-prompts.md](prompts/dynamic-prompts.md)
 2. Use template patterns instead of hardcoded combinations
-3. Validate syntax: `source .venvwsl/bin/activate && python scripts/lint-wildcards.py`
-4. Test generation: `source .venvwsl/bin/activate && python scripts/wc_test.py "__std/xl/newfile/all__"`
-5. Analyze distribution: `source .venvwsl/bin/activate && python scripts/prompt_stress_test.py "__std/xl/newfile/all__"`
+3. Validate syntax: `uv run scripts/lint-wildcards.py`
+4. Test generation: `uv run scripts/wc_test.py "__std/xl/newfile/all__"`
+5. Analyze distribution: `uv run scripts/prompt_stress_test.py "__std/xl/newfile/all__"`
 
 ### 3. Refactoring Existing Wildcards
-1. Analyze current patterns: `source .venvwsl/bin/activate && python scripts/prompt_stress_test.py [wildcard] --debug`
+1. Analyze current patterns: `uv run scripts/prompt_stress_test.py [wildcard] --debug`
 2. Identify repetition bias and over-weighted terms
 3. Extract repeated elements into subcategories
 4. Create template patterns for modular composition
@@ -193,9 +190,9 @@ python scripts/prompt_stress_test.py "__std/xl/outfit/all__" --debug
 4. **Unbalanced Distribution:** Analyze per-source breakdown in stress test results
 
 ### Debugging Workflow:
-1. Run lint check: `source .venvwsl/bin/activate && python scripts/lint-wildcards.py`
-2. Test generation: `source .venvwsl/bin/activate && python scripts/wc_test.py [wildcard] --count 10`
-3. Analyze patterns: `source .venvwsl/bin/activate && python scripts/prompt_stress_test.py [wildcard] --debug`
+1. Run lint check: `uv run scripts/lint-wildcards.py`
+2. Test generation: `uv run scripts/wc_test.py [wildcard] --count 10`
+3. Analyze patterns: `uv run scripts/prompt_stress_test.py [wildcard] --debug`
 4. Review statistical output for bias indicators
 
 This guide provides the foundation for AI agents to effectively work with the Lumi Wildcards system while maintaining quality and consistency standards.

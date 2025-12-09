@@ -67,8 +67,7 @@ Many rich categories are available for future template expansion:
 ## What Needs to Be Done Next 📋
 
 ### 1. **Test the Wildcards Properly**
-- Need to activate `.venv` environment first
-- Run: `python scripts/wc_test.py "__std/xl/outfit__"` to generate 100 samples
+- Run: `uv run scripts/wc_test.py "__std/xl/outfit__"` to generate 100 samples
 - Verify all template patterns resolve correctly
 
 ### 2. **Potential Template Expansion**
@@ -85,7 +84,7 @@ Consider adding more patterns to the `all` category that utilize the unreference
 - Ensure professional terminology consistency
 
 ### 4. **Integration Testing**
-- Test with the full prompt stress test: `python scripts/prompt_stress_test.py -n 100`
+- Test with the full prompt stress test: `uv run scripts/prompt_stress_test.py -n 100`
 - Check frequency analysis for balanced distribution
 
 ## File Location 📁

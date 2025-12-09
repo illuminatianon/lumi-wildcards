@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --quiet
+# /// script
+# dependencies = [
+#   "openai",
+#   "tqdm",
+# ]
+# ///
 """
 Text Transformer - Transform lines of text according to LLM prompts.
 Supports various transformation types with specialized system prompts.

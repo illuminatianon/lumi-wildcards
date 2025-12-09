@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint-wildcards": "python scripts/lint-wildcards.py",
+    "lint-wildcards": "python lint-wildcards.py",
     "lint": "npm run lint-wildcards"
   }
 }

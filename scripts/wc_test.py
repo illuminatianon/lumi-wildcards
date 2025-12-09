@@ -1,3 +1,11 @@
+#!/usr/bin/env -S uv run --quiet
+# /// script
+# dependencies = [
+#   "dynamicprompts @ file:///mnt/d/dev/ai/dynamicprompts",
+#   "pyyaml",
+# ]
+# ///
+
 import argparse
 from pathlib import Path
 from dynamicprompts.generators import RandomPromptGenerator
@@ -22,7 +30,11 @@ def main():
     args = parser.parse_args()
 
     # Initialize wildcard manager with the wildcards directory
-    wm = WildcardManager(Path("d:/dev/ai/lumi-wildcards/wildcards"))
+    # Get the script directory and navigate to the project root
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    wildcards_path = project_root / "wildcards"
+    wm = WildcardManager(wildcards_path)
 
     # Generate prompts
     generator = RandomPromptGenerator(wildcard_manager=wm)

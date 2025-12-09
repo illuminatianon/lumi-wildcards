@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --quiet
+# /// script
+# dependencies = [
+#   "openai",
+#   "tqdm",
+# ]
+# ///
 """
 Wildcard Extractor - Extract wildcard categories from images using OpenAI Vision API
 
