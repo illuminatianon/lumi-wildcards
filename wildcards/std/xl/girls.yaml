@@ -1,0 +1,67 @@
+girls:
+  base: |
+    {3::adult female|adult female with cat ears|adult female with bunny ears}, __std/xl/girls/bodyshape__, {flat|small|medium|large|very large} breasts,
+    __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__
+  bodyshape:
+    - athletic build
+    - curvy figure
+    - chubby figure
+    - thicc
+    - curvy
+    - skinny
+    - pudgy
+    - curvy with slight pudge
+  bodyshape_v1:
+    - athletic build
+    - curvy figure
+    - slender figure
+    - muscular build
+    - chubby figure
+    - overweight figure
+    - obese figure
+    - skinny figure
+    - emaciated figure
+    - morbidly obese figure
+    - bbw
+    - thicc
+    - curvy
+    - fat
+    - skinny
+    - pudgy
+    - curvy with slight pudge
+  keli:
+    base: |
+      female character, cat-themed design, short black hair with uneven spiky tips, straight cut bangs, bright blue eyes, light skin.
+      wearing black cat-ear headband with pink inner ear panels.
+      athletic build,
+      top is a dark strappy bra-style garment with teal accents and a central gemstone pendant.
+      arm straps on both upper arms; right arm has a small metallic buckle.
+      black, low-rise bikini bottom with multiple straps, pouches, and a tactical belt featuring varied colored utility items.
+      left leg mostly bare; right leg covered by a dark asymmetrical thigh-high stocking with a torn hole at the knee and segmented straps.
+      long black tail, a bandage tied to near the tip.
+      wearing mismatched athletic sneakers with colored accents.
+  alien:
+    base: |
+      tall humanoid biomechanical entity with a bulbous cranium featuring exposed brain-like surface textures and deep skeletal eye sockets.
+      head shape rounded and organic rather than elongated, with a pronounced brow and compact facial structure.
+      upper torso composed of layered plated components resembling armored ribs, with decorative mechanical etchings and recessed panel details.
+      shoulders fitted with large angular protruding armor fins extending outward like stylized pauldrons.
+      arms constructed from segmented mechanical components with smooth plating, circular joint housings, and articulated clawed hands.
+      abdomen reinforced with integrated tubing, joint plates, and ornamental structural elements.
+      legs tall and digitigrade, built from curved armored segments with oval insets and mechanical joint rings.
+      feet end in multiple claw-like toes shaped more like mechanical talons than organic ones.
+      long smooth tail extending from the lower spine, simple in structure and not segmented.
+      overall aesthetic mixes skeletal motifs with intricate machinery, emphasizing ornamented mechanical plating over organic textures.
+    base_v0: |
+      tall humanoid alien with an elongated skeletal head and exposed brain-like cranial surface, deep hollow eye sockets, narrow jaw structure.
+      upper body covered in biomechanical exoskeleton plating with rib-like contours and layered organic-mechanical surfaces.
+      broad pointed shoulder protrusions angled upward, segmented armor on arms with mechanical joints and intricate surface etching.
+      elongated fingers ending in sharp claw-like tips.
+      torso features fused anatomical and technological motifs, including vented sections, tubing, and skeletal ridges.
+      hips and thighs reinforced with smooth biomechanical plating, circular insets, and ribbed mechanical details.
+      digitigrade legs with elongated mechanical feet ending in curved talons.
+      long segmented tail extending from lower spine.
+      overall silhouette sleek, predatory, and biomechanical, mixing skeletal anatomy with advanced machinery.
+  freckle:
+    mummyangel:
+      - "(blushing shy and pleased while exposing herself:1.1), young slender teenage Baltic/Nordic woman with extremely long straightened black hair, ancient mummy ritual wrappings minidress with runic symbols with glow outlines, full body bone anatomy tattoos, runic symbol body markings, narrowed shimmering sunlit pale blue eyes, winged eyeliner, darkened eyebrows, tan beautiful freckled young complexion with a slight blush, slender build, modestly sized beautiful tits, (narrow shoulders and neck:1.1), (wide curvy hips:1.1), warm sunrays and angelic lighting, (thick thighs:1.1), (detailed face:1.1), huge folded up raven wings with a some gold inlay,"

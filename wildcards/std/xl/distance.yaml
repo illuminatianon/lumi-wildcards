@@ -8,8 +8,11 @@ distance:
     - "__std/xl/distance/background_elements__ __std/xl/distance/position__"
     - "__std/xl/distance/distant_objects__ __std/xl/distance/position__"
     - "__std/xl/distance/horizon_details__ __std/xl/distance/position__"
-    - "__std/xl/distance/position__"
     - "__std/xl/distance/background_elements__"
+    - "__std/xl/distance/distant_objects__"
+    - "__std/xl/distance/horizon_details__"
+    - "__std/xl/distance/atmospheric__"
+    - "__std/xl/distance/atmospheric__ __std/xl/distance/position__"
 
   # Simple background elements for distant depth
   background_elements:
@@ -31,6 +34,16 @@ distance:
     - empty fields
     - still waters
     - shifting sands
+    - silhouetted spires
+    - hazy outlines
+    - faded banners
+    - leaning poles
+    - half-buried stones
+    - overgrown walls
+    - sunken vessels
+    - tilted crosses
+    - sagging rooftops
+    - crooked fences
 
   # Distant objects that add depth without being complete scenes
   distant_objects:
@@ -52,6 +65,16 @@ distance:
     - dried riverbeds
     - dead gardens
     - empty nests
+    - solitary windmill
+    - derelict barn
+    - toppled obelisk
+    - stranded boats
+    - ancient aqueduct
+    - hollow tree
+    - leaning lighthouse
+    - burnt-out cabin
+    - cracked dome
+    - sunken bridge
 
   # Horizon details for background depth
   horizon_details:
@@ -73,40 +96,60 @@ distance:
     - rolling fog
     - desert winds
     - ocean waves
+    - bleeding sunset
+    - cold dawn light
+    - scattered cloudbanks
+    - heat shimmer
+    - northern lights
+    - approaching storm front
+    - golden hour glow
+    - twilight gradient
+    - silver lining
+    - crimson skyline
 
-  # Spatial positioning descriptors
+  # Atmospheric depth cues
+  atmospheric:
+    - veiled in haze
+    - lost in fog
+    - shrouded in mist
+    - blurred by distance
+    - fading into grey
+    - dissolving into light
+    - obscured by dust
+    - softened by atmosphere
+    - dimmed by smoke
+    - washed out by glare
+    - diffused in twilight
+    - half-hidden in shadow
+
+  # Spatial positioning descriptors - deduplicated
   position:
     - in the distance
     - far away
     - beneath
-    - beyond the haze
     - high above
     - on the horizon
     - through the mist
     - behind
     - far below
-    - around
     - ahead
-    - between the clouds
-    - beyond reach
+    - between clouds
+    - out of reach
     - across the void
     - just over the ridge
     - past the ruins
     - from afar
     - through the veil
     - underfoot
-    - beyond the horizon
     - at the edge of sight
     - across the valley
-    - in the far distance
-    - beyond the ridge
     - past the mountains
     - above
-    - beyond the fields
-    - at the horizon
     - through the trees
     - across the plain
     - through the fog
-    - beyond
-
-
+    - over the hill
+    - past the treeline
+    - where sky meets land
+    - at the vanishing point
+    - receding into nothing

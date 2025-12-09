@@ -30,7 +30,7 @@ omni:
       __std/xl/lumi/all__,
       __std/xl/style/all__,
       __std/xl/camera/all__,
-      1girl with {cat|bunny} ears, curvy, {flat|small|medium|large|very large} breasts,
+      {3::1girl|1girl with cat ears|1girl with bunny ears}, curvy, {flat|small|medium|large|very large} breasts,
       __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__,,
       __std/xl/character/all__,
       wearing __std/xl/outfit/all__
@@ -372,9 +372,9 @@ omni:
   priestess:
     base:
       - |
-        female character with black hair and cat ears, calm expression, long straight hair,
-        wearing a long flowing red dress with wide sleeves, belted at the waist with a black sash and silver ring buckle,
-        deep v-neckline, loose draping fabric, soft folds pooling at her feet,
+        female character with black hair and cat ears, calm expression, long straight hair, caucasian features,
+        wearing a long flowing red dress with wide sleeves, belted at the waist with a black sash and silver ring buckle,no kimono,
+        deep v-neckline, loose draping fabric, soft folds pooling at her feet, __std/xl/omni/rusalka/b__,
         decorated with a black motif of forest silhouettes along the hem and sleeves,
         gold emblem printed on the back,
     base_2:
@@ -401,7 +401,7 @@ omni:
     base:
       - |
         1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera with lavender irises, sultry red lipstick, {blank expression, bored|slight smirk|crooked grin|apathetic gaze|faint sneer}, fangs, confident,
-        wearing a fitted noir trench coat with red satin lining, crisp white button-up shirt visible beneath open collar, subtle metallic details, understated but sensual appearance, cigarette in hand,
+        wearing a fitted noir trench coat with red satin lining, crisp white button-up shirt visible beneath open collar, subtle metallic details, understated but sensual appearance,
     base_4:
       - |
         1girl, solo female subject, long dark hair, pale cool-toned skin, complete black sclera and iris (eyes like polished obsidian), sultry red lipstick, blank expression, bored, faintly pronounced fangs visible, sharp confident demeanor,
@@ -589,7 +589,7 @@ omni:
       - |
         masterpiece, best quality,
         #__std/xl/style/all__
-        realistic photography, 85mm lens, shallow depth of field,
+        #realistic photography, 85mm lens, shallow depth of field,
 
         ...
 
@@ -604,3 +604,15 @@ omni:
       - "%{__std/xl/omni/archangel/freepose__$$__std/xl/omni/archangel/base__}"
     std:
       - "%{__std/xl/omni/archangel/tstd__$$__std/xl/omni/archangel/base__}"
+  figurine:
+    - |
+      pvc_figure, __std/xl/style/figurine/type__, {1/6|1/7|1/8} scale, shallow_depth_of_field,
+      __std/xl/camera/all__
+      masterpiece,best quality,
+
+      ...
+
+      __std/xl/character/all__, attached to a base stand, support holding her up.
+      whole figurine is visible.
+
+      Safe for work, no nudity, no text.
