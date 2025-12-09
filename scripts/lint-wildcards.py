@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --quiet --with yamllint
+# /// script
+# dependencies = [
+#   "yamllint",
+# ]
+# ///
 """
 YAML Linter for Wildcard Files
 Lints all YAML files in the wildcards/std/xl directory

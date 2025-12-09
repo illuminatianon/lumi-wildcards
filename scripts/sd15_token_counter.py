@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --quiet
+# /// script
+# dependencies = [
+#   "transformers",
+# ]
+# ///
 """
 Simple token counter that mimics Stable Diffusion 1.5's tokenization.
 SD 1.5 uses OpenAI's CLIP tokenizer with a maximum context length of 77 tokens.

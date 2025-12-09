@@ -1,3 +1,11 @@
+#!/usr/bin/env -S uv run --quiet
+# /// script
+# dependencies = [
+#   "dynamicprompts @ file:///mnt/d/dev/ai/dynamicprompts",
+#   "pyyaml",
+# ]
+# ///
+
 import re
 import sys
 import argparse
@@ -22,9 +30,13 @@ def main():
                        help='Show first 5 generated prompts for debugging')
     parser.add_argument('--blacklist', type=str, nargs='*',
                        default=['with', 'and', 'the'],
-                       help='Words to ignore in analysis (default: with and the)')
+                       help='(DEPRECATED: use --exclude) Words to ignore in analysis (default: with and the)')
+    parser.add_argument('--exclude', type=str, nargs='*',
+                       help='Words to ignore in analysis (can be space-separated or quoted string)')
     parser.add_argument('--no-blacklist', action='store_true',
-                       help='Disable word blacklist entirely')
+                       help='(DEPRECATED: use --no-exclude) Disable word exclusion entirely')
+    parser.add_argument('--no-exclude', action='store_true',
+                       help='Disable word exclusion entirely')
     parser.add_argument('--min-word-length', type=int, default=3,
                        help='Minimum word length to include in analysis (default: 3)')
     parser.add_argument('--top-words', type=int, default=50,
@@ -40,7 +52,15 @@ def main():
     args = parser.parse_args()
 
     # --- config
-    WILDCARD_ROOT = Path(args.wildcards_root)
+    # Handle wildcard root path - resolve relative to script location if using default
+    if args.wildcards_root == 'wildcards':
+        # Get the script directory and navigate to the project root
+        script_dir = Path(__file__).parent
+        project_root = script_dir.parent
+        WILDCARD_ROOT = project_root / "wildcards"
+    else:
+        WILDCARD_ROOT = Path(args.wildcards_root)
+
     PROMPT_TEMPLATE = args.prompt.strip()
     NGENS = args.num_gens
 
@@ -57,11 +77,28 @@ def main():
         print("Error: under-weight-threshold must be between 0 and 1.")
         sys.exit(1)
 
-    # Set up blacklist
-    if args.no_blacklist:
-        blacklist = set()
+    # Set up exclusion list (handle both old --blacklist and new --exclude)
+    if args.no_blacklist or args.no_exclude:
+        excluded_words = set()
     else:
-        blacklist = set(word.lower() for word in args.blacklist)
+        # Determine which exclusion list to use
+        if args.exclude is not None:
+            # Use new --exclude parameter
+            exclude_list = args.exclude
+        else:
+            # Fall back to --blacklist for backward compatibility
+            exclude_list = args.blacklist
+
+        # Handle both space-separated arguments and quoted strings
+        excluded_words = set()
+        for item in exclude_list:
+            # Split each item by spaces in case it's a quoted string with multiple words
+            words = item.split()
+            for word in words:
+                excluded_words.add(word.lower())
+
+    # Keep blacklist variable name for backward compatibility in output
+    blacklist = excluded_words
 
     print(f"Analyzing prompt template: {PROMPT_TEMPLATE}")
     print(f"Using wildcards from: {WILDCARD_ROOT}")
@@ -129,9 +166,9 @@ def main():
     output_lines.append(f"Total unique words: {len(word_counts)}")
     output_lines.append(f"Total word instances: {sum(word_counts.values())}")
     if blacklist:
-        output_lines.append(f"Blacklisted words: {', '.join(sorted(blacklist))}")
+        output_lines.append(f"Excluded words: {', '.join(sorted(blacklist))}")
     else:
-        output_lines.append("No words blacklisted")
+        output_lines.append("No words excluded")
 
     output_lines.append(f"\n=== top {args.top_words} words overall ===")
     for word, count in word_counts.most_common(args.top_words):

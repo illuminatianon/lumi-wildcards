@@ -214,6 +214,6 @@ When used as part of a composited system prompt, this wildcard system provides:
 
 ### Errata
 
-Use `python scripts/wc_test __some/wildcard/file__` to test your wildcards single wildcard files. It will generate 100 iterations and print to stdout.
+Use `uv run scripts/wc_test.py __some/wildcard/file__` to test your wildcards single wildcard files. It will generate 100 iterations and print to stdout.
 
-Use `python scripts/prompt_stress_test.py -n 100 --blacklist with and the from illuminati eldritch` to test wildcards holistically. It will generate 100 iterations based on my current master prompt and print a frequency analysis. Use --help to figure out cli params if necessary. This tool only takes a few seconds to run (scaling with -n) so you don't have to wait forever for it to be finished. When it is done, it will emit the words "Analysis complete", so watch for that instead of whatever you've been doing (timeout? idk waiting 1 minute is too long)
+Use `uv run scripts/prompt_stress_test.py -n 100 --exclude "with and the from illuminati eldritch"` to test wildcards holistically. It will generate 100 iterations based on my current master prompt and print a frequency analysis. Use --help to figure out cli params if necessary. This tool only takes a few seconds to run (scaling with -n) so you don't have to wait forever for it to be finished. When it is done, it will emit the words "Analysis complete", so watch for that instead of whatever you've been doing (timeout? idk waiting 1 minute is too long)

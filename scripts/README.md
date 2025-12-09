@@ -5,7 +5,7 @@ A generalized script for transforming lines of text according to LLM prompts. Or
 ## Usage
 
 ```bash
-python text_transformer.py input.txt output.txt --type <prompt_type> [options]
+uv run scripts/text_transformer.py input.txt output.txt --type <prompt_type> [options]
 ```
 
 ### Arguments
@@ -38,16 +38,16 @@ Use `--help` to see all available types with descriptions.
 
 ```bash
 # Generate booru costume tags
-python text_transformer.py descriptions.txt costume_tags.txt --type costume-booru
+uv run scripts/text_transformer.py descriptions.txt costume_tags.txt --type costume-booru
 
 # Generate pose tags with verbose reasoning
-python text_transformer.py poses.txt pose_tags.txt --type pose-booru --verbose
+uv run scripts/text_transformer.py poses.txt pose_tags.txt --type pose-booru --verbose
 
 # Generate SDXL pose descriptions with plain output format
-python text_transformer.py descriptions.txt poses.txt --type pose-xl --format plain
+uv run scripts/text_transformer.py descriptions.txt poses.txt --type pose-xl --format plain
 
 # Dry run to see what would be processed
-python text_transformer.py input.txt output.txt --type costume-booru --dry-run
+uv run scripts/text_transformer.py input.txt output.txt --type costume-booru --dry-run
 ```
 
 ## Adding Custom Prompts
