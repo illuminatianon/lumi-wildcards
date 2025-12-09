@@ -6,7 +6,7 @@ style:
     - __std/xl/style/monochrome__
     - __std/xl/style/paint__
     - __std/xl/style/digital__
-    - __std/xl/style/surreal__
+    - __std/xl/style/surreal/all__
     - __std/xl/style/fantasy__
     - __std/xl/style/regional__
 
@@ -46,11 +46,69 @@ style:
     - "stylized __std/xl/style/rendering_technique__ digital render"
 
   surreal:
-    - "__std/xl/style/art_movement__ digital painting"
-    - "surreal __std/xl/style/subject_type__ with {organic|distorted|biomechanical} forms"
-    - "abstract expressionist with {bold color|chaotic brushwork}"
-    - "intricate {biomechanical|organic|cosmic} line art"
-    - "surreal monochrome sketch style"
+    all:
+      - "__std/xl/style/surreal/substyle_distortion__"
+      - "__std/xl/style/surreal/substyle_dreamlike__"
+      - "__std/xl/style/surreal/substyle_material__"
+      - "__std/xl/style/surreal/substyle_color__"
+      - "__std/xl/style/surreal/substyle_dada__"
+      - "__std/xl/style/surreal/substyle_painterly__"
+      - "__std/xl/style/surreal/substyle_uncanny_digital__"
+      - "{3$$, $$__std/xl/style/surreal/devolved_style_parts__}"
+      - "surreal __std/xl/style/subject_type__ with {organic|distorted|biomechanical} forms"
+      - "abstract expressionist with {bold color|chaotic brushwork}"
+      - "intricate {biomechanical|organic|cosmic} line art"
+      - "surreal monochrome sketch style"
+    substyle_distortion:
+      - "bent-geometry surrealism, warped proportions, loose spatial logic"
+      - "collapsing perspective, drifting structures, impossible scale relations"
+      - "gravity-optional composition, floating fragments, skewed vanishing points"
+
+    substyle_dreamlike:
+      - "subconscious-driven imagery, symbolic distortions, dream residue textures"
+      - "softly ambiguous figures, foggy memory-like rendering, emotional surreal tone"
+      - "hallucinatory compositions, drifting minds-eye iconography, unstable symbolism"
+
+    substyle_material:
+      - "melting surfaces, semi-liquid forms, unstable materials"
+      - "elastic textures, soft-solid hybrids, geometry dissolving into fluid"
+      - "impossible material states, brittle where soft, reflective in the wrong places"
+
+    substyle_color:
+      - "illogical color mapping, displaced hues, surreal palette collisions"
+      - "inverted shadows, color-bleeding light, contour-shaped illumination"
+      - "high-vibrancy dream palette, glow-rim distortions, spectral hue drift"
+
+    substyle_dada:
+      - "meaning-resistant composition, object non-sequiturs, playful contradictions"
+      - "arbitrary object pairing, anti-narrative structure, irrational symbolism"
+      - "absurd spatial humor, misplaced seriousness, visual anti-logic"
+
+    substyle_painterly:
+      - "rough impulsive brushwork, fractured strokes, disrupted silhouettes"
+      - "aggressive texture layering, partially erased forms, unstable outlines"
+      - "gesture-driven abstraction, chaotic mark-making, deliberate incompleteness"
+
+    substyle_uncanny_digital:
+      - "hyperclean surreal rendering, uncanny polish, frictionless surfaces"
+      - "digital clarity applied to impossible scenes, overly precise edges"
+      - "mathematically crisp nonsense geometry, too-sharp absurdism"
+
+    devolved_style_parts:
+      - "melting"
+      - "glowing"
+      - "bent-geometry"
+      - "fragment drift"
+      - "inverted shadows"
+      - "impossible materials"
+      - "unstable outlines"
+      - "color-warping"
+      - "dream residue textures"
+      - "gravity-optional"
+      - "symbolic distortion"
+      - "nonsense perspective"
+      - "fractured strokes"
+      - "uncanny polish"
 
   fantasy:
     - "{dark|high|cosmic} fantasy __std/xl/style/art_medium__"
@@ -194,3 +252,31 @@ style:
     - "watercolor wash"
     - "oil on canvas"
     - "gouache matte finish"
+
+  ps1:
+    all: "{2$$, $$__std/xl/style/ps1/primary__}, {0-1$$__std/xl/style/ps1/textures_fx__}, {0-1$$__std/xl/style/ps1/atmosphere__},"
+    primary:
+      - retro 90s 3D game aesthetic
+      - early-era polygonal graphics
+      - low-poly character models with visible edges
+      - primitive real-time 3D rendering look
+      - blocky mesh geometry and chunky silhouettes
+      - affine-warped textures and jittery mapping
+      - pixel-smeared, low-resolution texture detail
+      - limited-color lighting and hard vertex shading
+      - CRT-era post-processing and analog artifacts
+
+    textures_fx:
+      - dithered shadows and banded gradients
+      - warped UVs and texture swimming
+      - grainy bilinear filtering artifacts
+      - foggy distance haze and short draw distance
+      - compressed color lookup textures
+      - tiny texture sheets with repeating patterns
+
+    atmosphere:
+      - nostalgic late-90s game ambience
+      - glitchy real-time rendering quirks
+      - soft cathode shimmer and scanline bleed
+      - polygon jitter during motion
+      - harsh rim lights from early 3D engines

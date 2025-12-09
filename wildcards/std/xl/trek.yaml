@@ -1,0 +1,17 @@
+trek:
+  uniform:
+    - Wearing a __std/xl/trek/era__ with __std/xl/trek/division__,
+    - Dressed in a __std/xl/trek/era__ featuring {__std/xl/trek/division__,
+    - A __std/xl/trek/era__, carrying __std/xl/trek/division__
+
+  era:
+    - "TOS era uniform, sleek retro-futurist cut, minimalistic tunic lines, soft fabric texture, iconic 60s Starfleet silhouette"
+    - "TNG era uniform, structured paneling, slightly formalized shoulders, late-24th-century Starfleet tailoring"
+    - "DS9 era uniform, duty-jumpsuit profile with colored shoulders, rugged field-ready design, practical Starfleet operational wear"
+    - "VOY era uniform, streamlined jumpsuit with understated shoulder paneling, exploration-oriented Starfleet aesthetic"
+    - "ENT era uniform, early Starfleet flight-suit look, heavy stitching and functional pockets, pre-Federation uniform silhouette"
+
+  division:
+    - "Command division markings and insignia"
+    - "Science division markings and insignia"
+    - "Security division markings and insignia"

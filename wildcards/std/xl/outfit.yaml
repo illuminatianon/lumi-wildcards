@@ -1,5 +1,4 @@
 outfit:
-
   # Primary category - compositional outfit system
   # Combines garment types, styles, and accessories for complete looks
   all:
@@ -60,7 +59,7 @@ outfit:
     - pants and top
     - leggings and top
     - kimono
-    - sarong
+    - bikini top and sarong
     - wrap dress
     - shift dress
     - blazer
@@ -1224,4 +1223,3 @@ outfit:
     - function-focused features
     - form-following-function design
     - beauty-meets-utility approach
-

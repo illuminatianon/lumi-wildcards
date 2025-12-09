@@ -1,5 +1,4 @@
 location:
-
   # Primary composition category - focuses on base physical locations
   # Clean separation: location provides the 'where', environment provides the 'how it feels'
   all:
@@ -11,6 +10,12 @@ location:
     - "__std/xl/location/post_apocalyptic__"
     - "__std/xl/location/ritual__"
     - "__std/xl/location/urban__"
+    - "__std/xl/location/aquatic__"
+    - "__std/xl/location/aerial__"
+    - "__std/xl/location/subterranean__"
+    - "__std/xl/location/frozen__"
+    - "__std/xl/location/desert__"
+    - "__std/xl/location/eldritch__"
     - "__std/xl/location/neutral__"
 
     # Template-based modular combinations - clean location composition
@@ -30,6 +35,12 @@ location:
     - "__std/xl/location/position_prefixes__ __std/xl/location/cosmic__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/post_apocalyptic__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/ritual__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/aquatic__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/aerial__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/subterranean__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/frozen__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/desert__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/eldritch__"
 
     # Cross-category blends - pure location mixing without atmosphere
     - "__std/xl/location/natural__ merging with __std/xl/location/cosmic__"
@@ -39,6 +50,18 @@ location:
     - "__std/xl/location/ritual__ hidden within __std/xl/location/natural__"
     - "__std/xl/location/post_apocalyptic__ reclaimed by __std/xl/location/natural__"
     - "__std/xl/location/cosmic__ manifesting in __std/xl/location/urban__"
+    - "__std/xl/location/aquatic__ beneath __std/xl/location/ancient__"
+    - "__std/xl/location/industrial__ sinking into __std/xl/location/aquatic__"
+    - "__std/xl/location/aerial__ above __std/xl/location/post_apocalyptic__"
+    - "__std/xl/location/ancient__ ascending into __std/xl/location/aerial__"
+    - "__std/xl/location/subterranean__ below __std/xl/location/ritual__"
+    - "__std/xl/location/urban__ descending into __std/xl/location/subterranean__"
+    - "__std/xl/location/frozen__ consuming __std/xl/location/natural__"
+    - "__std/xl/location/ancient__ preserved in __std/xl/location/frozen__"
+    - "__std/xl/location/desert__ encroaching on __std/xl/location/urban__"
+    - "__std/xl/location/ritual__ buried beneath __std/xl/location/desert__"
+    - "__std/xl/location/eldritch__ bleeding into __std/xl/location/urban__"
+    - "__std/xl/location/ritual__ corrupted by __std/xl/location/eldritch__"
     - "__std/xl/location/interiors__"
     - "__std/xl/location/nature_locations__"
 
@@ -302,6 +325,114 @@ location:
     - lush greenery
     - cosmic dust and stars
 
+  # Eldritch and cosmic horror locations - noun phrases only
+  eldritch:
+    - the threshold of a door that opens inward forever
+    - a library where the books breathe
+    - the angle that should not exist
+    - a staircase descending into a color
+    - the temple of the thing that waits
+    - a mirror showing a room you are not in
+    - the garden where geometry weeps
+    - an altar stained by light from no sun
+    - the machine that dreams of teeth
+    - a corridor that remembers your name
+    - the window overlooking nothing
+    - a throne of fused bone and thought
+    - the well that drinks the sky
+    - a forest of fingers reaching upward
+    - the shore of a sea that is also an eye
+
+  # Desert and arid locations - noun phrases only
+  desert:
+    - an oasis ringed by bone-white trees
+    - the dunes that sing at twilight
+    - a canyon carved by vanished rivers
+    - the salt flats reflecting an empty sky
+    - a mesa crowned with ancient carvings
+    - the mirage of a city that never was
+    - a sandstone labyrinth of wind and time
+    - the petrified forest of a dead sea
+    - a nomad camp beneath copper stars
+    - the ruins half-swallowed by sand
+    - a glass crater from a fallen sun
+    - the dry well of a forgotten god
+    - a bazaar at the edge of nowhere
+    - the wind-scoured bones of a colossus
+    - a garden of cacti and quartz
+
+  # Frozen and arctic locations - noun phrases only
+  frozen:
+    - a glacier carved by ancient hands
+    - the throne of the frost monarch
+    - an ice cave lit from within
+    - the skeleton of a frozen ship
+    - a palace of blue crystal ice
+    - the tundra beneath twin moons
+    - a frozen waterfall mid-cascade
+    - the permafrost graves of giants
+    - an aurora dancing over white plains
+    - the edge of an infinite ice shelf
+    - a hot spring steaming in the cold
+    - the frozen forest of glass trees
+    - a blizzard-carved canyon
+    - the igloo village of the last nomads
+    - a mountain pass sealed by eternal winter
+
+  # Subterranean and underground locations - noun phrases only
+  subterranean:
+    - a cavern of singing crystals
+    - the tomb of an unnamed king
+    - a fungal forest in eternal dark
+    - the crossroads of ancient tunnels
+    - a lake of black glass underground
+    - the throne room of a buried empire
+    - a mine where the walls pulse with light
+    - the root system of a world-tree
+    - a cathedral carved from living rock
+    - the mouth of a bottomless pit
+    - a city of the blind and forgotten
+    - the geode heart of a dead volcano
+    - a sanctuary beneath the desert
+    - the catacombs where echoes never die
+    - a prison built before memory
+
+  # Aerial and sky locations - noun phrases only
+  aerial:
+    - a floating island of shattered stone
+    - the deck of a drifting skyship
+    - a bridge of frozen clouds
+    - the nest of a thunderbird
+    - a palace suspended by chains
+    - the summit above the cloudline
+    - a garden growing on nothing
+    - the ruins of a sky citadel
+    - a platform of crystallized wind
+    - the eye of a perpetual storm
+    - a lighthouse at the edge of the stratosphere
+    - the bones of a fallen god
+    - a monastery carved into a floating peak
+    - the crossroads of four winds
+    - an observatory among the stars
+
+  # Aquatic and underwater locations - noun phrases only
+  aquatic:
+    - the floor of a bioluminescent trench
+    - a coral throne room
+    - the ribcage of a sunken leviathan
+    - a garden of swaying kelp
+    - the hull of a drowned galleon
+    - a grotto lit by phosphorescent algae
+    - the mouth of an underwater volcano
+    - a palace of living coral
+    - the depths where light fails
+    - a forest of giant anemones
+    - the ruins of a flooded temple
+    - a cavern behind a waterfall
+    - the shell of a titan clam
+    - an abyssal plain of white sand
+    - the skeleton of a reef long dead
+
   # Material types for combination
   materials:
     - stone
@@ -314,5 +445,3 @@ location:
     - silver
     - iron
     - steel
-
-

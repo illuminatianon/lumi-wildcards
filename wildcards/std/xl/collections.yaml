@@ -1,0 +1,32 @@
+collections:
+  - |
+    #{
+    #Style: LEGO. All characters are LEGO minifigures, all scene elements are made out of LEGO pieces.|
+    #Style: a PAGE from a LEGO Instruction Manual. In it is depicted step by step instructions for building the model.|
+    #Style: a LEGO BOX. The SCENE is printed on the BOX
+    #}
+    Style: a LEGO BOX. The SCENE is printed on the BOX
+    The set is titled "Tower of Babel"
+
+          masterpiece,best quality,
+          __std/xl/camera/all__,
+    MACRO lens, wide area of view, soft focus, gods-eye-view,
+    #Scene: a LEGO carabet club. moody lighting, patrons sit at secluded tables.
+
+    #__std/xl/omni/jessi/base__ is on stage, singing.
+    #Scene: __std/xl/omni/nogirl__
+    Scene: The Tower of Babel, under construction.
+    Mixture of Human labor and Nephalim overseers. The Nephalim are nearly twice the size of Humans. The Nephalim are CRUEL masters!
+
+    God is peeking out from some clouds, he is very ANGRY
+
+    #__std/xl/girls/base__
+
+    #      __std/xl/location/all__,
+    #      __std/xl/environment/all__,
+    #      __std/xl/distance/all__,
+    #      __std/xl/lighting/all__,
+    #      __std/xl/details/all__
+
+    Safe for work, no nudity.
+  - |
