@@ -616,3 +616,92 @@ omni:
       whole figurine is visible.
 
       Safe for work, no nudity, no text.
+  diorama:
+    all: |-
+      illuminati, eye.
+
+      scale model, action figure, {
+        female figurine
+        | female scale figure
+        | 1:72 human female model
+        | painted resin miniature adult female
+        }, __std/xl/girls/bodyshape__, stylized, simplified anatomy, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__ fixed pose.
+
+      {2$$
+        visible mold seams
+        | paint wear
+        | exaggerated surface texture
+        | slightly stiff pose
+      }.
+
+      __std/xl/omni/diorama/settings/all__.
+
+      __std/xl/location/all__,
+      __std/xl/environment/all__,
+      __std/xl/distance/all__,
+      __std/xl/details/all__.
+    settings:
+      all:
+        - __std/xl/omni/diorama/settings/location__, denizens wearing {2$$ and $$__std/xl/omni/diorama/settings/denizens__} and carrying {2$$ and $$__std/xl/omni/diorama/settings/props__}
+        - __std/xl/omni/diorama/settings/location__, denizens wearing __std/xl/omni/diorama/settings/denizens__ and carrying {2$$ and $$__std/xl/omni/diorama/settings/props__}
+        - __std/xl/omni/diorama/settings/location__, denizens wearing {2$$ and $$__std/xl/omni/diorama/settings/denizens__} and carrying __std/xl/omni/diorama/settings/props__
+        - __std/xl/omni/diorama/settings/location__, denizens wearing __std/xl/omni/diorama/settings/denizens__ and carrying __std/xl/omni/diorama/settings/props__
+      location:
+        - a old western town
+        - an ancient greek agora
+        - a futuristic city
+        - a medieval market town
+        - an imperial roman forum
+        - a feudal japanese street
+        - a victorian industrial city
+        - a mesoamerican ceremonial plaza
+        - a post-apocalyptic shantytown
+        - a renaissance italian piazza
+        - a dieselpunk megacity
+        - a nomadic steppe encampment
+        - a spacefaring trade hub
+      denizens:
+        - cowboy hats
+        - ponchos
+        - ancient greek attire
+        - neon
+        - cybernetic enhancements
+        - wool tunics
+        - mail
+        - togas
+        - armor
+        - kimono
+        - straw hats
+        - waistcoats
+        - long coats
+        - feathered headdresses
+        - loincloths
+        - scavenged armor
+        - rags
+        - doublets
+        - gowns
+        - trenchcoats
+        - goggles
+        - felt robes
+        - furs
+        - mixed alien attire
+      props:
+        - six-shooters
+        - winchester rifles
+        - spears
+        - trade goods
+        - scrolls
+        - short swords
+        - katana
+        - yari
+        - canes
+        - ledgers
+        - obsidian blades
+        - jury-rigged firearms
+        - books
+        - rapiers
+        - submachine guns
+        - radios
+        - composite bows
+        - datapads
+        - sidearms

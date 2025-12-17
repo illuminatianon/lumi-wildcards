@@ -1,25 +1,19 @@
 details:
-
   # Primary category - combines multiple detail types for rich compositions
   # Focus on tangible details, props, and specific elements that add richness
   # Reduced eye/glowing repetition, moved literal light emission to lighting
   all:
     - "__std/xl/details/mystical__ with __std/xl/details/accessories__"
     - "__std/xl/details/symbols__ and __std/xl/details/geometric__"
-    - "__std/xl/details/natural__ surrounded by __std/xl/details/creatures__"
-    - "__std/xl/details/paint_effects__ with __std/xl/details/creatures__"
     - "__std/xl/details/mechanical__ with __std/xl/details/natural__"
     - "__std/xl/details/geometric__ patterns with __std/xl/details/symbols__"
-    - "__std/xl/details/creatures__ emerging from __std/xl/details/paint_effects__"
     - "__std/xl/details/accessories__ adorned with __std/xl/details/mystical__"
     - "__std/xl/details/paint_effects__ creating __std/xl/details/geometric__"
-    - "__std/xl/details/mechanical__ fused with __std/xl/details/creatures__"
     - "__std/xl/details/natural__ intertwined with __std/xl/details/symbols__"
     - "__std/xl/details/props__ with __std/xl/details/accessories__"
     - "__std/xl/details/symbols__ integrated with __std/xl/details/natural__"
     - "__std/xl/details/geometric__ combined with __std/xl/details/mechanical__"
     - "__std/xl/details/accessories__ enhanced by __std/xl/details/paint_effects__"
-    - "__std/xl/details/creatures__ interacting with __std/xl/details/props__"
     # Additional patterns to boost diversity and under-represented terms
     - "__std/xl/details/ethereal__ elements with __std/xl/details/accessories__"
     - "__std/xl/details/skeletal__ forms emerging from __std/xl/details/mystical__"
@@ -27,8 +21,16 @@ details:
     - "__std/xl/details/particles__ floating around __std/xl/details/natural__"
     - "__std/xl/details/carved__ details on __std/xl/details/props__"
     - "__std/xl/details/ancient__ symbols with __std/xl/details/mechanical__"
-    - "__std/xl/details/crystalline__ formations and __std/xl/details/creatures__"
     - "__std/xl/details/flowing__ elements with __std/xl/details/paint_effects__"
+    - "__std/xl/details/creatures_all__"
+
+  cretures_all:
+    - "__std/xl/details/crystalline__ formations and __std/xl/details/creatures__"
+    - "__std/xl/details/natural__ surrounded by __std/xl/details/creatures__"
+    - "__std/xl/details/paint_effects__ with __std/xl/details/creatures__"
+    - "__std/xl/details/creatures__ emerging from __std/xl/details/paint_effects__"
+    - "__std/xl/details/mechanical__ fused with __std/xl/details/creatures__"
+    - "__std/xl/details/creatures__ interacting with __std/xl/details/props__"
 
   # Mystical and supernatural elements
   mystical:
@@ -41,7 +43,6 @@ details:
     - geometric patterns pulse beneath her feet
     - central eye-like structure with radiating lines
     - ethereal figures dance nearby
-    - small creatures with speech bubbles
 
   # Eye motifs and patterns - reduced repetition, focus on symbolic forms
   eyes:
@@ -113,16 +114,10 @@ details:
     - metal feathers drift through the air
     - a transparent serpent coils lazily nearby
     - silhouetted cat figures surround her
-    - tentacles with glowing tips
-    - tentacles wrap around skulls
     - spiked tentacles emerge from the ground
-    - tentacles wrap around the figure
     - skeletal creature with glowing eyes
     - serpentine creature with sharp teeth
-    - tentacles with segmented patterns
-    - tentacle-like appendages extend outward
     - elaborate creature design with textured skin
-    - tentacles spiraling around the head
     - bird perched on dock post
     - butterflies flutter around
     - small creatures with speech bubbles
@@ -134,15 +129,25 @@ details:
     - feline eyes watching from darkness
     - avian talons gripping surfaces
     - reptilian skin patterns visible
+    - detailed mechanical creature design
+    - skeletal creature with bright eyes
+    - small creatures with speech bubbles
+    - skeletal creature with glowing eyes
+    - __std/xl/details/creatures_tentacles__
 
-
+  creatures_tentacles:
+    - tentacles with glowing tips
+    - tentacles wrap around skulls
+    - tentacles wrap around the figure
+    - tentacles with segmented patterns
+    - tentacles spiraling around the head
+    - tentacle-like appendages extend outward
 
   # Mechanical and technological elements
   mechanical:
     - organic mechanical arm with complex textures
     - sharp metallic elements on outfit
     - elaborate mechanical carvings
-    - detailed mechanical creature design
     - mechanical elements integrated into design
     - clockwork gears visible beneath skin
     - hydraulic pistons extending outward
@@ -178,7 +183,6 @@ details:
     - "__std/shape/all__ head with luminous eyes"
     - tentacles with bright tips
     - "giant eye with radiant __std/color/simple__ iris"
-    - skeletal creature with bright eyes
     - jagged teeth and piercing eyes
     - small UFOs with pulsing lights hover around
     - two carved pumpkins with illuminated faces
@@ -475,7 +479,6 @@ details:
 
   # Skeletal and bone motifs - boosting under-represented terms
   skeletal:
-    - skeletal creature with glowing eyes
     - bone fragments scattered around
     - skull motifs embedded in surfaces
     - ribcage patterns in shadows
@@ -563,4 +566,3 @@ details:
     - gentle stream flowing
     - liquid mercury flowing
     - molten metal flowing
-

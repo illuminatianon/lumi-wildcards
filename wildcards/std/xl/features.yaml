@@ -4,19 +4,30 @@ features:
     - glowing eyes
     - empty eyes
     - half-closed eyes
-    - jitome
-    - sanpaku
+    - jitome eyes
+    - sanpaku eyes
     - rolling eyes
     - solid circle eyes
     - solid oval eyes
-    - squinting
+    - squinting eyes
     - wide eyes
     - narrowed eyes
-    - tsurime
+    - tsurime eyes
     - constricted pupils
     - dilated pupils
     - solid circle pupils
     - black_sclera
+  eyes_zit:
+    - crazy eyes
+    - glowing eyes
+    - empty eyes
+    - half-closed eyes
+    - rolling eyes
+    - squinting eyes
+    - wide eyes
+    - narrowed eyes
+    - constricted pupils
+    - dilated pupils
   hair:
     all:
       - __std/xl/features/hair/styles__
@@ -143,6 +154,74 @@ features:
       - sidelocks tied back
       - single sidelock
       - widow's peak
+  hair_zit:
+    all:
+      - __std/xl/features/hair_zit/styles__
+      - __std/xl/features/hair_zit/bangs__
+      - __std/xl/features/hair_zit/styles__ with __std/xl/features/hair_zit/bangs__
+    styles:
+      - pixie cut
+      - bob cut
+      - inverted bob
+      - bowl cut
+      - undercut
+      - flattop
+      - parted hair
+      - flipped hair
+      - wolf cut
+      - mullet
+      - bantu knots
+      - braid
+      - front braid
+      - side braid
+      - crown braid
+      - single braid
+      - multiple braids
+      - twin braids
+      - cornrows
+      - dreadlocks
+      - hair bun
+      - braided bun
+      - double bun
+      - half updo
+      - ponytail
+      - high ponytail
+      - short ponytail
+      - side ponytail
+      - topknot
+      - pigtails
+      - low pigtails
+      - twisted hair
+      - afro
+      - beehive hairdo
+      - pompadour
+      - quiff
+      - curly hair
+      - messy hair
+      - ringlets
+      - spiked hair
+      - straight hair
+      - wavy hair
+      - fluffy hair
+    bangs:
+      - arched bangs
+      - asymmetrical bangs
+      - bangs pinned back
+      - blunt bangs
+      - braided bangs
+      - choppy bangs
+      - wispy bangs
+      - diagonal bangs
+      - short bangs
+      - long bangs
+      - hair between eyes
+      - hair over one eye
+      - hair over eyes
+      - parted bangs
+      - curtained hair
+      - swept bangs
+      - sidelocks
+      - widow's peak
   expression:
     - bored face
     - "angry"
@@ -257,7 +336,7 @@ features:
     - "|_|"
     - "._."
     - "^_^"
-    - '\\\\\\(^o^\\)/'
+    - '\\ \\ \\(^o^\\)/'
     - "^q^"
     - ">_<"
     - ">o<"
@@ -275,3 +354,66 @@ features:
     - "nonowa"
     - "smiley face"
     - "uso da"
+  expression_zit:
+    - bored expression
+    - angry expression
+    - annoyed expression
+    - clenched teeth
+    - scowling
+    - blushing
+    - embarrassed expression
+    - bored expression
+    - closed eyes
+    - confused expression
+    - crazy expression
+    - despairing expression
+    - determined expression
+    - disappointed expression
+    - disdainful expression
+    - disgusted expression
+    - drunk expression
+    - envious expression
+    - excited expression
+    - exhausted expression
+    - expressionless
+    - flustered expression
+    - frustrated expression
+    - furrowed brow
+    - grimacing
+    - guilty expression
+    - happy expression
+    - nervous expression
+    - one eye closed
+    - open mouth
+    - parted lips
+    - pained expression
+    - pouting
+    - raised eyebrow
+    - rolling eyes
+    - sad expression
+    - depressed expression
+    - frowning
+    - tearful
+    - scared expression
+    - panicked expression
+    - worried expression
+    - serious expression
+    - sighing
+    - sleepy expression
+    - sulking
+    - surprised expression
+    - thinking
+    - pensive expression
+    - wincing
+    - seductive smile
+    - crazy smile
+    - evil smile
+    - forced smile
+    - grinning
+    - evil grin
+    - slight smile
+    - sad smile
+    - smiling
+    - laughing
+    - smirking
+    - smug expression

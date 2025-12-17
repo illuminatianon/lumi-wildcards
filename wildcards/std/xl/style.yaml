@@ -280,3 +280,9 @@ style:
       - soft cathode shimmer and scanline bleed
       - polygon jitter during motion
       - harsh rim lights from early 3D engines
+
+  dream:
+    - "analog videotape aesthetic, component-video color response, muted dynamic range, soft macroblocking, gentle chroma bleed, slight edge halos, fuzzy analog resolution, mild temporal noise, organic grain texture, old broadcast lighting, subdued contrast curves"
+    - archival color film scan aesthetic, faded dye layers, muted dynamic range, soft optical blur, gentle chromatic aberration, low microcontrast, subtle halation around highlights, fine organic film grain, slight color drift, subdued contrast curve, aged photographic print
+    - low-end consumer camera aesthetic, imperfect lens sharpness, edge softness and mild spherical aberration, uneven exposure, limited dynamic range, color channel misalignment, coarse grain texture, subtle noise floor, flat contrast response
+    - degraded photographic emulsion, uneven color fading, chemical staining artifacts, low tonal separation, soft focus with highlight bloom, grain clumping, subtle registration errors, aged and timeworn image texture
