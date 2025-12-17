@@ -8,3 +8,4 @@ build/*
 .venv-old/**
 **/__pycache__/*
 repomix-output.xml
+.wct_cache/*
