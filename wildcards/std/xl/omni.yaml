@@ -640,12 +640,61 @@ omni:
       __std/xl/environment/all__,
       __std/xl/distance/all__,
       __std/xl/details/all__.
+    kungfu: |-
+      illuminati, eye.
+
+      scale model, action figure, {
+         figurines
+        |  scale figures
+        | 1:72 human  models
+        | painted resin miniature adults
+        }, fixed pose.
+
+      {2$$
+        visible mold seams
+        | paint wear
+        | exaggerated surface texture
+        | slightly stiff pose
+      }.
+
+      everybody was kung-fu fighting in __std/xl/omni/diorama/settings/kungfu__.
+
+      __std/xl/location/all__,
+      __std/xl/environment/all__,
+      __std/xl/distance/all__,
+      __std/xl/details/all__.
     settings:
       all:
         - __std/xl/omni/diorama/settings/location__, denizens wearing {2$$ and $$__std/xl/omni/diorama/settings/denizens__} and carrying {2$$ and $$__std/xl/omni/diorama/settings/props__}
         - __std/xl/omni/diorama/settings/location__, denizens wearing __std/xl/omni/diorama/settings/denizens__ and carrying {2$$ and $$__std/xl/omni/diorama/settings/props__}
         - __std/xl/omni/diorama/settings/location__, denizens wearing {2$$ and $$__std/xl/omni/diorama/settings/denizens__} and carrying __std/xl/omni/diorama/settings/props__
         - __std/xl/omni/diorama/settings/location__, denizens wearing __std/xl/omni/diorama/settings/denizens__ and carrying __std/xl/omni/diorama/settings/props__
+      kungfu:
+        - a kung fu school
+        - a dojo
+        - a martial arts tournament
+        - a kung fu academy
+        - a kung fu gym
+        - a kung fu dojo
+        - a kung fu school
+        - a kung fu studio
+        - a kung fu dojo
+        - a kung fu gym
+        - a bamboo forest
+        - a bamboo grove
+        - the slums
+        - the city
+        - the countryside
+        - the mountains
+        - the valleys
+        - the plains
+        - the beaches
+        - the deserts
+        - the jungles
+        - the swamps
+        - the tundra
+        - the savannah
+
       location:
         - a old western town
         - an ancient greek agora
