@@ -1,11 +1,18 @@
 girls:
   base: |
-    {3::adult female|adult female with cat ears|adult female with bunny ears}, __std/xl/girls/bodyshape__, {flat|small|medium|large|very large} breasts,
-    __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__
+    {3::adult female|adult female with cat ears|adult female with bunny ears}, __std/xl/girls/bodyshape__, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__
   base_human: |
-    adult female, __std/xl/girls/bodyshape__, {flat|small|medium|large|very large} breasts,
-    __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+    adult female, __std/xl/girls/bodyshape__, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_human_noshape: |
+    adult female, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_human_zit_noshape: |
+    adult female, {flat|small|medium|large|very large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_human_zit_noshape_gemini: |
+    adult female, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
   bodyshape:
+    - normal build
+    - slender build
+    - average build
     - athletic build
     - curvy figure
     - thicc

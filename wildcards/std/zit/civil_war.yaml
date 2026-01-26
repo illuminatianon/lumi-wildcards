@@ -1,0 +1,379 @@
+civil_war:
+  _purpose: |
+    A collection of wildcard sets for describing an alternate history where the US Civil War was fought with steampunk technology.
+    Photo types: regiment group photos, individual portraits, battlefield stills.
+    Ken Burns aesthetic with clockwork robots, repeater rifles, steam tech - nothing modern/digital.
+
+  # =============================================================================
+  # PRIMARY COMPOSITIONAL CATEGORIES
+  # =============================================================================
+
+  all:
+    - "__std/zit/civil_war/regiment__"
+    - "__std/zit/civil_war/portrait__"
+    - "__std/zit/civil_war/battlefield__"
+
+  # Regiment group photograph - formal posed company/battalion shots
+  regiment:
+    - "__std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__ regiment in __std/zit/civil_war/regiment_formation__, __std/zit/civil_war/uniform_base__ in __std/zit/civil_war/uniform_condition__ condition, __std/zit/civil_war/steampunk_gear__, __std/zit/civil_war/regiment_scene__"
+    - "group photograph of __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__, __std/zit/civil_war/regiment_formation__, wearing __std/zit/civil_war/uniform_base__, __std/zit/civil_war/steampunk_weapons__ visible, __std/zit/civil_war/regiment_scene__"
+    - "__std/zit/civil_war/faction__ company posed __std/zit/civil_war/regiment_formation__, __std/zit/civil_war/uniform_base__ __std/zit/civil_war/uniform_condition__, __std/zit/civil_war/clockwork_units__ standing among the men, __std/zit/civil_war/regiment_scene__"
+    - "formal military photograph of __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__ battalion, __std/zit/civil_war/regiment_formation__, __std/zit/civil_war/uniform_base__, __std/zit/civil_war/steam_machinery__ in background, __std/zit/civil_war/regiment_scene__"
+
+  # Individual or small group portrait - formal studio style
+  portrait:
+    - "__std/zit/civil_war/faction__ __std/zit/civil_war/rank__ in __std/zit/civil_war/portrait_pose__, wearing __std/zit/civil_war/uniform_base__ __std/zit/civil_war/uniform_condition__, __std/zit/civil_war/steampunk_gear__, __std/zit/civil_war/portrait_scene__"
+    - "portrait of __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__ __std/zit/civil_war/rank__, __std/zit/civil_war/portrait_pose__, __std/zit/civil_war/uniform_base__, holding __std/zit/civil_war/steampunk_weapons__, __std/zit/civil_war/portrait_scene__"
+    - "__std/zit/civil_war/rank__ of the __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__, __std/zit/civil_war/portrait_pose__, __std/zit/civil_war/uniform_base__ with __std/zit/civil_war/uniform_details__, __std/zit/civil_war/steampunk_gear__, __std/zit/civil_war/portrait_scene__"
+    - "formal portrait of __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__, __std/zit/civil_war/portrait_pose__, __std/zit/civil_war/uniform_base__, __std/zit/civil_war/clockwork_units__ beside them, __std/zit/civil_war/portrait_scene__"
+
+  # Battlefield documentary stills - action and aftermath
+  battlefield:
+    - "__std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__ __std/zit/civil_war/battlefield_action__, __std/zit/civil_war/uniform_base__ __std/zit/civil_war/uniform_condition__, __std/zit/civil_war/steampunk_weapons__, __std/zit/civil_war/battlefield_scene__"
+    - "__std/zit/civil_war/battlefield_action__, __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__ in __std/zit/civil_war/uniform_base__, __std/zit/civil_war/steam_machinery__ belching smoke, __std/zit/civil_war/battlefield_scene__"
+    - "__std/zit/civil_war/clockwork_units__ __std/zit/civil_war/battlefield_action__ alongside __std/zit/civil_war/faction__ __std/zit/civil_war/soldier_type__, __std/zit/civil_war/battlefield_scene__, __std/zit/civil_war/scene_debris__"
+    - "__std/zit/civil_war/faction__ __std/zit/civil_war/rank__ __std/zit/civil_war/battlefield_action__, __std/zit/civil_war/uniform_base__ __std/zit/civil_war/uniform_condition__, __std/zit/civil_war/steampunk_gear__, __std/zit/civil_war/steam_machinery__ in the distance, __std/zit/civil_war/battlefield_scene__"
+
+  # =============================================================================
+  # SUBJECT CATEGORIES
+  # =============================================================================
+
+  faction:
+    - Union
+    - Confederate
+    - Union Army
+    - Confederate Army
+    - Federal
+    - Rebel
+
+  rank:
+    - Private
+    - Corporal
+    - Sergeant
+    - First Sergeant
+    - Sergeant Major
+    - Lieutenant
+    - Captain
+    - Major
+    - Colonel
+    - Brigadier General
+    - Major General
+    - drummer boy
+    - color bearer
+    - field surgeon
+    - chaplain
+    - quartermaster
+
+  soldier_type:
+    - infantry
+    - cavalry
+    - artillery
+    - engineer corps
+    - sharpshooter
+    - dragoon
+    - mounted infantry
+    - zouave
+    - iron brigade
+    - signal corps
+    - medical corps
+    - ordnance corps
+    - pioneer corps
+
+  # =============================================================================
+  # UNIFORM AND ATTIRE CATEGORIES
+  # =============================================================================
+
+  uniform_base:
+    - dark blue wool frock coat with brass buttons
+    - sky blue kersey trousers with dark stripe
+    - gray wool shell jacket with wooden buttons
+    - butternut homespun coat and trousers
+    - navy blue sack coat with forage cap
+    - gray kepi and matching wool uniform
+    - dark blue officer's double-breasted coat
+    - tattered gray butternut uniform
+    - regulation blue wool uniform with kepis
+    - Confederate gray with gold trim
+    - Union blue with sergeant chevrons
+    - zouave uniform with baggy red trousers and short jacket
+    - cavalry uniform with yellow trim and riding boots
+    - artillery uniform with red trim
+    - officer's uniform with shoulder boards and sash
+    - enlisted wool uniform with leather accoutrements
+    - greatcoat over regulation uniform
+    - fatigue blouse and forage cap
+    - dress uniform with polished brass
+
+  uniform_condition:
+    - pristine
+    - battle-worn
+    - mud-splattered
+    - powder-stained
+    - threadbare
+    - patched and mended
+    - sweat-stained
+    - bloodied
+    - dusty from march
+    - rain-soaked
+    - sun-faded
+    - freshly issued
+    - campaign-worn
+    - smoke-blackened
+
+  uniform_details:
+    - brass eagle buttons
+    - leather cartridge box
+    - cap pouch on belt
+    - bayonet scabbard
+    - canteen and haversack
+    - blanket roll across chest
+    - leather brogans
+    - cavalry boots with spurs
+    - officer's sword and belt
+    - NCO chevrons on sleeve
+    - corps badge on cap
+    - regimental number on hat
+    - state belt buckle
+    - shoulder scales
+    - white cotton gloves
+    - leather gauntlets
+    - hardee hat with brass insignia
+    - slouch hat with pinned brim
+
+  # =============================================================================
+  # STEAMPUNK TECHNOLOGY CATEGORIES
+  # =============================================================================
+
+  steampunk_gear:
+    - brass goggles with leather strap
+    - clockwork pocket watch with exposed gears
+    - copper arm brace with pressure gauges
+    - leather bandolier with brass cartridges
+    - mechanical prosthetic arm with articulated fingers
+    - steam-powered breathing apparatus
+    - brass ear trumpet with acoustic amplifier
+    - leather tool belt with brass instruments
+    - clockwork compass with spinning dials
+    - pneumatic grappling hook on belt
+    - copper spyglass with multiple lenses
+    - mechanical hand with brass knuckles
+    - leather harness with steam canister
+    - brass wrist chronometer
+    - goggles with interchangeable colored lenses
+    - mechanical leg brace with pistons
+    - copper wire communication device on shoulder
+    - brass-fitted leather satchel with gauges
+    - clockwork monocle with magnification
+    - steam-venting backpack apparatus
+
+  steampunk_weapons:
+    - lever-action repeating rifle with brass receiver
+    - revolving rifle with clockwork mechanism
+    - pepperbox pistol with multiple barrels
+    - steam-powered gatling gun
+    - brass-plated cavalry saber with gear pommel
+    - pneumatic bolt-action rifle
+    - clockwork grenade with visible timer
+    - double-barrel coach gun with brass fittings
+    - officer's revolver with ivory grips and brass frame
+    - bayonet with serrated clockwork edge
+    - lever-action carbine with copper barrel bands
+    - hand-cranked volley gun
+    - steam-pressure cannon
+    - repeating crossbow with clockwork reload
+    - tesla coil sidearm with copper wiring
+    - compressed air rifle with pressure tank
+    - chain-driven automatic pistol
+    - brass knuckle revolver
+    - shoulder-mounted rocket launcher with brass tubes
+    - clockwork mortar with automatic loader
+
+  clockwork_units:
+    - brass clockwork soldier with rifle
+    - copper automaton with glowing furnace chest
+    - mechanical infantry drone with spring legs
+    - clockwork cavalry horse with rider
+    - steam-powered walking cannon
+    - brass sentry automaton with rotating head
+    - clockwork drummer automaton keeping cadence
+    - mechanical stretcher bearer unit
+    - copper-plated messenger automaton
+    - gear-driven supply mule automaton
+    - clockwork scout with telescopic eyes
+    - steam-powered iron soldier with gatling arm
+    - brass bugler automaton
+    - mechanical color guard holding flag
+    - clockwork medic with surgical attachments
+    - walking siege automaton with cannon
+    - spring-loaded infantry automaton
+    - copper guard dog automaton
+    - clockwork officer automaton with saber
+    - pneumatic labor automaton carrying crates
+
+  steam_machinery:
+    - steam-powered artillery piece with brass fittings
+    - iron-clad steam wagon with mounted gun
+    - portable steam engine pulling supply wagon
+    - coal-fired field forge on wheels
+    - steam-powered ambulance wagon
+    - brass observation balloon with steam winch
+    - ironclad steam tank with riveted plates
+    - mobile telegraph station with steam generator
+    - steam shovel for trench digging
+    - coal-powered searchlight on wheels
+    - steam crane loading cannons
+    - portable steam pump for field hospital
+    - mechanized supply wagon with walking legs
+    - steam-powered pontoon bridge layer
+    - armored locomotive with gun turrets
+    - walking steam artillery platform
+    - brass airship tethered to ground
+    - steam-powered siege tower on treads
+    - mobile command post with antenna array
+    - pneumatic ammunition hoist
+
+  # =============================================================================
+  # SCENE AND SETTING CATEGORIES
+  # =============================================================================
+
+  regiment_scene:
+    - assembled before canvas field tents
+    - gathered outside brick barracks
+    - posed before regimental colors and battle flags
+    - standing on courthouse steps
+    - arranged in camp with supply wagons visible
+    - grouped before railroad depot
+    - assembled at winter quarters with log huts
+    - standing before fortification earthworks
+    - gathered around stacked arms pyramid
+    - posed with artillery battery and caissons
+    - assembled before field hospital tents
+    - grouped at crossroads with signpost
+    - standing before commandeered plantation house
+    - arranged on hillside with valley below
+    - gathered at bridge crossing
+
+  portrait_scene:
+    - plain muslin backdrop in field studio
+    - ornate painted backdrop of pastoral scene
+    - simple canvas tent interior
+    - standing before draped American flag
+    - seated with small table and book
+    - posed with column and curtain backdrop
+    - field desk with maps and documents
+    - standing before regimental standard
+    - seated in camp chair with sword across lap
+    - posed with family photograph on table
+    - standing before painted battle scene backdrop
+    - seated at writing desk with quill
+    - posed with clockwork equipment on display
+    - standing before brass machinery backdrop
+    - seated among gears and mechanical parts
+
+  battlefield_scene:
+    - smoke-filled field with cannon fire
+    - churned mud and splintered fence rails
+    - stone wall with crouching soldiers
+    - sunken road littered with debris
+    - burning farmhouse in background
+    - fog-shrouded treeline
+    - artillery emplacement with earthworks
+    - pontoon bridge under construction
+    - field strewn with broken clockwork
+    - trench line with steam venting
+    - railroad cut with overturned train
+    - wheat field trampled flat
+    - orchard with shattered trees
+    - hilltop with signal flags
+    - riverbank with burning bridge
+    - town square with barricades
+    - cemetery with toppled headstones
+    - cornfield with stalks cut by bullets
+    - forest clearing with field hospital
+    - road clogged with retreating wagons
+
+  scene_debris:
+    - scattered brass shell casings
+    - broken clockwork gears and springs
+    - abandoned knapsacks and blankets
+    - shattered wooden gun carriages
+    - torn regimental colors in mud
+    - scattered playing cards and dice
+    - broken rifles with bent barrels
+    - overturned coffee pots and tin cups
+    - scattered ammunition boxes
+    - broken automaton parts smoking
+    - discarded kepis and canteens
+    - splintered wagon wheels
+    - tangled telegraph wire
+    - scattered surgical instruments
+    - torn letters and photographs
+    - broken spectacles and pipes
+    - scattered coins and pocket watches
+    - burst steam pipes hissing
+    - cracked leather harnesses
+    - shattered brass lanterns
+
+  # =============================================================================
+  # POSE AND FORMATION CATEGORIES
+  # =============================================================================
+
+  regiment_formation:
+    - standing in rigid rows by height
+    - seated front row with standing rows behind
+    - arranged in company formation with officers forward
+    - gathered informally around stacked rifles
+    - standing at attention in dress parade formation
+    - arranged on steps in tiered rows
+    - clustered around regimental colors
+    - lined up with fixed bayonets
+    - seated on ground with standing row behind
+    - arranged by rank with officers seated center
+    - standing in hollow square formation
+    - grouped around artillery piece
+    - arranged in skirmish line
+    - standing with arms crossed
+    - seated with rifles across laps
+
+  portrait_pose:
+    - standing rigidly at attention
+    - seated with hand on sword hilt
+    - three-quarter view with stern expression
+    - standing with arm resting on column
+    - seated with one leg crossed over other
+    - standing with hands clasped behind back
+    - leaning on rifle with thoughtful expression
+    - seated with elbow on table
+    - standing profile view
+    - seated with open book in lap
+    - standing with hand inside coat front
+    - posed mid-draw with revolver
+    - standing with flag draped over shoulder
+    - seated with hat in lap
+    - standing with mechanical arm prominently displayed
+    - posed adjusting brass goggles
+    - standing with clockwork device in hand
+    - seated beside automaton companion
+
+  battlefield_action:
+    - charging forward with bayonet fixed
+    - firing rifle from kneeling position
+    - loading musket with powder and ball
+    - directing troops with raised saber
+    - operating clockwork artillery piece
+    - carrying wounded comrade to safety
+    - planting regimental colors on parapet
+    - ducking behind stone wall
+    - advancing through smoke
+    - falling backward from impact
+    - rallying broken troops with flag
+    - aiming down rifle sights
+    - throwing clockwork grenade
+    - fighting hand to hand
+    - dragging artillery piece forward
+    - signaling with semaphore flags
+    - tending to fallen automaton
+    - repairing jammed steam weapon
+    - mounting cavalry charge
+    - retreating in good order
+
