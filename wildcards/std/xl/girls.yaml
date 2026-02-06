@@ -7,6 +7,10 @@ girls:
     adult female, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__, __std/xl/character/all__
   base_human_zit_noshape: |
     adult female, {flat|small|medium|large|very large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_human_zit_curvy: |
+    adult female with ample curves, {flat|small|medium|large|very large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_human_zit_curvy_nb: |
+    adult female with ample curves, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
   base_human_zit_noshape_gemini: |
     adult female, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
   bodyshape:

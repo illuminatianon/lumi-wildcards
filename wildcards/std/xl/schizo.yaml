@@ -1,0 +1,78 @@
+schizo:
+  all:
+    - "There are __std/xl/schizo/entities__ in __std/xl/schizo/possessive__ __std/xl/schizo/locations__ that __std/xl/schizo/actions__ on orders from __std/xl/schizo/controllers__. __std/xl/schizo/consequences__. __std/xl/schizo/escalation__. __std/xl/schizo/threat__."
+    - "__std/xl/schizo/escalation__. There are __std/xl/schizo/entities__ in __std/xl/schizo/locations__. __std/xl/schizo/consequences__. __std/xl/schizo/threat__."
+    - "This explains why __std/xl/schizo/consequences__. __std/xl/schizo/entities__ are embedded in __std/xl/schizo/locations__, taking direction from __std/xl/schizo/controllers__."
+    - "__std/xl/schizo/threat__. __std/xl/schizo/escalation__. The __std/xl/schizo/entities__ are not accidental."
+
+  entities:
+    - ghosts
+    - rats
+    - demons
+    - lizard people
+    - cia agents
+    - synthetic children
+    - copies of me
+    - people who look like neighbors
+    - things pretending to be animals
+
+  possessive:
+    - the
+    - my
+    - your
+    - our
+    - everyone’s
+
+  locations:
+    - walls
+    - bathroom
+    - kitchen
+    - ceiling
+    - vents
+    - electrical outlets
+    - mirrors
+    - crawl spaces
+    - floorboards
+
+  actions:
+    - take orders
+    - report movements
+    - whisper instructions
+    - monitor breathing patterns
+    - adjust reality
+    - rewrite memories
+    - replace objects at night
+    - wait for confirmation
+
+  controllers:
+    - obama
+    - gray aliens
+    - lizard people
+    - the television
+    - satellites
+    - the people behind the screen
+    - a council that doesn’t exist
+    - whoever is watching this
+
+  consequences:
+    - everything is connected by red lines
+    - nothing is coincidence anymore
+    - the dates line up too well
+    - the numbers repeat if you check again
+    - the evidence is obvious once you stop denying it
+    - this matches earlier diagrams
+
+  escalation:
+    - this has been documented with screenshots
+    - annotations were added for clarity
+    - this was removed once already
+    - the pattern becomes clearer every day
+    - they don’t want you to notice this part
+    - compare this to the previous image
+
+  threat:
+    - time is running out
+    - they are aware of this image
+    - do not trust the official explanation
+    - sharing this is dangerous
+    - this will make sense later
