@@ -3,6 +3,12 @@ lumi:
     - __std/xl/lumi/illuminati__
     - __std/xl/lumi/illuminati__, (eldritch:1.1)
 
+  illuminati_chill:
+    - illuminati, eye
+    - eye, illuminati
+    - illuminati
+    - eye
+
   illuminati:
     - (illuminati:1.1), (eye:1.1)
     - (eye:1.1), (illuminati:1.1)
