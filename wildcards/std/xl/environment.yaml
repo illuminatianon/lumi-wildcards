@@ -24,13 +24,18 @@ environment:
     - __std/xl/environment/material_surfaces__
     # Additional patterns to boost diversity and under-represented terms
     - __std/xl/environment/wind_effects__ with __std/xl/environment/material_surfaces__
-    - __std/xl/environment/dust_particles__ floating through __std/xl/environment/architectural_elements__
+    - __std/xl/environment/dust_particles__ drifting past __std/xl/environment/architectural_elements__
     - __std/xl/environment/mist_fog__ surrounding __std/xl/environment/natural_formations__
     - __std/xl/environment/temporal_distortions__ affecting __std/xl/environment/concrete_spaces__
-    - __std/xl/environment/column_structures__ within __std/xl/environment/atmospheric_effects__
+    - __std/xl/environment/column_structures__ amid __std/xl/environment/atmospheric_effects__
     - __std/xl/environment/material_textures__ enhanced by __std/xl/environment/lighting_atmosphere__
     - __std/xl/environment/geometric_patterns__ combined with __std/xl/environment/weather_elements__
     - __std/xl/environment/surface_details__ illuminated by __std/xl/environment/seasonal_atmosphere__
+    - __std/xl/environment/climate_events__ moving through __std/xl/environment/concrete_spaces__
+    - __std/xl/environment/ambient_soundscapes__ echoing through __std/xl/environment/architectural_elements__
+    - __std/xl/environment/occupancy_traces__ layered over __std/xl/environment/material_surfaces__
+    - __std/xl/environment/mist_fog__ with __std/xl/environment/wind_effects__ and __std/xl/environment/dust_particles__
+    - __std/xl/environment/lighting_atmosphere__ under __std/xl/environment/climate_events__
 
   # Atmospheric effects - moved from location.yaml
   atmospheric_effects:
@@ -45,7 +50,7 @@ environment:
     - candles that never burn out
     - trash fires and neon ghosts
     - floating embers dance in the air
-    - prismatic light refracts through crystal formations
+    - prismatic light refracts through faceted minerals
     - ethereal wisps spiral upward
     - golden dust motes catch the light
     - shimmering heat waves distort the horizon
@@ -54,7 +59,7 @@ environment:
     - sparkling dewdrops cling to surfaces
     - iridescent bubbles drift lazily
     - glowing spores drift from unseen sources
-    - crystalline chimes ring with phantom melodies
+    - glass chimes ring with phantom melodies
     - luminescent fog pools in low places
     - spectral flames flicker without fuel
     - holographic projections flicker and fade
@@ -100,7 +105,7 @@ environment:
     - swirling tendrils at feet
     - meteors streak across the sky
     - stars dot the night sky
-    - crystalline formations jut from the ground
+    - faceted mineral spires jut from the ground
     - bioluminescent patches glow softly
     - geometric light patterns project onto surfaces
     - particle streams flow in impossible directions
@@ -147,7 +152,7 @@ environment:
     - ancient machinery stirs with hollow rhythm
     - serpentine rivers gleam with liquid light
     - floating gardens collapse into mist
-    - crystalline beasts wander in silence
+    - faceted beasts wander in silence
     - a giant eye opens within a nebula
     - luminous vines crawl over forgotten monuments
     - molten lakes cast long shadows on metallic plains
@@ -536,7 +541,7 @@ environment:
     - sandstone carvings tell stories
     - plaster walls show texture
     - timber frames create warmth
-    - crystal formations add sparkle
+    - gemlike inlays add sparkle
 
   # Natural formations for environmental depth
   natural_formations:
@@ -587,79 +592,79 @@ environment:
   # Material surfaces for tactile grounding
   material_surfaces:
     - velvet fabric drapes softly
-    - leather surfaces show character
+    - leather grain shows character
     - silk materials catch light
     - cotton textures feel natural
     - wool fibers provide warmth
     - linen weaves create patterns
     - canvas materials stretch taut
-    - rubber surfaces grip firmly
+    - rubber treads grip firmly
     - plastic materials shine bright
-    - ceramic surfaces feel smooth
+    - ceramic glaze feels smooth
     - porcelain finishes gleam white
     - clay textures show handwork
-    - glass surfaces reflect clearly
-    - crystal formations sparkle
+    - glass planes reflect clearly
+    - faceted minerals sparkle
     - metal alloys show strength
     - wooden grains tell stories
     - stone textures feel ancient
-    - paper surfaces hold memories
+    - paper sheets hold memories
     - cardboard materials stack high
     - foam padding provides comfort
 
   # Wind effects and air movement - boosting under-represented terms
   wind_effects:
-    - desert wind carries sand
+    - desert gusts carry sand
     - mountain air flows crisp
     - ocean breeze brings salt
-    - forest wind rustles leaves
-    - prairie wind bends grass
-    - arctic wind cuts sharp
-    - tropical wind brings warmth
-    - highland wind whistles through
-    - valley wind settles low
-    - coastal wind shifts direction
-    - canyon wind echoes loudly
-    - plateau wind sweeps across
-    - tundra wind howls endlessly
-    - meadow wind dances gently
-    - cliff wind gusts suddenly
+    - forest drafts rustle leaves
+    - prairie currents bend grass
+    - arctic gales cut sharp
+    - tropical air brings warmth
+    - highland drafts whistle through
+    - valley air settles low
+    - coastal gusts shift direction
+    - canyon drafts echo loudly
+    - plateau currents sweep over
+    - tundra gales howl endlessly
+    - meadow breezes dance gently
+    - cliff gusts strike suddenly
 
   # Dust and particle effects - boosting under-represented terms
   dust_particles:
     - golden dust motes dance
-    - silver particles swirl
-    - cosmic dust drifts slowly
-    - sand particles catch light
-    - pollen particles float
-    - ash particles settle
-    - glitter particles sparkle
-    - snow particles fall gently
-    - ember particles rise
-    - spore particles drift
-    - crystal particles shimmer
-    - metal particles gleam
-    - glass particles refract
-    - stone particles crumble
-    - fabric particles flutter
+    - silver specks swirl
+    - cosmic grit drifts slowly
+    - sand grains catch light
+    - pollen motes float
+    - ash flecks settle
+    - glitter specks sparkle
+    - snow crystals fall gently
+    - ember sparks rise
+    - spore motes drift
+    - crystal dust shimmers
+    - metal filings gleam
+    - glass shards refract
+    - stone powder crumbles
+    - fabric lint flutters
 
   # Mist and fog variations - boosting under-represented terms
   mist_fog:
-    - morning mist rises
+    - morning haze rises
     - evening fog rolls in
-    - valley mist clings low
-    - mountain fog drifts
-    - coastal mist drifts inland
-    - forest mist hangs heavy
-    - river mist follows water
-    - meadow mist sparkles
-    - canyon mist pools deep
-    - highland mist swirls
-    - arctic mist freezes
-    - tropical mist steams
-    - desert mist shimmers
-    - urban fog obscures
-    - mystical mist glows
+    - valley vapor clings low
+    - mountain cloud drifts
+    - coastal sea-mist drifts inland
+    - forest veil hangs heavy
+    - river vapor follows water
+    - meadow haze sparkles
+    - canyon fog pools deep
+    - highland cloud swirls
+    - arctic rime-mist freezes
+    - tropical steam veils the air
+    - desert heat-haze shimmers
+    - urban smog obscures
+    - mystical vapor glows
 
   # Temporal distortions - boosting under-represented terms
   temporal_distortions:
@@ -685,7 +690,7 @@ environment:
     - stone pillars support
     - wooden posts frame
     - metal columns gleam
-    - crystal pillars refract
+    - glass pillars refract
     - concrete columns anchor
     - granite pillars endure
     - bronze columns oxidize
@@ -735,20 +740,72 @@ environment:
 
   # Surface details - boosting under-represented terms
   surface_details:
-    - scratched surfaces show wear
-    - polished surfaces reflect
-    - textured surfaces grip
-    - smooth surfaces slide
-    - rough surfaces catch
-    - glossy surfaces shine
-    - matte surfaces absorb
-    - pitted surfaces hold
-    - grooved surfaces channel
-    - ridged surfaces direct
-    - bumpy surfaces vibrate
-    - flat surfaces extend
-    - curved surfaces flow
-    - angular surfaces cut
-    - organic surfaces undulate
+    - scratched finishes show wear
+    - polished planes reflect
+    - textured faces grip
+    - smooth planes slide
+    - rough edges catch
+    - glossy coats shine
+    - matte coats absorb
+    - pitted stone holds residue
+    - grooved channels guide flow
+    - ridged edges direct motion
+    - bumpy textures vibrate
+    - flat planes extend
+    - curved contours flow
+    - angular facets cut
+    - organic contours undulate
 
+  # Event-scale climate conditions for big environmental shifts
+  climate_events:
+    - monsoon sheets erase distant outlines
+    - hail bursts rattle against metal roofs
+    - dry lightning forks through cloudless sky
+    - ashfall drifts like black snow
+    - sleet bands sweep over open ground
+    - dust storms wall off the horizon
+    - sudden whiteout conditions swallow landmarks
+    - heatburst winds roll in after sunset
+    - freezing rain seals every surface in glaze
+    - thunderheads stack into towering anvils
+    - marine squalls spin off the coastline
+    - volcanic haze spreads under red sunlight
+    - microbursts flatten grass in widening circles
+    - acid drizzle etches exposed stone
+    - sunrise inversion traps cold fog near the ground
 
+  # Non-visual atmosphere cues translated as scene descriptors
+  ambient_soundscapes:
+    - distant bells pulse through the fog
+    - rail hum vibrates beneath the floor
+    - wind organ tones whistle through broken vents
+    - dripping water keeps irregular time
+    - layered insect choruses fill warm air
+    - transformer buzz hangs over empty streets
+    - low thunder rolls behind the hills
+    - hollow echoes rebound through stone halls
+    - crackling fire pops from unseen corners
+    - soft chime clusters ring from hanging glass
+    - gull calls ride in from the shoreline
+    - machinery clatter rises and fades in cycles
+    - whispered static leaks from old speakers
+    - rope lines creak against tall masts
+    - deep subsonic rumbles shake loose dust
+
+  # Evidence of recent presence without explicit characters
+  occupancy_traces:
+    - fresh footprints cross damp ground
+    - chair legs scraped marks into the floor
+    - half-burned candles leave wax trails
+    - recently opened doors sway on hinges
+    - handprints fog the inside of glass
+    - scattered tools suggest hurried work
+    - wet umbrella drips beside the entryway
+    - tea steam still curls from a cup
+    - chalk notes cover a nearby wall
+    - boot mud tracks lead into darkness
+    - folded blankets rest on a stone bench
+    - glowing monitors idle without operators
+    - trampled grass marks a narrow path
+    - drying paint smell lingers in corners
+    - torn map fragments pin to a column

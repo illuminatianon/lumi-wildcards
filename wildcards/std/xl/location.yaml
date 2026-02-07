@@ -52,7 +52,7 @@ location:
     - "__std/xl/location/cosmic__ manifesting in __std/xl/location/urban__"
     - "__std/xl/location/aquatic__ beneath __std/xl/location/ancient__"
     - "__std/xl/location/industrial__ sinking into __std/xl/location/aquatic__"
-    - "__std/xl/location/aerial__ above __std/xl/location/post_apocalyptic__"
+    - "__std/xl/location/aerial__ over __std/xl/location/post_apocalyptic__"
     - "__std/xl/location/ancient__ ascending into __std/xl/location/aerial__"
     - "__std/xl/location/subterranean__ below __std/xl/location/ritual__"
     - "__std/xl/location/urban__ descending into __std/xl/location/subterranean__"
@@ -64,6 +64,10 @@ location:
     - "__std/xl/location/ritual__ corrupted by __std/xl/location/eldritch__"
     - "__std/xl/location/interiors__"
     - "__std/xl/location/nature_locations__"
+    - "__std/xl/location/transitional_sites__"
+    - "__std/xl/location/vantage_points__"
+    - "__std/xl/location/vantage_points__ overlooking __std/xl/location/template_locations__"
+    - "__std/xl/location/transitional_sites__ connecting __std/xl/location/industrial__ and __std/xl/location/urban__"
 
   # Neutral fallback for malformed chains
   neutral:
@@ -80,17 +84,17 @@ location:
     - a shattered altar
     - a ring of luminous sigils
     - a broken gate
-    - a spiral staircase of glass
+    - a spiral staircase of stone
     - the ruins of a fallen statue
     - a colossal obelisk
     - the heart of a dead forest
-    - the arches of a forgotten aqueduct
+    - the arches of an abandoned aqueduct
     - the husk of a fallen tower
-    - pillars of living crystal
+    - pillars of living glass
     - a labyrinth of black thorns
     - the roots of a titanic tree
     - the gates of an ancient citadel
-    - a cavern lit by molten glass
+    - a cavern lit by molten ore
     - the courtyard of a sleeping giant
 
   # Industrial and sci-fi environments - noun phrases only
@@ -109,7 +113,7 @@ location:
   # Natural and pastoral settings - noun phrases only
   natural:
     - the crest of a sunlit hill
-    - the mouth of a crystal spring
+    - the mouth of a clear spring
     - the canopy of golden leaves
     - a river carved through marble cliffs
     - a meadow of whispering reeds
@@ -123,7 +127,7 @@ location:
     - an ocean of starlight
     - the bridge between two moons
     - a chamber made of memory
-    - the constellations that move like clockwork
+    - clockwork constellations in motion
     - the orbit of a dying star
     - the horizon of a mirrored world
     - the eye of a slow-turning nebula
@@ -136,12 +140,12 @@ location:
   # Post-apocalyptic and desolate environments - noun phrases only
   post_apocalyptic:
     - the hollow of a sunken highway
-    - the bones of a forgotten city
+    - the bones of an abandoned city
     - the border of a scorched plain
     - the shell of a half-buried temple
     - the skeleton of a fallen airship
     - the cracked surface of a desolate moon
-    - a field of glass and ash
+    - a field of slag and ash
     - the walls painted with fading warnings
     - the mouth of a wind-torn bunker
     - the remains of a shattered world
@@ -152,7 +156,7 @@ location:
     - a dais of blackened stone
     - a hall of chanting statues
     - the light of seven eclipsed moons
-    - the altar of a forgotten name
+    - the altar of a lost name
     - the candles that never burn out
     - a mirror that breathes
     - the circle where stars converge
@@ -162,7 +166,7 @@ location:
   # Urban and noir environments - noun phrases only
   urban:
     - a flickering streetlamp in the rain
-    - the alley behind a forgotten diner
+    - the alley behind an abandoned diner
     - the rooftop of a crumbling tenement
     - the sign of a dead motel
     - the corner where sirens never fade
@@ -174,7 +178,7 @@ location:
     - the rain-soaked mouth of an underpass
     - the end of a street no one remembers
     - the hum of old power lines
-    - the glass facade of an empty office tower
+    - the mirrored facade of an empty office tower
     - the steps of a subway long out of service
     - the fence of a condemned factory
     - the reflection of an oil-slick puddle
@@ -188,15 +192,15 @@ location:
     - atop
     - amid
     - on the lip of
-    - beneath
+    - below
     - at the base of
-    - within the heart of
+    - at the core of
     - on the rim of
     - in the shadow of
     - at the foot of
     - under the arches of
     - beside
-    - floating above
+    - suspended over
     - between
     - among
     - before
@@ -211,6 +215,9 @@ location:
     - "__std/xl/location/position_prefixes__ a __std/xl/util/scale_descriptors__ __std/xl/location/base_structures__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/base_structures__"
     - "__std/xl/location/position_prefixes__ __std/xl/location/materials__ __std/xl/location/base_structures__"
+    - "__std/xl/location/position_prefixes__ a __std/xl/location/materials__ __std/xl/util/condition_descriptors__ __std/xl/location/base_structures__"
+    - "__std/xl/location/position_prefixes__ the __std/xl/location/base_structures__ beyond a __std/xl/location/transitional_sites__"
+    - "__std/xl/location/position_prefixes__ __std/xl/location/vantage_points__ overlooking a __std/xl/location/base_structures__"
 
   # Base structural elements without descriptors
   base_structures:
@@ -273,9 +280,9 @@ location:
 
   # Interior and architectural locations - moved from environment.yaml
   interiors:
-    - "{inside|within} a __std/xl/location/structure_type__"
+    - "{inside|amid} a __std/xl/location/structure_type__"
     - against a __std/xl/location/surface_type__
-    - set within a __std/xl/location/architectural_scene__
+    - set amid a __std/xl/location/architectural_scene__
 
   structure_type:
     - cavernous space
@@ -303,6 +310,42 @@ location:
     - under a __std/xl/location/sky_type__
     - surrounded by __std/xl/location/natural_elements__
 
+  # Transitional spaces where two worlds meet
+  transitional_sites:
+    - a flooded underpass
+    - a collapsed skybridge
+    - a broken ferry terminal
+    - a rail junction choked with vines
+    - a cliffside switchback road
+    - an abandoned checkpoint gate
+    - a river crossing of cracked stone slabs
+    - a market arcade with boarded stalls
+    - a maintenance tunnel opening to daylight
+    - a dry canal lined with rusted locks
+    - a customs pier half-submerged in silt
+    - a mountain pass carved with warning sigils
+    - a transit concourse lit by emergency strips
+    - a weathered causeway through salt flats
+    - a ceremonial bridge hung with torn banners
+
+  # Elevated or directional points for framing scenes
+  vantage_points:
+    - a windswept overlook
+    - a narrow bell tower balcony
+    - a cliff-edge watchpost
+    - a suspended maintenance gantry
+    - a rooftop water tank platform
+    - a broken statue shoulder high over the square
+    - a lighthouse gallery ring
+    - a fortified battlement walkway
+    - a crane cabin over the docks
+    - a tree-canopy rope platform
+    - a ridge line observation point
+    - a cathedral triforium ledge
+    - an orbital observation deck
+    - a volcanic rim lookout
+    - a glacial shelf promontory
+
   natural_scene:
     - forest river
     - rocky landscape
@@ -327,19 +370,19 @@ location:
 
   # Eldritch and cosmic horror locations - noun phrases only
   eldritch:
-    - the threshold of a door that opens inward forever
-    - a library where the books breathe
-    - the angle that should not exist
+    - the threshold of a door opening inward forever
+    - a library of breathing books
+    - the impossible angle
     - a staircase descending into a color
-    - the temple of the thing that waits
+    - the temple of the waiting thing
     - a mirror showing a room you are not in
-    - the garden where geometry weeps
+    - the garden of weeping geometry
     - an altar stained by light from no sun
-    - the machine that dreams of teeth
-    - a corridor that remembers your name
+    - the machine dreaming of teeth
+    - a corridor remembering your name
     - the window overlooking nothing
     - a throne of fused bone and thought
-    - the well that drinks the sky
+    - the sky-drinking well
     - a forest of fingers reaching upward
     - the shore of a sea that is also an eye
 
@@ -350,13 +393,13 @@ location:
     - a canyon carved by vanished rivers
     - the salt flats reflecting an empty sky
     - a mesa crowned with ancient carvings
-    - the mirage of a city that never was
+    - the mirage of a city that never existed
     - a sandstone labyrinth of wind and time
     - the petrified forest of a dead sea
-    - a nomad camp beneath copper stars
+    - a nomad camp below copper stars
     - the ruins half-swallowed by sand
-    - a glass crater from a fallen sun
-    - the dry well of a forgotten god
+    - a vitrified crater from a fallen sun
+    - the dry well of a lost god
     - a bazaar at the edge of nowhere
     - the wind-scoured bones of a colossus
     - a garden of cacti and quartz
@@ -365,36 +408,36 @@ location:
   frozen:
     - a glacier carved by ancient hands
     - the throne of the frost monarch
-    - an ice cave lit from within
+    - an ice cave lit from inside
     - the skeleton of a frozen ship
-    - a palace of blue crystal ice
-    - the tundra beneath twin moons
+    - a palace of blue glacial ice
+    - the tundra below twin moons
     - a frozen waterfall mid-cascade
     - the permafrost graves of giants
     - an aurora dancing over white plains
     - the edge of an infinite ice shelf
     - a hot spring steaming in the cold
-    - the frozen forest of glass trees
+    - the frozen forest of ice trees
     - a blizzard-carved canyon
     - the igloo village of the last nomads
     - a mountain pass sealed by eternal winter
 
   # Subterranean and underground locations - noun phrases only
   subterranean:
-    - a cavern of singing crystals
+    - a cavern of singing geodes
     - the tomb of an unnamed king
     - a fungal forest in eternal dark
     - the crossroads of ancient tunnels
-    - a lake of black glass underground
+    - a lake of black basalt underground
     - the throne room of a buried empire
-    - a mine where the walls pulse with light
+    - a mine whose walls pulse with light
     - the root system of a world-tree
     - a cathedral carved from living rock
     - the mouth of a bottomless pit
-    - a city of the blind and forgotten
+    - a city of the blind and abandoned
     - the geode heart of a dead volcano
-    - a sanctuary beneath the desert
-    - the catacombs where echoes never die
+    - a sanctuary below the desert
+    - the catacombs of undying echoes
     - a prison built before memory
 
   # Aerial and sky locations - noun phrases only
@@ -404,7 +447,7 @@ location:
     - a bridge of frozen clouds
     - the nest of a thunderbird
     - a palace suspended by chains
-    - the summit above the cloudline
+    - the summit beyond the cloudline
     - a garden growing on nothing
     - the ruins of a sky citadel
     - a platform of crystallized wind
@@ -425,7 +468,7 @@ location:
     - a grotto lit by phosphorescent algae
     - the mouth of an underwater volcano
     - a palace of living coral
-    - the depths where light fails
+    - the depths beyond failing light
     - a forest of giant anemones
     - the ruins of a flooded temple
     - a cavern behind a waterfall
@@ -445,6 +488,16 @@ location:
     - silver
     - iron
     - steel
+    - obsidian
+    - basalt
+    - copper
+    - brass
+    - bone
+    - ceramic
+    - concrete
+    - sandstone
+    - ice
+    - coral
 
   backrooms:
     - endless monotone office corridors with sickly yellow fluorescent lighting

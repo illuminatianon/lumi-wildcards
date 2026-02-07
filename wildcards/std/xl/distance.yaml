@@ -13,6 +13,13 @@ distance:
     - "__std/xl/distance/horizon_details__"
     - "__std/xl/distance/atmospheric__"
     - "__std/xl/distance/atmospheric__ __std/xl/distance/position__"
+    - "__std/xl/distance/position__ __std/xl/distance/terrain_layers__"
+    - "__std/xl/distance/skyline_forms__ __std/xl/distance/position__"
+    - "__std/xl/distance/celestial_markers__ over __std/xl/distance/horizon_details__"
+    - "__std/xl/distance/depth_cues__ around __std/xl/distance/distant_objects__"
+    - "__std/xl/distance/terrain_layers__, __std/xl/distance/atmospheric__, __std/xl/distance/position__"
+    - "__std/xl/distance/skyline_forms__ and __std/xl/distance/celestial_markers__"
+    - "__std/xl/distance/terrain_layers__ beneath __std/xl/distance/horizon_details__"
 
   # Simple background elements for distant depth
   background_elements:
@@ -125,31 +132,83 @@ distance:
   # Spatial positioning descriptors - deduplicated
   position:
     - in the distance
-    - far away
+    - in remote reaches
     - beneath
     - high above
     - on the horizon
-    - through the mist
+    - beyond the mist
     - behind
-    - far below
+    - low in the basin
     - ahead
     - between clouds
-    - out of reach
+    - beyond reach
     - across the void
     - just over the ridge
     - past the ruins
     - from afar
-    - through the veil
+    - behind the veil
     - underfoot
     - at the edge of sight
     - across the valley
     - past the mountains
     - above
-    - through the trees
+    - beyond the tree line
     - across the plain
-    - through the fog
+    - beyond the fog bank
     - over the hill
     - past the treeline
     - where sky meets land
     - at the vanishing point
     - receding into nothing
+
+  # Layered landforms for stronger depth bands
+  terrain_layers:
+    - stacked ridgelines fading one behind another
+    - stepped plateaus dissolving into haze
+    - overlapping dunes in alternating light and shadow
+    - terraced cliffs descending toward the valley floor
+    - rolling foothills tapering into a flat basin
+    - fractured mesas separated by dry channels
+    - island chains staggered across the horizon
+    - low marsh flats broken by raised mounds
+    - glacial shelves dropping into distant plains
+    - volcanic shelves tiered in dark strata
+
+  # Skyline silhouettes and horizon architecture
+  skyline_forms:
+    - needle-like towers puncturing the cloudline
+    - blocky ruins forming a jagged skyline
+    - domed observatories outlined against dusk
+    - broken parapets tracing a serrated edge
+    - distant cranes and gantries etched in silhouette
+    - bridge spans threading between distant districts
+    - cathedral spires clustered in far perspective
+    - antenna forests bristling above low rooftops
+    - watchtowers spaced across the ridge
+    - monolithic walls cutting across the skyline
+
+  # Celestial markers to orient far distance
+  celestial_markers:
+    - a pale comet crossing the upper sky
+    - twin moons rising at uneven heights
+    - a thin planetary ring arcing overhead
+    - meteor trails stitched across twilight
+    - a bright evening star fixed near the horizon
+    - eclipsed sunlight leaking around a dark disc
+    - drifting satellites flashing at regular intervals
+    - a fractured moon halo spread through thin clouds
+    - auroral curtains folding behind mountain peaks
+    - a distant nebula glow tinting the skyline
+
+  # Visual cues that reinforce far/near separation
+  depth_cues:
+    - with foreground shapes sharply contrasted
+    - with distant edges softened by haze
+    - with shadows flattening into tonal bands
+    - with color saturation dropping toward the horizon
+    - with scale diminishing in repeating intervals
+    - with parallax layers staggered across the frame
+    - with highlights reduced to faint glints
+    - with textures collapsing into simple silhouettes
+    - with near objects framing remote landmarks
+    - with atmospheric perspective washing out detail

@@ -4,27 +4,32 @@ details:
   # Reduced eye/glowing repetition, moved literal light emission to lighting
   all:
     - "__std/xl/details/mystical__ with __std/xl/details/accessories__"
-    - "__std/xl/details/symbols__ and __std/xl/details/geometric__"
+    - "__std/xl/details/object_lighting__ and __std/xl/details/accessories__"
     - "__std/xl/details/mechanical__ with __std/xl/details/natural__"
-    - "__std/xl/details/geometric__ patterns with __std/xl/details/symbols__"
+    - "__std/xl/details/props__ threaded through __std/xl/details/natural__"
     - "__std/xl/details/accessories__ adorned with __std/xl/details/mystical__"
-    - "__std/xl/details/paint_effects__ creating __std/xl/details/geometric__"
+    - "__std/xl/details/object_lighting__ highlighted by __std/xl/details/paint_effects__"
     - "__std/xl/details/natural__ intertwined with __std/xl/details/symbols__"
     - "__std/xl/details/props__ with __std/xl/details/accessories__"
-    - "__std/xl/details/symbols__ integrated with __std/xl/details/natural__"
-    - "__std/xl/details/geometric__ combined with __std/xl/details/mechanical__"
+    - "__std/xl/details/creatures__ interacting with __std/xl/details/natural__"
+    - "__std/xl/details/mechanical__ paired with __std/xl/details/material_accents__"
     - "__std/xl/details/accessories__ enhanced by __std/xl/details/paint_effects__"
     # Additional patterns to boost diversity and under-represented terms
     - "__std/xl/details/ethereal__ elements with __std/xl/details/accessories__"
     - "__std/xl/details/skeletal__ forms emerging from __std/xl/details/mystical__"
-    - "__std/xl/details/reflective__ surfaces with __std/xl/details/geometric__"
+    - "__std/xl/details/reflective__ surfaces with __std/xl/details/object_lighting__"
     - "__std/xl/details/particles__ floating around __std/xl/details/natural__"
     - "__std/xl/details/carved__ details on __std/xl/details/props__"
     - "__std/xl/details/ancient__ symbols with __std/xl/details/mechanical__"
-    - "__std/xl/details/flowing__ elements with __std/xl/details/paint_effects__"
+    - "__std/xl/details/flowing__ elements with __std/xl/details/sensory_traces__"
     - "__std/xl/details/creatures_all__"
+    - "__std/xl/details/material_accents__ around __std/xl/details/symbols__"
+    - "__std/xl/details/sensory_traces__ with __std/xl/details/reflective__"
+    - "__std/xl/details/motion_marks__ crossing __std/xl/details/geometric__"
+    - "__std/xl/details/scale_details__ paired with __std/xl/details/mechanical__"
+    - "__std/xl/details/material_accents__, __std/xl/details/motion_marks__, and __std/xl/details/particles__"
 
-  cretures_all:
+  creatures_all:
     - "__std/xl/details/crystalline__ formations and __std/xl/details/creatures__"
     - "__std/xl/details/natural__ surrounded by __std/xl/details/creatures__"
     - "__std/xl/details/paint_effects__ with __std/xl/details/creatures__"
@@ -246,7 +251,7 @@ details:
     - plush toys
     - swirling eyes and screens
     - abstract symbols and patterns
-    - floating crystal orbs
+    - floating prismatic orbs
     - vintage pocket watches
     - ornate picture frames
     - scattered playing cards
@@ -265,7 +270,7 @@ details:
     - copper wind chimes
     - velvet cushions arranged
     - golden hourglasses
-    - crystal wine glasses
+    - cut-glass goblets
     - ornate jewelry boxes
     - vintage cameras
     - decorative lanterns
@@ -293,7 +298,7 @@ details:
     - silk-cushioned divan
     - carved ivory chair
     - rustic log seat
-    - crystal throne
+    - translucent mineral throne
     - floating ethereal seat
     - moss-covered boulder
     - gilded opera chair
@@ -319,7 +324,7 @@ details:
     - textured bark surface
     - smooth glass platform
     - cushioned cloud surface
-    - crystalline formation
+    - faceted mineral formation
     - woven bamboo mat
     - carved stone altar
     - silk sheet arrangement
@@ -328,7 +333,7 @@ details:
 
   # Handheld props and objects
   handheld_props:
-    - ornate staff with crystal top
+    - ornate staff with prism top
     - vintage leather journal
     - delicate glass orb
     - antique brass compass
@@ -339,7 +344,7 @@ details:
     - glowing lantern
     - ornate hand mirror
     - feathered quill pen
-    - crystal pendant on chain
+    - gemstone pendant on chain
     - brass pocket watch
     - ivory chess piece
     - ceramic tea cup
@@ -362,7 +367,7 @@ details:
     - silver bracelet gleaming
     - embroidered sash
     - feathered hat tilted
-    - crystal earrings catching light
+    - faceted glass earrings catching light
     - leather belt with ornate buckle
     - silk stockings with patterns
     - golden armband
@@ -379,7 +384,7 @@ details:
     - massive stone pillar
     - elegant harp standing
     - antique wooden chest
-    - crystal chandelier hanging
+    - prismatic chandelier hanging
     - carved stone fountain
     - vintage piano gleaming
     - ornate wooden wardrobe
@@ -388,7 +393,7 @@ details:
     - stone garden bench
     - copper weather vane
     - wooden ship wheel
-    - crystal display case
+    - glass display case
     - bronze sculpture
     - ceramic garden urn
     - wooden rocking horse
@@ -438,7 +443,7 @@ details:
     - grove of pine trees
     - field of lavender
     - patch of snow
-    - cluster of crystals
+    - cluster of minerals
     - bed of sand dunes
 
   # Interactive props and mechanisms
@@ -497,7 +502,7 @@ details:
     - chrome elements catching light
     - polished metal surfaces gleaming
     - glass shards showing different faces
-    - crystalline reflections multiplying
+    - prismatic reflections multiplying
     - water reflections distorting
     - metallic surfaces mirroring
     - prismatic reflections scattering
@@ -508,7 +513,7 @@ details:
     - dust motes dancing in light
     - sparkles drifting through air
     - glowing particles swirling
-    - crystalline dust settling
+    - mineral dust settling
     - luminous specks floating
     - magical particles spiraling
     - stardust cascading down
@@ -543,16 +548,16 @@ details:
 
   # Crystalline and mineral formations - boosting under-represented terms
   crystalline:
-    - crystalline formations with internal light
-    - cluster of crystals
-    - crystal wine glasses
-    - crystal throne
-    - crystal chandelier hanging
-    - crystal display case
-    - floating crystal orbs
+    - faceted mineral growths with internal light
+    - cluster of geodes
+    - cut-glass goblets
+    - translucent mineral throne
+    - prismatic chandelier hanging
+    - glass display case
+    - floating prismatic orbs
     - quartz formations jutting
     - amethyst clusters growing
-    - diamond patterns refracting
+    - diamond-like refractions across surfaces
 
   # Flowing and dynamic elements - boosting under-represented terms
   flowing:
@@ -566,3 +571,55 @@ details:
     - gentle stream flowing
     - liquid mercury flowing
     - molten metal flowing
+
+  # Material accents and tactile details
+  material_accents:
+    - tarnished silver filigree along the edges
+    - oxidized copper inlays tracing patterns
+    - pearl dust embedded in lacquer
+    - velvet trim stitched with metal thread
+    - enamel plates layered over ceramic backing
+    - hammered brass ridges catching highlights
+    - weathered leather wraps over hard surfaces
+    - obsidian flakes set into carved grooves
+    - frosted glass inserts diffusing reflections
+    - braided rope bindings around metal joints
+
+  # Motion traces and directional marks
+  motion_marks:
+    - speed lines arcing behind moving forms
+    - smudged brush trails indicating sudden motion
+    - repeated silhouettes offset in sequence
+    - curved streaks of pigment crossing the frame
+    - dragged charcoal marks radiating outward
+    - rhythmic mark-making around focal points
+    - split-second afterimages around limbs
+    - directional scratches cutting through paint
+    - flutter trails around fabric edges
+    - impact rings spreading from contact points
+
+  # Scale-focused details for depth perception
+  scale_details:
+    - tiny engraved text circling major forms
+    - miniature statues lining the perimeter
+    - oversized rivets anchoring structural plates
+    - microfractures webbing across smooth surfaces
+    - colossal seams dividing major panels
+    - small relics hanging from large machinery
+    - distant tiny lanterns marking pathways
+    - giant carved runes spanning entire walls
+    - clustered pebbles beside massive pillars
+    - fine stitching visible on broad garments
+
+  # Sensory traces that imply sound, scent, or temperature
+  sensory_traces:
+    - incense smoke trails curling in layered bands
+    - visible breath drifting in cold air
+    - heat shimmer rising from dark stone
+    - static crackle patterns around metal corners
+    - condensation beads gathering on glass surfaces
+    - faint scent lines from crushed herbs
+    - ringing vibration marks around hanging bells
+    - dew droplets forming at fabric hems
+    - dry dust plumes kicked from the floor
+    - soft mist halos around warm objects
