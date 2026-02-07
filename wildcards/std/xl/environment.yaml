@@ -24,16 +24,16 @@ environment:
     - __std/xl/environment/material_surfaces__
     # Additional patterns to boost diversity and under-represented terms
     - __std/xl/environment/wind_effects__ with __std/xl/environment/material_surfaces__
-    - __std/xl/environment/dust_particles__ drifting past __std/xl/environment/architectural_elements__
+    - __std/xl/environment/dust_particles__ drifting __std/xl/environment/spatial_motion_links__ __std/xl/environment/architectural_elements__
     - __std/xl/environment/mist_fog__ surrounding __std/xl/environment/natural_formations__
     - __std/xl/environment/temporal_distortions__ affecting __std/xl/environment/concrete_spaces__
     - __std/xl/environment/column_structures__ amid __std/xl/environment/atmospheric_effects__
     - __std/xl/environment/material_textures__ enhanced by __std/xl/environment/lighting_atmosphere__
     - __std/xl/environment/geometric_patterns__ combined with __std/xl/environment/weather_elements__
     - __std/xl/environment/surface_details__ illuminated by __std/xl/environment/seasonal_atmosphere__
-    - __std/xl/environment/climate_events__ moving through __std/xl/environment/concrete_spaces__
-    - __std/xl/environment/ambient_soundscapes__ echoing through __std/xl/environment/architectural_elements__
-    - __std/xl/environment/occupancy_traces__ layered over __std/xl/environment/material_surfaces__
+    - __std/xl/environment/climate_events__ moving __std/xl/environment/spatial_motion_links__ __std/xl/environment/concrete_spaces__
+    - __std/xl/environment/ambient_soundscapes__ echoing __std/xl/environment/spatial_resonance_links__ __std/xl/environment/architectural_elements__
+    - __std/xl/environment/occupancy_traces__ layered __std/xl/environment/spatial_layer_links__ __std/xl/environment/material_surfaces__
     - __std/xl/environment/mist_fog__ with __std/xl/environment/wind_effects__ and __std/xl/environment/dust_particles__
     - __std/xl/environment/lighting_atmosphere__ under __std/xl/environment/climate_events__
 
@@ -809,3 +809,32 @@ environment:
     - trampled grass marks a narrow path
     - drying paint smell lingers in corners
     - torn map fragments pin to a column
+
+  # Link words to vary spatial prepositions in templates
+  spatial_motion_links:
+    - through
+    - across
+    - past
+    - between
+    - along
+    - amid
+    - beyond
+    - around
+
+  spatial_resonance_links:
+    - through
+    - across
+    - amid
+    - within
+    - between
+    - around
+    - along
+
+  spatial_layer_links:
+    - over
+    - across
+    - atop
+    - upon
+    - throughout
+    - against
+    - among
