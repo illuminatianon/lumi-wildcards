@@ -50,16 +50,16 @@ location:
     - "__std/xl/location/ritual__ hidden within __std/xl/location/natural__"
     - "__std/xl/location/post_apocalyptic__ reclaimed by __std/xl/location/natural__"
     - "__std/xl/location/cosmic__ manifesting in __std/xl/location/urban__"
-    - "__std/xl/location/aquatic__ beneath __std/xl/location/ancient__"
+    - "__std/xl/location/aquatic__ __std/xl/location/vertical_relation__ __std/xl/location/ancient__"
     - "__std/xl/location/industrial__ sinking into __std/xl/location/aquatic__"
     - "__std/xl/location/aerial__ over __std/xl/location/post_apocalyptic__"
     - "__std/xl/location/ancient__ ascending into __std/xl/location/aerial__"
-    - "__std/xl/location/subterranean__ below __std/xl/location/ritual__"
+    - "__std/xl/location/subterranean__ __std/xl/location/vertical_relation__ __std/xl/location/ritual__"
     - "__std/xl/location/urban__ descending into __std/xl/location/subterranean__"
     - "__std/xl/location/frozen__ consuming __std/xl/location/natural__"
     - "__std/xl/location/ancient__ preserved in __std/xl/location/frozen__"
     - "__std/xl/location/desert__ encroaching on __std/xl/location/urban__"
-    - "__std/xl/location/ritual__ buried beneath __std/xl/location/desert__"
+    - "__std/xl/location/ritual__ buried __std/xl/location/burial_relation__ __std/xl/location/desert__"
     - "__std/xl/location/eldritch__ bleeding into __std/xl/location/urban__"
     - "__std/xl/location/ritual__ corrupted by __std/xl/location/eldritch__"
     - "__std/xl/location/interiors__"
@@ -88,13 +88,13 @@ location:
     - the ruins of a fallen statue
     - a colossal obelisk
     - the heart of a dead forest
-    - the arches of an abandoned aqueduct
+    - the arches of __std/xl/location/neglected_place_prefix__ aqueduct
     - the husk of a fallen tower
     - pillars of living glass
     - a labyrinth of black thorns
     - the roots of a titanic tree
     - the gates of an ancient citadel
-    - a cavern lit by molten ore
+    - "a cavern __std/xl/location/lighting_relation__ molten ore"
     - the courtyard of a sleeping giant
 
   # Industrial and sci-fi environments - noun phrases only
@@ -104,23 +104,23 @@ location:
     - the hull of a drifting freighter
     - a chamber of humming reactors
     - a rusted catwalk
-    - the shell of an abandoned factory
+    - the shell of __std/xl/location/neglected_place_prefix__ factory
     - the roof of a flooded high-rise
     - the core of a failing AI nexus
     - a rain of molten sparks
-    - the deck of an abandoned vessel
+    - the deck of __std/xl/location/neglected_place_prefix__ vessel
 
   # Natural and pastoral settings - noun phrases only
   natural:
     - the crest of a sunlit hill
-    - the mouth of a clear spring
+    - "__std/xl/location/entrance_prefix__ a clear spring"
     - the canopy of golden leaves
     - a river carved through marble cliffs
     - a meadow of whispering reeds
     - the steps of a vine-covered terrace
     - a tranquil lake
     - a sky painted in soft auroras
-    - a waterfall lit by twin suns
+    - "a waterfall __std/xl/location/lighting_relation__ twin suns"
 
   # Cosmic and ethereal locations - noun phrases only
   cosmic:
@@ -140,14 +140,14 @@ location:
   # Post-apocalyptic and desolate environments - noun phrases only
   post_apocalyptic:
     - the hollow of a sunken highway
-    - the bones of an abandoned city
+    - the bones of __std/xl/location/neglected_place_prefix__ city
     - the border of a scorched plain
     - the shell of a half-buried temple
     - the skeleton of a fallen airship
     - the cracked surface of a desolate moon
     - a field of slag and ash
     - the walls painted with fading warnings
-    - the mouth of a wind-torn bunker
+    - "__std/xl/location/entrance_prefix__ a wind-torn bunker"
     - the remains of a shattered world
 
   # Ritual and ceremonial spaces - noun phrases only
@@ -157,32 +157,32 @@ location:
     - a hall of chanting statues
     - the light of seven eclipsed moons
     - the altar of a lost name
-    - the candles that never burn out
-    - a mirror that breathes
-    - the circle where stars converge
+    - "the candles __std/xl/location/eternal_flame_clause__"
+    - "a mirror __std/xl/location/breathing_surface_clause__"
+    - "the circle __std/xl/location/stellar_convergence_clause__"
     - a shrine of whispering masks
     - an archway of molten gold
 
   # Urban and noir environments - noun phrases only
   urban:
     - a flickering streetlamp in the rain
-    - the alley behind an abandoned diner
+    - the alley behind __std/xl/location/neglected_place_prefix__ diner
     - the rooftop of a crumbling tenement
     - the sign of a dead motel
-    - the corner where sirens never fade
+    - "the corner __std/xl/location/siren_presence_clause__"
     - the window of a shuttered bar
     - the smoke of a midnight train yard
     - the bridge dripping with city fog
     - the rusted door of a pawn shop
     - the glow of a broken billboard
-    - the rain-soaked mouth of an underpass
+    - "the rain-soaked __std/xl/location/entrance_noun__ of an underpass"
     - the end of a street no one remembers
     - the hum of old power lines
     - the mirrored facade of an empty office tower
     - the steps of a subway long out of service
     - the fence of a condemned factory
     - the reflection of an oil-slick puddle
-    - the base of a clock tower that never strikes
+    - "the base of a clock tower __std/xl/location/silent_clock_clause__"
     - the heartbeat of a sleepless city
 
   # Positional prefixes - handle all grammar and prepositions
@@ -192,7 +192,7 @@ location:
     - atop
     - amid
     - on the lip of
-    - below
+    - "__std/xl/location/vertical_relation__"
     - at the base of
     - at the core of
     - on the rim of
@@ -317,14 +317,14 @@ location:
     - a broken ferry terminal
     - a rail junction choked with vines
     - a cliffside switchback road
-    - an abandoned checkpoint gate
+    - __std/xl/location/neglected_place_prefix__ checkpoint gate
     - a river crossing of cracked stone slabs
     - a market arcade with boarded stalls
     - a maintenance tunnel opening to daylight
     - a dry canal lined with rusted locks
     - a customs pier half-submerged in silt
     - a mountain pass carved with warning sigils
-    - a transit concourse lit by emergency strips
+    - "a transit concourse __std/xl/location/lighting_relation__ emergency strips"
     - a weathered causeway through salt flats
     - a ceremonial bridge hung with torn banners
 
@@ -384,19 +384,19 @@ location:
     - a throne of fused bone and thought
     - the sky-drinking well
     - a forest of fingers reaching upward
-    - the shore of a sea that is also an eye
+    - "the shore __std/xl/location/eye_sea_clause__"
 
   # Desert and arid locations - noun phrases only
   desert:
     - an oasis ringed by bone-white trees
-    - the dunes that sing at twilight
+    - "the dunes __std/xl/location/singing_dune_clause__"
     - a canyon carved by vanished rivers
     - the salt flats reflecting an empty sky
     - a mesa crowned with ancient carvings
-    - the mirage of a city that never existed
+    - "the mirage of a city __std/xl/location/lost_city_clause__"
     - a sandstone labyrinth of wind and time
     - the petrified forest of a dead sea
-    - a nomad camp below copper stars
+    - a nomad camp __std/xl/location/celestial_under_clause__
     - the ruins half-swallowed by sand
     - a vitrified crater from a fallen sun
     - the dry well of a lost god
@@ -408,10 +408,10 @@ location:
   frozen:
     - a glacier carved by ancient hands
     - the throne of the frost monarch
-    - an ice cave lit from inside
+    - "an ice cave __std/xl/location/interior_light_relation__"
     - the skeleton of a frozen ship
     - a palace of blue glacial ice
-    - the tundra below twin moons
+    - the tundra __std/xl/location/twin_moon_under_clause__
     - a frozen waterfall mid-cascade
     - the permafrost graves of giants
     - an aurora dancing over white plains
@@ -433,10 +433,10 @@ location:
     - a mine whose walls pulse with light
     - the root system of a world-tree
     - a cathedral carved from living rock
-    - the mouth of a bottomless pit
+    - "__std/xl/location/entrance_prefix__ a bottomless pit"
     - a city of the blind and abandoned
     - the geode heart of a dead volcano
-    - a sanctuary below the desert
+    - a sanctuary __std/xl/location/underland_relation__ the desert
     - the catacombs of undying echoes
     - a prison built before memory
 
@@ -465,8 +465,8 @@ location:
     - the ribcage of a sunken leviathan
     - a garden of swaying kelp
     - the hull of a drowned galleon
-    - a grotto lit by phosphorescent algae
-    - the mouth of an underwater volcano
+    - "a grotto __std/xl/location/lighting_relation__ phosphorescent algae"
+    - "__std/xl/location/entrance_prefix__ an underwater volcano"
     - a palace of living coral
     - the depths beyond failing light
     - a forest of giant anemones
@@ -498,6 +498,137 @@ location:
     - sandstone
     - ice
     - coral
+
+  # Prefixes with embedded articles for neglected/empty place descriptors
+  neglected_place_prefix:
+    - an abandoned
+    - a derelict
+    - a deserted
+    - a disused
+    - a shuttered
+    - a forsaken
+    - a long-deserted
+
+  # Clause pools to vary relative-phrase wording
+  eternal_flame_clause:
+    - burning without end
+    - glowing through endless nights
+    - refusing to burn out
+    - glowing beyond dawn
+    - enduring past the final dusk
+
+  breathing_surface_clause:
+    - breathing softly
+    - exhaling pale mist
+    - pulsing like a lung
+    - inhaling the room's silence
+    - fogging at every heartbeat
+
+  stellar_convergence_clause:
+    - at stellar convergence
+    - beneath converging constellations
+    - at the meeting of stars
+    - aligned with drifting constellations
+    - beneath a knot of star paths
+
+  siren_presence_clause:
+    - of unending sirens
+    - filled with distant siren wails
+    - ringing with fading emergency tones
+    - haunted by looping siren calls
+    - washed in siren echoes
+
+  silent_clock_clause:
+    - frozen in permanent silence
+    - locked between unfinished chimes
+    - stopped before the next strike
+    - stuck at an impossible hour
+    - stalled with mute gears
+
+  eye_sea_clause:
+    - of an ocean shaped like an eye
+    - beside an eye-like sea
+    - where the sea blinks back
+    - before a tidal iris of black water
+    - facing a watchful oceanic pupil
+
+  singing_dune_clause:
+    - singing at twilight
+    - humming under the evening wind
+    - resonating with dusk tones
+    - whispering in sunset gusts
+    - ringing with sand-song
+
+  lost_city_clause:
+    - erased from history
+    - omitted from every map
+    - denied by all records
+    - remembered by no one alive
+    - buried outside known time
+
+  # Vertical relation helpers to reduce repeated below/beneath wording
+  vertical_relation:
+    - below
+    - beneath
+    - underneath
+    - under the shadow of
+    - at the lower edge of
+
+  burial_relation:
+    - below
+    - beneath
+    - under
+    - underneath
+
+  celestial_under_clause:
+    - below copper stars
+    - beneath copper constellations
+    - under copper night stars
+    - under a copper sky of stars
+    - beneath copper-stained heavens
+
+  twin_moon_under_clause:
+    - below twin moons
+    - under twin moons
+    - beneath twin moons
+    - in the shadow of twin moons
+    - under the gaze of twin moons
+
+  underland_relation:
+    - below
+    - beneath
+    - under
+    - hidden below
+    - sealed beneath
+
+  # Relation helpers for repeated mouth/entry and lit phrasing
+  entrance_prefix:
+    - the mouth of
+    - the entrance to
+    - the opening of
+    - the threshold of
+    - the entry to
+
+  entrance_noun:
+    - mouth
+    - entrance
+    - opening
+    - threshold
+    - entry
+
+  lighting_relation:
+    - lit by
+    - illuminated by
+    - washed in
+    - glowing under
+    - bathed in
+
+  interior_light_relation:
+    - lit from within
+    - glowing from inside
+    - illuminated from within
+    - brightened from inside
+    - softly radiant within
 
   backrooms:
     - endless monotone office corridors with sickly yellow fluorescent lighting
