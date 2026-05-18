@@ -646,3 +646,197 @@ location:
     - vast low-lit rooms with sagging ceiling tiles and scattered outdated fixtures
     - empty office maze, shifting walls, humming lights, washed-out yellow tones
     - narrow passageways with mismatched flooring and subtle atmospheric distortion
+
+  video_store:
+    all:
+      - __std/xl/location/video_store/store_layout__, __std/xl/location/video_store/lighting__, __std/xl/location/video_store/ambient_details__
+      - __std/xl/location/video_store/fixtures__ under __std/xl/location/video_store/lighting__
+      - __std/xl/location/video_store/store_layout__ with __std/xl/location/video_store/era_artifacts__
+      - __std/xl/location/video_store/random_store_elements__ near __std/xl/location/video_store/checkout_area__
+      - __std/xl/location/video_store/ambient_details__ scattered across __std/xl/location/video_store/store_layout__
+      - __std/xl/location/video_store/store_layout__ illuminated by __std/xl/location/video_store/lighting__
+      - __std/xl/location/video_store/fixtures__ with __std/xl/location/video_store/ambient_details__
+      - __std/xl/location/video_store/era_artifacts__ resting on __std/xl/location/video_store/fixtures__
+      - __std/xl/location/video_store/store_layout__ with __std/xl/location/video_store/random_store_elements__
+      - __std/xl/location/video_store/ambient_details__ and __std/xl/location/video_store/noise_texture__
+      - __std/xl/location/video_store/random_store_elements__ tucked between __std/xl/location/video_store/fixtures__
+      - __std/xl/location/video_store/checkout_area__ under __std/xl/location/video_store/lighting__
+
+    lighting:
+      - overhead fluorescent panels
+      - slightly flickering fluorescent lights
+      - uneven fluorescent lighting
+      - buzzing ceiling lights
+      - washed-out retail lighting
+      - mixed fluorescent color temperatures
+      - partially burned out ceiling lights
+
+    store_layout:
+      - narrow carpeted aisles
+      - wooden shelving grid
+      - long parallel tape aisles
+      - quiet genre sections
+      - low ceiling retail layout
+      - cramped aisle spacing
+      - maze-like tape rows
+      - small suburban retail footprint
+      - half-empty shelves
+      - loosely organized movie sections
+
+    fixtures:
+      - wooden VHS shelving
+      - plastic genre dividers
+      - laminated category labels
+      - cardboard standees
+      - rolling return cart
+      - plastic checkout counter
+      - worn carpeted floors
+      - poster-covered walls
+      - wire rack displays
+
+    ambient_details:
+      - empty tape cases left on shelves
+      - handwritten recommendation cards
+      - faded rental stickers
+      - mismatched signage
+      - slightly crooked posters
+      - worn shelf edges
+      - random tape stacks
+      - staff picks shelf
+      - faded genre labels
+      - partially empty shelves
+
+    era_artifacts:
+      - VHS clamshell cases
+      - rewind reminder stickers
+      - membership sign-up forms
+      - late fee warning signs
+      - paper rental cards
+      - CRT monitor at checkout
+      - laminated pricing sheets
+      - faded promotional posters
+
+    random_store_elements:
+      - snack rack near checkout
+      - candy display
+      - soda fridge humming quietly
+      - promotional cardboard cutouts
+      - discount bin near entrance
+      - kids movie section corner
+      - game rental shelf
+      - empty rolling cart
+      - stray VHS tapes on counter
+
+    checkout_area:
+      - plastic counter with barcode scanner
+      - CRT monitor register
+      - stacks of returned tapes
+      - cluttered checkout desk
+      - tape rewinder machine
+
+    noise_texture:
+      - slight softness
+      - consumer camera color cast
+      - mild fluorescent green tint
+      - early digital camera softness
+      - flat color response
+      - slightly washed-out colors
+      - mild low-contrast image
+      - consumer camcorder look
+
+  video_store_v1:
+    all:
+      - __std/xl/location/video_store_v1/store_layout__, __std/xl/location/video_store_v1/lighting__, __std/xl/location/video_store_v1/ambient_details__
+      - __std/xl/location/video_store_v1/fixtures__ under __std/xl/location/video_store_v1/lighting__
+      - __std/xl/location/video_store_v1/store_layout__ with __std/xl/location/video_store_v1/era_artifacts__
+      - __std/xl/location/video_store_v1/random_store_elements__ near __std/xl/location/video_store_v1/checkout_area__
+      - __std/xl/location/video_store_v1/ambient_details__ scattered across __std/xl/location/video_store_v1/store_layout__
+      - __std/xl/location/video_store_v1/store_layout__ illuminated by __std/xl/location/video_store_v1/lighting__
+      - __std/xl/location/video_store_v1/fixtures__ with __std/xl/location/video_store_v1/ambient_details__
+      - __std/xl/location/video_store_v1/era_artifacts__ resting on __std/xl/location/video_store_v1/fixtures__
+      - __std/xl/location/video_store_v1/store_layout__ with __std/xl/location/video_store_v1/random_store_elements__
+      - __std/xl/location/video_store_v1/ambient_details__ and __std/xl/location/video_store_v1/noise_texture__
+      - __std/xl/location/video_store_v1/lighting__ affecting __std/xl/location/video_store_v1/store_layout__
+      - __std/xl/location/video_store_v1/random_store_elements__ tucked between __std/xl/location/video_store_v1/fixtures__
+      - __std/xl/location/video_store_v1/checkout_area__ under __std/xl/location/video_store_v1/lighting__
+      - __std/xl/location/video_store_v1/fixtures__ across __std/xl/location/video_store_v1/store_layout__
+      - __std/xl/location/video_store_v1/ambient_details__ near __std/xl/location/video_store_v1/checkout_area__
+
+    lighting:
+      - overhead fluorescent panels
+      - slightly flickering fluorescent lights
+      - uneven fluorescent lighting
+      - buzzing ceiling lights
+      - washed-out retail lighting
+      - mixed fluorescent color temperatures
+      - partially burned out ceiling lights
+
+    store_layout:
+      - narrow carpeted aisles
+      - wooden shelving grid
+      - long parallel tape aisles
+      - cluttered new release wall
+      - low ceiling retail layout
+      - cramped aisle spacing
+      - maze-like tape rows
+      - endcap display islands
+      - small suburban retail footprint
+
+    fixtures:
+      - wooden VHS shelving
+      - plastic genre dividers
+      - laminated category labels
+      - cardboard standees
+      - rolling return cart
+      - plastic checkout counter
+      - worn carpeted floors
+      - poster-covered walls
+      - wire rack displays
+
+    ambient_details:
+      - empty tape cases left on shelves
+      - handwritten recommendation cards
+      - faded rental stickers
+      - mismatched signage
+      - slightly crooked posters
+      - worn shelf edges
+      - random tape stacks
+      - staff picks shelf
+      - partially empty new release slots
+
+    era_artifacts:
+      - VHS clamshell cases
+      - rewind reminder stickers
+      - membership sign-up forms
+      - late fee warning signs
+      - paper rental cards
+      - CRT monitor at checkout
+      - laminated pricing sheets
+      - faded promotional posters
+
+    random_store_elements:
+      - snack rack near checkout
+      - candy display
+      - popcorn machine in corner
+      - soda fridge humming quietly
+      - promotional cardboard cutouts
+      - discount bin near entrance
+      - kids movie section corner
+      - game rental shelf
+
+    checkout_area:
+      - plastic counter with barcode scanner
+      - CRT monitor register
+      - stacks of returned tapes
+      - cluttered checkout desk
+      - tape rewinder machine
+
+    noise_texture:
+      - slight softness
+      - consumer camera color cast
+      - mild fluorescent green tint
+      - early digital camera softness
+      - flat color response
+      - slightly washed-out colors
+      - mild low-contrast image
+      - consumer camcorder look

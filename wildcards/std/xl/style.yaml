@@ -281,8 +281,165 @@ style:
       - polygon jitter during motion
       - harsh rim lights from early 3D engines
 
+  mashup:
+    - __std/xl/style/all__
+    - __std/xl/style/dream__
+    - __std/xl/style/decodreams__
+    - __std/xl/style/bbs__
+    - __std/xl/style/models__
+    - __std/xl/style/paper__
+    - __std/xl/style/pixel_anime__
+
   dream:
     - "analog videotape aesthetic, component-video color response, muted dynamic range, soft macroblocking, gentle chroma bleed, slight edge halos, fuzzy analog resolution, mild temporal noise, organic grain texture, old broadcast lighting, subdued contrast curves"
     - archival color film scan aesthetic, faded dye layers, muted dynamic range, soft optical blur, gentle chromatic aberration, low microcontrast, subtle halation around highlights, fine organic film grain, slight color drift, subdued contrast curve, aged photographic print
     - low-end consumer camera aesthetic, imperfect lens sharpness, edge softness and mild spherical aberration, uneven exposure, limited dynamic range, color channel misalignment, coarse grain texture, subtle noise floor, flat contrast response
     - degraded photographic emulsion, uneven color fading, chemical staining artifacts, low tonal separation, soft focus with highlight bloom, grain clumping, subtle registration errors, aged and timeworn image texture
+
+  decodreams: |
+    highly stylized art deco–influenced illustration,
+    ornamental linework and bold graphic shapes,
+    elongated forms and deliberate symmetry,
+    flattened depth with selective dimensional cues,
+    illustrative lighting and simplified material definition,
+    subtle realism used only for form readability,
+    poster-like composition with architectural motifs
+
+  bbs: |
+    Rendered as ANSI/ASCII art, composed from monospaced glyphs and terminal symbols.
+    High-contrast text characters form the image on a fixed-width grid, with deliberate use of negative space and blocky shading.
+    Terminal-like aesthetics, codepage characters, screen-captured text art rather than illustration.
+
+  models: |
+    __std/xl/style/dream__.
+    miniature photography aesthetic, shallow depth of field at close focus, pronounced background bokeh, narrow plane of focus, tilt-shift–like focus falloff, compressed perspective, fine surface detail emphasized, tabletop-scale lighting, diorama-like spatial cues, realistic materials at small scale.
+
+  paper: |
+    papercraft , cardstock model, layered cut-paper construction, tab-and-slot assembly, visible fold lines and creases, scored edges, slightly fibrous paper texture, matte finish, printed paper patterns, subtle edge wear, clean cut outlines.
+    {1$$studio tabletop shot, soft even lighting, gentle shadows under layers, neutral backdrop, centered composition, crisp focus, realistic scale cues without looking like resin or plastic.|realistic scale cues without looking like resin or plastic}
+
+  pixel_anime: Clean retro anime illustration with pixel-art shading
+
+  plushy:
+    all:
+      - __std/xl/style/plushy/v1__
+      - __std/xl/style/plushy/v2__
+    sdg:
+      group: |
+        LLM Instruction
+
+        Rewrite the subject as a small handmade plush mascot toy, designed like a cute collectible stuffed animal rather than a real creature or person. The character should have simplified chibi proportions, oversized head, tiny limbs, soft stuffed volume, stitched construction, embroidered facial features, fabric accessories, and slightly uneven handmade details. The design should feel like something sold in a cute toy shop or arcade prize line.
+
+        Style Block
+        ALL of these plushies in one scene:
+        __std/xl/style/plushy/characters/debo/v1__.
+        __std/xl/style/plushy/characters/chroma/v1_noacc__.
+        __std/xl/style/plushy/characters/pw/v1_noacc__.
+        __std/xl/style/plushy/characters/bunchan/v1__.
+        __std/xl/style/plushy/characters/quokka/v1_noacc__.
+        __std/xl/style/plushy/characters/koff/v1_noacc__.
+
+        , pastel fabric, fleece and felt materials, embroidered face, button-like eyes, soft stuffing, rounded silhouette, stitched seams, tiny plush accessories, cute toy proportions, warm soft lighting, handheld toy photography, cozy atmosphere
+      v1: |
+        LLM Instruction
+
+        Rewrite the subject as a small handmade plush mascot toy, designed like a cute collectible stuffed animal rather than a real creature or person. The character should have simplified chibi proportions, oversized head, tiny limbs, soft stuffed volume, stitched construction, embroidered facial features, fabric accessories, and slightly uneven handmade details. The design should feel like something sold in a cute toy shop or arcade prize line.
+
+        Style Block
+
+        {__std/xl/plushy/characters/debo/v1__|__std/xl/style/plushy/characters/chroma/v1__|__std/xl/style/plushy/characters/pw/v1__|__std/xl/style/plushy/characters/bunchan/v1__|__std/xl/style/plushy/characters/quokka/v1__|__std/xl/style/plushy/characters/koff/v1__|sleepy bear mascot|cat plush in oversized hoodie|tiny sheep plush|frog mascot plush|little bat plush}, pastel fabric, fleece and felt materials, embroidered face, button-like eyes, soft stuffing, rounded silhouette, stitched seams, tiny plush accessories, cute toy proportions, warm soft lighting, handheld toy photography, cozy atmosphere
+    generic_mascot: |
+      LLM Instruction
+
+      Rewrite the subject as a generic cutesy mascot plush toy, letting the existing prompt decide the creature, role, outfit, or theme. Convert any subject into a soft collectible stuffed character with simplified chibi proportions, oversized head, tiny limbs, rounded body, embroidered expression, and plush-friendly shapes. Preserve the subject’s identity cues, pose, costume, and personality, but reinterpret them through cute mascot toy construction rather than realism.
+
+      Style Block
+
+      soft fleece, felt, cotton fabric panels, stuffed volume, rounded silhouette, oversized head, tiny arms and legs, embroidered eyes and mouth, stitched facial expression, simplified costume details, plush accessory shapes, visible seams, gentle fabric wrinkles, handmade asymmetry, arcade prize toy proportions, cozy collectible mascot design
+    v3: |
+      LLM Instruction
+
+      Rewrite the subject as a small handmade plush mascot toy, designed like a cute collectible stuffed animal rather than a real creature or person. The character should have simplified chibi proportions, oversized head, tiny limbs, soft stuffed volume, stitched construction, embroidered facial features, fabric accessories, and slightly uneven handmade details. The design should feel like something sold in a cute toy shop or arcade prize line.
+
+      Style Block
+
+      __std/xl/style/plushy/mascots__
+
+      pastel fabric, fleece and felt materials, embroidered face, button-like eyes, soft stuffing, rounded silhouette, stitched seams, tiny plush accessories, cute toy proportions, warm soft lighting, handheld toy photography, cozy atmosphere
+    v2: |
+      LLM Instruction
+
+      Rewrite the scene so that only the female character is a handmade plush doll, while the surrounding environment remains physically real. The character should clearly read as a soft sewn figure: stuffed fabric body, simplified feminine silhouette, rounded proportions, embroidered facial features, yarn or fabric hair, stitched clothing details, visible seams, and slight handmade asymmetry. Preserve the character’s pose, role, and interaction with the scene, but reinterpret her anatomy and surface construction as plush textile material.
+
+      Style Block
+
+      female plush doll subject, soft fleece skin, felt facial features, embroidered eyes and mouth, yarn hair, stitched outfit panels, visible seams, stuffed limbs, rounded hands, compressed toy proportions, subtle fabric wrinkles, handmade imperfections, real-world environment, natural lighting, tactile contrast between plush subject and realistic surroundings
+    v1: |
+      LLM Instruction
+
+      Rewrite the scene as a handmade plush diorama, where every subject, object, and environmental feature is constructed from sewn fabric, stuffing, felt patches, embroidery, and visible seams. Replace realistic anatomy and hard surfaces with soft rounded forms, compressed proportions, fabric folds, and stitched detailing. Any deformation, asymmetry, sagging, or uneven stitching is intentional and should read as handcrafted plush construction rather than error.
+
+      Style Block
+
+      soft fleece, felt, corduroy, cotton fabric panels, exposed seams, embroidered outlines, button-like details, quilted background elements, stuffed volume, rounded silhouettes, visible thread, gentle fabric wrinkles, toy-scale construction, photographed as a tactile handmade object
+    characters:
+      mascots:
+        - sleepy bear mascot
+        - cat in oversized hoodie
+        - tiny sheep mascot
+        - frog mascot
+        - little bat plush
+        - round fox cub
+        - pudgy raccoon
+        - baby penguin
+        - floppy-eared puppy
+        - tiny deer fawn
+        - round hamster
+        - shy mouse mascot
+        - baby seal
+        - otter holding a shell
+        - tiny red panda
+        - panda cub
+        - little hedgehog
+        - soft duckling
+        - round owl
+        - tiny koala
+      debo:
+        v1: |
+          tiny devil boy with little horns hair half white half black one eye black one eye red wearing a {white suit with red tie and white slacks|black suit with white tie and black slacks|leather motorcycle jacket and blue jeans}
+      pw:
+        v1: |
+          purple witch plush with floppy hat and purple hair and purple eyes wearing a purple sweater and a pleated purple skirt holding a golden kitten
+        v1_noacc: |
+          purple witch plush with floppy hat and purple hair and purple eyes wearing a purple sweater and a pleated purple skirt
+      chroma:
+        v1: |
+          a girl with __std/xl/features/hair_zit/all__ hair wearing __std/xl/outfit/all__ and a butterfly hairclip and holding a small __std/xl/details/creatures__
+        v1_noacc: |
+          a girl with __std/xl/features/hair_zit/all__ hair wearing __std/xl/outfit/all__ and a butterfly hairclip
+      quokka:
+        v1: |
+          an adorable quokka smiling and holding a {donut|cupcake|chicken leg|candybar|book of matches}
+        v1_noacc: |
+          an adorable quokka smiling
+      bunchan:
+        v2: |
+          chibi goth bunnygirl, tall black bunny ears, round pale face, black bob-cut hair, side hair tufts, oversized black eyes, mischievous angry eyebrows, tiny fang mouth, little tongue, cheek marks, black leotard, small bowtie, pointed collar, white cuffs, short black boots, compact toy-like proportions, cute spooky mascot design
+        v1: |
+          chibi goth bunnygirl plush with tall floppy black bunny ears, round pale fabric face, black felt bob-cut hair, mischievous embroidered expression, oversized black button eyes, tiny stitched fang mouth with little tongue, blush thread marks, white shirt under black leotard outfit, tiny bowtie and collar details, soft stuffed limbs, short black boots,
+      koff:
+        v1: |
+          a young girl with __std/xl/features/hair_zit/all__ hair and an empty expression wearing a striped shirt and pants holding an {owl|monkey|frog|alien|digglet pokemon|koffing pokemon}
+        v1_noacc: |
+          a young girl with __std/xl/features/hair_zit/all__ hair and an empty expression wearing a striped shirt and pants
+  bluebeam:
+    all:
+      - __std/xl/style/bluebeam/v1__
+    v1: |
+      LLM Instruction — Rewrite Rule
+
+      Rewrite the scene as a staged alien-invasion apocalypse produced by a collapsing global hologram system, where the “aliens” are not physical beings but gigantic projected figures made from fractured light, satellite interference, atmospheric distortion, and malfunctioning propaganda imagery. The world should feel caught between real disaster and artificial spectacle: buildings, crowds, clouds, and aircraft interact with the projections as if reality itself is being overwritten. Imperfections, projection glitches, scale errors, duplicated silhouettes, and unstable lighting are intentional.
+
+      Style Block
+
+      night sky split by blue-white projection beams, colossal translucent alien forms above ruined city towers, satellite grids visible through storm clouds, emergency lights, smoke columns, crowds in silhouette, broken screens broadcasting identical symbols, holographic scanlines, lens flare from artificial sky projectors, distorted perspective, cinematic disaster composition, cold electric blue and ash gray palette

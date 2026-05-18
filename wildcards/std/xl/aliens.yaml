@@ -1,0 +1,219 @@
+aliens:
+  all:
+    - |
+      Rewrite the scene as an alien creation-and-deployment ritual where the image first selects one coherent creator species from __std/xl/aliens/species/all__ and one matching technology system from __std/xl/aliens/technology/all__. The hybrid woman is their attempt at a perfect Earth-compatible human, but she carries disguised inheritance from the selected species through __std/xl/aliens/hybrid_traits/all__. The chamber, tools, lighting, restraints, deployment apparatus, and mission ritual must all obey the same alien logic. The alien creators must be physically present, interacting with her through species-consistent tools, rituals, body language, and sensory systems. The mission is Earth insertion for a covert hybridization program, expressed through __std/xl/aliens/program_methods/all__. Keep the scene clinical, covert, ceremonial, uncanny, and internally consistent. Avoid explicit sexual imagery.
+
+    - |
+      Rewrite the scene as a species-consistent alien hybridization tableau. First instantiate one alien civilization from __std/xl/aliens/species/all__; then reinterpret the woman, chamber, technology, lighting, and mission procedure as products of that civilization. She is not a normal human model: she is a hybrid emissary engineered to pass on Earth while quietly revealing __std/xl/aliens/hybrid_traits/all__. The setting uses __std/xl/aliens/technology/all__, with alien handlers physically present and performing __std/xl/aliens/program_methods/all__. The result should feel like a non-human civilization translating itself into a human disguise.
+
+    - |
+      Rewrite the scene as a covert deployment ceremony inside an alien vessel. A hybrid woman has been created by __std/xl/aliens/species/all__ using __std/xl/aliens/technology/all__. Her apparent human perfection is species-biased, revealing __std/xl/aliens/hybrid_traits/all__. The chamber should not look like generic sci-fi; it must follow one coherent alien ontology. The aliens are preparing her for Earth insertion through __std/xl/aliens/program_methods/all__, with clinical ritual staging, restrained horror, and no explicit erotic framing.
+
+  species:
+    all:
+      - __std/xl/aliens/species/classic__
+      - __std/xl/aliens/species/animalish__
+      - __std/xl/aliens/species/mythic__
+      - __std/xl/aliens/species/machine__
+      - __std/xl/aliens/species/mineral__
+      - __std/xl/aliens/species/cute_weird__
+
+    classic:
+      - grey geneticists
+      - reptilian dynasts
+      - mantid surgeons
+      - insectoid technicians
+      - cephalopod navigators
+      - mothlike dream-readers
+      - amphibian vat-priests
+      - vulture-headed archivists
+
+    animalish:
+      - feline star-oracles
+      - ratlike scavenger-intelligences
+      - opossum-faced nocturnals
+      - binturong arboreals
+      - spiderlike weavers
+      - roach-husk engineers
+      - stinkbug chem-priests
+      - butterfly-winged observers
+      - velvet bat cartographers
+      - star-nosed mole prophets
+      - crab-handed pressure engineers
+      - eel-bodied signal priests
+
+    mythic:
+      - angelic light-forms
+      - demonic emissaries
+      - chthonic burrow-gods
+      - bone-masked lunar saints
+      - haloed parasite choirs
+      - underworld antler intelligences
+      - many-eyed seraphic technicians
+      - ash-crowned abyssal judges
+      - silver-veiled omen beings
+      - horned cathedral organisms
+
+    machine:
+      - glass-bodied synthetics
+      - soft-bodied utility robots
+      - ancient probe-machine intelligences
+      - modular insectoid automatons
+      - porcelain-faced caretaker machines
+      - magnetized swarm-robots
+      - clockwork devotional androids
+      - self-repairing scrap saints
+      - obsidian surgical drones
+      - crystal computation beings
+      - folding brass oracle machines
+      - liquid-metal consensus minds
+      - enamel-plated nursery machines
+      - velvet-cabled diagnostic dolls
+      - humming ceramic hive-units
+
+    mineral:
+      - basalt-bodied rock people
+      - pumice nest-builders
+      - geode-hearted mineral beings
+      - pebble-eyed cave diplomats
+      - volcanic glass larva-colonies
+      - quartz-veined mountain larvae
+      - slate-skinned tunnel singers
+      - meteorite-shell pilgrims
+      - salt-crystal archivists
+      - magnetic lodestone monks
+      - soft granite philosophers
+      - mica-winged cavern saints
+      - sandstone memory colonies
+      - obsidian-faced pressure beings
+
+    cute_weird:
+      - cute silicon blob aliens
+      - round mossy asteroid creatures
+      - shy trilobite engineers
+      - glowing axolotl star-priests
+      - rubbery moon-mollusks
+      - pollen-puff sky nomads
+      - tiny cloaked mushroom astronomers
+      - plushlike gas-giant floaters
+      - button-eyed cave newts
+      - soft coral mathematicians
+      - dumpling-shaped burrowlings
+      - miniature star-nosed engineers
+      - bashful jellybean symbiotes
+      - sleepy lantern-snail pilots
+      - little moss-antler custodians
+
+  technology:
+    all:
+      - telepathic surgical light
+      - pheromone-coded resin machinery
+      - chitinous wall-grown instruments
+      - molten black glass biotech
+      - burrow-carved mineral computers
+      - web-tension genetic looms
+      - larval incubation pods
+      - cathedral-like photonic organs
+      - fungal memory lattices
+      - living amber containment shells
+      - bone-and-silver ritual apparatus
+      - wet cephalopod navigation sacs
+      - transparent synthetic crystal interfaces
+      - chemical vapor command systems
+      - folded paper-thin dimensional membranes
+      - soft pneumatic robot arms
+      - modular magnetic assembly rigs
+      - ancient probe consoles
+      - self-repairing scrap altars
+      - porcelain diagnostic dolls
+      - clockwork gene-engravers
+      - liquid-metal restraint halos
+      - crystal recursion engines
+      - basalt pressure cradles
+      - geode incubation vaults
+      - quartz nerve looms
+      - pumice nursery chambers
+      - obsidian memory knives
+      - lodestone orbit maps
+      - moss-lined asteroid nests
+      - warm silicone growth pods
+      - bubble-glass nursery tanks
+      - coral computation reefs
+      - tiny stitched mission cloaks
+
+  hybrid_traits:
+    all:
+      - machine-patterned pupils, too-regular breathing, seamless joint movement, synthetic stillness disguised as grace
+      - crystalline eyes, pressure-still posture, faint veinlike mineral striations beneath the skin
+      - soft animal alertness, nocturnal gaze, faintly wrong hands, predatory calm hidden under human warmth
+      - translucent skin undertones, strange symmetry, a face assembled according to non-human proportions
+      - pheromone-coded presence, impossible social charm, a smile that feels engineered rather than learned
+      - glassy composure, slow ritual gestures, micro-expressions delayed by half a second
+      - luminous aura hidden under human skin, halo-like reflection in the eyes, voice implied as layered harmonics
+      - chitinous grace translated into posture, delicate wrist angles, insectile stillness beneath human beauty
+      - geode-like calm, subtle facets in the eyes, hair that falls like mineral threads
+      - soft cute-weird approachability masking non-human proportions, warm expression with unsettling biological logic
+      - amphibian smoothness, damp reflective skin highlights, unblinking serenity
+      - cephalopod-like attentiveness, fluid posture, hair behaving almost like sensory tendrils
+      - fungal memory softness, pale spores of light around the body, identity blooming rather than speaking
+      - porcelain smoothness, doll-like diagnostic calm, beauty arranged with machine patience
+      - nocturnal scavenger intelligence hidden behind wide eyes, careful hands, and survivalist stillness
+
+  program_methods:
+    all:
+      - genetic calibration
+      - identity scripting
+      - memory implantation
+      - pheromone coding
+      - social camouflage programming
+      - reproductive symbolism
+      - covert Earth-insertion protocols
+      - mission imprinting
+      - language grafting
+      - dream conditioning
+      - body-plan translation
+      - emotional mimicry training
+      - atmospheric adaptation
+      - human gesture rehearsal
+      - false childhood memory weaving
+      - social desire mapping
+      - species-compatible fertility encoding
+      - aura masking
+      - biometric disguise tuning
+      - planetary deployment sequencing
+
+  chamber:
+    all:
+      - seamless organic-metal creation chamber
+      - translucent deployment pod filled with vapor and amber light
+      - mineral pressure vault carved from impossible stone
+      - soft pneumatic machine nursery
+      - fungal memory chapel
+      - chitinous surgical hive-room
+      - geode-lit incubation chamber
+      - resin-walled pheromone laboratory
+      - coral computation reef surrounding a human-shaped pod
+      - black glass ritual theater
+      - folded dimensional membrane chamber
+      - moss-lined asteroid nest
+      - porcelain diagnostic salon
+      - wet navigation womb lined with cephalopod instruments
+      - cathedral of photonic organs and silent alien choirs
+
+  lighting:
+    all:
+      - cold white surgical beam with amber embryonic glow
+      - mineral glow refracted through crystal walls
+      - soft bioluminescent nursery light
+      - harsh probe-light flattening the body into clinical evidence
+      - vapor-filtered gold and green contamination light
+      - black glass reflections with razor-thin white highlights
+      - pale moonlike diagnostic glow
+      - underwater blue-green medical light
+      - holy photonic radiance treated as laboratory equipment
+      - dim burrow-light from living mineral veins
+
+  negative:
+    all:
+      - |
+        generic beautiful woman, ordinary human model, random mixed alien traits, unrelated species collage, inconsistent technology, explicit sex, nudity, pornographic framing, fetish pose, assault, gore, torture, comedic parody, cute mascot simplification, superhero pose, glamorous fashion shoot, normal human laboratory, spaceship bridge, laser weapons, action scene, polished cyberpunk, clean utopian sci-fi, product render, decorative sci-fi clutter

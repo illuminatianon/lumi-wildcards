@@ -1,0 +1,110 @@
+workflows:
+  penwash:
+    latest: __std/xl/workflows/penwash/rewrite/v1__
+    rewrite:
+      v1: |
+        LLM Instruction / Rewrite Rule
+        Rewrite any scene as a hand-drawn pen-and-watercolor fantasy illustration on rough paper. The scene should be constructed through loose black ink contours, sketchy hatching, transparent watercolor washes, pigment blooms, dry-brush texture, and uneven paper staining. Replace photographic realism with an illustrative logic where forms are suggested by broken outlines, layered wash values, and visible brush movement. Allow imperfect perspective, irregular anatomy, wavering edges, and unfinished background detail to remain part of the image.
+
+        Generic Style Block
+        __std/xl/workflows/penwash/style/v1__
+    style:
+      latest: __std/xl/workflows/penwash/style/v1__
+      v1: |
+        Black ink linework, transparent watercolor wash, rough paper grain, visible pigment diffusion, sepia-gray underpainting, muted earth tones, desaturated violet accents, moss green shadows, loose architectural sketching, scratchy crosshatching, broken contour lines, stained paper edges, layered washes, hand-rendered fantasy illustration, panoramic composition.
+  watercolor:
+    latest: __std/xl/workflows/watercolor/rewrite/v1__
+    rewrite:
+      v1: |
+        Rewrite the scene as a loosely executed watercolor painting on absorbent paper, where pigment disperses unpredictably through wet fibers and forms are only partially controlled.
+        Edges should bloom and bleed outward, colors merge where moisture overlaps, and boundaries between objects are often ambiguous or lost.
+        The scene is constructed through fluid washes rather than precise outlines—details emerge from pigment density, not linework.
+        Uneven water distribution, backruns, and pigment pooling are expected and should remain visible as part of the image structure.
+    style:
+      latest: __std/xl/workflows/watercolor/style/v1__
+      v1: |
+        wet-on-wet watercolor, pigment diffusion, paper grain texture, soft bleeding edges, irregular washes, layered transparency, subtle color separation, water blooms, granulation, diluted paint, minimal linework, {cold press paper|rough paper}, uneven saturation
+  poly64:
+    latest: |
+      LLM Instruction
+      __std/xl/workflows/poly64/rewrite/latest__
+
+      Style Block
+      __std/xl/workflows/poly64/style/latest__
+    rewrite:
+      latest: __std/xl/workflows/poly64/rewrite/v1__
+      v1: |
+        Rewrite the scene as an early late-1990s real-time 3D render with N64-era polygonal construction: low-poly geometry, simple mesh silhouettes, low-resolution texture mapping, vertex-lit shading, baked-in color gradients, minimal material complexity, limited draw-distance feel, and slight texture warping. The image should read as a raw console-era 3D environment render, not a gameplay screen. Exclude interface design, status bars, minimaps, subtitles, button prompts, menus, crosshairs, and any on-screen game HUD elements. Treat the low fidelity as an intentional hardware limitation, not as parody or glitch art.
+        chibi style!!
+    style:
+      latest: __std/xl/workflows/poly64/style/v1__
+      v1: |
+        low-poly environment, sparse polygon count, chunky triangulated forms, low-resolution diffuse textures, soft vertex shading, coarse texture filtering, slight affine texture distortion, simple fog, dithered gradients, flat skybox feel, limited environmental detail, uncluttered scene composition, era-authentic console 3D rendering, no modern physically based materials, no ray tracing, no cinematic post-processing
+  poly64_cel:
+    latest: |
+      LLM Instruction
+      __std/xl/workflows/poly64_cel/rewrite/latest__
+
+      Style Block
+      __std/xl/workflows/poly64_cel/style/latest__
+    rewrite:
+      latest: __std/xl/workflows/poly64_cel/rewrite/v1__
+      v1: |
+        Rewrite the scene as a stylized low-poly 3D character rendered with soft cel-shaded lighting and simplified geometric construction.
+        All forms should remain visibly low-poly, with faceted surfaces, simplified anatomy, and minimal geometric detail.
+
+        Lighting should use limited cel-shaded tonal bands that follow the low-poly surfaces, allowing polygonal planes to remain visible rather than smoothed.
+        Add subtle outline rendering around silhouettes and major shape boundaries to reinforce the stylized cel-shaded appearance.
+
+        Use solid color materials with minimal gradients and no texture detail.
+        Proportions should be slightly chibi and simplified, but maintain readable anatomy and expressive shape design.
+
+        The result should resemble a stylized low-poly cel-shaded character model from a modern stylized animation or indie game, where geometry simplicity and lighting stylization work together.
+
+        Each subject must be rendered as an independent model with clear spatial separation.
+        Do not merge or hybridize features between subjects.
+        Do not introduce additional characters or background figures.
+
+        Maintain a simple composition with both subjects visible in frame.
+
+        chibi style!! cel shading style
+    style:
+      latest: __std/xl/workflows/poly64_cel/style/v1__
+      v1: |
+        low-poly stylized character, cel-shaded lighting, visible polygon surfaces, simplified anatomy, faceted geometry, soft chibi proportions, solid color materials, minimal texture detail, clean outline rendering, simplified clothing shapes, layered hair geometry, soft ambient occlusion, stylized 3D anime character, modern low-poly cel-shaded render. single character,simple composition, centered subjects
+  stickers:
+    latest: |
+      LLM Instruction / Rewrite Rule
+      __std/xl/workflows/stickers/rewrite/latest__
+
+      Style Block
+      __std/xl/workflows/stickers/style/latest__
+    rewrite:
+      latest: __std/xl/workflows/stickers/rewrite/v1__
+      v1: |
+        Rewrite the scene as a layered chibi sticker illustration, where every character, object, and major shape is drawn as a separate flat cutout with a thick pale border around it. Preserve the provided subject matter, but simplify all bodies into small rounded chibi proportions with oversized heads, tiny hands, soft faces, and minimal facial features. The scene should feel like a stack of glossy anime-style stickers arranged into a full environment rather than a realistic space. Use clean dark linework, visible outer cutlines, simple cel shading, and glowing accent details. Slight flattening, overlapping cutouts, and decorative outline gaps are intentional.
+    style:
+      latest: __std/xl/workflows/stickers/style/v2__
+      v2: |
+        flat sticker-cutout composition, heavy black or black&white outlines, chibi proportions, rounded simplified anatomy, large heads, tiny hands, soft blank faces, clean sketchy ink lines, layered foreground and background stickers, simplified architecture and plants, faceted decorative shapes, cel-shaded surfaces, glossy decal edges, dense full-frame arrangement, playful miniature scene logic
+      v1: |
+        flat sticker-cutout composition, thick white or pale-blue border around each major form, chibi proportions, rounded simplified anatomy, large heads, tiny hands, soft blank faces, clean sketchy ink lines, blue night palette, cyan glow accents, layered foreground and background stickers, simplified architecture and plants, faceted decorative shapes, cel-shaded surfaces, glossy decal edges, dense full-frame arrangement, playful miniature scene logic
+  chibis:
+    latest: |
+      LLM Instruction / Rewrite Rule
+      __std/xl/workflows/chibis/rewrite/latest__
+
+      Style Block
+      __std/xl/workflows/chibis/rewrite/latest__
+    rewrite:
+      latest: __std/xl/workflows/chibis/rewrite/v2__
+      v2: |
+        Rewrite the scene as a clean, colorful chibi anime cel illustration. Preserve the provided subject matter, but rebuild every figure and object with simple rounded shapes, oversized heads, small bodies, tiny hands, and cute minimal facial features. Use smooth bold outer lines, clean interior linework, and flat filled color areas. The image should look like a finished anime character illustration with simplified cel-style construction, not a sketch, not painterly, and not realistic. Use minimal shading: only a few hard-edged shadow shapes where needed, with no texture, no crosshatching, and no rough pencil marks. Forms should read through clean silhouettes, bright color separation, and simple graphic shapes.
+      v1: |
+        Rewrite the scene as a flat thick-line chibi anime illustration. Preserve the provided subject matter, but rebuild every figure and object from simple rounded shapes, oversized heads, small bodies, tiny hands, and minimal facial features. Use heavy outer contour lines around every major form, with lighter interior lines only where needed to describe hair, clothing, props, and background details. Keep the image mostly flat, with very little shading; forms should read through silhouette, overlap, and line weight rather than lighting or volume. Simplified proportions, uneven linework, and compressed perspective are intentional.
+    style:
+      latest: __std/xl/workflows/chibis/style/v2__
+      v2: |
+        clean chibi anime cel style, smooth bold outlines, polished lineart, simple rounded bodies, oversized heads, small hands, cute minimal faces, large simple eyes, flat bright color areas, hard-edged cel shadows, minimal shading, no gradients, clean graphic shapes, simplified hair clumps, chunky props, readable silhouettes, full-frame composition, playful anime proportions, crisp finished illustration
+      v1: |
+        bold outer contour lines, simple rounded chibi construction, oversized heads, small bodies, tiny hands, minimal facial features, flat color areas, little to no gradients, sparse cel-shading only where necessary, simplified hair clumps, chunky props, simplified background forms, dense full-frame composition, readable silhouettes, hand-drawn anime line texture, playful miniature scale, flattened perspective, minimal depth modeling

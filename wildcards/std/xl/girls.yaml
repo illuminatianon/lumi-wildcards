@@ -1,4 +1,15 @@
 girls:
+  all_bases:
+    - __std/xl/girls/base__
+    - __std/xl/girls/base_human__
+    - __std/xl/girls/base_noshape__
+    - __std/xl/girls/base_zit_noshape__
+    - __std/xl/girls/base_zit_curvy__
+    - __std/xl/girls/base_human_zit_curvy_nb__
+    - __std/xl/girls/base_human_zit_curvy_nb_np__
+    - __std/xl/girls/base_human_zit_plain__
+    - __std/xl/girls/base_human_zit_noshape_gemini__
+
   base: |
     {3::adult female|adult female with cat ears|adult female with bunny ears}, __std/xl/girls/bodyshape__, {flat|small|medium|large|very large} breasts, __std/xl/features/hair/all__, __std/xl/features/eyes__, __std/xl/features/expression__, wearing __std/xl/outfit/all__
   base_human: |
@@ -11,8 +22,22 @@ girls:
     adult female with ample curves, {flat|small|medium|large|very large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
   base_human_zit_curvy_nb: |
     adult female with ample curves, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_human_zit_curvy_nb_nooutfit: |
+    adult female with ample curves, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, __std/xl/character/all__
+  base_human_zit_curvy_nb_np: |
+    adult female with ample curves, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__
+  base_human_zit_plain: |
+    adult female with ample curves, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__
   base_human_zit_noshape_gemini: |
     adult female, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_neko_zit_curvy: |
+    adult female neko cat girl with ample curves, nekomimi, {flat|small|medium|large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_bunny_zit_curvy: |
+    adult female bunny girl with ample curves, usamimi, {flat|small|medium|large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_mouse_zit_curvy: |
+    adult female mouse girl with ample curves, nezumimimi, {flat|small|medium|large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
+  base_chibi_zit_curvy: |
+    adult female with ample curves, {flat|small|medium|large} breasts, __std/xl/features/hair_zit/all__, __std/xl/features/eyes_zit__, __std/xl/features/expression_zit__, wearing __std/xl/outfit/all__, __std/xl/character/all__
   bodyshape:
     - normal build
     - slender build
@@ -87,3 +112,115 @@ girls:
   freckle:
     mummyangel:
       - "(blushing shy and pleased while exposing herself:1.1), young slender teenage Baltic/Nordic woman with extremely long straightened black hair, ancient mummy ritual wrappings minidress with runic symbols with glow outlines, full body bone anatomy tattoos, runic symbol body markings, narrowed shimmering sunlit pale blue eyes, winged eyeliner, darkened eyebrows, tan beautiful freckled young complexion with a slight blush, slender build, modestly sized beautiful tits, (narrow shoulders and neck:1.1), (wide curvy hips:1.1), warm sunrays and angelic lighting, (thick thighs:1.1), (detailed face:1.1), huge folded up raven wings with a some gold inlay,"
+  sable:
+    - >-
+      goth adventurer girl, petite build, pale skin, blank white eyes, neutral stoic face,
+      small beauty mark under one eye. black hair with blunt straight bangs, long twin braided pigtails.
+      layered chokers and necklaces with a small pendant. studded leather harness/bra top with crossing straps and rivets.
+      stacked leather bracelets/wrist wraps. rugged utility belt with buckle, hanging chains, hip pouches/holsters.
+      distressed dark skinny jeans with patches and subtle embroidered motifs. heavy lace-up combat boots with strapped cuffs
+    - >-
+      petite goth rogue girl, porcelain complexion, milky/blank eyes, serious expression, tiny under-eye mole.
+      jet-black hair: straight fringe bangs + two thick braids. gothic jewelry stack: multiple chokers + layered necklaces + charm.
+      leather strappy harness bra with studs and metal hardware. leather wristbands and wraps.
+      wide belt with metallic buckle, draped chain, side utility pouch/holster. worn dark jeans with patchwork and scuffed knees.
+      chunky strapped combat boots, thick soles
+    - >-
+      pale goth bandit girl, empty white eyes, calm unsmiling face, beauty mark near eye.
+      black blunt bangs, twin braided pigtails. choker stack, pendant necklace.
+      studded leather cross-strap harness top. belt with buckle, chain links, hip-mounted pouches.
+      distressed charcoal skinny jeans with subtle filigree/embroidered patterns, patched knees.
+      stacked leather bracelets. rugged lace-up boots with wrapped straps and cuffed gaiters
+    - >-
+      slim grunge-goth girl, pale complexion, blank eyes, minimal makeup, small face mole.
+      black hair with straight-cut bangs, two long braids. layered chokers/necklaces, small dangling pendant.
+      leather strap harness top with rivets. utility belt with metal buckle, chains, holster-like side pouches.
+      dark worn skinny jeans with scuffs, patches, stitched motifs. multiple leather bracelets/wrist wraps.
+      heavy combat boots with strapped cuffs, thick tread
+    - >-
+      punk-goth female character, pale skin, blank white eyes, neutral expression, under-eye beauty mark.
+      black hair: blunt bangs + twin thick braids. gothic accessories: multi choker, layered necklaces, pendant charm.
+      leather harness bra with studs and metal rings. wide belt with buckle, chain drape, hip pouch/holster.
+      distressed dark skinny jeans with embroidered crest-like detailing and patched knees.
+      leather bracelets. chunky lace-up combat boots with wrapped straps and cuffed tops
+
+  video_store_girl:
+    all:
+      - "young woman, early 20s, fair skin, slim build, shoulder-length light brown hair with soft natural waves, center part, minimal makeup, neutral expression, soft blue/gray eyes, mustard yellow fitted t-shirt with small circular retro graphic on chest, dark blue skinny jeans, white canvas sneakers, understated casual style, natural everyday appearance"
+      - "slender young female, pale complexion, light brown wavy hair to shoulders, middle part, subtle natural makeup, calm reserved demeanor, muted blue eyes, fitted mustard yellow tee with small circular emblem, dark denim skinny jeans, white low-top canvas shoes, simple casual wardrobe, understated look"
+      - "early 20s woman, slim frame, fair skin, soft wavy light brown shoulder-length hair, natural face, minimal cosmetics, slightly serious expression, mustard yellow t-shirt with small circular graphic, dark fitted jeans, white sneakers, casual everyday clothing, subtle retro feel"
+      - "young adult woman, petite and slim, pale skin tone, shoulder-length light brown hair with loose waves, center parted hair, neutral expression, minimal makeup, mustard yellow fitted graphic tee, dark blue skinny jeans, white canvas sneakers, simple modern casual outfit"
+      - "female in early 20s, slim build, fair complexion, light brown shoulder-length wavy hair, subtle natural makeup, calm quiet personality, mustard yellow retro-style t-shirt with small chest emblem, dark denim skinny jeans, white low-top sneakers, understated casual clothing"
+      - "young woman, slender, light skin, soft light brown wavy hair shoulder length, middle part, muted natural makeup, reserved expression, mustard yellow vintage-style fitted t-shirt with small circular logo, dark skinny jeans, white canvas shoes, minimal casual everyday style"
+    motion:
+      - "leaning on the counter, resting chin in hand, staring off into space"
+      - "slowly scanning VHS tapes with a barcode scanner"
+      - "rewinding a VHS tape and waiting for it to finish"
+      - "sorting returned tapes into plastic bins"
+      - "restocking empty shelves with movie cases"
+      - "flipping a movie case over and reading the back"
+      - "sitting on the counter swinging feet absentmindedly"
+      - "writing late fees on a notepad"
+      - "printing a receipt and tearing it off slowly"
+      - "checking a customer's membership card"
+      - "stacking returned tapes into uneven piles"
+      - "sliding a VHS tape back into a worn plastic case"
+      - "reorganizing shelves alphabetically"
+      - "dusting shelves with a rag"
+      - "leaning against the checkout counter waiting for customers"
+      - "watching a CRT television mounted in the corner"
+      - "changing the movie playing on a small in-store TV"
+      - "rewinding multiple tapes lined up beside the register"
+      - "placing 'be kind rewind' stickers onto tapes"
+      - "opening a plastic rental case and checking contents"
+      - "tapping fingers on the checkout counter"
+      - "slowly pushing a rolling cart of tapes down an aisle"
+      - "checking inventory list on a clipboard"
+      - "shelving tapes in the wrong section, then fixing it"
+      - "looking through a returns drop box"
+      - "sliding tapes into a return slot behind the counter"
+      - "stacking promotional posters behind the counter"
+      - "peeling an old sticker off a rental case"
+      - "marking due dates on a stamp card"
+      - "sitting on a stool behind the counter flipping through a magazine"
+      - "sorting tapes into genre bins"
+      - "holding a tape up to the light to inspect it"
+      - "placing new arrivals onto a display shelf"
+      - "rotating featured movies on a front display"
+      - "adjusting crooked movie cases on shelves"
+      - "checking the time on a wall clock"
+      - "closing the register drawer"
+      - "counting bills from the cash register"
+      - "putting returned tapes into a plastic tote"
+      - "walking slowly between aisles carrying a stack of tapes"
+
+  natasha:
+    v1: |
+      pale gothic fantasy woman, long wavy faded rose-red hair, center-parted hair with loose curled strands, gaunt elegant face, hazel green eyes, heavy smoky eye makeup, desaturated lips, porcelain-pale skin, slender neck and shoulders, somber haunted beauty.
+      wearing a muted mauve-gray structured corset bodice, off-shoulder neckline, worn leather wrist wraps, layered medieval fantasy skirt, asymmetrical side-slit overskirt, skirt opening placed on one outer thigh, closed modest front panel, fabric overlaps across the center front, wrapped sash at the waist, textured dusty fabric, subtle red-brown accents, brown leather boots.
+
+  peach:
+    v1: |
+      adult woman, long vivid red hair with layered bangs and loose wavy lengths, golden yellow eyes, pale skin, slim curvy figure, sharp facial features, multiple ear piercings, dangling earrings, layered silver necklaces with heart pendant,
+      She wears an open emerald green cropped hoodie, silver studded bra top with black trim, black harness straps and decorative chains across the torso. Low-rise teal-green ripped denim cut-off shorts, black belt with silver buckle, thin black high-leg thong straps visible above the waistband on both hips, Y2K whale-tail styling, diagonal side straps rising from the hips, clean symmetrical strap placement.
+      Purple scrunchie wrist accessories, sheer black thigh-high stockings ending above the knees, visible stocking tops on the thighs, separate normal black ankle boots with buckle straps. Punk fashion, edgy streetwear outfit, coordinated emerald green, black, silver, and purple accent color palette, detailed accessories, distinctive jewelry, recognizable character design
+
+  bunchan:
+    v1:
+      - "chibi mascot character, oversized head, very small body, large circular eyes, tiny mouth with small fang teeth, mischievous expression, short dark bob haircut, long upright bunny ears, simplified cartoon anatomy, minimal detail clothing, small vest outfit, thigh-high socks, cute but slightly edgy mascot design, bold clean outlines, monochrome friendly design"
+      - "super-deformed chibi character, large head to body ratio, big round eyes, small catlike mouth with tiny fangs, playful mischievous attitude, short dark hair, tall bunny ears, simple stylized outfit with vest and shorts, small boots or socks, minimal detail, mascot-style character design, bold thick line art"
+      - "cute chibi bunny girl mascot, oversized head, small simplified body, large dark eyes, tiny fang smile, short bob haircut, long rabbit ears extending upward, minimal clothing detail, vest and simple shorts, thigh-high socks, simplified cartoon proportions, clean silhouette focused design"
+      - "stylized mascot character, chibi proportions, large head, tiny limbs, big circular eyes, mischievous expression with small fangs, short dark hair with long bunny ears, simple outfit with vest and shorts, minimal features, clean bold outlines, simplified cute character design"
+      - "super cute chibi bunny mascot, exaggerated head size, small body, large expressive eyes, tiny fang mouth, short dark hair, tall rabbit ears, simplified vest outfit, thigh-high socks, minimal detail, strong silhouette, kawaii mascot character design"
+      - "minimalist chibi character, oversized head, small body proportions, large round eyes, small mischievous smile with tiny fangs, short dark bob hairstyle, long upright bunny ears, simple vest clothing, thigh-high socks, clean bold lines, mascot-style design"
+  mygirls:
+    - __std/xl/omni/rusalka/base__
+    - __std/xl/omni/underweargirl/base__
+    - __std/xl/omni/jessi/base__
+    - __std/xl/omni/vamp/base__
+    - __std/xl/omni/minicloak/base__
+    - __std/xl/omni/maiden/base__
+    - __std/xl/omni/white_rabbit/base__
+    - __std/xl/omni/girlstudy/base__
+    - __std/xl/omni/priestess/base__
+    - __std/xl/girls/video_store_girl/all__

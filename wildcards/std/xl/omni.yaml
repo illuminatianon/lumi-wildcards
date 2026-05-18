@@ -151,6 +151,11 @@ omni:
   maiden:
     base:
       - |
+        1girl with black hair and cat ears, long straight black hair, calm expression, red eyes, medium breasts,
+        wearing a long flowing white nightgown with short puff sleeves and empire waist tie,
+        gown with soft folds and trailing hem, low back cut, simple elegant silhouette,
+    base_v0:
+      - |
         masterpiece, best quality,
         1girl with black hair and cat ears, long straight black hair, calm expression, red eyes, medium breasts,
         __std/xl/character/all__,
